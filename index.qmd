@@ -1,0 +1,44 @@
+---
+title: "Ricardo Custódio"
+page-layout: full
+toc: false
+---
+
+# Ricardo Custódio
+
+**Professor · Researcher · Advisor · Consultant**
+
+Information Security · Cryptography · Digital Signatures ·  
+Digital Identity · Electronic Documents · AI & Security
+
+## Research
+
+My research interests include information security, cryptography,
+digital signatures, public key infrastructure, digital identity,
+electronic documents, post-quantum cryptography, finite field
+arithmetic, and artificial intelligence applied to security.
+
+## Current Research
+
+- Digital Identity & Digital Signatures
+- Personal AI Agents
+- Finite Field Arithmetic
+- Post-Quantum Cryptography
+
+## Publications
+
+Selected and recent publications.
+
+[View publications →](publications.qmd)
+
+## Teaching
+
+Courses, lecture notes and educational resources.
+
+[Teaching →](teaching.qmd)
+
+## Books & Texts
+
+Books, technical texts and open educational resources.
+
+[Books & Texts →](books.qmd)

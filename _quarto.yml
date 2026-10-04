@@ -1,0 +1,47 @@
+project:
+  type: website
+
+website:
+  title: "Ricardo Custódio"
+  site-url: "https://ricardocustodio.com.br"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: projects.qmd
+        text: Projects
+
+    right:
+      - text: More
+        menu:
+          - href: books.qmd
+            text: Books & Texts
+          - href: supervision.qmd
+            text: Supervision
+          - href: software.qmd
+            text: Software & Data
+          - href: talks.qmd
+            text: Talks
+          - href: archive.qmd
+            text: Archive
+          - href: contact.qmd
+            text: Contact
+
+  search: true
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
