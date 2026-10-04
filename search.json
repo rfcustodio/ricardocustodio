@@ -123,7 +123,42 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Courses, lecture notes, exercises and educational resources."
+    "text": "Teaching has been an integral part of my academic career.\nMy courses are closely connected to my research in information security, cryptography, digital identity, electronic documents, artificial intelligence, and the mathematical foundations of computer science.\nThis section also serves as a long-term archive of lecture notes, slides, exercises, assignments, and other educational resources developed throughout my academic career."
+  },
+  {
+    "objectID": "teaching.html#current-courses",
+    "href": "teaching.html#current-courses",
+    "title": "Teaching",
+    "section": "Current Courses",
+    "text": "Current Courses\n\nMathematical Foundations for Computer Science\nTopics include mathematical reasoning, logic, proofs, induction, recurrences, combinatorics, relations, functions, and other mathematical foundations used in computer science.\nLevel: Undergraduate\nCourse materials →\n\n\nSecurity and Artificial Intelligence\nThe course investigates the relationship between artificial intelligence and information security, including the use of AI in security applications and the security challenges introduced by AI-based systems and autonomous agents.\nLevel: Undergraduate\nCourse materials →\n\n\nSecurity and Usability in Health Information Systems\nThe course examines security, privacy, usability, identity, authentication, electronic documents, and trust mechanisms in the context of health information systems.\nLevel: Graduate\nCourse materials →"
+  },
+  {
+    "objectID": "teaching.html#previous-courses",
+    "href": "teaching.html#previous-courses",
+    "title": "Teaching",
+    "section": "Previous Courses",
+    "text": "Previous Courses\nThroughout my academic career, I have taught courses in areas including:\n\nInformation Security\nCryptography\nPublic Key Infrastructure and Applications\nDigital Signatures\nBlockchain and Cryptocurrencies\nComputer Networks\nMathematical Foundations for Computer Science\nHealth Information Systems\nArtificial Intelligence and Security\n\nThis archive will be progressively reconstructed and expanded."
+  },
+  {
+    "objectID": "teaching.html#educational-resources",
+    "href": "teaching.html#educational-resources",
+    "title": "Teaching",
+    "section": "Educational Resources",
+    "text": "Educational Resources\n\nLecture Notes\nLecture notes and texts developed for undergraduate and graduate courses.\nResources will be progressively added.\n\n\nSlides\nPresentation material used in courses, seminars and lectures.\nResources will be progressively added.\n\n\nExercises and Assignments\nExercises, problem sets, practical activities and project assignments.\nResources will be progressively added.\n\n\nBooks and Texts\nSome educational material has evolved into books, technical texts and more extensive learning resources.\nBooks & Texts →"
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nI view teaching and research as closely connected activities.\nStudents should not only learn established concepts and technologies, but also understand the problems that motivated them, their limitations, and the open questions that remain.\nIn information security and cryptography in particular, this means combining theoretical foundations with the analysis and construction of real systems."
+  },
+  {
+    "objectID": "teaching.html#student-research",
+    "href": "teaching.html#student-research",
+    "title": "Teaching",
+    "section": "Student Research",
+    "text": "Student Research\nMany course activities have led to undergraduate research projects, Master’s dissertations and PhD research.\nStudents & Supervision →"
   },
   {
     "objectID": "books.html",
