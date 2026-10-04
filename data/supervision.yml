@@ -1,0 +1,2498 @@
+# Academic supervision metadata.
+#
+# Curated from the Lattes XML snapshot updated on 2026-04-08,
+# institutional repository records, and corrections confirmed by
+# Ricardo Custódio in October 2026.
+#
+# status: completed | current | needs-review
+# role: advisor | coadvisor
+# level: phd | masters | specialization | undergraduate | undergraduate-research | other
+#
+# Important provenance rule:
+# source_status records what the source said at the time of capture;
+# status records the curated current interpretation.
+
+supervisions:
+
+  # ============================================================
+  # PhD — completed
+  # ============================================================
+
+  - id: phd-julio-da-silva-dias-2004
+    student:
+      name: "Júlio da Silva Dias"
+    level: phd
+    role: advisor
+    status: completed
+    title: "Confiança no Documento Eletrônico"
+    start:
+    end: 2004
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Engenharia de Produção"
+    language: pt
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [electronic-documents, digital-trust]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: phd-rick-lopes-de-souza-2019
+    student:
+      name: "Rick Lopes de Souza"
+      lattes_id: "2914144872851754"
+    level: phd
+    role: advisor
+    status: completed
+    title: "Secret sharing schemes with hidden sets and a new secret sharing scheme based on linear feedback shift register sequences"
+    start:
+    end: 2019
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/215015"
+      doi:
+    topics: [cryptography, secret-sharing]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: phd-lucas-pandolfo-perin-2021
+    student:
+      name: "Lucas Pandolfo Perin"
+      lattes_id: "6290729260555374"
+    level: phd
+    role: advisor
+    status: completed
+    title: "Message encoding algorithms for Winternitz signatures"
+    start:
+    end: 2021
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/231005"
+      doi:
+    topics: [cryptography, post-quantum-cryptography, digital-signatures, hash-based-signatures]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: phd-alexandre-augusto-giron-2023
+    student:
+      name: "Alexandre Augusto Giron"
+      lattes_id: "6212241930248741"
+    level: phd
+    role: advisor
+    status: completed
+    title: "Hybrid Post-Quantum Cryptography in Network Protocols"
+    start:
+    end: 2023
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [post-quantum-cryptography, cryptographic-protocols, network-security]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: phd-frederico-schardong
+    student:
+      name: "Frederico Schardong"
+      lattes_id: "8896031429725811"
+    level: phd
+    role: advisor
+    status: completed
+    title: "Pioneering the future of electronic identity: from post-quantum cryptography to fiduciary principles"
+    start: 2020
+    end: 2024
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/262831"
+      doi:
+    topics: [digital-identity, self-sovereign-identity, cryptography, post-quantum-cryptography]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+        source_title: "Identidade Auto-soberana"
+      - type: ufsc-repository
+        status: completed
+
+      - type: curated
+        verified: 2026-10
+        status: completed
+        note: "Completion confirmed by Ricardo Custódio; final thesis metadata verified against the UFSC Institutional Repository."
+
+  - id: phd-thiago-leucz-astrizi-2025
+    student:
+      name: "Thiago Leucz Astrizi"
+      lattes_id: "7199747573729489"
+    level: phd
+    role: advisor
+    status: completed
+    title: "Post-Quantum Cryptographic Adaptations for Legacy Systems: Methodologies for Blockchain Redactability and TLS Protocol Evolution"
+    start: 2021
+    end: 2025
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/268872"
+      doi:
+    topics: [post-quantum-cryptography, blockchain, cryptographic-protocols, tls]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+        source_title: "Aplicação de Funções Hash Camaleão de Pré-Imagem em Autenticação e Assinaturas Digitais"
+      - type: ufsc-repository
+        status: completed
+      - type: curated
+        verified: 2026-10
+        status: completed
+
+  # ============================================================
+  # PhD — current
+  # ============================================================
+
+  - id: phd-wellington-fernandes-silvano
+    student:
+      name: "Wellington Fernandes Silvano"
+      lattes_id: "1871276103860798"
+    level: phd
+    role: advisor
+    status: current
+    title: "Sigilo e preservação de documentos digitais em longo prazo"
+    start: 2022
+    end:
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [electronic-documents, long-term-preservation, information-security]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+      - type: curated
+        verified: 2026-10
+        status: current
+        note: "Current PhD supervision confirmed by Ricardo Custódio."
+
+  - id: phd-gustavo-zambonin
+    student:
+      name: "Gustavo Zambonin"
+      lattes_id: "8192345791741876"
+    level: phd
+    role: advisor
+    status: current
+    title: "Hash based digital signature"
+    start: 2024
+    end:
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: en
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [cryptography, digital-signatures, hash-based-signatures, post-quantum-cryptography]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+      - type: curated
+        verified: 2026-10
+        status: current
+        note: "Current PhD supervision confirmed by Ricardo Custódio."
+
+  - id: phd-gustavo-de-castro-biage
+    student:
+      name: "Gustavo de Castro Biage"
+      lattes_id: "2377679523167731"
+    level: phd
+    role: advisor
+    status: current
+    title:
+    start:
+    end:
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language:
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [cryptography, post-quantum-cryptography]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: curated
+        verified: 2026-10
+        status: current
+        note: "Current PhD supervision confirmed by Ricardo Custódio."
+
+  - id: phd-lucas-mayr-de-athayde
+    student:
+      name: "Lucas Mayr de Athayde"
+      lattes_id: "5010614795919540"
+    level: phd
+    role: advisor
+    status: current
+    title:
+    start:
+    end:
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language:
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [cryptography, digital-signatures, public-key-infrastructure]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: curated
+        verified: 2026-10
+        status: current
+        note: "Current PhD supervision confirmed by Ricardo Custódio."
+
+  # ============================================================
+  # Master's — completed (Lattes historical records, reconciled)
+  # ============================================================
+
+  - id: masters-tais-freire-da-silva-costa-1999
+    student:
+      name: "Tais Freire da Silva Costa"
+    level: masters
+    role: coadvisor
+    status: completed
+    title: "Avaliação Analítica do Uso de Agentes Móveis na Gerência de Redes"
+    start:
+    end: 1999
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-augusto-jun-devegili-2001
+    student:
+      name: "Augusto Jun Devegili"
+      lattes_id: "2037590787599524"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Farnel: Uma Proposta de Protocolo Criptográfico para Votação Digital"
+    start:
+    end: 2001
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-marcelo-luiz-brocardo-2001
+    student:
+      name: "Marcelo Luiz Brocardo"
+      lattes_id: "2537877942805481"
+    level: masters
+    role: advisor
+    status: completed
+    title: "I2AC: Um protocolos criptográfico para crédito seguro"
+    start:
+    end: 2001
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-joao-luiz-francalacci-rocha-2001
+    student:
+      name: "João Luiz Francalacci Rocha"
+      lattes_id: "7393282010306099"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Proteção de Software por Certificação Digital"
+    start:
+    end: 2001
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-everton-schonardie-pasqual-2002
+    student:
+      name: "Everton Schonardie Pasqual"
+      lattes_id: "4464958913665682"
+    level: masters
+    role: advisor
+    status: completed
+    title: "IDDE - Uma Infra-estrutura para a Datação de Documentos Eletrônicos"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "http://www.inf.ufsc.br/~custodio/orientacao"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-roberto-samarone-dos-santos-araujo-2002
+    student:
+      name: "Roberto Samarone dos Santos Araújo"
+      lattes_id: "6894507054383644"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Protocolos Criptográficos para Votação Digital"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-adriana-elissa-notoya-2002
+    student:
+      name: "Adriana Elissa Notoya"
+      lattes_id: "3558620858132901"
+    level: masters
+    role: advisor
+    status: completed
+    title: "IARSDE - Infra Estrutura de Armazenamento e Recuperação  Segura de Documentos Eletrônicos: Validade do documento  eletrônico por tempo indeterminado"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "http://www.inf.ufsc.br/~custodio/orientacao"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-laurentino-augusto-dantas-2001
+    student:
+      name: "Laurentino Augusto Dantas"
+    level: masters
+    role: advisor
+    status: completed
+    title: "ECN: Protocolo Criptográfico para Emissão de Certidões de Nascimento na WEB"
+    start:
+    end: 2001
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-ana-karina-dourado-salina-de-oliveira-2002
+    student:
+      name: "Ana Karina Dourado Salina de Oliveira"
+      lattes_id: "9894041622322471"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Geradores de Números Randômicos Caóticos"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-luciano-ignaczak-2002
+    student:
+      name: "Luciano Ignaczak"
+      lattes_id: "9627212305197628"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Um novo modelo de Infra-estrutura de Chaves Públicas para uso no Brasil utilizando aplicativos com o código fonte aberto"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-marco-andre-lopes-mendes-2001
+    student:
+      name: "Marco André Lopes Mendes"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Modelo Simplificado do Cifrador RC6"
+    start:
+    end: 2001
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-mehran-misaghi-2001
+    student:
+      name: "Mehran Misaghi"
+      lattes_id: "7384745307950075"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Avaliação de Modificações do Cifrador Caótico de Roskin"
+    start:
+    end: 2001
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-marco-antonio-torrez-rojas-2002
+    student:
+      name: "Marco Antônio Torrez Rojas"
+      lattes_id: "7332212563888239"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Utilização de Algoritmos Genéticos no Projeto de Caixas-S para Cifradores de Bloco Simétricos"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-amauri-sant-anna-ghisleri-2002
+    student:
+      name: "Amauri Sant'Anna Ghisleri"
+      lattes_id: "3807620417022158"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Sistema Seguro de Atendimento ao Cliente: Garantia da Qualidade de Serviço"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "http://www.inf.ufsc.br/~custodio/orientacao.html"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-maria-eloisa-mignoni-2002
+    student:
+      name: "Maria Eloisa Mignoni"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Políticas e Declaração de Práticas de Certificação Digital para a UFSC"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-charles-christian-miers-2002
+    student:
+      name: "Charles Christian Miers"
+      lattes_id: "1630057446729066"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Modelo Simplificado do AES"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-dejane-luiza-bortoli-2002
+    student:
+      name: "Dejane Luiza Bortoli"
+    level: masters
+    role: advisor
+    status: completed
+    title: "O Documento Eletrônico no Ofício de Registro Civil de Pessoas Naturais"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-glauco-vinicius-scheffel-2002
+    student:
+      name: "Glauco Vinícius Scheffel"
+      lattes_id: "0653293513487130"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Segurança na Avaliação não Presencial"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-handerson-koerich-2002
+    student:
+      name: "Handerson Koerich"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Sistema seguro de atendimento ao cliente via WEB"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-enrico-golfetto-masella-2002
+    student:
+      name: "Enrico Golfetto Masella"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Sistema de Votação Digital Seguro via Internet"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-felipe-pompeo-pereira-2002
+    student:
+      name: "Felipe Pompeo Pereira"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Sistema de Assinatura Digital utilizando Impressão Digital"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-ernesto-hermann-warnecke-2003
+    student:
+      name: "Ernesto Hermann Warnecke"
+    level: masters
+    role: advisor
+    status: completed
+    title: "G-DEF - Protocolo Criptográfico para Geração de Documento Eletrônico Fiscal nas Operações entre Empresas"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-fernando-carlos-pereira-2003
+    student:
+      name: "Fernando Carlos Pereira"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Protocolos Criptográficos para Selar e Lacrar Documentos Eletrônicos Aplicados a Sistemas de Compras Seguro"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-fernando-cezar-de-oliveira-lopes-2003
+    student:
+      name: "Fernando Cézar de Oliveira Lopes"
+      lattes_id: "9641456936098750"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Denúncia Anônima Segura"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/xmlui/handle/123456789/84543"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-luciana-rita-guedes-ghisleri-2003
+    student:
+      name: "Luciana Rita Guedes Ghisleri"
+      lattes_id: "4684164853392164"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Um Protocolo Criptográfico para Marketing Seguro na Web"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-paulo-sergio-ribeiro-2003
+    student:
+      name: "Paulo Sérgio Ribeiro"
+      lattes_id: "8089913986986769"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Comunicação Anônima Segura em Grupo"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-debora-cabral-2003
+    student:
+      name: "Débora Cabral"
+      lattes_id: "6905169880963398"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Uma análise da segurança da urna eletrônica brasileira"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/85004"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-fabiano-castro-pereira-2005
+    student:
+      name: "Fabiano Castro Pereira"
+      lattes_id: "2238239260030259"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Estudo e Implementação de Redes de Comunicação Anônima e aplicação ao Sistema de Votação Digital OSTRACON"
+    start:
+    end: 2005
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "http://repositorio.ufsc.br/handle/123456789/102896"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-jean-everson-martina-2005
+    student:
+      name: "Jean Everson Martina"
+      lattes_id: "3531795815749652"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Provedor de Serviços Criptográfico para Infra-estrutura de Chaves Públicas e suas Aplicações"
+    start:
+    end: 2005
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/102954"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-raquel-aparecida-pegoraro-2002
+    student:
+      name: "Raquel Aparecida Pegoraro"
+      lattes_id: "0324997284160193"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Segurança no Comércio Eletrônico"
+    start:
+    end: 2002
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-juliano-fontoura-kazienko-2003
+    student:
+      name: "Juliano Fontoura Kazienko"
+      lattes_id: "7847000086448712"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Assinatura Digital de Documentos Eletrônicos através da Impressão Digital"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-vanessa-costa-2003
+    student:
+      name: "Vanessa Costa"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Análise da Confiança do Sistema de Protocolação Digital de Documentos"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-denise-bendo-demetrio-2003
+    student:
+      name: "Denise Bendo Demétrio"
+      lattes_id: "2410820858399715"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Infra-estrutura e Protocolação Digital de Documentos Eletrônicos"
+    start:
+    end: 2003
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-carlos-eduardo-mazzi-2005
+    student:
+      name: "Carlos Eduardo Mazzi"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Emissor de Cupom Fiscal Virtual"
+    start:
+    end: 2005
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/101747"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-marcelo-carlomagno-carlos-2007
+    student:
+      name: "Marcelo Carlomagno Carlos"
+      lattes_id: "4869143997642471"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Topologias Dinâmicas de infra-estrutura de Chaves públicas"
+    start:
+    end: 2007
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/xmlui/handle/123456789/89787"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-juliano-romani-2009
+    student:
+      name: "Juliano Romani"
+      lattes_id: "9219593350178295"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Integração de serviços de relógio para infra-estrutura de chaves públicas"
+    start:
+    end: 2009
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/93293"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+      - type: reconciliation
+        verified: 2026-10
+        status: completed
+        note: "Duplicate Lattes entries reconciled using defense-year metadata and the UFSC repository record."
+
+  - id: masters-tulio-cicero-salvaro-de-souza-2008
+    student:
+      name: "Túlio Cícero Salvaro de Souza"
+      lattes_id: "5907495122603533"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Aspectos Técnicos e Teóricos da Gestão do Ciclo de Vida de Chaves Criptográficas no OPenHSM"
+    start:
+    end: 2008
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/91811"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-martin-augusto-gagliotti-vigil-2010
+    student:
+      name: "Martín Augusto Gagliotti Vigil"
+      lattes_id: "2323279755124770"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Infraestrutura de Chaves Públicas Otimizadora"
+    start:
+    end: 2010
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/94608"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+      - type: reconciliation
+        verified: 2026-10
+        status: completed
+        note: "Duplicate Lattes entries reconciled using defense-year metadata and the UFSC repository record."
+
+  - id: masters-cristian-thiago-moecke-2011
+    student:
+      name: "Cristian Thiago Moecke"
+      lattes_id: "6168439579698991"
+    level: masters
+    role: advisor
+    status: completed
+    title: "NBPKI - Uma ICP baseada em Autoridades Notariais"
+    start:
+    end: 2011
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/xmlui/handle/123456789/94962"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-jeandre-monteiro-sutil-2011
+    student:
+      name: "Jeandre Monteiro Sutil"
+      lattes_id: "6683790943438587"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Gestão Segura de Múltiplas Instâncias de uma mesma Chave de Assinatura em Autoridades Certificadoras"
+    start:
+    end: 2011
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/94187"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+      - type: reconciliation
+        verified: 2026-10
+        status: completed
+        note: "Duplicate Lattes entries reconciled using defense-year metadata and the UFSC repository record."
+
+  - id: masters-jonathan-gehard-kohler-2011
+    student:
+      name: "Jonathan Gehard Kohler"
+      lattes_id: "8874217204250749"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Análise de políticas na integração de infraestruturas de chaves públicas"
+    start:
+    end: 2011
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/93579"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+      - type: reconciliation
+        verified: 2026-10
+        status: completed
+        note: "Duplicate Lattes entries reconciled using defense-year metadata and the UFSC repository record."
+        source_title: "Gestão de Políticas e de Algoritmos Criptográficos na Integração de Infraestrutura de Chaves Públicas"
+
+  - id: masters-thiago-acordi-ramos-2011
+    student:
+      name: "Thiago Acórdi Ramos"
+      lattes_id: "1828385612873446"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Preservação do Sigilo e Autenticidade de Documentos Eletrônicos por Longo Prazo"
+    start:
+    end: 2011
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/95552"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+      - type: reconciliation
+        verified: 2026-10
+        status: completed
+        note: "Duplicate Lattes entries reconciled using defense-year metadata and the UFSC repository record."
+
+  - id: masters-nelson-da-silva-2011
+    student:
+      name: "Nelson da Silva"
+      lattes_id: "7002553218017300"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Preservação por Longo Prazo de Assinaturas Digitais"
+    start:
+    end: 2011
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/95227"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+      - type: reconciliation
+        verified: 2026-10
+        status: completed
+        note: "Duplicate Lattes entries reconciled using defense-year metadata and the UFSC repository record."
+
+  - id: masters-andre-bereza-junior-2013
+    student:
+      name: "André Bereza Júnior"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Auditoria unificada em módulos de segurança criptográfica"
+    start:
+    end: 2013
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/107437"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-eduardo-dos-santos-2012
+    student:
+      name: "Eduardo dos Santos"
+      lattes_id: "7197239748355903"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Formalização e verificação de um protocolo de autenticação multifator"
+    start:
+    end: 2012
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/100627"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-lucas-goncalves-martins-2013
+    student:
+      name: "Lucas Gonçalves Martins"
+      lattes_id: "0606635597567391"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Emissão distribuída e em larga escala de certificados digitais"
+    start:
+    end: 2013
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/122897"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-hendri-nogueira-2014
+    student:
+      name: "Hendri Nogueira"
+      lattes_id: "7399799414773401"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Aprimoramento da Privacidade em Infraestruturas de Chaves Públicas Centradas no Usuário e Baseada em Notários"
+    start:
+    end: 2014
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-felipe-carlos-werlang-2014
+    student:
+      name: "Felipe Carlos Werlang"
+      lattes_id: "0341365993156498"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Assinatura Digital com Reconhecimento de Firma: Um Modelo de Assinatura Digital Centrado no Usuário"
+    start:
+    end: 2014
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-lucas-ferraro-2011
+    student:
+      name: "Lucas Ferraro"
+    level: masters
+    role: coadvisor
+    status: completed
+    title: "Assinatura Digital de Documentos Eletrônicos"
+    start:
+    end: 2011
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-gustavo-souza-banegas-2015
+    student:
+      name: "Gustavo Souza Banegas"
+      lattes_id: "9625893472517192"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Pentanômios Irredutíveis sobre GF(2m) para redução modular eficiente"
+    start:
+    end: 2015
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    coadvisors:
+      - name: "Daniel Panário"
+        institution: "Carleton University"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-dayana-pierina-brustolin-spagnuelo-2013
+    student:
+      name: "Dayana Pierina Brustolin Spagnuelo"
+      lattes_id: "7773906383453618"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Protocolo Flexível de Autenticação Multi-fator: Estudo de caso para Ambientes de Telemedicina"
+    start:
+    end: 2013
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-thais-bardini-idalino-2015
+    student:
+      name: "Thaís Bardini Idalino"
+      lattes_id: "1392550024680269"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Using combinatorial group testing to solve integrity issues"
+    start:
+    end: 2015
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: en
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-anderson-luiz-silverio-2014
+    student:
+      name: "Anderson Luiz Silvério"
+    level: masters
+    role: coadvisor
+    status: completed
+    title: "Utilizando Funções de Autenticação de Mensagens para a Detecção e Recuperação de Violações de Integridade de Acesso a Tabelas Relacionais"
+    start:
+    end: 2014
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-douglas-marcelino-beppler-martins-2019
+    student:
+      name: "Douglas Marcelino Beppler Martins"
+      lattes_id: "2523577872812685"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Root finding techniques in binary finite fields"
+    start:
+    end: 2019
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/bitstream/handle/123456789/215240/PGCC1181-D.pdf?sequence=-1&isAllowed=y"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-gustavo-zambonin-2020
+    student:
+      name: "Gustavo Zambonin"
+      lattes_id: "8192345791741876"
+    level: masters
+    role: advisor
+    status: completed
+    title: "On the randomness of Rainbow signatures"
+    start:
+    end: 2020
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/219497"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-mario-guilherme-kruger-2019
+    student:
+      name: "Mário Guilherme Kruger"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Autoavaliação do Risco em Unidades de Pronto Atendimento: Uma Proposta de Pré-Classificação"
+    start:
+    end: 2019
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Mestrado Profissional em Informática em Saúde"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/bitstream/handle/123456789/214978/PGIS0026-D.pdf?sequence=-1&isAllowed=y"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-cinthya-maria-lins-pereira-2019
+    student:
+      name: "Cinthya Maria Lins Pereira"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Aperfeiçoamentos no SisPreNatal com integração à caderneta da gestante"
+    start:
+    end: 2019
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Mestrado Profissional em Informática em Saúde"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/215284"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-thiago-leucz-astrizi-2021
+    student:
+      name: "Thiago Leucz Astrizi"
+      lattes_id: "7199747573729489"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Postquantum preimage chameleon hash functions for digital signatures"
+    start:
+    end: 2021
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/226814"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-mauricio-simoes-de-oliveira-2017
+    student:
+      name: "Maurício Simões de Oliveira"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Atualização dinâmica de políticas de assinatura digital"
+    start:
+    end: 2017
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/178584"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-lucas-pamdolfo-perin-2016
+    student:
+      name: "Lucas Pamdolfo Perin"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Formulas for p-th root computations in finite fields of characteristic p using polynomial basis"
+    start:
+    end: 2016
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/xmlui/handle/123456789/168096"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-lucas-ferraro-2013
+    student:
+      name: "Lucas Ferraro"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Lista de Certificados Revogados Limitada"
+    start:
+    end: 2013
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://tede.ufsc.br/teses/PGCC0994-D.pdf"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-dunia-marchiori-2022
+    student:
+      name: "Dúnia Marchiori"
+      lattes_id: "7372786036057388"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Root finding in code-based cryptography"
+    start:
+    end: 2022
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/244484"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-chiarelli-bezerra-albuquerque-de-araujo-vale-2021
+    student:
+      name: "Chiarelli Bezerra Albuquerque de Araújo Vale"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Identidade eletrônica e autenticação de médicos no Brasil"
+    start:
+    end: 2021
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Informática em Saúde"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/231044"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-luciano-figueiredo-coelho-2023
+    student:
+      name: "Luciano Figueiredo Coelho"
+      lattes_id: "1315247519891460"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Tem no posto de saúde? Aplicativo para promover o acesso à informação e uso racional dos medicamentos no município de Tijucas/SC"
+    start:
+    end: 2023
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Informática em Saúde"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-fabio-alvim-eugenio-2021
+    student:
+      name: "Fabio Alvim Eugenio"
+    level: masters
+    role: coadvisor
+    status: completed
+    title: "Análise da carga mental de trabalho de profissionais de enfermagem a partir da utilização de módulo do prontuário eletrônico de enfermagem em sala de recuperação pós-anestésica"
+    start:
+    end: 2021
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Informática em Saúde"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/229929"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-leide-sayuri-ogasawara-2018
+    student:
+      name: "Leide Sayuri Ogasawara"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Guidelines de redes sociais em mensagens privadas para o acompanhamento clínico farmacêutico"
+    start:
+    end: 2018
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Informática em Saúde"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/205278"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-fabio-schmidt-reibnitz-2018
+    student:
+      name: "Fábio Schmidt Reibnitz"
+    level: masters
+    role: coadvisor
+    status: completed
+    title: "Protótipo de aplicativo móvel para identificação do ponto de deflexão da frequencia cardíaca a partir do protocolo de teste de esforço máximo"
+    start:
+    end: 2018
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Informática em Saúde"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/205038"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-luis-rafaeli-coutinho-2018
+    student:
+      name: "Luís Rafaeli Coutinho"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Modelação de um software para avaliação do risco de acidente vascular cerebral na atenção primária"
+    start:
+    end: 2018
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Informática em Saúde"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/205397"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-juliana-amaral-arantes-2001
+    student:
+      name: "Juliana Amaral Arantes"
+    level: masters
+    role: coadvisor
+    status: completed
+    title: "Agentes Móveis Versus SNMP - Uma Avaliação de Desempenho Analítica"
+    start:
+    end: 2001
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Ciências da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "http://repositorio.ufsc.br/xmlui/handle/123456789/80003"
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  - id: masters-carla-knust-bastos-2023
+    student:
+      name: "Carla Knust Bastos"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Nível de garantia de autenticação de pessoas idosas"
+    start:
+    end: 2023
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Mestrado Profissional em Informática em Saúde"
+    language: pt
+    thesis:
+      repository: 
+      persistent_url: 
+      doi: 
+    topics: []
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: completed
+
+  # ============================================================
+  # Master's — completed after the 2026-04-08 Lattes snapshot
+  # ============================================================
+
+  - id: masters-matheus-de-oliveira-saldanha-2026
+    student:
+      name: "Matheus de Oliveira Saldanha"
+      lattes_id: "3449651991032028"
+    level: masters
+    role: advisor
+    status: completed
+    title: "On the applicability of CSIDH"
+    start: 2024
+    end: 2026
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url:
+      doi:
+    topics: [cryptography, post-quantum-cryptography, isogeny-based-cryptography]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+        source_title: "Criptografia Pós-quântica"
+      - type: curated
+        verified: 2026-10
+        status: completed
+        note: "Completion confirmed by Ricardo Custódio."
+
+  - id: masters-gustavo-de-castro-biage
+    student:
+      name: "Gustavo de Castro Biage"
+      lattes_id: "2377679523167731"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Lattice isomorphism and applications to cryptography"
+    start: 2022
+    end:
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [cryptography, lattice-based-cryptography, post-quantum-cryptography]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+      - type: curated
+        verified: 2026-10
+        status: completed
+        note: "Master's completion confirmed by Ricardo Custódio. Student is currently a PhD student."
+
+  - id: masters-luiz-filipe-anderson-de-sousa-moura-2024
+    student:
+      name: "Luiz Filipe Anderson de Sousa Moura"
+      lattes_id: "9736593152697583"
+    level: masters
+    role: advisor
+    status: completed
+    title: "Ameaças quânticas ao TLS 1.3"
+    start: 2021
+    end: 2024
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/260075"
+      doi:
+    topics: [post-quantum-cryptography, information-security, tls]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+        source_title: "Modelo de ameaça da computação quântica à segurança da informação e cenários de ataque ao TLS 1.3"
+      - type: curated
+        verified: 2026-10
+        status: completed
+        note: "Completion confirmed by Ricardo Custódio."
+
+  - id: masters-lucas-mayr-de-athayde-2024
+    student:
+      name: "Lucas Mayr de Athayde"
+      lattes_id: "5010614795919540"
+    level: masters
+    role: advisor
+    status: completed
+    title: "On the improvements to digital document signature through PKI transparency"
+    start: 2021
+    end: 2024
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: en
+    thesis:
+      repository: "UFSC Institutional Repository"
+      persistent_url: "https://repositorio.ufsc.br/handle/123456789/261696"
+      doi:
+    topics: [digital-signatures, public-key-infrastructure, electronic-documents, digital-trust]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+        source_title: "Certificado Digital de Assinatura Única"
+      - type: curated
+        verified: 2026-10
+        status: completed
+        note: "Master's completion confirmed by Ricardo Custódio. Student is currently a PhD student."
+
+  # ============================================================
+  # Master's — current
+  # ============================================================
+
+  - id: masters-victor-wanderley-shyba
+    student:
+      name: "Victor Wanderley Shyba"
+    level: masters
+    role: advisor
+    status: current
+    title: "Criptografia baseada em código"
+    start: 2024
+    end:
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [cryptography, code-based-cryptography, post-quantum-cryptography]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+      - type: curated
+        verified: 2026-10
+        status: current
+        note: "Current master's supervision confirmed by Ricardo Custódio."
+
+  - id: masters-filipe-oliveira-de-borba
+    student:
+      name: "Filipe Oliveira de Borba"
+      lattes_id: "8018576043678087"
+    level: masters
+    role: advisor
+    status: current
+    title: "Protocolos criptográficos híbridos"
+    start: 2024
+    end:
+    institution:
+      name: "Universidade Federal de Santa Catarina"
+      short: "UFSC"
+    program: "Programa de Pós-Graduação em Ciência da Computação"
+    language: pt
+    thesis:
+      repository:
+      persistent_url:
+      doi:
+    topics: [cryptography, post-quantum-cryptography, cryptographic-protocols]
+    related_publications: []
+    related_projects: []
+    related_software: []
+    source:
+      - type: lattes
+        lattes_updated: 2026-04-08
+        source_status: in-progress
+      - type: curated
+        verified: 2026-10
+        status: current
+        note: "Current master's supervision confirmed by Ricardo Custódio."
+
+  # ============================================================
+  # Undergraduate and other supervision
+  # ============================================================
+  # To be imported after postgraduate supervision is stabilized.
