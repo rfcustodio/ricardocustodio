@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Archive – Ricardo Custódio</title>
+<title>archive – Ricardo Custódio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -330,35 +330,184 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#structured-metadata-for-historical-and-preserved-academic-objects." id="toc-structured-metadata-for-historical-and-preserved-academic-objects." class="nav-link active" data-scroll-target="#structured-metadata-for-historical-and-preserved-academic-objects.">Structured metadata for historical and preserved academic objects.</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#archive-records-describe-objects-whose-historical-context-and" id="toc-archive-records-describe-objects-whose-historical-context-and" class="nav-link" data-scroll-target="#archive-records-describe-objects-whose-historical-context-and">Archive records describe objects whose historical context and</a></li>
+  <li><a href="#provenance-should-be-retained-even-when-they-are-no-longer-part" id="toc-provenance-should-be-retained-even-when-they-are-no-longer-part" class="nav-link" data-scroll-target="#provenance-should-be-retained-even-when-they-are-no-longer-part">provenance should be retained even when they are no longer part</a></li>
+  <li><a href="#of-current-academic-activities." id="toc-of-current-academic-activities." class="nav-link" data-scroll-target="#of-current-academic-activities.">of current academic activities.</a></li>
+  <li><a href="#future-example" id="toc-future-example" class="nav-link" data-scroll-target="#future-example">Future example:</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"></a></li>
+  <li><a href="#items" id="toc-items" class="nav-link" data-scroll-target="#items">items:</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"></a></li>
+  <li><a href="#id-example-archive-item" id="toc-id-example-archive-item" class="nav-link" data-scroll-target="#id-example-archive-item">- id: example-archive-item</a></li>
+  <li><a href="#title-example-historical-object" id="toc-title-example-historical-object" class="nav-link" data-scroll-target="#title-example-historical-object">title: “Example Historical Object”</a></li>
+  <li><a href="#type-document" id="toc-type-document" class="nav-link" data-scroll-target="#type-document">type: document</a></li>
+  <li><a href="#status-archived" id="toc-status-archived" class="nav-link" data-scroll-target="#status-archived">status: archived</a></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"></a></li>
+  <li><a href="#date" id="toc-date" class="nav-link" data-scroll-target="#date">date:</a></li>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">description:</a></li>
+  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4"></a></li>
+  <li><a href="#provenance" id="toc-provenance" class="nav-link" data-scroll-target="#provenance">provenance:</a></li>
+  <li><a href="#source" id="toc-source" class="nav-link" data-scroll-target="#source">source:</a></li>
+  <li><a href="#original_location" id="toc-original_location" class="nav-link" data-scroll-target="#original_location">original_location:</a></li>
+  <li><a href="#recovered" id="toc-recovered" class="nav-link" data-scroll-target="#recovered">recovered:</a></li>
+  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5"></a></li>
+  <li><a href="#preservation" id="toc-preservation" class="nav-link" data-scroll-target="#preservation">preservation:</a></li>
+  <li><a href="#format" id="toc-format" class="nav-link" data-scroll-target="#format">format:</a></li>
+  <li><a href="#checksum" id="toc-checksum" class="nav-link" data-scroll-target="#checksum">checksum:</a></li>
+  <li><a href="#preserved_at" id="toc-preserved_at" class="nav-link" data-scroll-target="#preserved_at">preserved_at:</a></li>
+  <li><a href="#persistent_identifier" id="toc-persistent_identifier" class="nav-link" data-scroll-target="#persistent_identifier">persistent_identifier:</a></li>
+  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6"></a></li>
+  <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">access:</a></li>
+  <li><a href="#public-true" id="toc-public-true" class="nav-link" data-scroll-target="#public-true">public: true</a></li>
+  <li><a href="#file" id="toc-file" class="nav-link" data-scroll-target="#file">file:</a></li>
+  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7"></a></li>
+  <li><a href="#related_projects" id="toc-related_projects" class="nav-link" data-scroll-target="#related_projects">related_projects: []</a></li>
+  <li><a href="#related_publications" id="toc-related_publications" class="nav-link" data-scroll-target="#related_publications">related_publications: []</a></li>
+  <li><a href="#related_courses" id="toc-related_courses" class="nav-link" data-scroll-target="#related_courses">related_courses: []</a></li>
+  <li><a href="#related_software" id="toc-related_software" class="nav-link" data-scroll-target="#related_software">related_software: []</a></li>
+  <li><a href="#related_talks" id="toc-related_talks" class="nav-link" data-scroll-target="#related_talks">related_talks: []</a></li>
+  <li><a href="#related_people" id="toc-related_people" class="nav-link" data-scroll-target="#related_people">related_people: []</a></li>
+  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8"></a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">notes:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Archive</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<section id="structured-metadata-for-historical-and-preserved-academic-objects." class="level1">
+<h1>Structured metadata for historical and preserved academic objects.</h1>
+</section>
+<section id="section" class="level1">
+<h1></h1>
+</section>
+<section id="archive-records-describe-objects-whose-historical-context-and" class="level1">
+<h1>Archive records describe objects whose historical context and</h1>
+</section>
+<section id="provenance-should-be-retained-even-when-they-are-no-longer-part" class="level1">
+<h1>provenance should be retained even when they are no longer part</h1>
+</section>
+<section id="of-current-academic-activities." class="level1">
+<h1>of current academic activities.</h1>
+<p>items: []</p>
+</section>
+<section id="future-example" class="level1">
+<h1>Future example:</h1>
+</section>
+<section id="section-1" class="level1">
+<h1></h1>
+</section>
+<section id="items" class="level1">
+<h1>items:</h1>
+</section>
+<section id="section-2" class="level1">
+<h1></h1>
+</section>
+<section id="id-example-archive-item" class="level1">
+<h1>- id: example-archive-item</h1>
+</section>
+<section id="title-example-historical-object" class="level1">
+<h1>title: “Example Historical Object”</h1>
+</section>
+<section id="type-document" class="level1">
+<h1>type: document</h1>
+</section>
+<section id="status-archived" class="level1">
+<h1>status: archived</h1>
+</section>
+<section id="section-3" class="level1">
+<h1></h1>
+</section>
+<section id="date" class="level1">
+<h1>date:</h1>
+</section>
+<section id="description" class="level1">
+<h1>description:</h1>
+</section>
+<section id="section-4" class="level1">
+<h1></h1>
+</section>
+<section id="provenance" class="level1">
+<h1>provenance:</h1>
+</section>
+<section id="source" class="level1">
+<h1>source:</h1>
+</section>
+<section id="original_location" class="level1">
+<h1>original_location:</h1>
+</section>
+<section id="recovered" class="level1">
+<h1>recovered:</h1>
+</section>
+<section id="section-5" class="level1">
+<h1></h1>
+</section>
+<section id="preservation" class="level1">
+<h1>preservation:</h1>
+</section>
+<section id="format" class="level1">
+<h1>format:</h1>
+</section>
+<section id="checksum" class="level1">
+<h1>checksum:</h1>
+</section>
+<section id="preserved_at" class="level1">
+<h1>preserved_at:</h1>
+</section>
+<section id="persistent_identifier" class="level1">
+<h1>persistent_identifier:</h1>
+</section>
+<section id="section-6" class="level1">
+<h1></h1>
+</section>
+<section id="access" class="level1">
+<h1>access:</h1>
+</section>
+<section id="public-true" class="level1">
+<h1>public: true</h1>
+</section>
+<section id="file" class="level1">
+<h1>file:</h1>
+</section>
+<section id="section-7" class="level1">
+<h1></h1>
+</section>
+<section id="related_projects" class="level1">
+<h1>related_projects: []</h1>
+</section>
+<section id="related_publications" class="level1">
+<h1>related_publications: []</h1>
+</section>
+<section id="related_courses" class="level1">
+<h1>related_courses: []</h1>
+</section>
+<section id="related_software" class="level1">
+<h1>related_software: []</h1>
+</section>
+<section id="related_talks" class="level1">
+<h1>related_talks: []</h1>
+</section>
+<section id="related_people" class="level1">
+<h1>related_people: []</h1>
+</section>
+<section id="section-8" class="level1">
+<h1></h1>
+</section>
+<section id="notes" class="level1">
+<h1>notes:</h1>
 
 
-<p>Historical academic, research and teaching material.</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
