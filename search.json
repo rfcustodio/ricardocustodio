@@ -11,7 +11,63 @@
     "href": "talks.html",
     "title": "Talks",
     "section": "",
-    "text": "Lectures, invited talks, seminars and presentations."
+    "text": "Invited talks, conference presentations, lectures, workshops, panels, and other public presentations related to my research and professional activities.\nThis section is being developed as a chronological and thematic record of academic and technical presentations given throughout my career."
+  },
+  {
+    "objectID": "talks.html#invited-talks-keynotes",
+    "href": "talks.html#invited-talks-keynotes",
+    "title": "Talks",
+    "section": "Invited Talks & Keynotes",
+    "text": "Invited Talks & Keynotes\nInvited presentations provide an opportunity to discuss research results, emerging technologies, and broader developments in information security and digital trust.\nTopics have included:\n\ninformation security and cryptography;\ndigital signatures and public key infrastructure;\ndigital identity;\nelectronic documents and digital preservation;\nblockchain and cryptocurrencies;\npost-quantum cryptography;\nartificial intelligence and security;\ntrustworthy digital infrastructures.\n\nPublic slides, videos, proceedings, or event pages will be linked whenever they are available."
+  },
+  {
+    "objectID": "talks.html#conference-presentations",
+    "href": "talks.html#conference-presentations",
+    "title": "Talks",
+    "section": "Conference Presentations",
+    "text": "Conference Presentations\nPresentations associated with scientific publications will progressively be connected to their corresponding bibliographic records.\nA presentation record may include:\n\nevent;\npresentation title;\ndate and location;\nauthors or presenters;\nassociated publication;\nslides;\nvideo;\nevent program;\npersistent archival copy."
+  },
+  {
+    "objectID": "talks.html#workshops-tutorials",
+    "href": "talks.html#workshops-tutorials",
+    "title": "Talks",
+    "section": "Workshops & Tutorials",
+    "text": "Workshops & Tutorials\nThis section will include longer educational and technical presentations, such as workshops, tutorials, training activities, and specialized courses.\nThese materials are particularly useful for preserving the evolution of technical subjects and the way research results were communicated to different audiences."
+  },
+  {
+    "objectID": "talks.html#panels-roundtables",
+    "href": "talks.html#panels-roundtables",
+    "title": "Talks",
+    "section": "Panels & Roundtables",
+    "text": "Panels & Roundtables\nParticipation in panels and roundtables often documents discussions that do not appear in conventional academic publications.\nWhere appropriate, records will include the event, topic, participants, program, presentation material, and publicly available recordings."
+  },
+  {
+    "objectID": "talks.html#institutional-professional-talks",
+    "href": "talks.html#institutional-professional-talks",
+    "title": "Talks",
+    "section": "Institutional & Professional Talks",
+    "text": "Institutional & Professional Talks\nSome presentations are associated with research projects, public institutions, professional communities, standards activities, or technology transfer rather than with a specific scientific publication.\nThese presentations form part of the broader record of the interaction between academic research and operational digital infrastructures."
+  },
+  {
+    "objectID": "talks.html#teaching-guest-lectures",
+    "href": "talks.html#teaching-guest-lectures",
+    "title": "Talks",
+    "section": "Teaching & Guest Lectures",
+    "text": "Teaching & Guest Lectures\nSelected guest lectures and presentations given outside regular courses may also be preserved here when they represent substantial or reusable academic material.\nRegular course material remains organized under Teaching."
+  },
+  {
+    "objectID": "talks.html#presentation-archive",
+    "href": "talks.html#presentation-archive",
+    "title": "Talks",
+    "section": "Presentation Archive",
+    "text": "Presentation Archive\nOver the years, presentation material has existed in several formats, including slides, PDFs, event websites, recordings, and institutional archives.\nThe long-term objective is to preserve significant presentations together with enough metadata to establish:\nwhat was presented → where → when → in which context → related research\nWhenever possible, original presentation files and public PDF versions will be preserved alongside the descriptive record."
+  },
+  {
+    "objectID": "talks.html#related-resources",
+    "href": "talks.html#related-resources",
+    "title": "Talks",
+    "section": "Related Resources",
+    "text": "Related Resources\n\nResearch\nPublications\nProjects\nBooks & Texts\nTeaching\nArchive"
   },
   {
     "objectID": "software.html",
