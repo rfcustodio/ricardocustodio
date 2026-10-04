@@ -1,44 +1,140 @@
 ---
-title: "Ricardo Custódio"
+pagetitle: "Ricardo Custódio"
 page-layout: full
 toc: false
+title-block-banner: false
 ---
+
+::: {.hero}
+
+::: {.hero-text}
 
 # Ricardo Custódio
 
-**Professor · Researcher · Advisor · Consultant**
+## Professor · Researcher · Advisor
 
-Information Security · Cryptography · Digital Signatures ·  
-Digital Identity · Electronic Documents · AI & Security
+My research spans information security, cryptography, digital identity,
+digital signatures, electronic documents, post-quantum cryptography,
+finite-field arithmetic, and artificial intelligence applied to security.
+
+::: {.hero-buttons}
+
+[About me](about.qmd){.btn .btn-primary}
+
+[Publications](publications.qmd){.btn .btn-outline-primary}
+
+[Contact](contact.qmd){.btn .btn-outline-primary}
+
+:::
+
+::: {.academic-links}
+
+[ORCID](https://orcid.org/0000-0001-9611-5694) ·
+[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=pt-BR) ·
+[GitHub](https://github.com/rfcustodio) ·
+[Lattes](http://lattes.cnpq.br/9716092379282146) ·
+[LinkedIn](https://www.linkedin.com/in/rfcustodio/)
+
+:::
+
+:::
+
+::: {.hero-photo}
+
+![](foto-minha.jpeg){fig-alt="Ricardo Custódio"}
+
+:::
+
+:::
+
 
 ## Research
 
-My research interests include information security, cryptography,
-digital signatures, public key infrastructure, digital identity,
-electronic documents, post-quantum cryptography, finite field
-arithmetic, and artificial intelligence applied to security.
+::: {.research-grid}
+
+::: {.research-card}
+### Digital Identity
+
+Digital identity, authentication, authorization and verifiable credentials.
+:::
+
+::: {.research-card}
+### Digital Signatures
+
+Electronic signatures, digital signatures, PKI and long-term validation.
+:::
+
+::: {.research-card}
+### Cryptography
+
+Cryptographic algorithms, protocols and applied cryptography.
+:::
+
+::: {.research-card}
+### Finite Fields
+
+Efficient arithmetic over binary finite fields and modular reduction.
+:::
+
+::: {.research-card}
+### Post-Quantum Cryptography
+
+Cryptographic mechanisms and infrastructures for the post-quantum transition.
+:::
+
+::: {.research-card}
+### AI & Security
+
+Artificial intelligence applied to security, identity and autonomous agents.
+:::
+
+::: {.research-card}
+### Electronic Documents
+
+Electronic documents, long-term validation, preservation and trust infrastructures.
+:::
+
+::: {.research-card}
+### Information Security
+
+Security architectures, protocols, infrastructures and trustworthy systems.
+:::
+:::
+
+[Explore my research →](research.qmd){.section-link}
+
 
 ## Current Research
 
-- Digital Identity & Digital Signatures
-- Personal AI Agents
-- Finite Field Arithmetic
-- Post-Quantum Cryptography
+- **Personal AI Agents** — identity, authorization, accountability and non-repudiation for autonomous agents.
+- **Digital Identity & Digital Signatures** — infrastructures and protocols for trustworthy digital transactions.
+- **Finite Field Arithmetic** — efficient multiplication and modular reduction over binary extension fields.
+- **Post-Quantum Cryptography** — transition of digital-signature and trust infrastructures to post-quantum cryptography.
+
 
 ## Publications
 
-Selected and recent publications.
+Selected and recent scientific publications will be presented here.
 
-[View publications →](publications.qmd)
+[View all publications →](publications.qmd){.section-link}
 
-## Teaching
-
-Courses, lecture notes and educational resources.
-
-[Teaching →](teaching.qmd)
 
 ## Books & Texts
 
-Books, technical texts and open educational resources.
+Books, lecture notes, technical texts and other open academic resources.
 
-[Books & Texts →](books.qmd)
+[Explore books and texts →](books.qmd){.section-link}
+
+
+## Teaching
+
+Courses, lecture notes, exercises and educational resources developed throughout my academic career.
+
+[Teaching resources →](teaching.qmd){.section-link}
+
+
+## Projects
+
+Current and historical research and development projects.
+
+[View projects →](projects.qmd){.section-link}
