@@ -1,0 +1,129 @@
+# Canonical structured profile for the academic website.
+#
+# This file contains public academic and professional information.
+# Sensitive or private information from source records must never
+# be copied here.
+#
+# Sources should be preserved so that information can later be
+# reviewed and updated.
+
+person:
+  id: ricardo-custodio
+
+  name:
+    display: "Ricardo Custódio"
+    full: "Ricardo Felipe Custodio"
+
+  orcid: "0000-0001-9611-5694"
+  lattes_id: "9716092379282146"
+
+  profiles:
+    orcid: "https://orcid.org/0000-0001-9611-5694"
+    lattes: "http://lattes.cnpq.br/9716092379282146"
+    google_scholar: "https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en"
+    github: "https://github.com/rfcustodio"
+    linkedin: "https://www.linkedin.com/in/rfcustodio/"
+
+  current_roles:
+    - id: ufsc-professor
+      title: "Professor"
+      institution: "Universidade Federal de Santa Catarina"
+      institution_short: "UFSC"
+      start: 1994
+      status: active
+
+    - id: labsec-supervisor
+      title: "Supervisor"
+      organization: "Laboratório de Segurança em Computação"
+      organization_short: "LabSEC"
+      start: 2000
+      status: active
+
+  education:
+
+    - id: phd-computer-science
+      degree: phd
+      field: "Computer Science"
+      institution: "Universidade Federal do Rio Grande do Sul"
+      institution_short: "UFRGS"
+      start: 1997
+      end: 1999
+      country: "Brazil"
+      source:
+        type: lattes
+        updated: 2026-04-08
+
+    - id: msc-electrical-engineering
+      degree: masters
+      field: "Electrical Engineering"
+      institution: "Universidade Federal de Santa Catarina"
+      institution_short: "UFSC"
+      start: 1986
+      end: 1990
+      country: "Brazil"
+      source:
+        type: lattes
+        updated: 2026-04-08
+
+    - id: bsc-electrical-engineering
+      degree: bachelors
+      field: "Electrical Engineering"
+      institution: "Universidade Federal de Santa Catarina"
+      institution_short: "UFSC"
+      start: 1981
+      end: 1985
+      country: "Brazil"
+      source:
+        type: lattes
+        updated: 2026-04-08
+
+  postdoctoral:
+
+    - id: george-washington-university
+      institution: "George Washington University"
+      start: 2005
+      end: 2006
+      country: "United States"
+      source:
+        type: lattes
+        updated: 2026-04-08
+
+  research_interests:
+    - information-security
+    - cryptography
+    - digital-signatures
+    - public-key-infrastructure
+    - digital-identity
+    - electronic-documents
+    - finite-fields
+    - post-quantum-cryptography
+    - artificial-intelligence
+    - digital-trust
+
+  languages:
+    - code: pt
+      name: "Portuguese"
+
+    - code: en
+      name: "English"
+
+    - code: es
+      name: "Spanish"
+
+sources:
+
+  lattes:
+    type: academic-cv
+    identifier: "9716092379282146"
+    last_updated: 2026-04-08
+
+  orcid:
+    type: researcher-identifier
+    identifier: "0000-0001-9611-5694"
+
+  dblp:
+    type: bibliographic-database
+
+  previous_website:
+    type: personal-website
+    status: legacy
