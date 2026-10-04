@@ -501,6 +501,48 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Contact information and academic profiles."
+    "text": "For academic inquiries, research collaboration, student supervision, technical discussions, and professional activities, you can contact me through the channels below."
+  },
+  {
+    "objectID": "contact.html#academic-research-contact",
+    "href": "contact.html#academic-research-contact",
+    "title": "Contact",
+    "section": "Academic & Research Contact",
+    "text": "Academic & Research Contact\nRicardo Custódio\nProfessor and Researcher\nInformation Security · Cryptography · Digital Trust · Artificial Intelligence\nLabSEC — Computer Security Laboratory\nFederal University of Santa Catarina (UFSC)\nFlorianópolis, Santa Catarina, Brazil"
+  },
+  {
+    "objectID": "contact.html#academic-profiles",
+    "href": "contact.html#academic-profiles",
+    "title": "Contact",
+    "section": "Academic Profiles",
+    "text": "Academic Profiles\n\nORCID\nGoogle Scholar\nLattes Curriculum"
+  },
+  {
+    "objectID": "contact.html#professional-development-profiles",
+    "href": "contact.html#professional-development-profiles",
+    "title": "Contact",
+    "section": "Professional & Development Profiles",
+    "text": "Professional & Development Profiles\n\nGitHub\nLinkedIn"
+  },
+  {
+    "objectID": "contact.html#research-collaboration",
+    "href": "contact.html#research-collaboration",
+    "title": "Contact",
+    "section": "Research Collaboration",
+    "text": "Research Collaboration\nI welcome academic and technical collaboration in areas related to:\n\ninformation security;\ncryptography;\ndigital signatures;\npublic key infrastructure;\ndigital identity;\nelectronic documents;\nfinite-field arithmetic;\npost-quantum cryptography;\nartificial intelligence and security;\ndigital trust infrastructures."
+  },
+  {
+    "objectID": "contact.html#students-research",
+    "href": "contact.html#students-research",
+    "title": "Contact",
+    "section": "Students & Research",
+    "text": "Students & Research\nProspective students interested in research projects should consult the Research, Projects, and Supervision sections before making contact.\nResearch topics evolve over time, and the availability of new supervision positions depends on current projects and academic commitments."
+  },
+  {
+    "objectID": "contact.html#website",
+    "href": "contact.html#website",
+    "title": "Contact",
+    "section": "Website",
+    "text": "Website\nThis website is also a long-term academic archive.\nCorrections, additional information, and references to historical academic material related to the work documented here are welcome."
   }
 ]
