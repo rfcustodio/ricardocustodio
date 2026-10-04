@@ -32,42 +32,56 @@
     "href": "index.html",
     "title": "Ricardo Custódio",
     "section": "",
-    "text": "Professor · Researcher · Advisor · Consultant\nInformation Security · Cryptography · Digital Signatures ·\nDigital Identity · Electronic Documents · AI & Security\n\n\nMy research interests include information security, cryptography, digital signatures, public key infrastructure, digital identity, electronic documents, post-quantum cryptography, finite field arithmetic, and artificial intelligence applied to security.\n\n\n\n\nDigital Identity & Digital Signatures\nPersonal AI Agents\nFinite Field Arithmetic\nPost-Quantum Cryptography\n\n\n\n\nSelected and recent publications.\nView publications →\n\n\n\nCourses, lecture notes and educational resources.\nTeaching →\n\n\n\nBooks, technical texts and open educational resources.\nBooks & Texts →"
+    "text": "My research spans information security, cryptography, digital identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and artificial intelligence applied to security.\n\nAbout me\nPublications\nContact\n\n\nORCID · Google Scholar · GitHub · Lattes · LinkedIn"
+  },
+  {
+    "objectID": "index.html#professor-researcher-advisor",
+    "href": "index.html#professor-researcher-advisor",
+    "title": "Ricardo Custódio",
+    "section": "",
+    "text": "My research spans information security, cryptography, digital identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and artificial intelligence applied to security.\n\nAbout me\nPublications\nContact\n\n\nORCID · Google Scholar · GitHub · Lattes · LinkedIn"
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "Ricardo Custódio",
-    "section": "",
-    "text": "My research interests include information security, cryptography, digital signatures, public key infrastructure, digital identity, electronic documents, post-quantum cryptography, finite field arithmetic, and artificial intelligence applied to security."
+    "section": "Research",
+    "text": "Research\n\n\nDigital Identity\nDigital identity, authentication, authorization and verifiable credentials.\n\n\nDigital Signatures\nElectronic signatures, digital signatures, PKI and long-term validation.\n\n\nCryptography\nCryptographic algorithms, protocols and applied cryptography.\n\n\nFinite Fields\nEfficient arithmetic over binary finite fields and modular reduction.\n\n\nPost-Quantum Cryptography\nCryptographic mechanisms and infrastructures for the post-quantum transition.\n\n\nAI & Security\nArtificial intelligence applied to security, identity and autonomous agents.\n\n\nElectronic Documents\nElectronic documents, long-term validation, preservation and trust infrastructures.\n\n\nInformation Security\nSecurity architectures, protocols, infrastructures and trustworthy systems.\n\n\nExplore my research →"
   },
   {
     "objectID": "index.html#current-research",
     "href": "index.html#current-research",
     "title": "Ricardo Custódio",
-    "section": "",
-    "text": "Digital Identity & Digital Signatures\nPersonal AI Agents\nFinite Field Arithmetic\nPost-Quantum Cryptography"
+    "section": "Current Research",
+    "text": "Current Research\n\nPersonal AI Agents — identity, authorization, accountability and non-repudiation for autonomous agents.\nDigital Identity & Digital Signatures — infrastructures and protocols for trustworthy digital transactions.\nFinite Field Arithmetic — efficient multiplication and modular reduction over binary extension fields.\nPost-Quantum Cryptography — transition of digital-signature and trust infrastructures to post-quantum cryptography."
   },
   {
     "objectID": "index.html#publications",
     "href": "index.html#publications",
     "title": "Ricardo Custódio",
-    "section": "",
-    "text": "Selected and recent publications.\nView publications →"
-  },
-  {
-    "objectID": "index.html#teaching",
-    "href": "index.html#teaching",
-    "title": "Ricardo Custódio",
-    "section": "",
-    "text": "Courses, lecture notes and educational resources.\nTeaching →"
+    "section": "Publications",
+    "text": "Publications\nSelected and recent scientific publications will be presented here.\nView all publications →"
   },
   {
     "objectID": "index.html#books-texts",
     "href": "index.html#books-texts",
     "title": "Ricardo Custódio",
-    "section": "",
-    "text": "Books, technical texts and open educational resources.\nBooks & Texts →"
+    "section": "Books & Texts",
+    "text": "Books & Texts\nBooks, lecture notes, technical texts and other open academic resources.\nExplore books and texts →"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Ricardo Custódio",
+    "section": "Teaching",
+    "text": "Teaching\nCourses, lecture notes, exercises and educational resources developed throughout my academic career.\nTeaching resources →"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Ricardo Custódio",
+    "section": "Projects",
+    "text": "Projects\nCurrent and historical research and development projects.\nView projects →"
   },
   {
     "objectID": "projects.html",

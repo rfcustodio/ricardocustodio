@@ -1,1 +1,152 @@
-/* css styles */
+/*-- scss:defaults --*/
+
+:root {
+  --rc-text: #20252b;
+  --rc-muted: #5f6872;
+  --rc-line: #e5e8eb;
+  --rc-soft: #f6f7f8;
+}
+
+/* General */
+
+body {
+  color: var(--rc-text);
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-weight: 650;
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+/* Hero */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.45fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 4rem 0 3.5rem 0;
+  border-bottom: 1px solid var(--rc-line);
+}
+
+.hero h1 {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  line-height: 1;
+  margin-bottom: 1rem;
+  letter-spacing: -0.04em;
+}
+
+.hero h2 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--rc-muted);
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.hero-text > p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  max-width: 720px;
+}
+
+.hero-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+
+/* Buttons */
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons .btn {
+  padding: .65rem 1.1rem;
+}
+
+/* Academic links */
+
+.academic-links {
+  margin-top: 1.4rem;
+  font-size: .95rem;
+  color: var(--rc-muted);
+}
+
+.academic-links a {
+  text-decoration: none;
+}
+
+/* Research */
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.research-card {
+  padding: 1.5rem;
+  border: 1px solid var(--rc-line);
+  border-radius: 5px;
+}
+
+.research-card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+}
+
+.research-card p {
+  color: var(--rc-muted);
+  margin-bottom: 0;
+  line-height: 1.55;
+}
+
+/* Links */
+
+.section-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Mobile */
+
+@media (max-width: 900px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-top: 2rem;
+  }
+
+  .hero-photo {
+    order: -1;
+  }
+
+  .hero-photo img {
+    max-height: 430px;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
