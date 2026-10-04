@@ -1,5 +1,178 @@
 ---
 title: "Projects"
+toc: true
 ---
 
-Current and past research and development projects.
+My research has often been developed through long-term projects that connect
+fundamental research, technological development, infrastructure, standards,
+and real-world applications.
+
+These projects span cryptography, digital trust, electronic documents,
+digital identity, post-quantum security, artificial intelligence, and
+information infrastructures.
+
+## Current Projects
+
+### LabREC — Research and Development for Civil Registration
+
+LabREC is a research and development initiative focused on technologies for
+Brazil's civil registration ecosystem. Its activities combine academic
+research with the design and evaluation of technological solutions for
+digital trust, identity, electronic documents, and artificial intelligence.
+
+Research and development topics include:
+
+- digital identity and authentication;
+- digital signatures and long-term validation;
+- electronic documents and preservation;
+- public key infrastructures;
+- verifiable credentials;
+- artificial intelligence applied to civil registration;
+- privacy and information security;
+- trustworthy digital infrastructures.
+
+Several technological initiatives have emerged from this environment,
+including **ICP-RC**, **IdRC**, and AI-based systems for the civil
+registration ecosystem.
+
+### Post-Quantum Cryptography
+
+This research investigates cryptographic mechanisms and infrastructures
+capable of remaining secure in the presence of quantum computers.
+
+Current interests include:
+
+- post-quantum public-key cryptography;
+- hybrid classical/post-quantum protocols;
+- post-quantum digital signatures;
+- post-quantum certificates and PKI;
+- quantum-safe voting systems;
+- migration strategies for existing digital infrastructures.
+
+A particular concern is the practical transition from today's cryptographic
+infrastructures to quantum-resistant systems.
+
+### Finite-Field Arithmetic
+
+This research investigates efficient arithmetic over binary finite fields,
+particularly polynomial-basis representations of $\mathrm{GF}(2^m)$.
+
+Topics include:
+
+- irreducible polynomials;
+- structured families of pentanomials;
+- modular reduction;
+- multiplication algorithms;
+- XOR complexity;
+- circuit depth;
+- computational search for efficient polynomial families;
+- AI-assisted discovery of algebraic structures.
+
+The objective is to identify mathematical structures that lead to efficient
+implementations of cryptographic arithmetic.
+
+### AI Agents, Identity, and Digital Trust
+
+Artificial intelligence agents increasingly perform actions that have
+consequences outside the computational environment in which they operate.
+
+This research studies mechanisms for establishing trust in such agents,
+including:
+
+- agent identity;
+- authentication;
+- authorization;
+- delegation;
+- accountability;
+- auditability;
+- non-repudiation;
+- verifiable actions and evidence.
+
+A broader research question is how traditional digital trust infrastructures
+must evolve when autonomous AI agents become active participants in digital
+ecosystems.
+
+## Selected Research & Development Projects
+
+### Digital Signatures and Long-Term Electronic Documents
+
+A long-standing research line investigates the use of digital signatures for
+electronic documents and the preservation of their evidentiary value over
+long periods.
+
+Research topics have included:
+
+- digital signature formats;
+- long-term signatures;
+- signature validation;
+- document preservation;
+- public key infrastructures;
+- cryptographic evidence;
+- trusted services;
+- location of modifications in signed data.
+
+### Digital Identity and Public Key Infrastructure
+
+Research on digital identity has evolved from traditional PKI-based
+architectures toward federated identity, self-sovereign identity,
+verifiable credentials, and emerging identity models for humans,
+organizations, devices, and software agents.
+
+### Electronic Voting
+
+Research in electronic voting has explored cryptographic mechanisms for
+verifiability, privacy, and trustworthy election processes.
+
+This line includes work on verifiable voting protocols and, more recently,
+the incorporation of post-quantum cryptography into electronic voting
+architectures.
+
+### Hash-Based Digital Signatures
+
+Research on hash-based signatures has investigated efficient encodings and
+variants of the Winternitz signature family, including techniques for
+improving performance and reducing signature size.
+
+### Cryptographic Protocols and Security Infrastructures
+
+Several projects have addressed the design, implementation, and analysis of
+cryptographic protocols and security infrastructures.
+
+The emphasis is not only on cryptographic primitives, but also on their
+integration into operational systems involving identities, keys,
+authorization, audit, and governance.
+
+## From Research to Technology
+
+An important characteristic of these projects is the connection between
+fundamental research and technological applications.
+
+The typical research cycle involves:
+
+**research question → formal model → protocol or algorithm → prototype →
+experimental evaluation → publication → technological application**
+
+Some projects result primarily in scientific publications. Others generate
+software, datasets, prototypes, technical reports, standards contributions,
+or operational systems.
+
+## Project Archive
+
+This page presents selected projects and research lines.
+
+A structured project archive is being developed to document previous
+projects, collaborations, research outputs, software, datasets, students,
+and related publications.
+
+The archive will progressively incorporate material from earlier academic
+websites, institutional records, research repositories, and personal
+academic collections.
+
+## Related Resources
+
+- [Research](research.qmd)
+- [Publications](publications.qmd)
+- [Supervision](supervision.qmd)
+- [Software & Data](software.qmd)
+- [Talks](talks.qmd)
+- [Archive](archive.qmd)

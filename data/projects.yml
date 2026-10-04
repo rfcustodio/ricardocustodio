@@ -1,0 +1,158 @@
+# Structured metadata for research and development projects.
+#
+# This file is intended to become the canonical project registry
+# for the website. Descriptive pages should progressively derive
+# their information from this structured metadata.
+
+projects:
+
+  - id: labrec
+    title: "LabREC"
+    subtitle: "Research and Development for Civil Registration"
+    status: active
+    type: research-development
+    start:
+    end:
+    role: coordinator
+    topics:
+      - digital-identity
+      - digital-signatures
+      - electronic-documents
+      - public-key-infrastructure
+      - artificial-intelligence
+      - information-security
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []
+
+  - id: post-quantum-cryptography
+    title: "Post-Quantum Cryptography"
+    status: active
+    type: research
+    start:
+    end:
+    topics:
+      - cryptography
+      - post-quantum-cryptography
+      - digital-signatures
+      - public-key-infrastructure
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []
+
+  - id: finite-field-arithmetic
+    title: "Finite-Field Arithmetic"
+    status: active
+    type: research
+    start:
+    end:
+    topics:
+      - cryptography
+      - finite-fields
+      - irreducible-polynomials
+      - modular-reduction
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []
+
+  - id: ai-agents-digital-trust
+    title: "AI Agents, Identity, and Digital Trust"
+    status: active
+    type: research
+    start:
+    end:
+    topics:
+      - artificial-intelligence
+      - digital-identity
+      - authentication
+      - authorization
+      - accountability
+      - digital-trust
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []
+
+  - id: digital-signatures-documents
+    title: "Digital Signatures and Long-Term Electronic Documents"
+    status: long-term
+    type: research
+    start:
+    end:
+    topics:
+      - digital-signatures
+      - electronic-documents
+      - long-term-validation
+      - digital-preservation
+      - public-key-infrastructure
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []
+
+  - id: digital-identity-pki
+    title: "Digital Identity and Public Key Infrastructure"
+    status: long-term
+    type: research
+    start:
+    end:
+    topics:
+      - digital-identity
+      - public-key-infrastructure
+      - self-sovereign-identity
+      - verifiable-credentials
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []
+
+  - id: electronic-voting
+    title: "Electronic Voting"
+    status: research
+    type: research
+    start:
+    end:
+    topics:
+      - electronic-voting
+      - cryptography
+      - verifiability
+      - post-quantum-cryptography
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []
+
+  - id: hash-based-signatures
+    title: "Hash-Based Digital Signatures"
+    status: research
+    type: research
+    start:
+    end:
+    topics:
+      - cryptography
+      - digital-signatures
+      - hash-based-signatures
+      - winternitz
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+    students: []
+    links: []

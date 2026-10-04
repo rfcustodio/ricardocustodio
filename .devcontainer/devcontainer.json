@@ -2,7 +2,7 @@
   "name": "Ricardo Custódio Website",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "ghcr.io/rocker-org/devcontainer-features/quarto:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "customizations": {
     "vscode": {
@@ -10,5 +10,6 @@
         "quarto.quarto"
       ]
     }
-  }
+  },
+  "postCreateCommand": "wget -q https://quarto.org/download/latest/quarto-linux-amd64.deb -O /tmp/quarto.deb && sudo dpkg -i /tmp/quarto.deb && rm /tmp/quarto.deb"
 }
