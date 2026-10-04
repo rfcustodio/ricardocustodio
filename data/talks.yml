@@ -1,0 +1,46 @@
+# Structured metadata for talks, presentations, workshops,
+# tutorials, panels, and guest lectures.
+
+talks: []
+
+# Future example:
+#
+# talks:
+#
+#   - id: example-talk
+#     title: "Example Talk"
+#     type: invited-talk
+#     status: delivered
+#
+#     date: 2026-01-01
+#
+#     event:
+#       name: "Example Conference"
+#       edition:
+#       website:
+#
+#     location:
+#       city:
+#       region:
+#       country:
+#
+#     language: en
+#
+#     presenters:
+#       - ricardo-custodio
+#
+#     topics:
+#       - information-security
+#       - cryptography
+#
+#     materials:
+#       slides:
+#       video:
+#       program:
+#
+#     related_publications: []
+#     related_projects: []
+#     related_software: []
+#     related_courses: []
+#
+#     links: []
