@@ -1,119 +1,55 @@
 ---
 title: "Supervision"
-description: "Graduate and undergraduate research supervision by Ricardo Custódio."
 toc: true
-toc-title: "Supervision"
+filters:
+  - filters/supervision.lua
 ---
 
-Supervising students and helping to educate new researchers has been
-one of the central components of my academic career.
+My academic supervision has focused primarily on cryptography, information security, digital identity, digital signatures, electronic documents, and related areas of computer science.
 
-I have supervised research at undergraduate, Master's and PhD levels,
-primarily in information security, cryptography, digital signatures,
-digital identity, electronic documents, and related areas.
+Over the years, I have supervised undergraduate, master's, and doctoral students, many of whom have continued their careers in academia, research, industry, and technology development.
 
-This section is being developed as a historical record of students,
-research topics, dissertations, theses, and the publications and
-projects that resulted from this work.
+Current doctoral and master's students are listed below. Research topics reflect the structured supervision records maintained for this website.
 
-
-## Current Students
-
-### PhD Students
-
-*Current PhD students will be added here.*
-
-
-### Master's Students
-
-*Current Master's students will be added here.*
-
-
-### Undergraduate Students
-
-*Current undergraduate researchers will be added here.*
-
-
-## Former Students
-
-### PhD
-
-This section will contain completed PhD supervision, including:
-
-- student;
-- thesis title;
-- year;
-- co-supervisors;
-- research area;
-- associated publications;
-- software and datasets, when available.
-
-*Historical records are being consolidated.*
-
-
-### Master's
-
-This section will contain completed Master's dissertations and their
-associated research outputs.
-
-*Historical records are being consolidated.*
-
-
-### Undergraduate Research
-
-Undergraduate research has played an important role in introducing
-students to scientific research and frequently provided the foundation
-for subsequent Master's and PhD work.
-
-*Historical records are being consolidated.*
-
-
-## Research Lineage
-
-Academic supervision is more than a list of completed theses and
-dissertations.
-
-Over time, students participate in research groups, collaborate with
-one another, become co-authors, continue to graduate studies, and in
-some cases become researchers and supervisors themselves.
-
-One of the objectives of this archive is therefore to document this
-**academic lineage** and the evolution of the research topics developed
-within the group.
-
-
-## Research Areas
-
-Student research has included topics such as:
-
-- information security;
-- cryptography and cryptographic protocols;
-- digital signatures;
-- public key infrastructure;
-- electronic documents;
-- digital identity;
-- finite-field arithmetic;
-- blockchain technologies;
-- post-quantum cryptography;
-- artificial intelligence and security.
-
-
-## From Supervision to Research
-
-Many dissertations and theses have resulted in scientific publications,
-software, prototypes, and research projects.
-
-As this archive is consolidated, student records will be connected to
-the corresponding:
-
-- [Publications](publications.qmd)
-- [Projects](projects.qmd)
-- [Software & Data](software.qmd)
-
+::: {.supervision-generated}
+:::
 
 ## Academic Genealogy
 
-A future extension of this section will provide a visual representation
-of the academic genealogy associated with my supervision, showing
-connections among students, research topics, publications, and
-subsequent academic careers.
+Academic supervision is more than a list of theses and dissertations. It represents the development of research lines, collaborations, and successive generations of researchers.
+
+Several students initially supervised at the master's level later continued their doctoral studies, while former students have themselves become researchers, professors, and supervisors.
+
+A structured academic genealogy connecting students, publications, projects, software, and research topics is under development.
+
+## Research Areas
+
+Supervision has covered topics including:
+
+- Cryptography
+- Post-Quantum Cryptography
+- Finite-Field Arithmetic
+- Digital Signatures
+- Public-Key Infrastructure
+- Digital Identity
+- Electronic Documents
+- Long-Term Digital Preservation
+- Cryptographic Protocols
+- Information and Network Security
+- Blockchain
+- Security and Artificial Intelligence
+
+## From Supervision to Research
+
+Student supervision is closely connected to the research activities described throughout this website.
+
+Many theses and dissertations have resulted in publications, software prototypes, datasets, technical reports, and subsequent research projects.
+
+These relationships will progressively be represented using the structured metadata maintained by this website.
+
+See also:
+
+- [Research](research.qmd)
+- [Publications](publications.qmd)
+- [Projects](projects.qmd)
+- [Software & Data](software.qmd)

@@ -150,3 +150,72 @@ h2 {
   }
 
 }
+/* ------------------------------------------------------------
+   Academic supervision
+   ------------------------------------------------------------ */
+
+.supervision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.supervision-card {
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 0.6rem;
+  padding: 1.15rem 1.25rem;
+}
+
+.supervision-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.65rem;
+  font-size: 1.15rem;
+}
+
+.supervision-card p {
+  margin-bottom: 0.55rem;
+}
+
+.supervision-card p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .supervision-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Historical supervision groups */
+
+.supervision-period {
+  margin: 0.8rem 0;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 0.5rem;
+  padding: 0.25rem 1rem;
+}
+
+.supervision-period summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.75rem 0;
+}
+
+.supervision-period summary:hover {
+  text-decoration: underline;
+}
+
+.supervision-period ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.supervision-period li {
+  margin-bottom: 0.4rem;
+}
+
+.supervision-count {
+  font-weight: 400;
+  opacity: 0.7;
+}

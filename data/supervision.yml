@@ -2334,12 +2334,12 @@ supervisions:
     level: masters
     role: advisor
     status: completed
-    title: "Lattice isomorphism and applications to cryptography"
-    start: 2022
-    end:
+    title: "The lattice isomorphism problem and applications to cryptography"
+    end: 2024
     institution:
       name: "Universidade Federal de Santa Catarina"
       short: "UFSC"
+    repository: "https://repositorio.ufsc.br/handle/12345ç6789/264842"
     program: "Programa de Pós-Graduação em Ciência da Computação"
     language: en
     thesis:
