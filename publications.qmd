@@ -1,14 +1,79 @@
 ---
 title: "Publications"
+description: "Scientific publications by Ricardo Custódio."
 bibliography: bibliography/publications.bib
 nocite: '@*'
 ---
 
-This page presents my scientific publications in information security,
-cryptography, digital identity, digital signatures, electronic documents,
-and related areas.
+My research publications span information security, cryptography,
+digital signatures, digital identity, electronic documents,
+finite-field arithmetic, post-quantum cryptography, and artificial
+intelligence applied to security.
 
-The bibliography is being progressively consolidated from multiple
-academic sources.
+This bibliography is being progressively consolidated from DBLP,
+ORCID, Lattes, Google Scholar, and my personal academic archive.
 
-## Publications
+## Selected Publications
+
+The publications below highlight representative contributions from
+different stages and areas of my research.
+
+::: {.callout-note appearance="simple"}
+**This section is under construction.**
+
+Selected publications will be curated to represent major research
+directions rather than simply the most recent or most cited papers.
+:::
+
+## Recent Publications
+
+### 2026
+
+- **Redefining Digital Web Signature Secrecy: A Client-Side Model for Enhanced Security and Compliance.**  
+  Wellington F. Silvano, Lucas Mayr, Enzo Brum, Gabriel Cabral,
+  Frederico Schardong, Ricardo Custódio.  
+  *Journal of the Brazilian Computer Society*, 2026.  
+  [DOI](https://doi.org/10.1186/s13173-025-00177-9)
+
+- **Cryptographic Applications of Combinatorial Ranking for Integer Compositions.**  
+  Gustavo Zambonin, R. R. de Carvalho, Ricardo Custódio, Eduardo P. Ribeiro.  
+  *IWOCA*, 2026.
+
+- **Anamorphic Construction For The Winternitz OTS Scheme Family.**  
+  Lucas Mayr, Felipe F. Faleiro, Anderson C. A. Nascimento,
+  Ricardo Custódio.  
+  *IACR Transactions on Cryptographic Hardware and Embedded Systems*, 2026.
+
+### 2025
+
+- **From ElGamal to Lattice-Based: Enhancing Helios Voting with Quantum-Safe Cryptography.**  
+  João Barbosa, Gustavo Zambonin, Thaís B. Idalino, Ricardo Custódio.  
+  *ACNS*, 2025.
+
+- **Automation and Risk: Transformers Models Reshape Sensitive Information Management.**  
+  Wellington F. Silvano, Maurício Konrath, Lucas Mayr, Ricardo Custódio.  
+  *ICISS*, 2025.
+
+[Complete bibliography ↓](#complete-bibliography)
+
+## Research Areas
+
+Publications can broadly be associated with the following research
+directions:
+
+- Cryptography and cryptographic protocols
+- Finite-field arithmetic
+- Digital signatures
+- Public key infrastructure
+- Digital identity
+- Electronic documents and preservation
+- Post-quantum cryptography
+- Artificial intelligence and security
+
+As the archive evolves, publications will also be browsable by research
+area, year, publication type, and associated project.
+
+## Complete Bibliography
+
+The bibliography below is generated from the site's canonical
+BibTeX database.

@@ -1,0 +1,11 @@
+# Additional metadata for publications.
+#
+# Bibliographic metadata belongs in:
+# bibliography/publications.bib
+#
+# This file contains website-specific metadata that should not
+# be stored in the canonical BibTeX database.
+
+selected: []
+
+resources: {}
