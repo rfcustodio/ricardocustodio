@@ -26,7 +26,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -78,6 +97,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -330,8 +378,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -356,11 +410,209 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Scientific publications, books, chapters, conference papers and technical reports.</p>
+<p>This page presents my scientific publications in information security, cryptography, digital identity, digital signatures, electronic documents, and related areas.</p>
+<p>The bibliography is being progressively consolidated from multiple academic sources.</p>
+<section id="publications" class="level2">
 
 
 
-</main> <!-- /main -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Publications</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-DBLP:journals/jnsm/ArantesWCC10" class="csl-entry" role="listitem">
+Arantes, Juliana Amaral, Carlos Becker Westphall, Ricardo Felipe Custódio, and Shirlei Aparecida de Chaves. 2010. <span>“Analytical Model to Evaluate the Performance of Mobile Agents in a Generic Network Topology.”</span> <em>J. Netw. Syst. Manag.</em> 18 (4): 357–73. <a href="https://doi.org/10.1007/S10922-010-9173-X">https://doi.org/10.1007/S10922-010-9173-X</a>.
+</div>
+<div id="ref-DBLP:journals/iacr/AraujoCG07" class="csl-entry" role="listitem">
+Araújo, Roberto, Ricardo Felipe Custódio, and Jeroen van de Graaf. 2007. <span>“A Verifiable Voting Protocol Based on Farnel.”</span> <em><span>IACR</span> Cryptol. ePrint Arch.</em> 2007: 252. <a href="http://eprint.iacr.org/2007/252">http://eprint.iacr.org/2007/252</a>.
+</div>
+<div id="ref-DBLP:conf/wote/AraujoCG10" class="csl-entry" role="listitem">
+Araújo, Roberto, Ricardo Felipe Custódio, and Jeroen van de Graaf. 2010. <span>“A Verifiable Voting Protocol Based on Farnel.”</span> In <em>Towards Trustworthy Elections, New Directions in Electronic Voting</em>, edited by David Chaum, Markus Jakobsson, Ronald L. Rivest, et al., vol. 6000. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-642-12980-3\_17">https://doi.org/10.1007/978-3-642-12980-3\_17</a>.
+</div>
+<div id="ref-DBLP:conf/cans/AstriziC22" class="csl-entry" role="listitem">
+Astrizi, Thiago Leucz, and Ricardo Custódio. 2022. <span>“Redacting Blockchain Without Exposing Chameleon Hash Collisions.”</span> In <em>Cryptology and Network Security - 21st International Conference, <span>CANS</span> 2022, Dubai, United Arab Emirates, November 13-16, 2022, Proceedings</em>, edited by Alastair R. Beresford, Arpita Patra, and Emanuele Bellini, vol. 13641. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-031-20974-1\_18">https://doi.org/10.1007/978-3-031-20974-1\_18</a>.
+</div>
+<div id="ref-DBLP:journals/corr/abs-1806-00432" class="csl-entry" role="listitem">
+Banegas, Gustavo, Ricardo Felipe Custódio, and Daniel Panario. 2018a. <span>“A New Class of Irreducible Pentanomials for Polynomial Based Multipliers in Binary Fields.”</span> <em>CoRR</em> abs/1806.00432. <a href="https://doi.org/10.48550/ARXIV.1806.00432">https://doi.org/10.48550/ARXIV.1806.00432</a>.
+</div>
+<div id="ref-DBLP:journals/iacr/BanegasCP18" class="csl-entry" role="listitem">
+Banegas, Gustavo, Ricardo Felipe Custódio, and Daniel Panario. 2018b. <span>“A New Class of Irreducible Pentanomials for Polynomial Based Multipliers in Binary Fields.”</span> <em><span>IACR</span> Cryptol. ePrint Arch.</em> 2018: 554. <a href="https://eprint.iacr.org/2018/554">https://eprint.iacr.org/2018/554</a>.
+</div>
+<div id="ref-DBLP:journals/jce/BanegasCP19" class="csl-entry" role="listitem">
+Banegas, Gustavo, Ricardo Felipe Custódio, and Daniel Panario. 2019. <span>“A New Class of Irreducible Pentanomials for Polynomial-Based Multipliers in Binary Fields.”</span> <em>J. Cryptogr. Eng.</em> 9 (4): 359–73. <a href="https://doi.org/10.1007/S13389-018-0197-6">https://doi.org/10.1007/S13389-018-0197-6</a>.
+</div>
+<div id="ref-DBLP:conf/acns/BarbosaZIC25" class="csl-entry" role="listitem">
+Barbosa, João Pedro Cardoso, Gustavo Zambonin, Thaı́s Bardini Idalino, and Ricardo Felipe Custódio. 2025. <span>“From ElGamal to Lattice-Based: Enhancing Helios Voting with Quantum-Safe Cryptography.”</span> In <em>Applied Cryptography and Network Security - 23rd International Conference, <span>ACNS</span> 2025, Munich, Germany, June 23-26, 2025, Proceedings, Part <span>III</span></em>, edited by Marc Fischlin and Veelasha Moonsamy, vol. 15827. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-031-95767-3\_2">https://doi.org/10.1007/978-3-031-95767-3\_2</a>.
+</div>
+<div id="ref-DBLP:conf/cisis/BrocardoCRDT15" class="csl-entry" role="listitem">
+Brocardo, Marcelo Luiz, Ricardo Felipe Custódio, Carlos Roberto De Rolt, Julio Da Silva Dias, and Issa Traoré. 2015. <span>“Sharing Privacy Information in Credit Analysis Environment.”</span> <em>Ninth International Conference on Complex, Intelligent, and Software Intensive Systems, <span>CISIS</span> 2015, Santa Catarina, Brazil, July 8-10, 2015</em>, 491–96. <a href="https://doi.org/10.1109/CISIS.2015.72">https://doi.org/10.1109/CISIS.2015.72</a>.
+</div>
+<div id="ref-DBLP:journals/ijguc/BrocardoRDCT17" class="csl-entry" role="listitem">
+Brocardo, Marcelo Luiz, Carlos Roberto De Rolt, Julio Da Silva Dias, Ricardo Felipe Custódio, and Issa Traoré. 2017. <span>“Privacy Information in a Positive Credit System.”</span> <em>Int. J. Grid Util. Comput.</em> 8 (1): 61–69. <a href="https://doi.org/10.1504/IJGUC.2017.10003005">https://doi.org/10.1504/IJGUC.2017.10003005</a>.
+</div>
+<div id="ref-DBLP:conf/secrypt/CarlosMPC12" class="csl-entry" role="listitem">
+Carlos, Marcelo Carlomagno, Jean Everson Martina, Geraint Price, and Ricardo Felipe Custódio. 2012. <span>“A Proposed Framework for Analysing Security Ceremonies.”</span> In <em><span>SECRYPT</span> 2012 - Proceedings of the International Conference on Security and Cryptography, Rome, Italy, 24-27 July, 2012, <span>SECRYPT</span> Is Part of <span>ICETE</span> - the International Joint Conference on e-Business and Telecommunications</em>, edited by Pierangela Samarati, Wenjing Lou, and Jianying Zhou. SciTePress.
+</div>
+<div id="ref-DBLP:conf/sac/CarlosMPC13" class="csl-entry" role="listitem">
+Carlos, Marcelo Carlomagno, Jean Everson Martina, Geraint Price, and Ricardo Felipe Custódio. 2013. <span>“An Updated Threat Model for Security Ceremonies.”</span> In <em>Proceedings of the 28th Annual <span>ACM</span> Symposium on Applied Computing, <span>SAC</span> ’13, Coimbra, Portugal, March 18-22, 2013</em>, edited by Sung Y. Shin and José Carlos Maldonado. <span>ACM</span>. <a href="https://doi.org/10.1145/2480362.2480705">https://doi.org/10.1145/2480362.2480705</a>.
+</div>
+<div id="ref-DBLP:journals/access/BiageZIPC24" class="csl-entry" role="listitem">
+Castro Biage, Gustavo de, Gustavo Zambonin, Thaı́s Bardini Idalino, Daniel Panario, and Ricardo Felipe Custódio. 2024. <span>“A Concrete LIP-Based <span>KEM</span> with Simple Lattices.”</span> <em><span>IEEE</span> Access</em> 12: 16408–20. <a href="https://doi.org/10.1109/ACCESS.2024.3358670">https://doi.org/10.1109/ACCESS.2024.3358670</a>.
+</div>
+<div id="ref-DBLP:conf/lcn/CostaPVMC11" class="csl-entry" role="listitem">
+Costa, Robson, Paulo Portugal, Francisco Vasques, Ricardo de Moraes, and Ricardo Felipe Custódio. 2011. <span>“A Coordination Layer to Handle Real-Time Communication in Wi-Fi Networks with Uncontrolled Traffic Sources.”</span> In <em><span>IEEE</span> 36th Conference on Local Computer Networks, <span>LCN</span> 2011, Bonn, Germany, October 4-7, 2011</em>, edited by Chun Tung Chou, Tom Pfeifer, and Anura P. Jayasumana. <span>IEEE</span> Computer Society. <a href="https://doi.org/10.1109/LCN.2011.6115204">https://doi.org/10.1109/LCN.2011.6115204</a>.
+</div>
+<div id="ref-DBLP:phd/lareferencia/Custodio99" class="csl-entry" role="listitem">
+Custódio, Ricardo Felipe. 1999. <span>“An<span>á</span>lise n<span>ã</span>o-Linear No Reconhecimento de Padr<span>õ</span>es Sonoros : Estudo de Caso Para Sons Pulmonares.”</span> PhD thesis, Universidade Federal do Rio Grande do Sul, Brazil. <a href="http://hdl.handle.net/10183/17974">http://hdl.handle.net/10183/17974</a>.
+</div>
+<div id="ref-DBLP:conf/europki/CustodioVRPF08" class="csl-entry" role="listitem">
+Custódio, Ricardo Felipe, Martı́n Augusto Gagliotti Vigil, Juliano Romani, Fernando Carlos Pereira, and Joni da Silva Fraga. 2008. <span>“Optimized Certificates - <span>A</span> New Proposal for Efficient Electronic Document Signature Validation.”</span> In <em>Public Key Infrastructure, 5th European <span>PKI</span> Workshop: Theory and Practice, EuroPKI 2008, Trondheim, Norway, June 16-17, 2008, Proceedings</em>, edited by Stig Fr. Mjølsnes, Sjouke Mauw, and Sokratis K. Katsikas, vol. 5057. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-540-69485-4\_4">https://doi.org/10.1007/978-3-540-69485-4\_4</a>.
+</div>
+<div id="ref-DBLP:conf/icsenst/CustodioSSNB013" class="csl-entry" role="listitem">
+Custódio, Ricardo, Ricardo M. Silva, Jorge Sá Silva, David Nunes, Fernando Boavida, and Carlos Herrera. 2013. <span>“<span><span class="math inline">\(\mu\)</span></span>Mobile IPv6 in Wireless Sensor Networks.”</span> <em>Seventh International Conference on Sensing Technology, <span>ICST</span> 2013, Wellington, New Zealand, December 3-5, 2013</em>, 719–24. <a href="https://doi.org/10.1109/ICSENST.2013.6727747">https://doi.org/10.1109/ICSENST.2013.6727747</a>.
+</div>
+<div id="ref-DBLP:conf/lanoms/DiasDCR03" class="csl-entry" role="listitem">
+Dias, Júlio S., Denise B. Demétrio, Ricardo Felipe Custódio, and Carlos Roberto De Rolt. 2003. <span>“Reliable Clock Synchronization for Eletronic Documents.”</span> In <em>3rd Latin American Network Operations and Management Symposium, <span>LANOMS</span> 2003, Iguassu Falls, Brazil, September 4-6, 2003. Proceedings</em>, edited by Elias Procópio Duarte Jr. and Edmundo R. M. Madeira. Federal University of Parana. <a href="http://www.lanoms.org/2005/anaiscd/2003/1-2.pdf">http://www.lanoms.org/2005/anaiscd/2003/1-2.pdf</a>.
+</div>
+<div id="ref-DBLP:journals/jce/GironCR23" class="csl-entry" role="listitem">
+Giron, Alexandre Augusto, Ricardo Custódio, and Francisco Rodrı́guez-Henrı́quez. 2023. <span>“Post-Quantum Hybrid Key Exchange: A Systematic Mapping Study.”</span> <em>J. Cryptogr. Eng.</em> 13 (1): 71–88. <a href="https://doi.org/10.1007/S13389-022-00288-9">https://doi.org/10.1007/S13389-022-00288-9</a>.
+</div>
+<div id="ref-DBLP:conf/acns/GironMC20" class="csl-entry" role="listitem">
+Giron, Alexandre Augusto, Jean Everson Martina, and Ricardo Felipe Custódio. 2020. <span>“Bitcoin Blockchain Steganographic Analysis.”</span> In <em>Applied Cryptography and Network Security Workshops - <span>ACNS</span> 2020 Satellite Workshops, AIBlock, AIHWS, AIoTS, Cloud s<span>&amp;</span>p, SCI, SecMT, and SiMLA, Rome, Italy, October 19-22, 2020, Proceedings</em>, edited by Jianying Zhou, Mauro Conti, Chuadhry Mujeeb Ahmed, et al., vol. 12418. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-030-61638-0\_3">https://doi.org/10.1007/978-3-030-61638-0\_3</a>.
+</div>
+<div id="ref-DBLP:journals/sensors/GironMC21" class="csl-entry" role="listitem">
+Giron, Alexandre Augusto, Jean Everson Martina, and Ricardo Felipe Custódio. 2021. <span>“Steganographic Analysis of Blockchains.”</span> <em>Sensors</em> 21 (12): 4078. <a href="https://doi.org/10.3390/S21124078">https://doi.org/10.3390/S21124078</a>.
+</div>
+<div id="ref-DBLP:journals/iacr/GironNCP22" class="csl-entry" role="listitem">
+Giron, Alexandre Augusto, João Pedro Adami do Nascimento, Ricardo Custódio, and Lucas Pandolfo Perin. 2022. <span>“Post-Quantum Hybrid <span>KEMTLS</span> Performance in Simulated and Real Network Environments.”</span> <em><span>IACR</span> Cryptol. ePrint Arch.</em> 2022: 1639. <a href="https://eprint.iacr.org/2022/1639">https://eprint.iacr.org/2022/1639</a>.
+</div>
+<div id="ref-DBLP:conf/latincrypt/GironNCPM23" class="csl-entry" role="listitem">
+Giron, Alexandre Augusto, João Pedro Adami do Nascimento, Ricardo Custódio, Lucas Pandolfo Perin, and Vı́ctor Mateu. 2023. <span>“Post-Quantum Hybrid <span>KEMTLS</span> Performance in Simulated and Real Network Environments.”</span> In <em>Progress in Cryptology - <span>LATINCRYPT</span> 2023 - 8th International Conference on Cryptology and Information Security in Latin America, <span>LATINCRYPT</span> 2023, Quito, Ecuador, October 3-6, 2023, Proceedings</em>, edited by Abdelrahaman Aly and Mehdi Tibouchi, vol. 14168. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-031-44469-2\_15">https://doi.org/10.1007/978-3-031-44469-2\_15</a>.
+</div>
+<div id="ref-DBLP:journals/iacr/GironSPCVM23" class="csl-entry" role="listitem">
+Giron, Alexandre Augusto, Frederico Schardong, Lucas Pandolfo Perin, Ricardo Custódio, Victor Valle, and Vı́ctor Mateu. 2023. <span>“Automated Issuance of Post-Quantum Certificates: A New Challenge.”</span> <em><span>IACR</span> Cryptol. ePrint Arch.</em> 2023: 1921. <a href="https://eprint.iacr.org/2023/1921">https://eprint.iacr.org/2023/1921</a>.
+</div>
+<div id="ref-DBLP:conf/acns/GironSPCVM24" class="csl-entry" role="listitem">
+Giron, Alexandre Augusto, Frederico Schardong, Lucas Pandolfo Perin, Ricardo Custódio, Victor Valle, and Vı́ctor Mateu. 2024. <span>“Automated Issuance of Post-Quantum Certificates: <span>A</span> New Challenge.”</span> In <em>Applied Cryptography and Network Security - 22nd International Conference, <span>ACNS</span> 2024, Abu Dhabi, United Arab Emirates, March 5-8, 2024, Proceedings, Part <span>II</span></em>, edited by Christina Pöpper and Lejla Batina, vol. 14584. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-031-54773-7\_1">https://doi.org/10.1007/978-3-031-54773-7\_1</a>.
+</div>
+<div id="ref-DBLP:journals/corr/abs-2408-11195" class="csl-entry" role="listitem">
+Guimarães, Marcelo Ferreira, Carlos Antônio Sell, Renato Parenti Turcato, Carlos Henrique Assuiti, Ricardo Custódio, and Ricardo Antônio Pralon Santos. 2024. <span>“Proposal of an Electronic Auditing System Applied to the Brazilian Electronic Voting Machine.”</span> <em>CoRR</em> abs/2408.11195. <a href="https://doi.org/10.48550/ARXIV.2408.11195">https://doi.org/10.48550/ARXIV.2408.11195</a>.
+</div>
+<div id="ref-DBLP:journals/ipl/IdalinoMCP15" class="csl-entry" role="listitem">
+Idalino, Thaı́s Bardini, Lucia Moura, Ricardo Felipe Custódio, and Daniel Panario. 2015. <span>“Locating Modifications in Signed Data for Partial Data Integrity.”</span> <em>Inf. Process. Lett.</em> 115 (10): 731–37. <a href="https://doi.org/10.1016/J.IPL.2015.02.014">https://doi.org/10.1016/J.IPL.2015.02.014</a>.
+</div>
+<div id="ref-DBLP:journals/corr/abs-2208-01411" class="csl-entry" role="listitem">
+Idalino, Thaı́s Bardini, Lucia Moura, Ricardo Felipe Custódio, and Daniel Panario. 2022. <span>“Locating Modifications in Signed Data for Partial Data Integrity.”</span> <em>CoRR</em> abs/2208.01411. <a href="https://doi.org/10.48550/ARXIV.2208.01411">https://doi.org/10.48550/ARXIV.2208.01411</a>.
+</div>
+<div id="ref-DBLP:journals/jce/MarchioriCPM24" class="csl-entry" role="listitem">
+Marchiori, Dúnia, Ricardo Custódio, Daniel Panario, and Lucia Moura. 2024. <span>“Probabilistic Root Finding in Code-Based Cryptography.”</span> <em>J. Cryptogr. Eng.</em> 14 (1): 71–85. <a href="https://doi.org/10.1007/S13389-023-00329-X">https://doi.org/10.1007/S13389-023-00329-X</a>.
+</div>
+<div id="ref-DBLP:journals/ijisec/MartinaSCPC15" class="csl-entry" role="listitem">
+Martina, Jean Everson, Eduardo dos Santos, Marcelo Carlomagno Carlos, Geraint Price, and Ricardo Felipe Custódio. 2015. <span>“An Adaptive Threat Model for Security Ceremonies.”</span> <em>Int. J. Inf. Sec.</em> 14 (2): 103–21. <a href="https://doi.org/10.1007/S10207-014-0253-X">https://doi.org/10.1007/S10207-014-0253-X</a>.
+</div>
+<div id="ref-DBLP:conf/europki/MartinaSC07" class="csl-entry" role="listitem">
+Martina, Jean Everson, Túlio Cicero Salvaro de Souza, and Ricardo Felipe Custódio. 2007. <span>“OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure’s Hardware Security Modules.”</span> In <em>Public Key Infrastructure, 4th European <span>PKI</span> Workshop: Theory and Practice, EuroPKI 2007, Palma de Mallorca, Spain, June 28-30, 2007, Proceedings</em>, edited by Javier López, Pierangela Samarati, and Josep L. Ferrer, vol. 4582. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-540-73408-6\_16">https://doi.org/10.1007/978-3-540-73408-6\_16</a>.
+</div>
+<div id="ref-DBLP:conf/cse/MartinaSC09" class="csl-entry" role="listitem">
+Martina, Jean Everson, Túlio Cicero Salvaro de Souza, and Ricardo Felipe Custódio. 2009. <span>“Ceremonies Formal Analysis in PKI’s Context.”</span> <em>Proceedings of the 12th <span>IEEE</span> International Conference on Computational Science and Engineering, <span>CSE</span> 2009, Vancouver, BC, Canada, August 29-31, 2009</em>, 392–98. <a href="https://doi.org/10.1109/CSE.2009.324">https://doi.org/10.1109/CSE.2009.324</a>.
+</div>
+<div id="ref-DBLP:journals/iacr/MartinsBC19" class="csl-entry" role="listitem">
+Martins, Douglas Marcelino Beppler, Gustavo Banegas, and Ricardo Felipe Custódio. 2019a. <em><span>IACR</span> Cryptol. ePrint Arch.</em> 2019: 797. <a href="https://eprint.iacr.org/2019/797">https://eprint.iacr.org/2019/797</a>.
+</div>
+<div id="ref-DBLP:conf/latincrypt/MartinsBC19" class="csl-entry" role="listitem">
+Martins, Douglas Marcelino Beppler, Gustavo Banegas, and Ricardo Felipe Custódio. 2019b. <span>“Don’t Forget Your Roots: Constant-Time Root Finding over <span>\</span>Mathbb f<span>_</span>2<span>^</span>m <span>F</span> 2 m.”</span> In <em>Progress in Cryptology - <span>LATINCRYPT</span> 2019 - 6th International Conference on Cryptology and Information Security in Latin America, Santiago de Chile, Chile, October 2-4, 2019, Proceedings</em>, edited by Peter Schwabe and Nicolas Thériault, vol. 11774. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-030-30530-7\_6">https://doi.org/10.1007/978-3-030-30530-7\_6</a>.
+</div>
+<div id="ref-DBLP:journals/iacr/MayrFPC26" class="csl-entry" role="listitem">
+Mayr, Lucas, João Gabriel Feres, Bruno Bianchi Pagani, and Ricardo Custódio. 2026. <span>“Anamorphic Construction for the Winternitz <span>OTS</span> Scheme Family.”</span> <em><span>IACR</span> Cryptol. ePrint Arch.</em> 2026: 948. <a href="https://eprint.iacr.org/2026/948">https://eprint.iacr.org/2026/948</a>.
+</div>
+<div id="ref-DBLP:journals/information/MayrPZSC23" class="csl-entry" role="listitem">
+Mayr, Lucas, Lucas M. Palma, Gustavo Zambonin, Wellington Silvano, and Ricardo Custódio. 2023. <span>“Monitoring Key Pair Usage Through Distributed Ledgers and One-Time Signatures.”</span> <em>Inf.</em> 14 (10): 523. <a href="https://doi.org/10.3390/INFO14100523">https://doi.org/10.3390/INFO14100523</a>.
+</div>
+<div id="ref-DBLP:journals/corr/abs-2208-03951" class="csl-entry" role="listitem">
+Mayr, Lucas, Frederico Schardong, and Ricardo Felipe Custódio. 2022. <span>“Simplifying Electronic Document Digital Signatures.”</span> <em>CoRR</em> abs/2208.03951. <a href="https://doi.org/10.48550/ARXIV.2208.03951">https://doi.org/10.48550/ARXIV.2208.03951</a>.
+</div>
+<div id="ref-DBLP:journals/ejwcn/MoraesPVC10" class="csl-entry" role="listitem">
+Moraes, Ricardo de, Paulo Portugal, Francisco Vasques, and Ricardo Felipe Custódio. 2010. <span>“Assessment of the <span>IEEE</span> 802.11e <span>EDCA</span> Protocol Limitations When Dealing with Real-Time Communication.”</span> <em><span>EURASIP</span> J. Wirel. Commun. Netw.</em> 2010. <a href="https://doi.org/10.1155/2010/351480">https://doi.org/10.1155/2010/351480</a>.
+</div>
+<div id="ref-DBLP:journals/ipl/NiehuesCP18" class="csl-entry" role="listitem">
+Niehues, Lucas Boppre, Ricardo Felipe Custódio, and Daniel Panario. 2018. <span>“Fast Modular Reduction and Squaring in <em>GF</em>(2<span class="math inline">\({}^{\mbox{\emph{m}}}\)</span>).”</span> <em>Inf. Process. Lett.</em> 132: 33–38. <a href="https://doi.org/10.1016/J.IPL.2017.12.002">https://doi.org/10.1016/J.IPL.2017.12.002</a>.
+</div>
+<div id="ref-DBLP:conf/aina/PereiraFC08" class="csl-entry" role="listitem">
+Pereira, Fernando Carlos, Joni da Silva Fraga, and Ricardo Felipe Custódio. 2008. <span>“Self-Adaptable and Intrusion Tolerant Certificate Authority for Mobile Ad Hoc Networks.”</span> <em>22nd International Conference on Advanced Information Networking and Applications, <span>AINA</span> 2008, GinoWan, Okinawa, Japan, March 25-28, 2008</em>, 705–12. <a href="https://doi.org/10.1109/AINA.2008.141">https://doi.org/10.1109/AINA.2008.141</a>.
+</div>
+<div id="ref-DBLP:journals/jce/PerinZCMP21" class="csl-entry" role="listitem">
+Perin, Lucas Pandolfo, Gustavo Zambonin, Ricardo Felipe Custódio, Lucia Moura, and Daniel Panario. 2021. <span>“Improved Constant-Sum Encodings for Hash-Based Signatures.”</span> <em>J. Cryptogr. Eng.</em> 11 (4): 329–51. <a href="https://doi.org/10.1007/S13389-021-00264-9">https://doi.org/10.1007/S13389-021-00264-9</a>.
+</div>
+<div id="ref-DBLP:conf/iscc/PerinZMCM18" class="csl-entry" role="listitem">
+Perin, Lucas Pandolfo, Gustavo Zambonin, Douglas Marcelino Beppler Martins, Ricardo Felipe Custódio, and Jean Everson Martina. 2018. <span>“Tuning the Winternitz Hash-Based Digital Signature Scheme.”</span> <em>2018 <span>IEEE</span> Symposium on Computers and Communications, <span>ISCC</span> 2018, Natal, Brazil, June 25-28, 2018</em>, 537–42. <a href="https://doi.org/10.1109/ISCC.2018.8538642">https://doi.org/10.1109/ISCC.2018.8538642</a>.
+</div>
+<div id="ref-DBLP:conf/europki/RamosSLKC10" class="csl-entry" role="listitem">
+Ramos, Thiago Acórdi, Nelson da Silva, Lau Cheuk Lung, Jonathan Gehard Kohler, and Ricardo Felipe Custódio. 2010. <span>“An Infrastructure for Long-Term Archiving of Authenticated and Sensitive Electronic Documents.”</span> In <em>Public Key Infrastructures, Services and Applications - 7th European Workshop, EuroPKI 2010, Athens, Greece, September 23-24, 2010. Revised Selected Papers</em>, edited by Jan Camenisch and Costas Lambrinoudakis, vol. 6711. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-642-22633-5\_14">https://doi.org/10.1007/978-3-642-22633-5\_14</a>.
+</div>
+<div id="ref-DBLP:conf/trustcom/SantosMC12" class="csl-entry" role="listitem">
+Santos, Eduardo dos, Jean Everson Martina, and Ricardo Felipe Custódio. 2012. <span>“Towards a Formal Verification of a Multi-Factor Authentication Protocol Using Automated Theorem Provers.”</span> In <em>11th <span>IEEE</span> International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom 2012, Liverpool, United Kingdom, June 25-27, 2012</em>, edited by Geyong Min, Yulei Wu, Lei (Chris) Liu, Xiaolong Jin, Stephen A. Jarvis, and Ahmed Yassin Al-Dubai. <span>IEEE</span> Computer Society. <a href="https://doi.org/10.1109/TRUSTCOM.2012.278">https://doi.org/10.1109/TRUSTCOM.2012.278</a>.
+</div>
+<div id="ref-DBLP:journals/sensors/SchardongC22" class="csl-entry" role="listitem">
+Schardong, Frederico, and Ricardo Custódio. 2022. <span>“Self-Sovereign Identity: <span>A</span> Systematic Review, Mapping and Taxonomy.”</span> <em>Sensors</em> 22 (15): 5641. <a href="https://doi.org/10.3390/S22155641">https://doi.org/10.3390/S22155641</a>.
+</div>
+<div id="ref-DBLP:conf/sac/SchardongC24" class="csl-entry" role="listitem">
+Schardong, Frederico, and Ricardo Custódio. 2024a. <span>“From Self-Sovereign Identity to Fiduciary Identity: <span>A</span> Journey Towards Greater User Privacy and Usability.”</span> In <em>Proceedings of the 39th <span>ACM/SIGAPP</span> Symposium on Applied Computing, <span>SAC</span> 2024, Avila, Spain, April 8-12, 2024</em>, edited by Jiman Hong, Juw Won Park, and Adam Przybylek. <span>ACM</span>. <a href="https://doi.org/10.1145/3605098.3636061">https://doi.org/10.1145/3605098.3636061</a>.
+</div>
+<div id="ref-DBLP:conf/er/SchardongC24" class="csl-entry" role="listitem">
+Schardong, Frederico, and Ricardo Custódio. 2024b. <span>“The Role-Artifact-Function Framework for Understanding Digital Identity Models.”</span> In <em>Conceptual Modeling - 43rd International Conference, <span>ER</span> 2024, Pittsburgh, PA, USA, October 28-31, 2024, Proceedings</em>, edited by Wolfgang Maass, Hyoil Han, Hasan Yasar, and Nicholas J. Multari, vol. 15238. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-031-75872-0\_20">https://doi.org/10.1007/978-3-031-75872-0\_20</a>.
+</div>
+<div id="ref-DBLP:journals/corr/abs-2108-08338" class="csl-entry" role="listitem">
+Schardong, Frederico, and Ricardo Felipe Custódio. 2021. <span>“Self-Sovereign Identity: <span>A</span> Systematic Map and Review.”</span> <em>CoRR</em> abs/2108.08338. <a href="https://doi.org/10.48550/ARXIV.2108.08338">https://doi.org/10.48550/ARXIV.2108.08338</a>.
+</div>
+<div id="ref-DBLP:conf/bpm/SchardongCPM21" class="csl-entry" role="listitem">
+Schardong, Frederico, Ricardo Felipe Custódio, Laércio Pioli, and João Vicente Meyer. 2021. <span>“Matching Metadata on Blockchain for Self-Sovereign Identity.”</span> In <em>Business Process Management Workshops - <span>BPM</span> 2021 International Workshops, Rome, Italy, September 6-10, 2021, Revised Selected Papers</em>, edited by Andrea Marrella and Barbara Weber, vol. 436. Lecture Notes in Business Information Processing. Springer. <a href="https://doi.org/10.1007/978-3-030-94343-1\_32">https://doi.org/10.1007/978-3-030-94343-1\_32</a>.
+</div>
+<div id="ref-DBLP:conf/cans/SchardongGMC22" class="csl-entry" role="listitem">
+Schardong, Frederico, Alexandre Augusto Giron, Fernanda Larisa Müller, and Ricardo Custódio. 2022. <span>“Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era.”</span> In <em>Cryptology and Network Security - 21st International Conference, <span>CANS</span> 2022, Dubai, United Arab Emirates, November 13-16, 2022, Proceedings</em>, edited by Alastair R. Beresford, Arpita Patra, and Emanuele Bellini, vol. 13641. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-031-20974-1\_20">https://doi.org/10.1007/978-3-031-20974-1\_20</a>.
+</div>
+<div id="ref-DBLP:conf/etfa/SemprebomMMVC09" class="csl-entry" role="listitem">
+Semprebom, Tiago, Carlos Montez, Ricardo de Moraes, Francisco Vasques, and Ricardo Felipe Custódio. 2009. <span>“Distributed <span>DBP:</span> <span>A</span> (m, k)-Firm Based Distributed Approach for QoS Provision in <span>IEEE</span> 802.15.4 Networks.”</span> <em>Proceedings of 12th <span>IEEE</span> International Conference on Emerging Technologies and Factory Automation, <span>ETFA</span> 2009, September 22-25, 2008, Palma de Mallorca, Spain</em>, 1–8. <a href="https://doi.org/10.1109/ETFA.2009.5347094">https://doi.org/10.1109/ETFA.2009.5347094</a>.
+</div>
+<div id="ref-DBLP:conf/micai/SilvanoKC25a" class="csl-entry" role="listitem">
+Silvano, Wellington Fernandes, Maurı́cio Konrath, and Ricardo Felipe Custódio. 2025a. <span>“Limits and Surprises of Cross-Lingual <span>BERT</span> Under Data Scarcity: <span>A</span> Portuguese Case Study in Sensitive-Text Classification.”</span> In <em>Advances in Soft Computing - 24th Mexican International Conference on Artificial Intelligence, <span>MICAI</span> 2025, Guanajuato, Mexico, November 3, 2025, Proceedings, Part <span>II</span></em>, edited by Lourdes Martı́nez-Villaseñor, Roberto Antonio Vázquez, and Gilberto Ochoa-Ruiz, vol. 16222. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-032-09044-7\_15">https://doi.org/10.1007/978-3-032-09044-7\_15</a>.
+</div>
+<div id="ref-DBLP:conf/micai/SilvanoKC25" class="csl-entry" role="listitem">
+Silvano, Wellington Fernandes, Maurı́cio Konrath, and Ricardo Felipe Custódio. 2025b. <span>“Rethinking <span>GAN-BERT</span> for Sensitive Text Classification: The Impact of Training Dynamics and Domain Alignment in Low-Data Scenarios.”</span> In <em>Advances in Soft Computing - 24th Mexican International Conference on Artificial Intelligence, <span>MICAI</span> 2025, Guanajuato, Mexico, November 3, 2025, Proceedings, Part <span>II</span></em>, edited by Lourdes Martı́nez-Villaseñor, Roberto Antonio Vázquez, and Gilberto Ochoa-Ruiz, vol. 16222. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-032-09044-7\_14">https://doi.org/10.1007/978-3-032-09044-7\_14</a>.
+</div>
+<div id="ref-DBLP:conf/iciss/SilvanoKMC25" class="csl-entry" role="listitem">
+Silvano, Wellington Fernandes, Maurı́cio Konrath, Lucas Mayr, and Ricardo Felipe Custódio. 2025. <span>“Automation and Risk: Transformers Models Reshape Sensitive Information Management.”</span> In <em>Information Systems Security - 21st International Conference, <span>ICISS</span> 2025, Indore, India, December 16-20, 2025, Proceedings</em>, edited by Neminath Hubballi, Rakesh M. Verma, and Shyamasundar Rudrapatna K., vol. 16380. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-032-13714-2\_7">https://doi.org/10.1007/978-3-032-13714-2\_7</a>.
+</div>
+<div id="ref-DBLP:journals/jbcs/SilvanoMBCSC26" class="csl-entry" role="listitem">
+Silvano, Wellington Fernandes, Lucas Mayr, Enzo Brum, Gabriel Cabral, Frederico Schardong, and Ricardo Custódio. 2026. <span>“Redefining Digital Web Signature Secrecy: <span>A</span> Client-Side Model for Enhanced Security and Compliance.”</span> <em>J. Braz. Comput. Soc.</em> 32 (1): 888–905. <a href="https://doi.org/10.5753/JBCS.2026.5556">https://doi.org/10.5753/JBCS.2026.5556</a>.
+</div>
+<div id="ref-DBLP:conf/trustcom/SouzaLC13" class="csl-entry" role="listitem">
+Souza, Rick Lopes de, Lau Cheuk Lung, and Ricardo Felipe Custódio. 2013. <span>“Multi-Factor Authentication in Key Management Systems.”</span> <em>12th <span>IEEE</span> International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom 2013 / 11th <span>IEEE</span> International Symposium on Parallel and Distributed Processing with Applications, <span>ISPA-13</span> / 12th <span>IEEE</span> International Conference on Ubiquitous Computing and Communications, IUCC-2013, Melbourne, Australia, July 16-18, 2013</em>, 746–52. <a href="https://doi.org/10.1109/TRUSTCOM.2013.90">https://doi.org/10.1109/TRUSTCOM.2013.90</a>.
+</div>
+<div id="ref-DBLP:conf/iscc/SouzaVCCMP18" class="csl-entry" role="listitem">
+Souza, Rick Lopes de, Martı́n Augusto Gagliotti Vigil, Ricardo Felipe Custódio, Florian Caullery, Lucia Moura, and Daniel Panario. 2018. <span>“Secret Sharing Schemes with Hidden Sets.”</span> <em>2018 <span>IEEE</span> Symposium on Computers and Communications, <span>ISCC</span> 2018, Natal, Brazil, June 25-28, 2018</em>, 713–18. <a href="https://doi.org/10.1109/ISCC.2018.8538542">https://doi.org/10.1109/ISCC.2018.8538542</a>.
+</div>
+<div id="ref-DBLP:conf/idtrust/SouzaMC08" class="csl-entry" role="listitem">
+Souza, Túlio Cicero Salvaro de, Jean Everson Martina, and Ricardo Felipe Custódio. 2008. <span>“Audit and Backup Procedures for Hardware Security Modules.”</span> In <em>IDtrust 2008, Proceedings of the 7th Symposium on Identity and Trust on the Internet, March 4-6, 2008, Gaithersburg, Maryland, <span>USA</span></em>, edited by Kent E. Seamons, Neal McBurnett, and Tim Polk, vol. 283. <span>ACM</span> International Conference Proceeding Series. <span>ACM</span>. <a href="https://doi.org/10.1145/1373290.1373302">https://doi.org/10.1145/1373290.1373302</a>.
+</div>
+<div id="ref-DBLP:conf/cbms/ValeSBC22" class="csl-entry" role="listitem">
+Vale, Chiarelli Araújo, Frederico Schardong, Maurı́cio de Vasconcelos Barros, and Ricardo Custódio. 2022. <span>“Touchless Authentication for Health Professionals: Analyzing the Risks and Proposing Alternatives to Dirty Interfaces.”</span> In <em>35th <span>IEEE</span> International Symposium on Computer-Based Medical Systems, <span>CBMS</span> 2022, Shenzen, China, July 21-23, 2022</em>, edited by Linlin Shen, Alejandro Rodrı́guez González, KC Santosh, et al. <span>IEEE</span>. <a href="https://doi.org/10.1109/CBMS55023.2022.00088">https://doi.org/10.1109/CBMS55023.2022.00088</a>.
+</div>
+<div id="ref-DBLP:journals/corr/abs-2202-09207" class="csl-entry" role="listitem">
+Vasconcelos Barros, Maurı́cio de, Frederico Schardong, and Ricardo Felipe Custódio. 2022. <span>“Leveraging Self-Sovereign Identity, Blockchain, and Zero-Knowledge Proof to Build a Privacy-Preserving Vaccination Pass.”</span> <em>CoRR</em> abs/2202.09207. <a href="https://doi.org/10.48550/ARXIV.2202.09207">https://doi.org/10.48550/ARXIV.2202.09207</a>.
+</div>
+<div id="ref-DBLP:conf/europki/VigilMCV12" class="csl-entry" role="listitem">
+Vigil, Martı́n Augusto Gagliotti, Cristian Thiago Moecke, Ricardo Felipe Custódio, and Melanie Volkamer. 2012. <span>“The Notary Based <span>PKI</span> - <span>A</span> Lightweight <span>PKI</span> for Long-Term Signatures on Documents.”</span> In <em>Public Key Infrastructures, Services and Applications - 9th European Workshop, EuroPKI 2012, Pisa, Italy, September 13-14, 2012, Revised Selected Papers</em>, edited by Sabrina De Capitani di Vimercati and Chris J. Mitchell, vol. 7868. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-642-40012-4\_6">https://doi.org/10.1007/978-3-642-40012-4\_6</a>.
+</div>
+<div id="ref-DBLP:conf/europki/WerlangCV13" class="csl-entry" role="listitem">
+Werlang, Felipe Carlos, Ricardo Felipe Custódio, and Martı́n Augusto Gagliotti Vigil. 2013. <span>“A User-Centric Digital Signature Scheme.”</span> In <em>Public Key Infrastructures, Services and Applications - 10th European Workshop, EuroPKI 2013, Egham, UK, September 12-13, 2013, Revised Selected Papers</em>, edited by Sokratis K. Katsikas and Isaac Agudo, vol. 8341. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-642-53997-8\_10">https://doi.org/10.1007/978-3-642-53997-8\_10</a>.
+</div>
+<div id="ref-DBLP:conf/africacrypt/ZamboninBC19" class="csl-entry" role="listitem">
+Zambonin, Gustavo, Matheus S. P. Bittencourt, and Ricardo Felipe Custódio. 2019. <span>“Handling Vinegar Variables to Shorten Rainbow Key Pairs.”</span> In <em>Progress in Cryptology - <span>AFRICACRYPT</span> 2019 - 11th International Conference on Cryptology in Africa, Rabat, Morocco, July 9-11, 2019, Proceedings</em>, edited by Johannes Buchmann, Abderrahmane Nitaj, and Tajje-eddine Rachidi, vol. 11627. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-030-23696-0\_20">https://doi.org/10.1007/978-3-030-23696-0\_20</a>.
+</div>
+<div id="ref-DBLP:conf/iwoca/ZamboninRCP26" class="csl-entry" role="listitem">
+Zambonin, Gustavo, Larissa Gremelmaier Rosa, Ricardo Custódio, and Daniel Panario. 2026. <span>“Cryptographic Applications of Combinatorial Ranking for Integer Compositions.”</span> In <em>Combinatorial Algorithms - 37th International Workshop, <span>IWOCA</span> 2026, Clermont-Ferrand, France, June 8-11, 2026, Proceedings</em>, edited by Florent Foucaud and Aline Parreau, vol. 16587. Lecture Notes in Computer Science. Springer. <a href="https://doi.org/10.1007/978-3-032-27732-9\_36">https://doi.org/10.1007/978-3-032-27732-9\_36</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

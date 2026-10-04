@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Research areas and current scientific directions of Ricardo Custódio.">
 
 <title>Research – Ricardo Custódio</title>
 <style>
@@ -78,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -330,8 +360,33 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Research areas</h2>
+   
+  <ul>
+  <li><a href="#research-foundations" id="toc-research-foundations" class="nav-link active" data-scroll-target="#research-foundations">Research Foundations</a>
+  <ul class="collapse">
+  <li><a href="#cryptography" id="toc-cryptography" class="nav-link" data-scroll-target="#cryptography">Cryptography</a></li>
+  <li><a href="#finite-field-arithmetic" id="toc-finite-field-arithmetic" class="nav-link" data-scroll-target="#finite-field-arithmetic">Finite-Field Arithmetic</a></li>
+  </ul></li>
+  <li><a href="#digital-trust" id="toc-digital-trust" class="nav-link" data-scroll-target="#digital-trust">Digital Trust</a>
+  <ul class="collapse">
+  <li><a href="#digital-signatures" id="toc-digital-signatures" class="nav-link" data-scroll-target="#digital-signatures">Digital Signatures</a></li>
+  <li><a href="#public-key-infrastructure" id="toc-public-key-infrastructure" class="nav-link" data-scroll-target="#public-key-infrastructure">Public Key Infrastructure</a></li>
+  <li><a href="#digital-identity" id="toc-digital-identity" class="nav-link" data-scroll-target="#digital-identity">Digital Identity</a></li>
+  <li><a href="#electronic-documents" id="toc-electronic-documents" class="nav-link" data-scroll-target="#electronic-documents">Electronic Documents</a></li>
+  </ul></li>
+  <li><a href="#emerging-directions" id="toc-emerging-directions" class="nav-link" data-scroll-target="#emerging-directions">Emerging Directions</a>
+  <ul class="collapse">
+  <li><a href="#post-quantum-cryptography" id="toc-post-quantum-cryptography" class="nav-link" data-scroll-target="#post-quantum-cryptography">Post-Quantum Cryptography</a></li>
+  <li><a href="#artificial-intelligence-security" id="toc-artificial-intelligence-security" class="nav-link" data-scroll-target="#artificial-intelligence-security">Artificial Intelligence &amp; Security</a></li>
+  </ul></li>
+  <li><a href="#current-research-questions" id="toc-current-research-questions" class="nav-link" data-scroll-target="#current-research-questions">Current Research Questions</a></li>
+  <li><a href="#research-philosophy" id="toc-research-philosophy" class="nav-link" data-scroll-target="#research-philosophy">Research Philosophy</a></li>
+  <li><a href="#related-resources" id="toc-related-resources" class="nav-link" data-scroll-target="#related-resources">Related Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -342,6 +397,11 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Research</h1>
 </div>
 
+<div>
+  <div class="description">
+    Research areas and current scientific directions of Ricardo Custódio.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -356,9 +416,102 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Research activities and research interests of Ricardo Custódio.</p>
+<p>My research investigates the foundations, mechanisms and infrastructures required to establish <strong>security and trust in digital environments</strong>.</p>
+<p>It spans a spectrum from cryptographic and mathematical foundations to large-scale digital trust infrastructures, with increasing attention to the challenges introduced by post-quantum cryptography and autonomous artificial-intelligence agents.</p>
+<section id="research-foundations" class="level2">
+<h2 class="anchored" data-anchor-id="research-foundations">Research Foundations</h2>
+<section id="cryptography" class="level3">
+<h3 class="anchored" data-anchor-id="cryptography">Cryptography</h3>
+<p>My work in cryptography includes cryptographic algorithms and protocols, security mechanisms, key management, digital signatures and the design and analysis of cryptographic systems.</p>
+<p>A recurring objective is to connect cryptographic constructions with their practical use in secure computing infrastructures.</p>
+</section>
+<section id="finite-field-arithmetic" class="level3">
+<h3 class="anchored" data-anchor-id="finite-field-arithmetic">Finite-Field Arithmetic</h3>
+<p>Efficient arithmetic over finite fields is an important component of many cryptographic systems.</p>
+<p>My research includes arithmetic over binary extension fields, particularly efficient polynomial multiplication, squaring and modular reduction in <span class="math inline">\(\mathrm{GF}(2^m)\)</span>.</p>
+<p>Current work investigates structured families of irreducible polynomials and methods for reducing the computational complexity of finite-field arithmetic.</p>
+</section>
+</section>
+<section id="digital-trust" class="level2">
+<h2 class="anchored" data-anchor-id="digital-trust">Digital Trust</h2>
+<section id="digital-signatures" class="level3">
+<h3 class="anchored" data-anchor-id="digital-signatures">Digital Signatures</h3>
+<p>Digital signatures have been one of the central themes of my research.</p>
+<p>My work addresses signature mechanisms, signature systems, cryptographic key management, certification, validation and the long-term trustworthiness of digitally signed information.</p>
+<p>A particular interest is the complete lifecycle of digital signatures, from identity establishment and key generation to long-term validation and preservation.</p>
+</section>
+<section id="public-key-infrastructure" class="level3">
+<h3 class="anchored" data-anchor-id="public-key-infrastructure">Public Key Infrastructure</h3>
+<p>My research on Public Key Infrastructure (PKI) investigates the technologies, protocols and trust models required to establish cryptographic identities and trustworthy digital transactions.</p>
+<p>This work includes digital certificates, certification authorities, key management, certificate lifecycle management and the integration of PKI with real-world information systems.</p>
+</section>
+<section id="digital-identity" class="level3">
+<h3 class="anchored" data-anchor-id="digital-identity">Digital Identity</h3>
+<p>Digital identity has progressively become a major component of my research.</p>
+<p>Topics include authentication, authorization, identity federation, OpenID Connect, OAuth, electronic identity and verifiable credentials.</p>
+<p>A central question is how identity attributes and credentials can be represented, verified and used while maintaining security, privacy, interoperability and user control.</p>
+</section>
+<section id="electronic-documents" class="level3">
+<h3 class="anchored" data-anchor-id="electronic-documents">Electronic Documents</h3>
+<p>My research on electronic documents investigates how documents can remain authentic, verifiable and trustworthy throughout their lifecycle.</p>
+<p>This includes digital signatures, document formats, validation evidence, trusted timestamps and long-term digital preservation.</p>
+<p>The objective is not merely to protect a file, but to preserve the ability to establish the authenticity and integrity of a digital document over long periods of time.</p>
+</section>
+</section>
+<section id="emerging-directions" class="level2">
+<h2 class="anchored" data-anchor-id="emerging-directions">Emerging Directions</h2>
+<section id="post-quantum-cryptography" class="level3">
+<h3 class="anchored" data-anchor-id="post-quantum-cryptography">Post-Quantum Cryptography</h3>
+<p>The transition to post-quantum cryptography creates new challenges for digital signatures, PKI, network protocols and long-lived digital documents.</p>
+<p>My research investigates post-quantum cryptographic mechanisms and their integration into existing security infrastructures.</p>
+<p>Particular interests include post-quantum signatures, hybrid cryptographic systems, migration strategies and crypto-agility.</p>
+</section>
+<section id="artificial-intelligence-security" class="level3">
+<h3 class="anchored" data-anchor-id="artificial-intelligence-security">Artificial Intelligence &amp; Security</h3>
+<p>Artificial intelligence is creating a new class of actors in digital systems.</p>
+<p>My current research investigates the security and trust requirements of AI systems and autonomous agents, particularly questions involving:</p>
+<ul>
+<li>agent identity;</li>
+<li>authentication;</li>
+<li>authorization;</li>
+<li>delegation;</li>
+<li>accountability;</li>
+<li>auditability;</li>
+<li>non-repudiation.</li>
+</ul>
+<p>An important direction is the concept of <strong>Personal AI Agents</strong>: autonomous agents acting on behalf of individuals and interacting with organizations, services and other agents.</p>
+</section>
+</section>
+<section id="current-research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="current-research-questions">Current Research Questions</h2>
+<p>Several questions currently connect these research areas:</p>
+<ol type="1">
+<li><p>How should autonomous AI agents be identified and authorized when acting on behalf of people or organizations?</p></li>
+<li><p>How can the actions of autonomous agents produce trustworthy and auditable digital evidence?</p></li>
+<li><p>How should digital-signature and PKI infrastructures evolve during the transition to post-quantum cryptography?</p></li>
+<li><p>Which irreducible-polynomial structures lead to more efficient arithmetic over binary finite fields?</p></li>
+<li><p>How can digital identity evolve from centralized identity providers toward portable and verifiable digital credentials?</p></li>
+<li><p>How can electronic documents remain verifiable for decades despite changes in cryptographic algorithms, technologies and trust infrastructures?</p></li>
+</ol>
+</section>
+<section id="research-philosophy" class="level2">
+<h2 class="anchored" data-anchor-id="research-philosophy">Research Philosophy</h2>
+<p>Across these topics, my research follows a common principle:</p>
+<blockquote class="blockquote">
+<p><strong>Digital trust requires more than cryptographic algorithms.</strong></p>
+</blockquote>
+<p>It requires the integration of cryptography, identity, protocols, software, governance and long-term evidence into systems that can be deployed and operated in real environments.</p>
+<p>This connection between <strong>foundations and deployable systems</strong> has been a recurring theme throughout my research.</p>
+</section>
+<section id="related-resources" class="level2">
+<h2 class="anchored" data-anchor-id="related-resources">Related Resources</h2>
+<p><a href="./publications.html">Publications →</a></p>
+<p><a href="./projects.html">Projects →</a></p>
+<p><a href="./software.html">Software &amp; Data →</a></p>
+<p><a href="./supervision.html">Students &amp; Supervision →</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
