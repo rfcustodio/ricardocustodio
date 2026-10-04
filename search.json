@@ -172,7 +172,49 @@
     "href": "supervision.html",
     "title": "Supervision",
     "section": "",
-    "text": "Current and former PhD, MSc and undergraduate students."
+    "text": "Supervising students and helping to educate new researchers has been one of the central components of my academic career.\nI have supervised research at undergraduate, Master’s and PhD levels, primarily in information security, cryptography, digital signatures, digital identity, electronic documents, and related areas.\nThis section is being developed as a historical record of students, research topics, dissertations, theses, and the publications and projects that resulted from this work."
+  },
+  {
+    "objectID": "supervision.html#current-students",
+    "href": "supervision.html#current-students",
+    "title": "Supervision",
+    "section": "Current Students",
+    "text": "Current Students\n\nPhD Students\nCurrent PhD students will be added here.\n\n\nMaster’s Students\nCurrent Master’s students will be added here.\n\n\nUndergraduate Students\nCurrent undergraduate researchers will be added here."
+  },
+  {
+    "objectID": "supervision.html#former-students",
+    "href": "supervision.html#former-students",
+    "title": "Supervision",
+    "section": "Former Students",
+    "text": "Former Students\n\nPhD\nThis section will contain completed PhD supervision, including:\n\nstudent;\nthesis title;\nyear;\nco-supervisors;\nresearch area;\nassociated publications;\nsoftware and datasets, when available.\n\nHistorical records are being consolidated.\n\n\nMaster’s\nThis section will contain completed Master’s dissertations and their associated research outputs.\nHistorical records are being consolidated.\n\n\nUndergraduate Research\nUndergraduate research has played an important role in introducing students to scientific research and frequently provided the foundation for subsequent Master’s and PhD work.\nHistorical records are being consolidated."
+  },
+  {
+    "objectID": "supervision.html#research-lineage",
+    "href": "supervision.html#research-lineage",
+    "title": "Supervision",
+    "section": "Research Lineage",
+    "text": "Research Lineage\nAcademic supervision is more than a list of completed theses and dissertations.\nOver time, students participate in research groups, collaborate with one another, become co-authors, continue to graduate studies, and in some cases become researchers and supervisors themselves.\nOne of the objectives of this archive is therefore to document this academic lineage and the evolution of the research topics developed within the group."
+  },
+  {
+    "objectID": "supervision.html#research-areas",
+    "href": "supervision.html#research-areas",
+    "title": "Supervision",
+    "section": "Research Areas",
+    "text": "Research Areas\nStudent research has included topics such as:\n\ninformation security;\ncryptography and cryptographic protocols;\ndigital signatures;\npublic key infrastructure;\nelectronic documents;\ndigital identity;\nfinite-field arithmetic;\nblockchain technologies;\npost-quantum cryptography;\nartificial intelligence and security."
+  },
+  {
+    "objectID": "supervision.html#from-supervision-to-research",
+    "href": "supervision.html#from-supervision-to-research",
+    "title": "Supervision",
+    "section": "From Supervision to Research",
+    "text": "From Supervision to Research\nMany dissertations and theses have resulted in scientific publications, software, prototypes, and research projects.\nAs this archive is consolidated, student records will be connected to the corresponding:\n\nPublications\nProjects\nSoftware & Data"
+  },
+  {
+    "objectID": "supervision.html#academic-genealogy",
+    "href": "supervision.html#academic-genealogy",
+    "title": "Supervision",
+    "section": "Academic Genealogy",
+    "text": "Academic Genealogy\nA future extension of this section will provide a visual representation of the academic genealogy associated with my supervision, showing connections among students, research topics, publications, and subsequent academic careers."
   },
   {
     "objectID": "research.html",
