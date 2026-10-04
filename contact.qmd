@@ -1,5 +1,60 @@
 ---
 title: "Contact"
+toc: false
 ---
 
-Contact information and academic profiles.
+For academic inquiries, research collaboration, student supervision,
+technical discussions, and professional activities, you can contact me
+through the channels below.
+
+## Academic & Research Contact
+
+**Ricardo Custódio**  
+Professor and Researcher  
+Information Security · Cryptography · Digital Trust · Artificial Intelligence
+
+**LabSEC — Computer Security Laboratory**  
+Federal University of Santa Catarina (UFSC)  
+Florianópolis, Santa Catarina, Brazil
+
+## Academic Profiles
+
+- [ORCID](https://orcid.org/0000-0001-9611-5694)
+- [Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en)
+- [Lattes Curriculum](http://lattes.cnpq.br/9716092379282146)
+
+## Professional & Development Profiles
+
+- [GitHub](https://github.com/rfcustodio)
+- [LinkedIn](https://www.linkedin.com/in/rfcustodio/)
+
+## Research Collaboration
+
+I welcome academic and technical collaboration in areas related to:
+
+- information security;
+- cryptography;
+- digital signatures;
+- public key infrastructure;
+- digital identity;
+- electronic documents;
+- finite-field arithmetic;
+- post-quantum cryptography;
+- artificial intelligence and security;
+- digital trust infrastructures.
+
+## Students & Research
+
+Prospective students interested in research projects should consult the
+[Research](research.qmd), [Projects](projects.qmd), and
+[Supervision](supervision.qmd) sections before making contact.
+
+Research topics evolve over time, and the availability of new supervision
+positions depends on current projects and academic commitments.
+
+## Website
+
+This website is also a long-term academic archive.
+
+Corrections, additional information, and references to historical academic
+material related to the work documented here are welcome.
