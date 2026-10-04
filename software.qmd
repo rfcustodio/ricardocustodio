@@ -1,5 +1,137 @@
 ---
 title: "Software & Data"
+toc: true
 ---
 
-Research software, source code, datasets and experimental resources.
+Software, research prototypes, datasets, and reproducibility artifacts
+developed in connection with my research projects and academic activities.
+
+This section complements traditional scientific publications by preserving
+the computational artifacts used to implement, evaluate, reproduce, and
+extend research results.
+
+## Software
+
+This section will provide access to software resulting from research and
+development activities.
+
+Software records may include:
+
+- source-code repositories;
+- released versions;
+- documentation;
+- licenses;
+- persistent identifiers;
+- related publications;
+- related research projects;
+- contributors;
+- archived releases.
+
+Whenever possible, publicly released research software will be preserved in
+a repository with version history and associated with a persistent archival
+record.
+
+## Research Prototypes
+
+Not every research implementation is intended to become production software.
+
+Research prototypes are experimental implementations created to investigate
+algorithms, protocols, architectures, security mechanisms, or technological
+concepts.
+
+Examples include prototypes related to:
+
+- cryptographic protocols;
+- digital signatures;
+- public key infrastructures;
+- digital identity;
+- electronic documents;
+- electronic voting;
+- post-quantum cryptography;
+- artificial intelligence and security;
+- finite-field arithmetic.
+
+Preserving these prototypes provides important context for understanding how
+research ideas were evaluated and how experimental results were obtained.
+
+## Datasets
+
+Research datasets will be catalogued independently from the software that
+produced or processed them.
+
+Depending on the research area, datasets may contain:
+
+- experimental measurements;
+- benchmark results;
+- cryptographic parameters;
+- polynomial families;
+- computational-search results;
+- performance measurements;
+- evaluation corpora;
+- structured research metadata.
+
+Each public dataset should, whenever possible, include information about its
+origin, format, version, license, associated software, and related
+publications.
+
+## Reproducibility Artifacts
+
+Reproducibility is an important component of computational research.
+
+For selected publications, this section will preserve the material necessary
+to reproduce or independently verify reported results.
+
+A reproducibility package may contain:
+
+- source code;
+- build instructions;
+- experimental parameters;
+- input instances;
+- scripts;
+- raw results;
+- processed results;
+- tables and figures;
+- software environment information;
+- documentation describing the reproduction procedure.
+
+Where appropriate, releases associated with scientific publications may also
+be deposited in long-term research repositories and assigned persistent
+identifiers.
+
+## Preservation Strategy
+
+Git repositories are useful for collaborative development and version
+control, but they should not be the only preservation mechanism for
+scientific artifacts.
+
+The long-term strategy for public research artifacts is therefore based on
+three complementary layers:
+
+1. **Development** — version-controlled source code and active repositories;
+2. **Publication** — identifiable releases associated with research outputs;
+3. **Preservation** — archival copies with stable metadata and, whenever
+   appropriate, persistent identifiers such as DOIs.
+
+This website acts as the discovery and contextualization layer connecting
+these artifacts to the research in which they were produced.
+
+## Relationships
+
+Software and data will progressively be connected to other parts of this
+academic archive.
+
+A research artifact may therefore be related to:
+
+**software → release → dataset → publication → project → student → talk**
+
+These relationships make it possible to preserve not only individual files,
+but also the context in which the research was conducted.
+
+## Related Resources
+
+- [Research](research.qmd)
+- [Publications](publications.qmd)
+- [Projects](projects.qmd)
+- [Books & Texts](books.qmd)
+- [Supervision](supervision.qmd)
+- [Archive](archive.qmd)

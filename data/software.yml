@@ -1,0 +1,63 @@
+# Structured metadata for software, datasets, research prototypes,
+# and reproducibility artifacts.
+#
+# These records describe research artifacts independently from
+# the pages on which they are presented.
+
+software: []
+
+datasets: []
+
+artifacts: []
+
+# Future software example:
+#
+# software:
+#   - id: example-software
+#     title: "Example Research Software"
+#     type: research-software
+#     status: active
+#     description:
+#     start:
+#     end:
+#     license:
+#     repository:
+#     website:
+#     topics: []
+#     contributors: []
+#     related_projects: []
+#     related_publications: []
+#     related_datasets: []
+#     releases: []
+#
+# Future dataset example:
+#
+# datasets:
+#   - id: example-dataset
+#     title: "Example Dataset"
+#     status: published
+#     year:
+#     description:
+#     format:
+#     license:
+#     doi:
+#     repository:
+#     topics: []
+#     contributors: []
+#     related_software: []
+#     related_projects: []
+#     related_publications: []
+#
+# Future reproducibility artifact example:
+#
+# artifacts:
+#   - id: example-reproduction
+#     title: "Reproducibility Package"
+#     type: reproducibility-package
+#     status: published
+#     year:
+#     repository:
+#     doi:
+#     related_publication:
+#     related_software: []
+#     related_datasets: []
