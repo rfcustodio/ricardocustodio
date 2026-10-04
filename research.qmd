@@ -1,5 +1,178 @@
 ---
 title: "Research"
+description: "Research areas and current scientific directions of Ricardo Custódio."
+toc: true
+toc-title: "Research areas"
 ---
 
-Research activities and research interests of Ricardo Custódio.
+My research investigates the foundations, mechanisms and infrastructures
+required to establish **security and trust in digital environments**.
+
+It spans a spectrum from cryptographic and mathematical foundations to
+large-scale digital trust infrastructures, with increasing attention to
+the challenges introduced by post-quantum cryptography and autonomous
+artificial-intelligence agents.
+
+
+## Research Foundations
+
+### Cryptography
+
+My work in cryptography includes cryptographic algorithms and protocols,
+security mechanisms, key management, digital signatures and the design
+and analysis of cryptographic systems.
+
+A recurring objective is to connect cryptographic constructions with
+their practical use in secure computing infrastructures.
+
+
+### Finite-Field Arithmetic
+
+Efficient arithmetic over finite fields is an important component of
+many cryptographic systems.
+
+My research includes arithmetic over binary extension fields,
+particularly efficient polynomial multiplication, squaring and modular
+reduction in $\mathrm{GF}(2^m)$.
+
+Current work investigates structured families of irreducible
+polynomials and methods for reducing the computational complexity of
+finite-field arithmetic.
+
+
+## Digital Trust
+
+### Digital Signatures
+
+Digital signatures have been one of the central themes of my research.
+
+My work addresses signature mechanisms, signature systems,
+cryptographic key management, certification, validation and the
+long-term trustworthiness of digitally signed information.
+
+A particular interest is the complete lifecycle of digital signatures,
+from identity establishment and key generation to long-term validation
+and preservation.
+
+
+### Public Key Infrastructure
+
+My research on Public Key Infrastructure (PKI) investigates the
+technologies, protocols and trust models required to establish
+cryptographic identities and trustworthy digital transactions.
+
+This work includes digital certificates, certification authorities,
+key management, certificate lifecycle management and the integration
+of PKI with real-world information systems.
+
+
+### Digital Identity
+
+Digital identity has progressively become a major component of my
+research.
+
+Topics include authentication, authorization, identity federation,
+OpenID Connect, OAuth, electronic identity and verifiable credentials.
+
+A central question is how identity attributes and credentials can be
+represented, verified and used while maintaining security, privacy,
+interoperability and user control.
+
+
+### Electronic Documents
+
+My research on electronic documents investigates how documents can
+remain authentic, verifiable and trustworthy throughout their
+lifecycle.
+
+This includes digital signatures, document formats, validation
+evidence, trusted timestamps and long-term digital preservation.
+
+The objective is not merely to protect a file, but to preserve the
+ability to establish the authenticity and integrity of a digital
+document over long periods of time.
+
+
+## Emerging Directions
+
+### Post-Quantum Cryptography
+
+The transition to post-quantum cryptography creates new challenges for
+digital signatures, PKI, network protocols and long-lived digital
+documents.
+
+My research investigates post-quantum cryptographic mechanisms and
+their integration into existing security infrastructures.
+
+Particular interests include post-quantum signatures, hybrid
+cryptographic systems, migration strategies and crypto-agility.
+
+
+### Artificial Intelligence & Security
+
+Artificial intelligence is creating a new class of actors in digital
+systems.
+
+My current research investigates the security and trust requirements
+of AI systems and autonomous agents, particularly questions involving:
+
+- agent identity;
+- authentication;
+- authorization;
+- delegation;
+- accountability;
+- auditability;
+- non-repudiation.
+
+An important direction is the concept of **Personal AI Agents**:
+autonomous agents acting on behalf of individuals and interacting with
+organizations, services and other agents.
+
+
+## Current Research Questions
+
+Several questions currently connect these research areas:
+
+1. How should autonomous AI agents be identified and authorized when
+   acting on behalf of people or organizations?
+
+2. How can the actions of autonomous agents produce trustworthy and
+   auditable digital evidence?
+
+3. How should digital-signature and PKI infrastructures evolve during
+   the transition to post-quantum cryptography?
+
+4. Which irreducible-polynomial structures lead to more efficient
+   arithmetic over binary finite fields?
+
+5. How can digital identity evolve from centralized identity providers
+   toward portable and verifiable digital credentials?
+
+6. How can electronic documents remain verifiable for decades despite
+   changes in cryptographic algorithms, technologies and trust
+   infrastructures?
+
+
+## Research Philosophy
+
+Across these topics, my research follows a common principle:
+
+> **Digital trust requires more than cryptographic algorithms.**
+
+It requires the integration of cryptography, identity, protocols,
+software, governance and long-term evidence into systems that can be
+deployed and operated in real environments.
+
+This connection between **foundations and deployable systems** has been
+a recurring theme throughout my research.
+
+
+## Related Resources
+
+[Publications →](publications.qmd)
+
+[Projects →](projects.qmd)
+
+[Software & Data →](software.qmd)
+
+[Students & Supervision →](supervision.qmd)

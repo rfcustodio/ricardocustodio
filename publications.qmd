@@ -1,5 +1,14 @@
 ---
 title: "Publications"
+bibliography: bibliography/publications.bib
+nocite: '@*'
 ---
 
-Scientific publications, books, chapters, conference papers and technical reports.
+This page presents my scientific publications in information security,
+cryptography, digital identity, digital signatures, electronic documents,
+and related areas.
+
+The bibliography is being progressively consolidated from multiple
+academic sources.
+
+## Publications

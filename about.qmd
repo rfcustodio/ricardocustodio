@@ -1,5 +1,108 @@
 ---
 title: "About"
+toc: true
+toc-title: "On this page"
 ---
 
-About this site
+# Ricardo Custódio
+
+I am a professor and researcher in computer science, working primarily
+in information security and cryptography. My research spans digital
+signatures, public key infrastructure, digital identity, electronic
+documents, cryptographic protocols, post-quantum cryptography,
+finite-field arithmetic, and artificial intelligence applied to security.
+
+I am a Full Professor at the Department of Informatics and Statistics
+of the Federal University of Santa Catarina (UFSC), in Florianópolis,
+Brazil, and supervisor of the Computer Security Laboratory (LabSEC).
+
+Throughout my academic career, I have combined fundamental and applied
+research with the development of technologies and infrastructures for
+real-world digital trust systems.
+
+## Academic trajectory
+
+I received my Bachelor's degree in Electrical Engineering from the
+Federal University of Santa Catarina (UFSC), followed by a Master's
+degree in Electrical Engineering at the same university.
+
+I received my PhD in Computer Science from the Federal University of
+Rio Grande do Sul (UFRGS) in 1999.
+
+I joined UFSC as a faculty member in 1994. Over the following decades,
+my academic activities have included teaching, research, technology
+development, graduate supervision, and collaboration with public and
+private institutions.
+
+## Research
+
+My work is centered on the security and trust mechanisms required for
+digital systems.
+
+My main research interests include:
+
+- information security;
+- cryptography and cryptographic protocols;
+- digital signatures and electronic signatures;
+- public key infrastructure (PKI);
+- digital identity and authentication;
+- electronic documents and long-term preservation;
+- cryptographic key management;
+- arithmetic over finite fields;
+- post-quantum cryptography;
+- artificial intelligence applied to security and digital trust.
+
+A recurring theme in my research is the connection between
+**cryptographic foundations and deployable systems**: how mathematical,
+cryptographic and security mechanisms can be transformed into
+infrastructures and applications that operate in real institutional
+environments.
+
+## LabSEC
+
+I supervise the **Computer Security Laboratory (LabSEC)** at UFSC.
+
+LabSEC conducts research and technology development in information
+security and cryptography, bringing together undergraduate, Master's
+and PhD students and collaborating with universities, government
+institutions and organizations involved in digital infrastructures.
+
+Over the years, the laboratory has worked on topics including public
+key infrastructure, digital certification, digital signatures,
+electronic documents, digital identity, cryptographic protocols,
+blockchain technologies and post-quantum cryptography.
+
+## Students and supervision
+
+An important part of my academic work has been the education and
+supervision of researchers.
+
+I supervise undergraduate research, Master's dissertations and PhD
+theses, particularly in information security, cryptography, digital
+identity and trustworthy digital infrastructures.
+
+Many of the research projects developed with students combine
+theoretical investigation with the design, implementation and
+experimental evaluation of security technologies.
+
+[Students and supervision →](supervision.qmd)
+
+## Beyond the university
+
+My work also involves research, development and innovation projects
+with institutions outside the university.
+
+These collaborations have provided opportunities to apply research in
+areas such as digital certification, electronic documents, civil
+registration, digital identity, financial infrastructures and
+post-quantum security.
+
+[Projects →](projects.qmd)
+
+## Academic profiles
+
+- [ORCID](https://orcid.org/0000-0001-9611-5694)
+- [Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=pt-BR)
+- [Currículo Lattes](http://lattes.cnpq.br/9716092379282146)
+- [GitHub](https://github.com/rfcustodio)
+- [LinkedIn](https://www.linkedin.com/in/rfcustodio/)
