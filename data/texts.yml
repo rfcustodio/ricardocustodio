@@ -1,0 +1,35 @@
+# Structured metadata for books and long-form academic texts.
+#
+# A "work" represents the intellectual work itself.
+# Individual editions, revisions, translations, and preserved
+# files can later be represented as versions of that work.
+
+works: []
+
+# Future example:
+#
+# works:
+#
+#   - id: example-book
+#     title: "Example Book"
+#     type: book
+#     status: published
+#     language: pt-BR
+#     authors:
+#       - ricardo-custodio
+#     year: 2026
+#     topics:
+#       - cryptography
+#       - information-security
+#     versions:
+#       - id: example-book-v1
+#         year: 2026
+#         format: pdf
+#         doi:
+#         isbn:
+#         file:
+#         source:
+#     related_projects: []
+#     related_courses: []
+#     related_publications: []
+#     links: []
