@@ -18,7 +18,56 @@
     "href": "software.html",
     "title": "Software & Data",
     "section": "",
-    "text": "Research software, source code, datasets and experimental resources."
+    "text": "Software, research prototypes, datasets, and reproducibility artifacts developed in connection with my research projects and academic activities.\nThis section complements traditional scientific publications by preserving the computational artifacts used to implement, evaluate, reproduce, and extend research results."
+  },
+  {
+    "objectID": "software.html#software",
+    "href": "software.html#software",
+    "title": "Software & Data",
+    "section": "Software",
+    "text": "Software\nThis section will provide access to software resulting from research and development activities.\nSoftware records may include:\n\nsource-code repositories;\nreleased versions;\ndocumentation;\nlicenses;\npersistent identifiers;\nrelated publications;\nrelated research projects;\ncontributors;\narchived releases.\n\nWhenever possible, publicly released research software will be preserved in a repository with version history and associated with a persistent archival record."
+  },
+  {
+    "objectID": "software.html#research-prototypes",
+    "href": "software.html#research-prototypes",
+    "title": "Software & Data",
+    "section": "Research Prototypes",
+    "text": "Research Prototypes\nNot every research implementation is intended to become production software.\nResearch prototypes are experimental implementations created to investigate algorithms, protocols, architectures, security mechanisms, or technological concepts.\nExamples include prototypes related to:\n\ncryptographic protocols;\ndigital signatures;\npublic key infrastructures;\ndigital identity;\nelectronic documents;\nelectronic voting;\npost-quantum cryptography;\nartificial intelligence and security;\nfinite-field arithmetic.\n\nPreserving these prototypes provides important context for understanding how research ideas were evaluated and how experimental results were obtained."
+  },
+  {
+    "objectID": "software.html#datasets",
+    "href": "software.html#datasets",
+    "title": "Software & Data",
+    "section": "Datasets",
+    "text": "Datasets\nResearch datasets will be catalogued independently from the software that produced or processed them.\nDepending on the research area, datasets may contain:\n\nexperimental measurements;\nbenchmark results;\ncryptographic parameters;\npolynomial families;\ncomputational-search results;\nperformance measurements;\nevaluation corpora;\nstructured research metadata.\n\nEach public dataset should, whenever possible, include information about its origin, format, version, license, associated software, and related publications."
+  },
+  {
+    "objectID": "software.html#reproducibility-artifacts",
+    "href": "software.html#reproducibility-artifacts",
+    "title": "Software & Data",
+    "section": "Reproducibility Artifacts",
+    "text": "Reproducibility Artifacts\nReproducibility is an important component of computational research.\nFor selected publications, this section will preserve the material necessary to reproduce or independently verify reported results.\nA reproducibility package may contain:\n\nsource code;\nbuild instructions;\nexperimental parameters;\ninput instances;\nscripts;\nraw results;\nprocessed results;\ntables and figures;\nsoftware environment information;\ndocumentation describing the reproduction procedure.\n\nWhere appropriate, releases associated with scientific publications may also be deposited in long-term research repositories and assigned persistent identifiers."
+  },
+  {
+    "objectID": "software.html#preservation-strategy",
+    "href": "software.html#preservation-strategy",
+    "title": "Software & Data",
+    "section": "Preservation Strategy",
+    "text": "Preservation Strategy\nGit repositories are useful for collaborative development and version control, but they should not be the only preservation mechanism for scientific artifacts.\nThe long-term strategy for public research artifacts is therefore based on three complementary layers:\n\nDevelopment — version-controlled source code and active repositories;\nPublication — identifiable releases associated with research outputs;\nPreservation — archival copies with stable metadata and, whenever appropriate, persistent identifiers such as DOIs.\n\nThis website acts as the discovery and contextualization layer connecting these artifacts to the research in which they were produced."
+  },
+  {
+    "objectID": "software.html#relationships",
+    "href": "software.html#relationships",
+    "title": "Software & Data",
+    "section": "Relationships",
+    "text": "Relationships\nSoftware and data will progressively be connected to other parts of this academic archive.\nA research artifact may therefore be related to:\nsoftware → release → dataset → publication → project → student → talk\nThese relationships make it possible to preserve not only individual files, but also the context in which the research was conducted."
+  },
+  {
+    "objectID": "software.html#related-resources",
+    "href": "software.html#related-resources",
+    "title": "Software & Data",
+    "section": "Related Resources",
+    "text": "Related Resources\n\nResearch\nPublications\nProjects\nBooks & Texts\nSupervision\nArchive"
   },
   {
     "objectID": "publications.html",

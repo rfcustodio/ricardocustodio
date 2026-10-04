@@ -330,8 +330,20 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#software" id="toc-software" class="nav-link active" data-scroll-target="#software">Software</a></li>
+  <li><a href="#research-prototypes" id="toc-research-prototypes" class="nav-link" data-scroll-target="#research-prototypes">Research Prototypes</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a></li>
+  <li><a href="#reproducibility-artifacts" id="toc-reproducibility-artifacts" class="nav-link" data-scroll-target="#reproducibility-artifacts">Reproducibility Artifacts</a></li>
+  <li><a href="#preservation-strategy" id="toc-preservation-strategy" class="nav-link" data-scroll-target="#preservation-strategy">Preservation Strategy</a></li>
+  <li><a href="#relationships" id="toc-relationships" class="nav-link" data-scroll-target="#relationships">Relationships</a></li>
+  <li><a href="#related-resources" id="toc-related-resources" class="nav-link" data-scroll-target="#related-resources">Related Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -356,9 +368,109 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Research software, source code, datasets and experimental resources.</p>
+<p>Software, research prototypes, datasets, and reproducibility artifacts developed in connection with my research projects and academic activities.</p>
+<p>This section complements traditional scientific publications by preserving the computational artifacts used to implement, evaluate, reproduce, and extend research results.</p>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<p>This section will provide access to software resulting from research and development activities.</p>
+<p>Software records may include:</p>
+<ul>
+<li>source-code repositories;</li>
+<li>released versions;</li>
+<li>documentation;</li>
+<li>licenses;</li>
+<li>persistent identifiers;</li>
+<li>related publications;</li>
+<li>related research projects;</li>
+<li>contributors;</li>
+<li>archived releases.</li>
+</ul>
+<p>Whenever possible, publicly released research software will be preserved in a repository with version history and associated with a persistent archival record.</p>
+</section>
+<section id="research-prototypes" class="level2">
+<h2 class="anchored" data-anchor-id="research-prototypes">Research Prototypes</h2>
+<p>Not every research implementation is intended to become production software.</p>
+<p>Research prototypes are experimental implementations created to investigate algorithms, protocols, architectures, security mechanisms, or technological concepts.</p>
+<p>Examples include prototypes related to:</p>
+<ul>
+<li>cryptographic protocols;</li>
+<li>digital signatures;</li>
+<li>public key infrastructures;</li>
+<li>digital identity;</li>
+<li>electronic documents;</li>
+<li>electronic voting;</li>
+<li>post-quantum cryptography;</li>
+<li>artificial intelligence and security;</li>
+<li>finite-field arithmetic.</li>
+</ul>
+<p>Preserving these prototypes provides important context for understanding how research ideas were evaluated and how experimental results were obtained.</p>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<p>Research datasets will be catalogued independently from the software that produced or processed them.</p>
+<p>Depending on the research area, datasets may contain:</p>
+<ul>
+<li>experimental measurements;</li>
+<li>benchmark results;</li>
+<li>cryptographic parameters;</li>
+<li>polynomial families;</li>
+<li>computational-search results;</li>
+<li>performance measurements;</li>
+<li>evaluation corpora;</li>
+<li>structured research metadata.</li>
+</ul>
+<p>Each public dataset should, whenever possible, include information about its origin, format, version, license, associated software, and related publications.</p>
+</section>
+<section id="reproducibility-artifacts" class="level2">
+<h2 class="anchored" data-anchor-id="reproducibility-artifacts">Reproducibility Artifacts</h2>
+<p>Reproducibility is an important component of computational research.</p>
+<p>For selected publications, this section will preserve the material necessary to reproduce or independently verify reported results.</p>
+<p>A reproducibility package may contain:</p>
+<ul>
+<li>source code;</li>
+<li>build instructions;</li>
+<li>experimental parameters;</li>
+<li>input instances;</li>
+<li>scripts;</li>
+<li>raw results;</li>
+<li>processed results;</li>
+<li>tables and figures;</li>
+<li>software environment information;</li>
+<li>documentation describing the reproduction procedure.</li>
+</ul>
+<p>Where appropriate, releases associated with scientific publications may also be deposited in long-term research repositories and assigned persistent identifiers.</p>
+</section>
+<section id="preservation-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="preservation-strategy">Preservation Strategy</h2>
+<p>Git repositories are useful for collaborative development and version control, but they should not be the only preservation mechanism for scientific artifacts.</p>
+<p>The long-term strategy for public research artifacts is therefore based on three complementary layers:</p>
+<ol type="1">
+<li><strong>Development</strong> — version-controlled source code and active repositories;</li>
+<li><strong>Publication</strong> — identifiable releases associated with research outputs;</li>
+<li><strong>Preservation</strong> — archival copies with stable metadata and, whenever appropriate, persistent identifiers such as DOIs.</li>
+</ol>
+<p>This website acts as the discovery and contextualization layer connecting these artifacts to the research in which they were produced.</p>
+</section>
+<section id="relationships" class="level2">
+<h2 class="anchored" data-anchor-id="relationships">Relationships</h2>
+<p>Software and data will progressively be connected to other parts of this academic archive.</p>
+<p>A research artifact may therefore be related to:</p>
+<p><strong>software → release → dataset → publication → project → student → talk</strong></p>
+<p>These relationships make it possible to preserve not only individual files, but also the context in which the research was conducted.</p>
+</section>
+<section id="related-resources" class="level2">
+<h2 class="anchored" data-anchor-id="related-resources">Related Resources</h2>
+<ul>
+<li><a href="./research.html">Research</a></li>
+<li><a href="./publications.html">Publications</a></li>
+<li><a href="./projects.html">Projects</a></li>
+<li><a href="./books.html">Books &amp; Texts</a></li>
+<li><a href="./supervision.html">Supervision</a></li>
+<li><a href="./archive.html">Archive</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
