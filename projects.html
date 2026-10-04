@@ -78,6 +78,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -330,8 +359,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#current-projects" id="toc-current-projects" class="nav-link active" data-scroll-target="#current-projects">Current Projects</a>
+  <ul class="collapse">
+  <li><a href="#labrec-research-and-development-for-civil-registration" id="toc-labrec-research-and-development-for-civil-registration" class="nav-link" data-scroll-target="#labrec-research-and-development-for-civil-registration">LabREC — Research and Development for Civil Registration</a></li>
+  <li><a href="#post-quantum-cryptography" id="toc-post-quantum-cryptography" class="nav-link" data-scroll-target="#post-quantum-cryptography">Post-Quantum Cryptography</a></li>
+  <li><a href="#finite-field-arithmetic" id="toc-finite-field-arithmetic" class="nav-link" data-scroll-target="#finite-field-arithmetic">Finite-Field Arithmetic</a></li>
+  <li><a href="#ai-agents-identity-and-digital-trust" id="toc-ai-agents-identity-and-digital-trust" class="nav-link" data-scroll-target="#ai-agents-identity-and-digital-trust">AI Agents, Identity, and Digital Trust</a></li>
+  </ul></li>
+  <li><a href="#selected-research-development-projects" id="toc-selected-research-development-projects" class="nav-link" data-scroll-target="#selected-research-development-projects">Selected Research &amp; Development Projects</a>
+  <ul class="collapse">
+  <li><a href="#digital-signatures-and-long-term-electronic-documents" id="toc-digital-signatures-and-long-term-electronic-documents" class="nav-link" data-scroll-target="#digital-signatures-and-long-term-electronic-documents">Digital Signatures and Long-Term Electronic Documents</a></li>
+  <li><a href="#digital-identity-and-public-key-infrastructure" id="toc-digital-identity-and-public-key-infrastructure" class="nav-link" data-scroll-target="#digital-identity-and-public-key-infrastructure">Digital Identity and Public Key Infrastructure</a></li>
+  <li><a href="#electronic-voting" id="toc-electronic-voting" class="nav-link" data-scroll-target="#electronic-voting">Electronic Voting</a></li>
+  <li><a href="#hash-based-digital-signatures" id="toc-hash-based-digital-signatures" class="nav-link" data-scroll-target="#hash-based-digital-signatures">Hash-Based Digital Signatures</a></li>
+  <li><a href="#cryptographic-protocols-and-security-infrastructures" id="toc-cryptographic-protocols-and-security-infrastructures" class="nav-link" data-scroll-target="#cryptographic-protocols-and-security-infrastructures">Cryptographic Protocols and Security Infrastructures</a></li>
+  </ul></li>
+  <li><a href="#from-research-to-technology" id="toc-from-research-to-technology" class="nav-link" data-scroll-target="#from-research-to-technology">From Research to Technology</a></li>
+  <li><a href="#project-archive" id="toc-project-archive" class="nav-link" data-scroll-target="#project-archive">Project Archive</a></li>
+  <li><a href="#related-resources" id="toc-related-resources" class="nav-link" data-scroll-target="#related-resources">Related Resources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -356,9 +408,135 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Current and past research and development projects.</p>
+<p>My research has often been developed through long-term projects that connect fundamental research, technological development, infrastructure, standards, and real-world applications.</p>
+<p>These projects span cryptography, digital trust, electronic documents, digital identity, post-quantum security, artificial intelligence, and information infrastructures.</p>
+<section id="current-projects" class="level2">
+<h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
+<section id="labrec-research-and-development-for-civil-registration" class="level3">
+<h3 class="anchored" data-anchor-id="labrec-research-and-development-for-civil-registration">LabREC — Research and Development for Civil Registration</h3>
+<p>LabREC is a research and development initiative focused on technologies for Brazil’s civil registration ecosystem. Its activities combine academic research with the design and evaluation of technological solutions for digital trust, identity, electronic documents, and artificial intelligence.</p>
+<p>Research and development topics include:</p>
+<ul>
+<li>digital identity and authentication;</li>
+<li>digital signatures and long-term validation;</li>
+<li>electronic documents and preservation;</li>
+<li>public key infrastructures;</li>
+<li>verifiable credentials;</li>
+<li>artificial intelligence applied to civil registration;</li>
+<li>privacy and information security;</li>
+<li>trustworthy digital infrastructures.</li>
+</ul>
+<p>Several technological initiatives have emerged from this environment, including <strong>ICP-RC</strong>, <strong>IdRC</strong>, and AI-based systems for the civil registration ecosystem.</p>
+</section>
+<section id="post-quantum-cryptography" class="level3">
+<h3 class="anchored" data-anchor-id="post-quantum-cryptography">Post-Quantum Cryptography</h3>
+<p>This research investigates cryptographic mechanisms and infrastructures capable of remaining secure in the presence of quantum computers.</p>
+<p>Current interests include:</p>
+<ul>
+<li>post-quantum public-key cryptography;</li>
+<li>hybrid classical/post-quantum protocols;</li>
+<li>post-quantum digital signatures;</li>
+<li>post-quantum certificates and PKI;</li>
+<li>quantum-safe voting systems;</li>
+<li>migration strategies for existing digital infrastructures.</li>
+</ul>
+<p>A particular concern is the practical transition from today’s cryptographic infrastructures to quantum-resistant systems.</p>
+</section>
+<section id="finite-field-arithmetic" class="level3">
+<h3 class="anchored" data-anchor-id="finite-field-arithmetic">Finite-Field Arithmetic</h3>
+<p>This research investigates efficient arithmetic over binary finite fields, particularly polynomial-basis representations of <span class="math inline">\(\mathrm{GF}(2^m)\)</span>.</p>
+<p>Topics include:</p>
+<ul>
+<li>irreducible polynomials;</li>
+<li>structured families of pentanomials;</li>
+<li>modular reduction;</li>
+<li>multiplication algorithms;</li>
+<li>XOR complexity;</li>
+<li>circuit depth;</li>
+<li>computational search for efficient polynomial families;</li>
+<li>AI-assisted discovery of algebraic structures.</li>
+</ul>
+<p>The objective is to identify mathematical structures that lead to efficient implementations of cryptographic arithmetic.</p>
+</section>
+<section id="ai-agents-identity-and-digital-trust" class="level3">
+<h3 class="anchored" data-anchor-id="ai-agents-identity-and-digital-trust">AI Agents, Identity, and Digital Trust</h3>
+<p>Artificial intelligence agents increasingly perform actions that have consequences outside the computational environment in which they operate.</p>
+<p>This research studies mechanisms for establishing trust in such agents, including:</p>
+<ul>
+<li>agent identity;</li>
+<li>authentication;</li>
+<li>authorization;</li>
+<li>delegation;</li>
+<li>accountability;</li>
+<li>auditability;</li>
+<li>non-repudiation;</li>
+<li>verifiable actions and evidence.</li>
+</ul>
+<p>A broader research question is how traditional digital trust infrastructures must evolve when autonomous AI agents become active participants in digital ecosystems.</p>
+</section>
+</section>
+<section id="selected-research-development-projects" class="level2">
+<h2 class="anchored" data-anchor-id="selected-research-development-projects">Selected Research &amp; Development Projects</h2>
+<section id="digital-signatures-and-long-term-electronic-documents" class="level3">
+<h3 class="anchored" data-anchor-id="digital-signatures-and-long-term-electronic-documents">Digital Signatures and Long-Term Electronic Documents</h3>
+<p>A long-standing research line investigates the use of digital signatures for electronic documents and the preservation of their evidentiary value over long periods.</p>
+<p>Research topics have included:</p>
+<ul>
+<li>digital signature formats;</li>
+<li>long-term signatures;</li>
+<li>signature validation;</li>
+<li>document preservation;</li>
+<li>public key infrastructures;</li>
+<li>cryptographic evidence;</li>
+<li>trusted services;</li>
+<li>location of modifications in signed data.</li>
+</ul>
+</section>
+<section id="digital-identity-and-public-key-infrastructure" class="level3">
+<h3 class="anchored" data-anchor-id="digital-identity-and-public-key-infrastructure">Digital Identity and Public Key Infrastructure</h3>
+<p>Research on digital identity has evolved from traditional PKI-based architectures toward federated identity, self-sovereign identity, verifiable credentials, and emerging identity models for humans, organizations, devices, and software agents.</p>
+</section>
+<section id="electronic-voting" class="level3">
+<h3 class="anchored" data-anchor-id="electronic-voting">Electronic Voting</h3>
+<p>Research in electronic voting has explored cryptographic mechanisms for verifiability, privacy, and trustworthy election processes.</p>
+<p>This line includes work on verifiable voting protocols and, more recently, the incorporation of post-quantum cryptography into electronic voting architectures.</p>
+</section>
+<section id="hash-based-digital-signatures" class="level3">
+<h3 class="anchored" data-anchor-id="hash-based-digital-signatures">Hash-Based Digital Signatures</h3>
+<p>Research on hash-based signatures has investigated efficient encodings and variants of the Winternitz signature family, including techniques for improving performance and reducing signature size.</p>
+</section>
+<section id="cryptographic-protocols-and-security-infrastructures" class="level3">
+<h3 class="anchored" data-anchor-id="cryptographic-protocols-and-security-infrastructures">Cryptographic Protocols and Security Infrastructures</h3>
+<p>Several projects have addressed the design, implementation, and analysis of cryptographic protocols and security infrastructures.</p>
+<p>The emphasis is not only on cryptographic primitives, but also on their integration into operational systems involving identities, keys, authorization, audit, and governance.</p>
+</section>
+</section>
+<section id="from-research-to-technology" class="level2">
+<h2 class="anchored" data-anchor-id="from-research-to-technology">From Research to Technology</h2>
+<p>An important characteristic of these projects is the connection between fundamental research and technological applications.</p>
+<p>The typical research cycle involves:</p>
+<p><strong>research question → formal model → protocol or algorithm → prototype → experimental evaluation → publication → technological application</strong></p>
+<p>Some projects result primarily in scientific publications. Others generate software, datasets, prototypes, technical reports, standards contributions, or operational systems.</p>
+</section>
+<section id="project-archive" class="level2">
+<h2 class="anchored" data-anchor-id="project-archive">Project Archive</h2>
+<p>This page presents selected projects and research lines.</p>
+<p>A structured project archive is being developed to document previous projects, collaborations, research outputs, software, datasets, students, and related publications.</p>
+<p>The archive will progressively incorporate material from earlier academic websites, institutional records, research repositories, and personal academic collections.</p>
+</section>
+<section id="related-resources" class="level2">
+<h2 class="anchored" data-anchor-id="related-resources">Related Resources</h2>
+<ul>
+<li><a href="./research.html">Research</a></li>
+<li><a href="./publications.html">Publications</a></li>
+<li><a href="./supervision.html">Supervision</a></li>
+<li><a href="./software.html">Software &amp; Data</a></li>
+<li><a href="./talks.html">Talks</a></li>
+<li><a href="./archive.html">Archive</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
