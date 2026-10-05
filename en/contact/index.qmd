@@ -1,0 +1,58 @@
+---
+title: "Contact"
+toc: false
+---
+
+<div class="language-switch">[PT](../../pt/contact/) · **EN** · [ES](../../es/contact/)</div>
+
+
+For academic inquiries, research collaboration, technical discussions, and professional activities, the channels below provide the most appropriate points of contact.
+
+::: {.contact-grid}
+
+::: {.contact-card}
+## Academic & Research
+
+**Ricardo Custódio**  
+Full Professor · Researcher · Advisor
+
+Department of Informatics and Statistics  
+Federal University of Santa Catarina (UFSC)  
+Florianópolis, Santa Catarina, Brazil
+
+[Academic trajectory →](/en/about/)
+:::
+
+::: {.contact-card}
+## Research Collaboration
+
+My current interests include cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security and identity for AI agents.
+
+[Current research questions →](/en/research/#current-research-questions)
+:::
+
+::: {.contact-card}
+## Students & Supervision
+
+Prospective students should consult the Research, Projects, and Supervision sections before making contact. Research topics and supervision availability depend on current projects and academic commitments.
+
+[Research →](/en/research/) · [Projects →](/en/projects/) · [Supervision →](/en/supervision/)
+:::
+
+::: {.contact-card}
+## Academic Profiles
+
+[ORCID](https://orcid.org/0000-0001-9611-5694)  
+[Lattes Curriculum](http://lattes.cnpq.br/9716092379282146)  
+[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en)  
+[GitHub](https://github.com/rfcustodio)  
+[LinkedIn](https://www.linkedin.com/in/rfcustodio/)
+:::
+
+:::
+
+## Academic Archive
+
+This website is intended to serve as a long-term academic record. Corrections, additional information, and references to historical academic material related to the work documented here are welcome.
+
+[Explore the Academic Archive →](/en/archive/)

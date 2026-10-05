@@ -1,0 +1,36 @@
+---
+title: "Ensino"
+toc: true
+filters:
+  - ../../filters/teaching.lua
+---
+
+<div class="language-switch">**PT** · [EN](../../en/teaching/) · [ES](../../es/teaching/)</div>
+
+
+My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources.
+
+::: {.callout-note}
+The teaching archive is curated. Course plans and selected educational materials may be preserved here, while student submissions, grades, and individual assessment reports are excluded from the public archive.
+:::
+
+## Current & Recent Courses
+
+::: {#teaching-current}
+:::
+
+## Educational Resources
+
+::: {#teaching-resources}
+:::
+
+## Teaching Trajectory
+
+::: {#teaching-history}
+:::
+
+## Teaching Philosophy
+
+I approach teaching as a connection between formal foundations and real computational problems. In mathematics, security, cryptography, and artificial intelligence, students should understand not only how a technique works, but also the assumptions, limitations, and consequences of using it.
+
+Practical work, critical reading, discussion, and the construction of working prototypes complement the conceptual foundations of the courses.

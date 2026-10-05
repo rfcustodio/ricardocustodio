@@ -1,0 +1,63 @@
+---
+title: "Pesquisa"
+toc: true
+lang: pt-BR
+---
+
+<div class="language-switch">**PT** · [EN](../../en/research/) · [ES](../../es/research/)</div>
+
+Minha pesquisa está organizada em torno de uma questão ampla: **como podemos tornar a computação confiável?**
+
+Ao longo do tempo, essa questão conectou fundamentos matemáticos, mecanismos criptográficos, documentos eletrônicos, assinaturas digitais, infraestruturas de chaves públicas, identidade eletrônica, criptografia pós-quântica e, mais recentemente, agentes de inteligência artificial.
+
+As áreas abaixo não são temas independentes. Elas formam um conjunto de problemas relacionados à **confiança digital**: como identidades, ações, documentos, credenciais e processos computacionais podem ser autenticados, autorizados, protegidos, verificados, preservados e auditados.
+
+## Fundamentos da pesquisa
+
+### Criptografia
+
+A criptografia fornece a base técnica para grande parte da minha pesquisa. Meu trabalho aborda protocolos criptográficos e suas aplicações em transações eletrônicas seguras, assinaturas digitais, autenticação, documentos eletrônicos, sistemas de votação, ICP/PKI e gestão de chaves.
+
+### Aritmética de corpos finitos
+
+O trabalho atual investiga aritmética em base polinomial sobre extensões binárias, particularmente a seleção e a estrutura de polinômios irredutíveis e o custo da redução modular.
+
+## Confiança digital
+
+### Assinaturas digitais
+
+As assinaturas digitais constituem um dos temas centrais da minha pesquisa há mais de duas décadas. O trabalho inclui mecanismos de assinatura, infraestruturas de certificados, políticas de assinatura, assinaturas de longo prazo e modelos de assinatura centrados no usuário.
+
+### Infraestrutura de Chaves Públicas
+
+Minha pesquisa em ICP/PKI inclui gestão de certificados, arquiteturas de certificação, módulos criptográficos de hardware, políticas de assinatura, ICPs acadêmicas, validação de certificados e projeto de infraestruturas de confiança.
+
+### Identidade eletrônica
+
+A pesquisa atual considera autenticação, gestão de identidades, atributos, autorização, credenciais verificáveis e a relação entre uma identidade e os atos digitais realizados sob essa identidade.
+
+### Documentos eletrônicos
+
+Documentos eletrônicos não são apenas arquivos. São objetos de informação cuja autenticidade, integridade, confidencialidade, proveniência, assinaturas e valor probatório podem precisar sobreviver por longos períodos.
+
+## Direções emergentes
+
+### Criptografia pós-quântica
+
+A transição para a criptografia pós-quântica não é apenas a substituição de um algoritmo por outro. Ela afeta formatos de certificados, protocolos, hardware, gestão de chaves, assinaturas digitais, sistemas de identidade, ciclos de vida de software, interoperabilidade e evidências eletrônicas de longo prazo.
+
+### Inteligência Artificial e Segurança
+
+A inteligência artificial cria novos mecanismos de segurança e também novos sujeitos de segurança. Agentes autônomos e semiautônomos introduzem questões sobre identidade, credenciais, autorização, responsabilização, privacidade e auditabilidade.
+
+Uma direção atual investiga como um agente de IA pode ser identificado e autorizado a realizar atos digitais consequenciais em nome de uma pessoa ou organização.
+
+## Questões atuais de pesquisa
+
+1. **Identidade e autoridade de agentes de IA.** Como identificar, autenticar e autorizar agentes autônomos ou semiautônomos?
+2. **Atos digitais responsabilizáveis.** Que evidências devem ser produzidas quando software ou IA realiza ações com consequências?
+3. **Transição pós-quântica.** Como migrar infraestruturas existentes sem perder interoperabilidade ou evidências históricas?
+4. **Evidências eletrônicas de longo prazo.** Como manter documentos e assinaturas verificáveis durante décadas?
+5. **Aritmética eficiente de corpos finitos.** Famílias estruturadas de polinômios irredutíveis podem reduzir custos de implementação?
+6. **Identidade digital componível.** Como identidade, autenticação, atributos, assinaturas, representação, delegação e autorização devem interagir?
+7. **IA soberana e específica de domínio.** Como operar sobre conhecimento institucional sensível mantendo controle sobre dados, proveniência, acesso e responsabilização?

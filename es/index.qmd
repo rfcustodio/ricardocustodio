@@ -1,0 +1,55 @@
+---
+pagetitle: "Ricardo Custódio"
+page-layout: full
+toc: false
+title-block-banner: false
+lang: es
+---
+
+<div class="language-switch">[PT](../pt/) · [EN](../en/) · **ES**</div>
+
+::: {.hero}
+::: {.hero-content}
+# Ricardo Custódio
+
+## Profesor · Investigador · Director de investigación
+
+Trabajo en los fundamentos y las infraestructuras de la **confianza digital**: criptografía, firmas digitales, documentos electrónicos, infraestructuras de clave pública, identidad electrónica, seguridad poscuántica, aritmética de cuerpos finitos y seguridad de agentes de inteligencia artificial.
+
+Mi investigación conecta fundamentos matemáticos con arquitecturas, artefactos tecnológicos y ecosistemas reales de confianza.
+
+::: {.hero-actions}
+[Sobre mí](about/){.btn .btn-primary}
+[Investigación](research/){.btn .btn-outline-primary}
+[Publicaciones](../publications.qmd){.btn .btn-outline-primary}
+:::
+
+::: {.academic-links}
+[ORCID](https://orcid.org/0000-0001-9611-5694) ·
+[Lattes](http://lattes.cnpq.br/9716092379282146) ·
+[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=es) ·
+[GitHub](https://github.com/rfcustodio) ·
+[LinkedIn](https://www.linkedin.com/in/rfcustodio/)
+:::
+:::
+
+::: {.hero-photo}
+![](../foto-minha.jpeg){fig-alt="Ricardo Custódio"}
+:::
+:::
+
+## Investigación
+
+Mi investigación parte de una pregunta amplia: **¿cómo podemos hacer que la computación sea confiable?**
+
+Esta pregunta ha orientado trabajos sobre mecanismos criptográficos, documentos electrónicos seguros, firmas digitales y PKI, identidad electrónica, transición poscuántica y, más recientemente, identidad y autorización de agentes de IA.
+
+[Explorar el programa de investigación →](research/)
+
+## Áreas principales
+
+**Criptografía y cuerpos finitos · Firmas digitales y PKI · Identidad y documentos electrónicos · Seguridad poscuántica · IA, agentes y confianza digital**
+
+## Registro académico
+
+El sitio está concebido como un registro académico de largo plazo que conecta publicaciones, proyectos, software, textos, docencia, charlas, dirección académica y la evolución histórica de las líneas de investigación.

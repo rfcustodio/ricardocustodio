@@ -1,0 +1,45 @@
+---
+title: "Software y Datos"
+toc: true
+filters:
+  - ../../filters/software.lua
+---
+
+<div class="language-switch">[PT](../../pt/software/) · [EN](../../en/software/) · **ES**</div>
+
+
+My research has produced software, technological platforms, digital infrastructures, prototypes, reference implementations, and other artifacts. This page preserves both current work and the technological history behind it.
+
+The registry distinguishes **research projects** from the **technological artifacts** they produce. A project may generate several artifacts, while an artifact may connect multiple projects, publications, students, and institutions.
+
+::: {.software-current-generated}
+:::
+
+## Technology as a Research Record
+
+Software is not treated here merely as downloadable code. It is part of the research record: implementations can embody cryptographic protocols, standards, architectural decisions, experiments, and technology transfer.
+
+::: {.software-families-generated}
+:::
+
+::: {.software-archive-generated}
+:::
+
+::: {.software-unresolved-generated}
+:::
+
+## Data and Reproducibility
+
+Datasets, experimental results, benchmarks, and reproducibility packages will be incorporated as they are curated. When appropriate, preserved research objects will be linked to persistent repositories and identifiers.
+
+## Preservation Model
+
+The long-term preservation strategy separates three layers:
+
+1. **Development** — source code and active collaboration environments;
+2. **Publication** — stable releases associated with papers, projects, and academic outputs;
+3. **Preservation** — durable research objects with persistent metadata and, where appropriate, archival repositories and DOIs.
+
+This structure is intended to preserve relationships such as:
+
+`project → software → release → dataset → publication → student → talk`

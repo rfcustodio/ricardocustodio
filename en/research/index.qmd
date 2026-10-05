@@ -1,0 +1,142 @@
+---
+title: "Research"
+toc: true
+---
+
+My research is concerned with a broad question: **how can computation be made trustworthy?**
+
+Over time, this question has connected mathematical foundations, cryptographic mechanisms, electronic documents, digital signatures, public-key infrastructures, electronic identity, post-quantum cryptography, and, more recently, artificial-intelligence agents.
+
+The research areas below are therefore not independent topics. They form a set of related problems around **digital trust**: how identities, actions, documents, credentials, and computational processes can be authenticated, authorized, protected, verified, preserved, and audited.
+
+## Research Foundations
+
+### Cryptography
+
+Cryptography provides the technical foundation for much of my research.
+
+My work has addressed cryptographic protocols and their applications to secure electronic transactions, digital signatures, authentication, electronic documents, voting systems, public-key infrastructures, and key-management systems.
+
+A recurring concern is not only whether a cryptographic primitive is secure in isolation, but how it behaves when incorporated into a complete system involving people, software, hardware, institutions, and long-lived information.
+
+### Finite-Field Arithmetic
+
+Efficient arithmetic over finite fields is an important foundation for cryptographic implementations.
+
+Current work investigates polynomial-basis arithmetic over binary extension fields, particularly the selection and structure of irreducible polynomials and the cost of modular reduction. The objective is to understand how algebraic structure influences implementation cost, including the number of logical operations and circuit depth.
+
+This line also explores computational methods for discovering and evaluating useful families of irreducible polynomials.
+
+## Digital Trust
+
+### Digital Signatures
+
+Digital signatures have been one of the central themes of my research for more than two decades.
+
+The work ranges from signature mechanisms and certificate infrastructures to signature policies, long-term signatures, user-centric signing models, and the relationship between a cryptographic signature and the electronic document or act that it represents.
+
+A persistent research question is how digital evidence can remain verifiable as algorithms, certificates, software, and trust infrastructures evolve.
+
+### Public-Key Infrastructure
+
+Public-key infrastructures connect cryptographic mechanisms to operational trust.
+
+My research in PKI has included certificate management, certification architectures, hardware security modules, signature policies, educational PKIs, certificate validation, and the design of trust infrastructures.
+
+This work has included both academic research and technological development in collaboration with Brazilian digital-trust initiatives.
+
+### Electronic Identity
+
+Electronic identity extends the trust problem beyond certificates.
+
+Current research considers authentication, identity management, attributes, authorization, verifiable credentials, and the relationship between an identity and the digital acts performed under that identity.
+
+One objective is to develop architectures in which identity, authentication, signatures, attributes, and authorization can be composed without unnecessarily collapsing them into a single mechanism.
+
+### Electronic Documents
+
+Electronic documents are not merely files. They are information objects whose authenticity, integrity, confidentiality, provenance, signatures, and evidentiary value may need to survive for long periods.
+
+Research in this area includes secure document exchange, trusted timestamps, digital signatures, long-term preservation, confidentiality, cryptographic key management, and mechanisms for maintaining verifiability despite technological change.
+
+This research has increasingly converged with electronic identity and post-quantum cryptography.
+
+## Emerging Directions
+
+### Post-Quantum Cryptography
+
+The transition to post-quantum cryptography is not simply the replacement of one algorithm by another.
+
+It affects certificate formats, protocols, hardware, key management, digital signatures, identity systems, software lifecycles, interoperability, and long-term electronic evidence.
+
+My research therefore examines post-quantum migration as a **systems problem**, including hybrid mechanisms, legacy-system adaptation, electronic identity, certificates, network protocols, and the preservation of digitally signed information.
+
+### Artificial Intelligence & Security
+
+Artificial intelligence creates both new security mechanisms and new security subjects.
+
+AI can support security analysis, document processing, classification, and interaction with complex information systems. At the same time, autonomous and semi-autonomous agents introduce questions about identity, credentials, authorization, accountability, privacy, and auditability.
+
+A current research direction investigates how an AI agent can be identified and authorized to perform consequential digital acts on behalf of a person or organization.
+
+This connects emerging agentic systems to long-standing security concepts such as authentication, delegation, authorization, signatures, attributes, evidence, and non-repudiation.
+
+## Current Research Questions
+
+Several questions currently connect these research areas:
+
+1. **AI agent identity and authority.** How should an autonomous or semi-autonomous agent be identified, authenticated, and authorized when acting for a person or organization?
+
+2. **Accountable digital acts.** What evidence should be produced when software or an AI agent performs an action with legal, financial, administrative, or security consequences?
+
+3. **Post-quantum transition.** How can existing PKI, identity, document, and network infrastructures migrate to post-quantum cryptography without losing interoperability or historical evidence?
+
+4. **Long-term electronic evidence.** How can electronic documents and signatures remain verifiable when algorithms, certificates, keys, software, and trust anchors change over decades?
+
+5. **Efficient finite-field arithmetic.** Can structured families of irreducible polynomials reduce the implementation cost of arithmetic over binary extension fields?
+
+6. **Composable digital identity.** How should identity, authentication, attributes, signatures, representation, delegation, and authorization interact in modern digital-trust architectures?
+
+7. **Sovereign and domain-specific AI.** How can specialized AI systems operate over sensitive institutional knowledge while maintaining control over data, provenance, access, and accountability?
+
+## Research Approach
+
+My research combines several levels of investigation:
+
+**Foundations.** Mathematical structures, cryptographic algorithms, protocols, and security models.
+
+**Architectures.** PKI, identity systems, electronic-document infrastructures, key-management systems, and AI-agent trust models.
+
+**Technological artifacts.** Prototypes, reference implementations, software, and experimental infrastructures used to test research ideas.
+
+**Deployment and institutions.** The interaction between technology, regulation, operational processes, usability, and real trust ecosystems.
+
+This combination is deliberate. Security mechanisms that are correct in isolation may fail when embedded in larger sociotechnical systems. Conversely, practical infrastructure problems often expose research questions that are invisible at the level of individual algorithms.
+
+## Research Genealogies
+
+The evolution of these themes is documented in the [Academic Archive](../../archive.qmd), which connects projects, publications, technological artifacts, talks, texts, and student research.
+
+Seven genealogies currently provide a historical view of this development:
+
+- Electronic Documents & Long-Term Preservation
+- Public-Key Infrastructure & Digital Signatures
+- Electronic Identity
+- Electronic Voting
+- Post-Quantum Cryptography
+- Finite-Field Arithmetic & Cryptography
+- AI, Agents & Digital Trust
+
+The sequence within a genealogy represents an editorial research trajectory; it does not, by itself, assert a causal or derivational relationship between the individual objects.
+
+## Related Collections
+
+The research described here can be explored through the site's structured collections:
+
+- [Publications](../../publications.qmd) — scholarly publications and selected works
+- [Projects](../../projects.qmd) — research and technological projects
+- [Supervision](../../supervision.qmd) — master's and doctoral research
+- [Software & Data](../../software.qmd) — technological artifacts and research software
+- [Books & Texts](../../books.qmd) — books, technical texts, and longer-form material
+- [Talks](../../talks.qmd) — selected presentations and invited talks
+- [Academic Archive](../../archive.qmd) — historical trajectory and research genealogies

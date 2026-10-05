@@ -1,0 +1,13 @@
+---
+title: "Arquivo Acadêmico"
+toc: true
+filters:
+  - ../../filters/archive.lua
+---
+
+<div class="language-switch">**PT** · [EN](../../en/archive/) · [ES](../../es/archive/)</div>
+
+
+My academic work has developed across engineering, scientific computing, cryptography, electronic documents, digital signatures, identity, post-quantum cryptography, and artificial intelligence.
+
+This archive is not intended to reproduce a curriculum vitae. It is a historical view of how research questions, projects, technological artifacts, publications, students, and collaborations have evolved and intersected over time.

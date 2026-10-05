@@ -1,0 +1,39 @@
+---
+title: "Projetos"
+toc: true
+filters:
+  - ../../filters/projects.lua
+---
+
+<div class="language-switch">**PT** · [EN](../../en/projects/) · [ES](../../es/projects/)</div>
+
+
+My research has often been developed through long-term initiatives that connect
+fundamental research, technological development, infrastructure, standards,
+and real-world applications.
+
+The portfolio spans cryptography, digital trust, electronic documents,
+digital identity, post-quantum security, artificial intelligence, and
+information infrastructures. Research programs represent continuing lines of
+investigation, while projects have more specific technological, scientific,
+or institutional objectives.
+
+::: {.projects-current-generated}
+:::
+
+## From Research to Technology
+
+A recurring objective of these initiatives is to connect foundational research
+with deployable systems, standards, open implementations, and long-term digital
+infrastructures. Some completed projects continue to influence current work,
+either through technologies reused in new projects or through research questions
+that evolved into continuing research programs.
+
+::: {.projects-archive-generated}
+:::
+
+## Related Resources
+
+See also [Research](/pt/research/), [Publications](/pt/publications/),
+[Software & Data](/pt/software/), [Supervision](/pt/supervision/), and
+[Talks](/pt/talks/).

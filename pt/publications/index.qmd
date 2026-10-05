@@ -1,0 +1,16 @@
+---
+title: "Publicações"
+toc: true
+filters:
+  - ../../filters/publications.lua
+---
+
+<div class="language-switch">**PT** · [EN](../../en/publications/) · [ES](../../es/publications/)</div>
+
+
+My publication record spans cryptography, public-key infrastructure, digital signatures, electronic documents, digital identity, post-quantum cryptography, and earlier research in computing, networks, and signal analysis.
+
+The bibliography is organized around **canonical scholarly works**. A conference paper, journal version, preprint, or ePrint belonging to the same scholarly contribution is therefore consolidated as one work, while the individual bibliographic manifestations remain accessible.
+
+::: {#publications-generated}
+:::

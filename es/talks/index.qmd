@@ -1,0 +1,13 @@
+---
+title: "Charlas"
+toc: true
+filters:
+  - ../../filters/talks.lua
+---
+
+<div class="language-switch">[PT](../../pt/talks/) · [EN](../../en/talks/) · **ES**</div>
+
+
+Invited talks, conference presentations, panels, tutorials, workshops, and professional presentations form an important part of my academic and technical activity.
+
+This archive is being reconstructed from curriculum records, institutional sources, event programs, and historical material. It records presentations for which there is documentary evidence; simple event attendance and academic-service activities are maintained separately.

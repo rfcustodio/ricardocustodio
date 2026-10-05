@@ -1,0 +1,67 @@
+---
+title: "Sobre"
+toc: true
+lang: pt-BR
+---
+
+<div class="language-switch">**PT** · [EN](../../en/about/) · [ES](../../es/about/)</div>
+
+## Breve biografia
+
+Sou Professor Titular do Departamento de Informática e Estatística da Universidade Federal de Santa Catarina (UFSC) e trabalho, há mais de três décadas, na interseção entre computação, criptografia e confiança digital.
+
+Minha pesquisa atual concentra-se em segurança da informação e criptografia, particularmente assinaturas digitais, documentos eletrônicos, infraestruturas de chaves públicas, identidade eletrônica, credenciais verificáveis, gestão de chaves criptográficas, criptografia pós-quântica e aritmética de corpos finitos. Mais recentemente, também tenho investigado segurança, identidade, autorização e responsabilização de agentes de inteligência artificial.
+
+Supervisiono o Laboratório de Segurança em Computação (LabSEC) da UFSC desde 2000, onde a pesquisa combina questões teóricas com o projeto e a implementação de infraestruturas de segurança e artefatos tecnológicos.
+
+## Formação acadêmica
+
+Minha formação acadêmica começou em Engenharia Elétrica na UFSC, onde concluí a graduação em 1985. Posteriormente, concluí o mestrado em Engenharia Elétrica na UFSC em 1990, trabalhando com codificação paramétrica de sinais de voz com excitação multipulso.
+
+Concluí o doutorado em Computação na Universidade Federal do Rio Grande do Sul (UFRGS) em 1999. Minha pesquisa de doutorado investigou análise não linear de padrões sonoros, com um estudo de caso envolvendo sons pulmonares.
+
+Entre 2005 e 2006, realizei pós-doutorado na George Washington University, nos Estados Unidos.
+
+## Da engenharia à computação
+
+Minha trajetória profissional começou na engenharia e na automação industrial. Entre 1986 e 1991, trabalhei na Fundação CERTI em pesquisa e desenvolvimento relacionados a sistemas de informação e automação industrial, incluindo responsabilidades de gestão na Divisão de Automação Industrial.
+
+Em 1990–1991, passei um período no centro tecnológico Robotiker, na Espanha, trabalhando com robótica e automação industrial.
+
+Ingressei na Universidade do Estado de Santa Catarina (UDESC) como professor em 1992. Em 1994, ingressei na UFSC como docente permanente.
+
+## LabSEC e confiança digital
+
+Na virada do milênio, minha pesquisa deslocou-se de forma decisiva para segurança da computação e criptografia. As atividades de pesquisa no LabSEC começaram em 2000, seguidas por minha supervisão do laboratório.
+
+Os primeiros trabalhos abordaram documentos eletrônicos seguros, votação eletrônica, protocolos criptográficos, assinaturas digitais e infraestruturas de chaves públicas. Esses temas evoluíram para um programa de pesquisa mais amplo sobre os fundamentos tecnológicos da confiança digital.
+
+## Evolução da pesquisa
+
+Uma forma de compreender minha pesquisa é como uma sequência de questões conectadas:
+
+**Como podemos tornar a computação confiável?**
+
+Essa questão apareceu inicialmente em meu trabalho por meio da criptografia, de protocolos seguros e de documentos eletrônicos. Posteriormente levou a assinaturas digitais e infraestruturas de chaves públicas, depois à identidade eletrônica e a novos modelos de credenciais e autenticação.
+
+A segurança de longo prazo desses sistemas introduziu novas questões sobre criptografia pós-quântica, agilidade criptográfica, aritmética eficiente de corpos finitos e preservação de evidências eletrônicas.
+
+A inteligência artificial introduz outra transição. Agentes autônomos e semiautônomos levantam questões familiares à segurança, mas sob nova forma: quem ou o que está agindo? Sob a autoridade de quem? Com quais credenciais? Como uma ação pode ser auditada, atribuída, autorizada ou repudiada?
+
+## Pesquisa e tecnologia
+
+Sempre considerei protótipos de pesquisa e artefatos tecnológicos um complemento importante ao trabalho teórico e acadêmico.
+
+Nos projetos do LabSEC, a pesquisa resultou em software e infraestrutura relacionados a documentos eletrônicos, assinaturas digitais, ICP/PKI, módulos criptográficos de hardware, gestão de certificados, identidade eletrônica, migração pós-quântica e serviços de registro civil.
+
+## Estudantes e comunidade de pesquisa
+
+A orientação tem sido parte central do meu trabalho acadêmico. Pesquisas de mestrado e doutorado desenvolvidas no LabSEC contribuíram para muitas das linhas representadas neste site.
+
+Em vez de tratar a orientação como uma atividade separada, considero os estudantes participantes de uma comunidade de pesquisa em continuidade.
+
+## Memória acadêmica
+
+Este site também foi concebido como um arquivo acadêmico de longo prazo.
+
+Publicações, isoladamente, oferecem uma visão incompleta de uma carreira de pesquisa. Projetos, software, textos técnicos, palestras, disciplinas, estudantes, colaborações e linhas de investigação inacabadas frequentemente explicam como as ideias se desenvolveram e como uma linha de pesquisa levou a outra.

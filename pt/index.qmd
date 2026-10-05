@@ -1,0 +1,96 @@
+---
+pagetitle: "Ricardo Custódio"
+page-layout: full
+toc: false
+title-block-banner: false
+lang: pt-BR
+---
+
+<div class="language-switch">**PT** · [EN](../en/) · [ES](../es/)</div>
+
+::: {.hero}
+::: {.hero-content}
+# Ricardo Custódio
+
+## Professor · Pesquisador · Orientador
+
+Trabalho nos fundamentos e nas infraestruturas da **confiança digital**: criptografia, assinaturas digitais, documentos eletrônicos, infraestruturas de chaves públicas, identidade eletrônica, segurança pós-quântica, aritmética de corpos finitos e segurança de agentes de inteligência artificial.
+
+Minha pesquisa conecta fundamentos matemáticos a arquiteturas, artefatos tecnológicos e ecossistemas reais de confiança.
+
+::: {.hero-actions}
+[Sobre mim](about/){.btn .btn-primary}
+[Pesquisa](research/){.btn .btn-outline-primary}
+[Publicações](../publications.qmd){.btn .btn-outline-primary}
+:::
+
+::: {.academic-links}
+[ORCID](https://orcid.org/0000-0001-9611-5694) ·
+[Lattes](http://lattes.cnpq.br/9716092379282146) ·
+[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=pt-BR) ·
+[GitHub](https://github.com/rfcustodio) ·
+[LinkedIn](https://www.linkedin.com/in/rfcustodio/)
+:::
+:::
+
+::: {.hero-photo}
+![](../foto-minha.jpeg){fig-alt="Ricardo Custódio"}
+:::
+:::
+
+::: {.home-intro}
+## Pesquisa
+
+Minha pesquisa parte de uma questão ampla: **como podemos tornar a computação confiável?**
+
+Essa questão tem orientado trabalhos sobre mecanismos criptográficos, documentos eletrônicos seguros, assinaturas digitais e ICP/PKI, identidade eletrônica, transição pós-quântica e, mais recentemente, identidade e autorização de agentes de IA.
+
+[Conheça o programa de pesquisa →](research/)
+:::
+
+::: {.home-research-grid}
+::: {.home-topic-card}
+### Criptografia e Corpos Finitos
+Protocolos criptográficos, fundamentos de implementação, extensões binárias, polinômios irredutíveis e aritmética eficiente.
+:::
+::: {.home-topic-card}
+### Assinaturas Digitais e ICP/PKI
+Assinaturas digitais, certificados, infraestruturas de confiança, módulos criptográficos de hardware, políticas de assinatura e verificação de longo prazo.
+:::
+::: {.home-topic-card}
+### Identidade e Documentos Eletrônicos
+Identidade eletrônica, credenciais, autenticação, autorização, autenticidade documental, confidencialidade, proveniência e preservação.
+:::
+::: {.home-topic-card}
+### Segurança Pós-Quântica
+Migração de certificados, protocolos, sistemas de identidade, assinaturas e evidências eletrônicas de longa duração para criptografia pós-quântica.
+:::
+::: {.home-topic-card}
+### IA, Agentes e Confiança Digital
+Identidade, delegação, autorização, responsabilização e auditabilidade de agentes de IA autônomos e semiautônomos.
+:::
+:::
+
+::: {.home-collections}
+## Explore o Registro Acadêmico
+
+O site é organizado como um conjunto de coleções acadêmicas interconectadas, e não apenas como um currículo.
+
+**Publicações · Projetos · Orientações · Software e Dados · Livros e Textos · Ensino · Palestras · Arquivo Acadêmico**
+:::
+
+::: {.home-trajectory}
+## Da Engenharia à Confiança Digital
+
+Minha trajetória acadêmica começou na engenharia elétrica e na automação industrial, passou pela computação científica e pela criptografia e evoluiu para um programa de pesquisa de longo prazo em segurança da computação e confiança digital.
+
+Desde 2000, grande parte desse trabalho tem sido desenvolvida no **Laboratório de Segurança em Computação (LabSEC)** da Universidade Federal de Santa Catarina, combinando pesquisa, orientação e desenvolvimento tecnológico.
+
+[Leia a trajetória acadêmica →](about/)
+:::
+
+::: {.home-archive-callout}
+## Uma memória acadêmica, não apenas um site
+
+Este site foi concebido como um registro acadêmico de longo prazo. Publicações são apenas uma parte desse registro. Projetos, software, textos técnicos, disciplinas, palestras, orientações e linhas de pesquisa ainda em desenvolvimento também documentam como as ideias evoluem ao longo do tempo.
+:::

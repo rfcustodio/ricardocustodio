@@ -1,0 +1,13 @@
+---
+title: "Libros y Textos"
+toc: true
+filters:
+  - ../../filters/texts.lua
+---
+
+<div class="language-switch">[PT](../../pt/books/) · [EN](../../en/books/) · **ES**</div>
+
+
+This section brings together books, chapters, technical and scientific texts, teaching materials, and selected professional works produced throughout my academic career.
+
+The collection is being progressively reconstructed from bibliographic records and historical archives. A bibliographic record confirms that a work is part of the academic record; it does not necessarily mean that a public digital copy is currently available.
