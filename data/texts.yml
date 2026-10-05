@@ -1,35 +1,830 @@
-# Structured metadata for books and long-form academic texts.
-#
-# A "work" represents the intellectual work itself.
-# Individual editions, revisions, translations, and preserved
-# files can later be represented as versions of that work.
-
-works: []
-
-# Future example:
-#
-# works:
-#
-#   - id: example-book
-#     title: "Example Book"
-#     type: book
-#     status: published
-#     language: pt-BR
-#     authors:
-#       - ricardo-custodio
-#     year: 2026
-#     topics:
-#       - cryptography
-#       - information-security
-#     versions:
-#       - id: example-book-v1
-#         year: 2026
-#         format: pdf
-#         doi:
-#         isbn:
-#         file:
-#         source:
-#     related_projects: []
-#     related_courses: []
-#     related_publications: []
-#     links: []
+schema_version: '2.1'
+notes:
+- Canonical layer for books, chapters, technical reports, teaching materials and other identifiable texts.
+- Lattes categories are retained as provenance and do not define the public-site taxonomy.
+- No URL, project, software, supervision or file relationship is inferred without evidence.
+- Seven Springer/LNCS chapter records that are manifestations of conference publications are intentionally not duplicated
+  here.
+- Simplifying Electronic Document Digital Signatures (2022) remains in the canonical Publications layer and is not duplicated
+  here.
+- V2.1 separates evidence state, archive-search state, historical context, and transverse academic relations.
+types:
+- book
+- book-chapter
+- technical-report
+- technical-note
+- teaching-material
+- scientific-text
+- commentary
+- working-paper
+statuses:
+- identified
+- document-needed
+- available
+- needs-review
+works:
+- id: inteligencia-artificial-registro-civil-brasil-2025
+  year: 2025
+  type: book
+  title: Inteligência Artificial no Registro Civil do Brasil
+  authors:
+  - Gustavo Renato Fiscarelli
+  - Luis Carlos Vendramin Junior
+  - Ricardo Custódio
+  publisher: Editora Método
+  place: São Paulo
+  edition: '1'
+  pages: '371'
+  status: identified
+  notes: Livro registrado no Lattes.
+  source_records:
+  - source: lattes
+    category: book
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: central-notarial-servicos-eletronicos-compartilhados-2007
+  year: 2007
+  type: book
+  title: Central Notarial de Serviços Eletrônicos Compartilhados
+  authors:
+  - Nelson da Silva
+  - Ricardo Custódio
+  - R. P. E. Silva
+  - Thiago Acórdi Ramos
+  publisher: Yendis
+  place: São Caetano do Sul, SP
+  edition: '1'
+  pages: '106'
+  status: identified
+  notes: Livro registrado no Lattes.
+  source_records:
+  - source: lattes
+    category: book
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: provimento-213-versao-comentada-2026
+  year: 2026
+  type: commentary
+  title: Provimento n.º 213 de 20 de fevereiro de 2026 — Versão Comentada
+  authors:
+  - Luis Carlos Vendramin Junior
+  - Gustavo Renato Fiscarelli
+  - Ricardo Custódio
+  edition: '1'
+  isbn: 979-8-258-44993-1
+  status: identified
+  notes: Obra posterior à atualização do Lattes de 08/04/2026; PDF identificado na coleção de trabalho.
+  source_records:
+  - source: identified-document
+    category: book
+    year: 2026
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: infraestrutura-chaves-publicas-aplicacoes-2004
+  year: 2004
+  type: book-chapter
+  title: Infra-estrutura de Chaves Públicas e Aplicações
+  authors:
+  - Ricardo Custódio
+  - Adriana Elissa Notoya
+  - Fernando Carlos Pereira
+  container: XII Escola Regional de Informática da SBC
+  volume: '1'
+  pages: 62–92
+  status: document-needed
+  notes: Capítulo/tutorial. Mantido em Books & Texts; os demais capítulos Springer do Lattes são manifestações de publications
+    já tratadas na camada canônica de Publications.
+  source_records:
+  - source: lattes
+    category: book-chapter
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: propostas-conjunto-normativo-doc-icp-15-2011
+  year: 2011
+  type: technical-report
+  title: Propostas para o Conjunto Normativo DOC-ICP-15
+  authors:
+  - Felipe Carlos Werlang
+  - Martín Augusto Gagliotti Vigil
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: institutionally-contextualized
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context:
+  - type: standard
+    id: DOC-ICP-15
+    relation: addresses-policy-of
+  - type: program
+    id: pbad
+    relation: historical-context
+- id: prazo-validade-certificados-t3-t4-2010
+  year: 2010
+  type: technical-report
+  title: Prazo de Validade para Certificados T3 e T4
+  authors:
+  - Martín Augusto Gagliotti Vigil
+  - Nelson da Silva
+  - Thiago Acórdi Ramos
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: institutionally-contextualized
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context:
+  - type: standard
+    id: DOC-ICP-04
+    relation: addresses-policy-of
+  - type: regulatory-change
+    id: Resolucao-87-2010
+    relation: contemporary-with
+- id: analise-critica-modelo-padrao-brasileiro-assinatura-digital-2009
+  year: 2009
+  type: technical-report
+  title: Análise Crítica do Modelo Adotado pelo Padrão Brasileiro de Assinatura Digital
+  authors:
+  - Nelson da Silva
+  - Martín Augusto Gagliotti Vigil
+  - Ricardo Custódio
+  - Thiago Acórdi Ramos
+  status: document-needed
+  notes: Mesmo objeto aparece em duas categorias do Lattes; reconciliado em um único registro canônico.
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: institutionally-contextualized
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context:
+  - type: program
+    id: pbad
+    relation: historical-context
+  - type: standard
+    id: DOC-ICP-15
+    relation: historical-context
+- id: plano-estrategico-adocao-padrao-brasileiro-assinatura-digital-2009
+  year: 2009
+  type: technical-report
+  title: Plano Estratégico de Adoção do Padrão Brasileiro de Assinatura Digital
+  authors:
+  - Martín Augusto Gagliotti Vigil
+  - Nelson da Silva
+  - Ricardo Custódio
+  - Thiago Acórdi Ramos
+  status: document-needed
+  notes: Também aparece como atividade de assessoria/consultoria; mantido como um único texto canônico.
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: institutionally-contextualized
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context:
+  - type: program
+    id: pbad
+    relation: historical-context
+  - type: standard
+    id: DOC-ICP-15
+    relation: historical-context
+- id: analise-critica-icp-brasil-consulta-publica-2001
+  year: 2001
+  type: technical-report
+  title: 'Análise Crítica da ICP-Brasil: Resposta a Consulta Pública'
+  authors:
+  - Ricardo Custódio
+  institution: UFSC
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: externally-corroborated
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: cartorio-virtual-emissao-certidao-nascimento-web-2000
+  year: 2000
+  type: technical-report
+  title: 'Cartório Virtual: Emissão de Certidão de Nascimento na WEB'
+  authors:
+  - Ricardo Custódio
+  - D. Bortoli
+  - A. J. Rover
+  - L. A. O. Veiga
+  - Jean Everson Martina
+  - Júlio da Silva Dias
+  - L. A. Dantas
+  institution: UFSC
+  place: Florianópolis, SC
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: caracterizacao-serie-temporal-dimensao-fractal-1997
+  year: 1997
+  type: scientific-text
+  title: Caracterização de uma série temporal através da dimensão fractal
+  authors:
+  - Ricardo Custódio
+  - Dante Augusto Couto Barone
+  - Waldir Leite Roque
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: funcao-iteracao-dinamica-1995
+  year: 1995
+  type: scientific-text
+  title: A Função de Iteração Dinâmica
+  authors:
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: uso-calculadora-hp48g-ensino-engenharia-1995
+  year: 1995
+  type: teaching-material
+  title: O Uso da Calculadora HP48G no Ensino de Engenharia
+  authors:
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: sistemas-apoio-ensino-matematica-1995
+  year: 1995
+  type: teaching-material
+  title: Sistemas de Apoio ao Ensino de Matemática
+  authors:
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: automatizacion-invernaderos-1991
+  year: 1991
+  type: technical-report
+  title: Automatización de Invernaderos
+  authors:
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: sistema-cauchy-1991
+  year: 1991
+  type: teaching-material
+  title: Sistema Cauchy
+  authors:
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: other-bibliographic-production
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: hierarquia-multiplas-raizes-icp-brasil-2008
+  year: 2008
+  type: technical-report
+  title: 'Hierarquia de Múltiplas Raízes: Minimizando o Impacto da Quebra de Algoritmos Criptográficos no Âmbito da ICP-Brasil'
+  authors:
+  - Ricardo Custódio
+  - Nelson da Silva
+  - Thiago Acórdi Ramos
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: institutionally-contextualized
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context:
+  - type: infrastructure
+    id: icp-brasil
+    relation: addresses-policy-of
+- id: revisao-algoritmos-chaves-icp-brasil-2008
+  year: 2008
+  type: technical-report
+  title: 'Revisão dos Algoritmos e Chaves da ICP-Brasil: Recomendações LabSEC/Câmara Brasileira de Comércio Eletrônico'
+  authors:
+  - Ricardo Custódio
+  - Nelson da Silva
+  - Thiago Acórdi Ramos
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: institutionally-contextualized
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context:
+  - type: standard
+    id: DOC-ICP-01.01
+    relation: addresses-policy-of
+  - type: infrastructure
+    id: icp-brasil
+    relation: historical-context
+- id: sistema-brasileiro-datacao-documentos-eletronicos-2005
+  year: 2005
+  type: technical-report
+  title: Sistema Brasileiro de Datação de Documentos Eletrônicos
+  authors:
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: institutionally-contextualized
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context:
+  - type: research-line
+    id: long-term-electronic-document-preservation
+    relation: historical-context
+  - type: theme
+    id: electronic-documents
+    relation: addresses
+- id: controle-pirataria-software-certificados-digitais-2001
+  year: 2001
+  type: technical-report
+  title: Controle de Pirataria de Software através de certificados digitais
+  authors:
+  - Ricardo Custódio
+  - J. L. F. Rocha
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: avaliacao-conhecimento-nao-presencial-segura-2000
+  year: 2000
+  type: technical-report
+  title: Avaliação de Conhecimento Não-Presencial Segura
+  authors:
+  - Ricardo Custódio
+  - G. V. Scheffel
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: modelo-simplificado-cifrador-rc6-2000
+  year: 2000
+  type: technical-report
+  title: Modelo Simplificado do Cifrador de Bloco RC6
+  authors:
+  - Ricardo Custódio
+  - M. A. L. Mendes
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: related-artifact-identified
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: related-dissertation-found
+    institutional_repository: pending
+  historical_context:
+  - type: research-line
+    id: simplified-block-ciphers
+    relation: research-output-of
+  - type: theme
+    id: cryptography
+    relation: addresses
+- id: protocolo-concessao-segura-credito-consumidor-2000
+  year: 2000
+  type: technical-report
+  title: Protocolo Criptográfico para a Concessão Segura de Crédito ao Consumidor
+  authors:
+  - Ricardo Custódio
+  - M. L. Brocardo
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: related-artifact-identified
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: related-dissertation-found
+    institutional_repository: pending
+  historical_context:
+  - type: research-line
+    id: secure-credit-analysis
+    relation: research-output-of
+  - type: theme
+    id: privacy-information-sharing
+    relation: addresses
+- id: protocolo-emissao-certidao-nascimento-web-2000
+  year: 2000
+  type: technical-report
+  title: Protocolo Criptográfico para a Emissão de Certidão de Nascimento na WEB
+  authors:
+  - Ricardo Custódio
+  - L. A. Dantas
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: related-artifact-identified
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: related-dissertation-found
+    institutional_repository: pending
+  historical_context:
+  - type: research-line
+    id: cartorio-virtual
+    relation: research-output-of
+  - type: theme
+    id: electronic-documents
+    relation: addresses
+- id: protocolo-sistema-credito-seguro-2000
+  year: 2000
+  type: technical-report
+  title: Protocolo Criptográfico para Sistema de Crédito Seguro
+  authors:
+  - Ricardo Custódio
+  - M. L. Brocardo
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: related-artifact-identified
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: related-dissertation-found
+    institutional_repository: pending
+  historical_context:
+  - type: research-line
+    id: secure-credit-analysis
+    relation: research-output-of
+  - type: theme
+    id: privacy-information-sharing
+    relation: addresses
+- id: sistema-tomada-decisao-web-2000
+  year: 2000
+  type: technical-report
+  title: Sistema de Tomada de Decisão via WEB
+  authors:
+  - Ricardo Custódio
+  - A. J. Devegili
+  - C. E. Mazzi
+  - F. C. Pereira
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: technical-work
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []
+- id: introducao-latex-2001
+  year: 2001
+  type: teaching-material
+  title: Introdução ao Latex
+  authors:
+  - Ricardo Custódio
+  status: document-needed
+  source_records:
+  - source: lattes
+    category: teaching-instructional-material
+    last_updated: '2026-04-08'
+  topics: []
+  related_publications: []
+  related_projects: []
+  related_software: []
+  related_supervision: []
+  files: []
+  evidence_status: lattes-only
+  archive_search:
+    web: searched
+    personal_archive: pending
+    labsec_archive: pending
+    ufsc_repository: pending
+    institutional_repository: pending
+  historical_context: []

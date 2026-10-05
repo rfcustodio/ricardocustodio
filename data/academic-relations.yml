@@ -1,0 +1,58 @@
+schema_version: '1.0'
+notes:
+- Cross-entity academic relations are stored separately from entity metadata.
+- Relations are evidence-bearing and deliberately conservative.
+- associated-with does not imply identity, derivation, authorship, or causality.
+- External targets may later be reconciled to canonical project/supervision IDs.
+relation_types:
+  research-output-of: The source is a research output associated with the target research line or project.
+  associated-with-supervision: The source is directly associated with a supervised academic work.
+  precursor-to: The source predates and is evidentially associated with a later academic artifact; no textual derivation
+    is asserted.
+  continued-by: The research line represented by the source is continued by a later artifact.
+  historical-context: The target supplies institutional or normative context without asserting causality.
+relations:
+- source:
+    collection: texts
+    id: protocolo-emissao-certidao-nascimento-web-2000
+  relation: associated-with-supervision
+  target:
+    collection: external-supervision
+    id: laurentino-augusto-dantas-masters-2001
+    label: 'Laurentino Augusto Dantas — ECN: protocolo criptográfico para emissão de certidões de nascimento na internet'
+  evidence:
+    level: strong
+    basis: UFSC repository record and historical project context
+- source:
+    collection: texts
+    id: modelo-simplificado-cifrador-rc6-2000
+  relation: associated-with-supervision
+  target:
+    collection: external-supervision
+    id: marco-andre-lopes-mendes-masters-2001
+    label: Marco André Lopes Mendes — Modelo simplificado do cifrador RC6
+  evidence:
+    level: strong
+    basis: UFSC repository record and matching research topic
+- source:
+    collection: texts
+    id: protocolo-concessao-segura-credito-consumidor-2000
+  relation: associated-with-supervision
+  target:
+    collection: external-supervision
+    id: marcelo-luiz-brocardo-masters-2001
+    label: 'Marcelo Luiz Brocardo — I2AC: um protocolo criptográfico para análise segura de crédito'
+  evidence:
+    level: strong
+    basis: UFSC/BDTD repository record and matching research topic
+- source:
+    collection: texts
+    id: protocolo-sistema-credito-seguro-2000
+  relation: associated-with-supervision
+  target:
+    collection: external-supervision
+    id: marcelo-luiz-brocardo-masters-2001
+    label: 'Marcelo Luiz Brocardo — I2AC: um protocolo criptográfico para análise segura de crédito'
+  evidence:
+    level: strong
+    basis: UFSC/BDTD repository record and matching research topic
