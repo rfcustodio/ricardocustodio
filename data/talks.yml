@@ -1,46 +1,597 @@
-# Structured metadata for talks, presentations, workshops,
-# tutorials, panels, and guest lectures.
-
-talks: []
-
-# Future example:
-#
-# talks:
-#
-#   - id: example-talk
-#     title: "Example Talk"
-#     type: invited-talk
-#     status: delivered
-#
-#     date: 2026-01-01
-#
-#     event:
-#       name: "Example Conference"
-#       edition:
-#       website:
-#
-#     location:
-#       city:
-#       region:
-#       country:
-#
-#     language: en
-#
-#     presenters:
-#       - ricardo-custodio
-#
-#     topics:
-#       - information-security
-#       - cryptography
-#
-#     materials:
-#       slides:
-#       video:
-#       program:
-#
-#     related_publications: []
-#     related_projects: []
-#     related_software: []
-#     related_courses: []
-#
-#     links: []
+schema_version: '1.2'
+controlled_types:
+- keynote
+- invited-talk
+- conference-presentation
+- workshop
+- tutorial
+- panel
+- roundtable
+- guest-lecture
+- institutional-talk
+- professional-talk
+notes:
+- Canonical registry of talks and public presentations, not a dump of all event participation.
+- Attendance-only events, awards, reviewing roles, event organization, and courses taken are excluded.
+- Titles are preserved from sources when available; normalized titles are explicitly noted.
+- Source provenance is kept separately so Lattes, institutional pages, and later archival evidence can be reconciled.
+- '2012–2019 web audit: records are included only when an independent source establishes an actual presentation; conference
+  chairing, program-committee membership, event organization, and mere coauthorship are excluded.'
+- V1.2 adds ten editorial Selected Talks representing trajectory and thematic breadth, not citation, prestige, or recency
+  ranking.
+talks:
+- id: 2026-inteligencia-artificial-do-clarciev-iac-seguranca-e-operacao-de-modelos-
+  year: 2026
+  type: institutional-talk
+  title: 'Inteligência Artificial do CLARCIEV (IAC): segurança e operação de modelos fechados'
+  event: Reunião do Comitê Executivo do CLARCIEV
+  status: confirmed
+  source_records:
+  - source: web:on-rcpn
+  role: speaker
+  date: 2026-06-25/26
+  location: Rio de Janeiro, RJ, Brazil
+  notes: Title normalized from the subject actually presented; source confirms Custódio explained security of the isolated
+    AI model.
+  selected: true
+- id: 2025-inteligencia-artificial-no-registro-civil
+  year: 2025
+  type: panel
+  title: Inteligência Artificial no Registro Civil
+  event: XXII Encontro CLARCIEV
+  status: confirmed
+  source_records:
+  - source: web:arpen-sp-magazine
+  role: panelist
+  notes: Source confirms a Brazilian panel on AI with Ricardo Custódio; exact session title normalized from the report.
+  selected: false
+- id: 2025-25-anos-do-labsec
+  year: 2025
+  type: institutional-talk
+  title: 25 anos do LabSEC
+  event: LabSEC Day / Workshop Acadêmico do Registro Civil 2025
+  status: confirmed
+  source_records:
+  - source: web:labsec-day
+  role: speaker
+  date: '2025-07-02'
+  location: Florianópolis, SC, Brazil
+  selected: false
+- id: 2025-inteligencia-artificial-e-sua-aplicabilidade-ao-rcpn
+  year: 2025
+  type: panel
+  title: Inteligência Artificial e sua aplicabilidade ao RCPN
+  event: CONARCI 2025
+  status: confirmed
+  source_records:
+  - source: web:arpen-ms
+  role: panelist
+  date: '2025-09-12'
+  location: Maceió, AL, Brazil
+  selected: true
+- id: 2024-o-impacto-do-direito-digital-para-notarios-e-registradores
+  year: 2024
+  type: panel
+  title: O Impacto do Direito Digital para Notários e Registradores
+  event: XXIV Congresso da ANOREG/BR e VII CONCART
+  status: confirmed
+  source_records:
+  - source: web:anoreg
+  role: panelist
+  selected: false
+- id: 2024-colaboracao-brasil-mocambique
+  year: 2024
+  type: panel
+  title: Colaboração Brasil - Moçambique
+  event: Fórum RNP 2024
+  status: confirmed
+  source_records:
+  - source: web:rnp-event-platform
+  role: speaker
+  date: '2024-08-28'
+  notes: With Jean Carlo Faustino and Leonel Nhavene.
+  selected: false
+- id: 2023-identidade-baseada-em-consentimento
+  year: 2023
+  type: conference-presentation
+  title: Identidade Baseada em Consentimento
+  event: Conferência ou palestra registrada no Lattes
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: co-presenter
+  notes: With Frederico Schardong; Lattes does not identify the event in this record.
+  selected: false
+- id: 2022-identidade-eletronica-e-infraestrutura-de-chaves-publicas-de-mocambique
+  year: 2022
+  type: invited-talk
+  title: Identidade Eletrônica e Infraestrutura de Chaves-Públicas de Moçambique
+  event: Workshop Padrões e Tecnologias da ICP-Brasil
+  status: confirmed
+  source_records:
+  - source: web:wide-ufsc
+  role: speaker
+  date: '2022-03-24'
+  location: Florianópolis, SC, Brazil
+  selected: false
+- id: 2022-padroes-criptograficos-na-era-pos-quantica
+  year: 2022
+  type: invited-talk
+  title: Padrões criptográficos na era pós-quântica
+  event: Workshop Padrões e Tecnologias da ICP-Brasil
+  status: confirmed
+  source_records:
+  - source: web:wide-ufsc
+  role: speaker
+  date: '2022-03-24'
+  location: Florianópolis, SC, Brazil
+  selected: true
+- id: 2020-o-que-falta-para-termos-documentos-eletronicos-mais-seguros-e-baratos-no
+  year: 2020
+  type: professional-talk
+  title: O que falta para termos documentos eletrônicos mais seguros e baratos no Brasil?
+  event: 2ª Semana da Transformação Paperless
+  status: confirmed
+  source_records:
+  - source: web:bry
+  role: speaker
+  notes: Online event.
+  selected: false
+- id: 2019-crc-nacional-e-identidade-digital
+  year: 2019
+  type: panel
+  title: CRC Nacional e Identidade Digital
+  event: Congresso Nacional do Registro Civil (CONARCI 2019)
+  status: confirmed
+  source_records:
+  - source: ANOREG/BR
+    url: https://www.anoreg.org.br/site/crc-nacional-e-sua-vinculacao-com-a-identidade-digital-sao-temas-do-conarci-2019/
+  role: speaker
+  date: '2019-11-21'
+  location: Bonito, MS, Brazil
+  notes: Panel addressed identity documents, digital identity, digital signatures, public-key certification, and blockchain
+    in civil registration.
+  selected: true
+- id: 2013-sistema-de-gerenciamento-de-certificados-sgc-versao-hawa
+  year: 2013
+  type: workshop
+  title: Sistema de Gerenciamento de Certificados (SGC), versão Hawa
+  event: Workshop sobre o software de Sistema de Gerenciamento de Certificados (SGC), versão Hawa
+  status: confirmed
+  source_records:
+  - source: ITI
+    url: https://www.gov.br/iti/pt-br/assuntos/noticias/indice-de-noticias/iti-participa-de-workshop-sobre-software-de-gerenciamento-de-certificados
+  role: speaker
+  date: '2013-06-21'
+  notes: Presentation delivered by videoconference; included a demonstration of Hawa modules.
+  selected: false
+- id: 2011-assinatura-digital-de-documentos-eletronicos
+  year: 2011
+  type: professional-talk
+  title: Assinatura Digital de Documentos Eletrônicos
+  event: Palestras Técnicas Softplan
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2011-certificacao-digital-e-suas-aplicacoes
+  year: 2011
+  type: invited-talk
+  title: Certificação Digital e Suas Aplicações
+  event: Palestra de abertura da Pós-Graduação em Segurança da Informação
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2011-infraestrutura-de-chaves-publicas-brasileira-e-o-futuro-da-internet
+  year: 2011
+  type: invited-talk
+  title: Infraestrutura de Chaves Públicas Brasileira e o Futuro da Internet
+  event: XIV Semana de Informática da UFPA
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2011-nbpki-uma-icp-baseada-em-autoridades-notariais
+  year: 2011
+  type: invited-talk
+  title: NBPKI - Uma ICP baseada em Autoridades Notariais
+  event: Seminários de Pesquisa do Instituto de Computação da Unicamp
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: true
+- id: 2011-seguranca-da-informacao-e-assinatura-digital
+  year: 2011
+  type: invited-talk
+  title: Segurança da Informação e Assinatura Digital
+  event: Seminários de Informática da UFES
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2011-xvi-simposio-de-direito-notarial
+  year: 2011
+  type: professional-talk
+  title: XVI Simpósio de Direito Notarial
+  event: Simpósio de Direito Notarial
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  notes: Lattes gives the event/symposium title but no separate talk title.
+  selected: false
+- id: 2010-pesquisa-e-desenvolvimento-em-infraestrutura-de-chaves-publicas-e-suas-a
+  year: 2010
+  type: invited-talk
+  title: Pesquisa e Desenvolvimento em Infraestrutura de Chaves Públicas e suas aplicações
+  event: 1º Encontro em Teoria dos Códigos e Criptografia da UFABC
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2008-o-documento-eletronico-no-setor-notarial-repositorio-legal-e-preservacao
+  year: 2008
+  type: invited-talk
+  title: 'O documento eletrônico no setor notarial: repositório legal e preservação de longo prazo'
+  event: XV Congresso Notarial Brasileiro
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: true
+- id: 2007-infraestructura-de-certificacion-electronica-para-entidades-de-investiga
+  year: 2007
+  type: invited-talk
+  title: Infraestructura de Certificación Electrónica para Entidades de Investigación y Enseñanza
+  event: III Jornadas de Seguridad y Firma Electrónica
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2007-o-projeto-icpedu-a-situacao-atual
+  year: 2007
+  type: invited-talk
+  title: 'O projeto ICPEDU: a situação atual'
+  event: I Workshop de Tecnologia da Informação das IFES
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2007-temporal-key-release-infrastructure
+  year: 2007
+  type: conference-presentation
+  title: Temporal Key Release Infrastructure
+  event: 6th Annual PKI R&D Workshop
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: oral presenter
+  location: Gaithersburg, MD, USA
+  selected: true
+- id: 2007-tendencias-mundiais-da-certificacao-digital
+  year: 2007
+  type: invited-talk
+  title: Tendências Mundiais da Certificação Digital
+  event: Conferência/palestra registrada no Lattes
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  notes: Lattes records the presentation but does not identify the event in this field.
+  selected: false
+- id: 2006-aspectos-operacionais-de-uma-autoridade-certificadora
+  year: 2006
+  type: tutorial
+  title: Aspectos Operacionais de uma Autoridade Certificadora
+  event: 12º Seminário RNP de Capacitação e Inovação
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2004-2o-forum-de-certificacao-digital
+  year: 2004
+  type: professional-talk
+  title: 2º Fórum de Certificação Digital
+  event: 2º Fórum de Certificação Digital
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  notes: No distinct presentation title recorded.
+  selected: false
+- id: 2004-i-seminario-sobre-criptografia-no-palacio-do-planalto
+  year: 2004
+  type: invited-talk
+  title: I Seminário sobre Criptografia no Palácio do Planalto
+  event: Seminário sobre Criptografia no Palácio do Planalto
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  notes: No distinct presentation title recorded.
+  selected: false
+- id: 2004-i-simposio-de-tecnologia-da-informacao-da-marinha
+  year: 2004
+  type: invited-talk
+  title: I Simpósio de Tecnologia da Informação da Marinha
+  event: Simpósio de Tecnologia da Informação da Marinha
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  notes: No distinct presentation title recorded.
+  selected: false
+- id: 2004-workshop-identity-based-cryptography
+  year: 2004
+  type: workshop
+  title: Workshop Identity-Based Cryptography
+  event: Workshop Identity-Based Cryptography
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  notes: No distinct presentation title recorded.
+  selected: false
+- id: 2003-assinatura-eletronica-infra-estrutura-de-chaves-publicas
+  year: 2003
+  type: invited-talk
+  title: Assinatura Eletrônica - Infra-estrutura de Chaves Públicas
+  event: Evento sobre Assinatura Eletrônica - Infra-estrutura de Chaves Públicas
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2003-i-forum-nacional-de-certificacao-digital
+  year: 2003
+  type: professional-talk
+  title: I Fórum Nacional de Certificação Digital
+  event: I Fórum Nacional de Certificação Digital
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2003-i-workshop-de-protocolacao-digital-de-documentos-eletronicos
+  year: 2003
+  type: workshop
+  title: I Workshop de Protocolação Digital de Documentos Eletrônicos
+  event: I Workshop de Protocolação Digital de Documentos Eletrônicos
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2003-infra-estrutura-de-chaves-publicas
+  year: 2003
+  type: invited-talk
+  title: Infra-estrutura de Chaves Públicas
+  event: II CIBERÉTICA - Simpósio Internacional de Propriedade Intelectual, Informação e Ética
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: true
+- id: 2003-painel-especial-de-certificacao-digital
+  year: 2003
+  type: panel
+  title: Painel Especial de Certificação Digital
+  event: Security Week 2003
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: panelist
+  selected: false
+- id: 2002-analise-dos-requisitos-de-seguranca-do-processo-eleitoral-brasileiro
+  year: 2002
+  type: invited-talk
+  title: Análise dos Requisitos de Segurança do Processo Eleitoral Brasileiro
+  event: SSI 2002 - IV Simpósio Segurança em Informática
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: true
+- id: 2002-apresentacao-do-relatorio-de-avaliacao-do-sistema-informatizado-de-eleic
+  year: 2002
+  type: invited-talk
+  title: Apresentação do Relatório de Avaliação do Sistema Informatizado de Eleições Brasileiro realizado pela Unicamp
+  event: XXII Congresso da Sociedade Brasileira de Computação
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2002-assinatura-digital-de-documentos-eletronicos
+  year: 2002
+  type: invited-talk
+  title: Assinatura Digital de Documentos Eletrônicos
+  event: SSI 2002 - IV Simpósio Segurança em Informática
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2002-debate-tecnico-sobre-a-adocao-de-sistemas-de-chaves-publicas-no-brasil
+  year: 2002
+  type: panel
+  title: Debate Técnico sobre a Adoção de Sistemas de Chaves Públicas no Brasil
+  event: 20º Simpósio Brasileiro de Redes de Computadores
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: participant
+  selected: false
+- id: 2002-protocolizacao-digital-de-documentos-eletronicos
+  year: 2002
+  type: invited-talk
+  title: Protocolização Digital de Documentos Eletrônicos
+  event: Forum Avaliação de Segurança em TI e Redes Corporativas
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2002-tecnologias-para-a-informacao-segura-infra-estrutura-de-chaves-publicas
+  year: 2002
+  type: tutorial
+  title: 'Tecnologias para a Informação Segura: Infra-estrutura de Chaves Públicas'
+  event: II Encontro de Informática do Tocantins e IV Encontro de Estudantes de Informática do Tocantins
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: instructor
+  location: Palmas, TO, Brazil
+  selected: false
+- id: 2002-tecnologias-para-a-informacao-segura-infra-estrutura-de-chaves-publicas-2
+  year: 2002
+  type: tutorial
+  title: 'Tecnologias para a Informação Segura: Infra-estrutura de Chaves Públicas'
+  event: IV Escola de Informática Norte
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: instructor
+  location: Macapá, AP, Brazil
+  selected: false
+- id: 2002-tecnologias-para-a-informacao-segura-infra-estrutura-de-chaves-publicas-3
+  year: 2002
+  type: tutorial
+  title: 'Tecnologias para a Informação Segura: Infra-estrutura de Chaves Públicas'
+  event: IV Escola de Informática Norte da SBC
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: instructor
+  location: Belém, PA, Brazil
+  selected: false
+- id: 2001-aspectos-tecnologicos-do-documento-eletronico-e-sua-validade-juridica
+  year: 2001
+  type: invited-talk
+  title: Aspectos Tecnológicos do Documento Eletrônico e sua Validade Jurídica
+  event: Simpósio Segurança em Informática
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2001-criptografia-computacional
+  year: 2001
+  type: invited-talk
+  title: Criptografia Computacional
+  event: III FITEM - Fórum de Informática e Tecnologia de Maringá
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2001-da-assinatura-digital-a-infra-estrutura-de-chaves-publicas-validade-juri
+  year: 2001
+  type: invited-talk
+  title: 'Da assinatura digital à infra-estrutura de chaves públicas: validade jurídica do documento eletrônico'
+  event: 2 FEIT - Feira Regional de Informática e Tecnologia
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: true
+- id: 2001-infra-estrutura-de-chaves-publicas-tutorial
+  year: 2001
+  type: tutorial
+  title: 'Infra-estrutura de Chaves Públicas: Tutorial'
+  event: Seminário ICP-JUD
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: instructor
+  selected: false
+- id: 2001-infra-estrutura-de-chaves-publicas
+  year: 2001
+  type: invited-talk
+  title: Infra-estrutura de chaves públicas
+  event: I Ciclo de Palestras de Informática Jurídica - Direito, Sociedade e Informática e perspectivas da vida digital
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2001-ostracon-sistema-de-votacao-digital-segura-atraves-da-internet
+  year: 2001
+  type: conference-presentation
+  title: 'OSTRACON: Sistema de Votação Digital Segura Através da Internet'
+  event: Simpósio Segurança em Informática
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2001-politica-de-seguranca
+  year: 2001
+  type: professional-talk
+  title: Política de Segurança
+  event: Lançamento de Política de Segurança do CEPROMAT
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2001-privacidade-e-chaves-publicas-icp-brasil
+  year: 2001
+  type: invited-talk
+  title: Privacidade e Chaves Públicas - ICP/Brasil
+  event: Seminário de Documentos Eletrônicos
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2000-seguranca-em-redes
+  year: 2000
+  type: invited-talk
+  title: Segurança em Redes
+  event: II Semana da Computação
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2000-seguranca-na-internet
+  year: 2000
+  type: invited-talk
+  title: Segurança na Internet
+  event: III Semana Acadêmica de Ciências da Computação
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 2000-solucao-ufsc-infra-estrutura-de-chaves-publicas-autoridades-de-certifica
+  year: 2000
+  type: invited-talk
+  title: 'Solução UFSC: Infra-estrutura de chaves públicas, autoridades de certificação e certificados digitais'
+  event: Tecnologia a Serviço da Cidadania
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
+- id: 1999-seguranca-na-internet
+  year: 1999
+  type: invited-talk
+  title: Segurança na Internet
+  event: 1ª Semana de Informática
+  status: confirmed
+  source_records:
+  - source: lattes
+  role: speaker
+  selected: false
