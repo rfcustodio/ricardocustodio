@@ -228,49 +228,7 @@
     "href": "books.html",
     "title": "Books & Texts",
     "section": "",
-    "text": "Books, lecture notes, technical texts, and other long-form academic materials developed throughout my teaching, research, and professional activities.\nThis section is intended not only as a publication list, but also as a long-term repository for educational and technical material that may remain useful beyond the context in which it was originally produced."
-  },
-  {
-    "objectID": "books.html#books",
-    "href": "books.html#books",
-    "title": "Books & Texts",
-    "section": "Books",
-    "text": "Books\nThis section will contain published books and substantial monographs.\nFor each work, whenever available, the archive will provide bibliographic information together with links to the publisher, DOI, ISBN, electronic version, source files, or preserved copies."
-  },
-  {
-    "objectID": "books.html#lecture-notes-textbooks",
-    "href": "books.html#lecture-notes-textbooks",
-    "title": "Books & Texts",
-    "section": "Lecture Notes & Textbooks",
-    "text": "Lecture Notes & Textbooks\nTeaching materials developed for undergraduate and graduate courses form an important part of this collection.\nTopics include:\n\nmathematical foundations for computer science;\ninformation security;\ncryptography;\ndigital signatures;\npublic key infrastructure;\ndigital identity;\nelectronic documents;\nblockchain and cryptocurrencies;\nartificial intelligence and security;\nsecurity and usability in information systems.\n\nSome of these materials originated as course notes and evolved over several years of teaching. Where appropriate, they will be reorganized and preserved as independent academic texts."
-  },
-  {
-    "objectID": "books.html#technical-texts",
-    "href": "books.html#technical-texts",
-    "title": "Books & Texts",
-    "section": "Technical Texts",
-    "text": "Technical Texts\nThis collection will also include substantial technical material produced outside the conventional scientific-publication workflow.\nExamples include:\n\ntechnical reports;\ntechnology studies;\narchitecture documents;\nsecurity analyses;\ncryptographic infrastructure studies;\nstandards-related material;\nimplementation guides;\ninstitutional technical documents.\n\nWhen possible, public versions will be preserved together with their original publication context and associated projects."
-  },
-  {
-    "objectID": "books.html#works-in-progress",
-    "href": "books.html#works-in-progress",
-    "title": "Books & Texts",
-    "section": "Works in Progress",
-    "text": "Works in Progress\nSome texts are being developed as living documents and may evolve into books, tutorials, technical reports, or educational resources.\nThis section will provide access to public versions of these works when they reach an appropriate stage of development."
-  },
-  {
-    "objectID": "books.html#preservation-and-versions",
-    "href": "books.html#preservation-and-versions",
-    "title": "Books & Texts",
-    "section": "Preservation and Versions",
-    "text": "Preservation and Versions\nLong-form academic material frequently exists in several forms: drafts, course editions, institutional reports, preprints, published versions, and revised editions.\nThe archive will therefore distinguish between a work and its individual versions.\nWhenever appropriate, preserved works may include:\n\nbibliographic metadata;\npublication date;\nversion history;\nPDF;\nsource files;\nDOI or other persistent identifier;\nassociated software or datasets;\nrelated publications;\nrelated courses;\nrelated projects.\n\nThe objective is to preserve both the intellectual work and enough context to understand its evolution."
-  },
-  {
-    "objectID": "books.html#related-resources",
-    "href": "books.html#related-resources",
-    "title": "Books & Texts",
-    "section": "Related Resources",
-    "text": "Related Resources\n\nResearch\nPublications\nTeaching\nProjects\nSoftware & Data\nArchive"
+    "text": "This section brings together books, chapters, technical and scientific texts, teaching materials, and selected professional works produced throughout my academic career.\nThe collection is being progressively reconstructed from bibliographic records and historical archives. A bibliographic record confirms that a work is part of the academic record; it does not necessarily mean that a public digital copy is currently available."
   },
   {
     "objectID": "supervision.html",
