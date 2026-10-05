@@ -1,43 +1,430 @@
-# Structured metadata for historical and preserved academic objects.
-#
-# Archive records describe objects whose historical context and
-# provenance should be retained even when they are no longer part
-# of current academic activities.
-
-items: []
-
-# Future example:
-#
-# items:
-#
-#   - id: example-archive-item
-#     title: "Example Historical Object"
-#     type: document
-#     status: archived
-#
-#     date:
-#     description:
-#
-#     provenance:
-#       source:
-#       original_location:
-#       recovered:
-#
-#     preservation:
-#       format:
-#       checksum:
-#       preserved_at:
-#       persistent_identifier:
-#
-#     access:
-#       public: true
-#       file:
-#
-#     related_projects: []
-#     related_publications: []
-#     related_courses: []
-#     related_software: []
-#     related_talks: []
-#     related_people: []
-#
-#     notes:
+schema_version: 0.4-seven-genealogies
+purpose: Editorial historical layer. It references or contextualizes canonical objects; it does not replace their source
+  registries.
+periods:
+- id: 1980s
+  title: Engineering and Early Computing
+  years: 1981–1989
+  narrative: Electrical engineering, measurement and control systems, software generation, industrial automation, and
+    the first computational artifacts.
+  highlights:
+  - ref: software:universal-calibration-system
+    significance: Sistema Universal de Calibração
+    years: '1983'
+  - ref: software:automatic-program-generator
+    significance: Gerador Automático de Programas
+    years: '1985'
+  - ref: software:intelligent-temperature-controller
+    significance: Industrial monitoring and intelligent temperature-control systems
+    years: '1987'
+  - ref: software:press-monitoring-system
+    significance: Industrial monitoring and intelligent temperature-control systems
+    years: '1987'
+  - ref: software:boiler-monitoring-system
+    significance: Industrial monitoring and intelligent temperature-control systems
+    years: '1987'
+  - ref: software:combustion-engine-test-bench
+    significance: Internal-combustion-engine test bench
+    years: '1988'
+- id: 1990s
+  title: Scientific Computing, Cryptography and Security
+  years: 1990–1999
+  narrative: A transition from engineering and scientific computing to computer science, nonlinear analysis, cryptography,
+    and security research.
+  highlights:
+  - ref: software:hospital-infection-control
+    significance: Sistema de Controle de Infecção Hospitalar
+    years: '1993'
+  - ref: software:tsas
+    significance: TSAS
+    years: '1997'
+  - ref: software:pulsa
+    significance: PulSA
+    years: '1999'
+  - ref: projects:projetos-de-caixas-s
+    significance: S-box design using genetic algorithms
+    years: 1999–2001
+  - ref: projects:criptossitemas-caoticos
+    significance: Chaotic cryptosystems
+    years: 1999–2001
+  - ref: projects:modelo-simplificado-de-cifradores-de-bloco
+    significance: Simplified block ciphers (RC6/Rijndael)
+    years: 1999–2001
+- id: 2000s
+  title: Electronic Documents, PKI and Digital Trust
+  years: 2000–2009
+  narrative: The consolidation of LabSEC and a sustained research program on electronic documents, public-key infrastructure,
+    digital signatures, electronic voting, trusted key management, and long-term digital trust.
+  highlights:
+  - ref: projects:cartorio-virtual
+    significance: Cartório Virtual
+    years: 1999–2004
+  - ref: projects:protocoladora-digital-de-documentos-eletronicos
+    significance: Protocoladora Digital de Documentos Eletrônicos
+    years: 1999–2008
+  - ref: projects:votacao-digital
+    significance: Votação Digital / Farnel
+    years: 1999–2008
+  - ref: software:cartorio-virtual
+    significance: Cartório Virtual
+    years: '2000'
+  - ref: software:labsecsigner
+    significance: LabSECSigner
+    years: '2000'
+  - ref: software:pdde
+    significance: Protocoladora Digital de Documentos Eletrônicos (PDDE)
+    years: 2000–2001
+  - ref: software:ostracon
+    significance: OSTRACON
+    years: 2001–2002
+  - ref: software:openhsm
+    significance: OpenHSM
+    years: '2005'
+  - ref: projects:programa-joao-de-barro
+    significance: Programa João de Barro
+    years: 2005–2007
+  - ref: software:pki-hsm
+    significance: Hardware Security Module for PKI and certificate-management systems
+    years: '2007'
+  - ref: software:certificate-management-system-2007
+    significance: Hardware Security Module for PKI and certificate-management systems
+    years: '2007'
+  - ref: texts:revisao-algoritmos-chaves-icp-brasil-2008
+    significance: ICP-Brasil algorithm/key review and multiple-root hierarchy studies
+    years: 2008–2009
+  - ref: texts:hierarquia-multiplas-raizes-icp-brasil-2008
+    significance: ICP-Brasil algorithm/key review and multiple-root hierarchy studies
+    years: 2008–2009
+  - ref: projects:desenvolvimento-de-codigos-de-referencia-para-o-padrao-brasileiro-de-ass
+    significance: Brazilian Digital Signature Standard reference implementations
+    years: 2009–2011
+- id: 2010s
+  title: Digital Signatures, Identity and Cryptographic Infrastructure
+  years: 2010–2019
+  narrative: Digital-signature infrastructure matured into reference implementations, policy management, authentication,
+    identity, and deployable trust services.
+  highlights:
+  - ref: projects:autenticacao-multifator-em-sistemas-computacionais
+    significance: Multifactor Authentication in Computing Systems
+    years: 2010–2011
+  - ref: software:pbad-reference-library
+    significance: Brazilian Digital Signature reference implementations and policies
+    years: 2010–2011
+  - ref: software:pbad-minimal-signer
+    significance: Brazilian Digital Signature reference implementations and policies
+    years: 2010–2011
+  - ref: software:pbad-signature-policies
+    significance: Brazilian Digital Signature reference implementations and policies
+    years: 2010–2011
+  - ref: projects:certificado-de-identificacao-mobile-para-acesso-seguro-a-ambientes-de-te
+    significance: Mobile identification certificate for telehealth and telemedicine
+    years: 2011–2014
+  - ref: talks:2013-sistema-de-gerenciamento-de-certificados-sgc-versao-hawa
+    significance: Hawa certificate-management platform workshop and technology transfer
+    years: '2013'
+  - ref: software:hawa
+    significance: Hawa certificate-management platform workshop and technology transfer
+    years: '2013'
+  - ref: software:saec
+    significance: Sistema Automático para a Emissão de Certificados Digitais (SAEC)
+    years: '2018'
+  - ref: talks:2019-crc-nacional-e-identidade-digital
+    significance: CRC Nacional e Identidade Digital, CONARCI
+    years: '2019'
+- id: 2020s
+  title: Post-Quantum Cryptography, Electronic Identity and AI
+  years: 2020–2026
+  narrative: Research expands from mature digital-trust infrastructure toward post-quantum transition, electronic identity,
+    document confidentiality, AI agents, and national-scale digital public infrastructure.
+  highlights:
+  - ref: software:post-quantum-certificate-management-system
+    significance: Post-quantum digital certificate management system
+    years: '2020'
+  - ref: software:electronic-identity-management-system
+    significance: Electronic identity management system
+    years: '2020'
+  - ref: projects:certificacao-digital-e-identidade-eletronica
+    significance: Digital Certification and Electronic Identity
+    years: 2021–
+  - ref: projects:seguranca-de-documentos-eletronicos
+    significance: Electronic Document Security
+    years: 2021–
+  - ref: projects:seguranca-eficiencia-e-controle-na-gestao-documental-secdoc
+    significance: SecDoc
+    years: 2025–
+  - ref: talks:2025-25-anos-do-labsec
+    significance: 25 years of LabSEC
+    years: '2025'
+  - ref: software:ref
+    significance: REF, ICP-RC, IdRC, intelligent OCR and applied AI in the ON-RCPN/LabREC program
+    years: '2026'
+  - ref: software:icp-rc
+    significance: REF, ICP-RC, IdRC, intelligent OCR and applied AI in the ON-RCPN/LabREC program
+    years: '2026'
+  - ref: software:idrc
+    significance: REF, ICP-RC, IdRC, intelligent OCR and applied AI in the ON-RCPN/LabREC program
+    years: '2026'
+  - ref: software:intelligent-ocr
+    significance: REF, ICP-RC, IdRC, intelligent OCR and applied AI in the ON-RCPN/LabREC program
+    years: '2026'
+  - ref: software:aria
+    significance: REF, ICP-RC, IdRC, intelligent OCR and applied AI in the ON-RCPN/LabREC program
+    years: '2026'
+  - ref: projects:personal-ai
+    significance: Personal AI / agent identity and authorization
+    years: '2026'
+candidate_genealogies:
+- id: electronic-documents
+  title: Electronic Documents & Long-Term Preservation
+  status: modeled
+- id: pki-signatures
+  title: Public-Key Infrastructure & Digital Signatures
+  status: modeled
+- id: electronic-identity
+  title: Electronic Identity
+  status: modeled
+- id: electronic-voting
+  title: Electronic Voting
+  status: modeled
+- id: post-quantum
+  title: Post-Quantum Cryptography
+  status: modeled
+- id: finite-fields
+  title: Finite-Field Arithmetic & Cryptography
+  status: modeled
+- id: ai-digital-trust
+  title: AI, Agents & Digital Trust
+  status: modeled
+notes:
+- Archive is an editorial historical layer and does not duplicate canonical metadata.
+- Canonical references use collection:id syntax.
+- Context-only milestones remain in the audit and are not treated as canonical entities.
+- Chronological proximity does not imply causality.
+genealogies:
+- id: electronic-documents
+  title: Electronic Documents & Long-Term Preservation
+  summary: From early cryptographic protocols for electronic records and trusted dating to digital signatures, long-term
+    preservation, confidentiality, and secure document management.
+  nodes:
+  - ref: projects:cartorio-virtual
+    period: 1999–2004
+    role: foundation
+    registry_status: canonical
+  - ref: texts:protocolo-emissao-certidao-nascimento-web-2000
+    period: '2000'
+    role: research-output
+    registry_status: canonical
+  - ref: projects:protocoladora-digital-de-documentos-eletronicos
+    period: 1999–2008
+    role: foundation
+    registry_status: canonical
+  - ref: texts:sistema-brasileiro-datacao-documentos-eletronicos-2005
+    period: '2005'
+    role: research-output
+    registry_status: canonical
+  - ref: projects:desenvolvimento-de-codigos-de-referencia-para-o-padrao-brasileiro-de-ass
+    period: 2009–2011
+    role: standardization
+    registry_status: canonical
+  - ref: projects:seguranca-de-documentos-eletronicos
+    period: 2021–
+    role: continuation
+    registry_status: canonical
+  - ref: software:nemisig
+    period: 2020s
+    role: technological-artifact
+    registry_status: canonical
+  - ref: projects:seguranca-eficiencia-e-controle-na-gestao-documental-secdoc
+    period: 2025–
+    role: current-research
+    registry_status: canonical
+  editorial_edges:
+  - from: projects:cartorio-virtual
+    to: texts:protocolo-emissao-certidao-nascimento-web-2000
+    relation: research-output-of
+    strength: strong
+  - from: projects:protocoladora-digital-de-documentos-eletronicos
+    to: texts:sistema-brasileiro-datacao-documentos-eletronicos-2005
+    relation: associated-with-research-line
+    strength: moderate
+  - from: projects:seguranca-de-documentos-eletronicos
+    to: software:nemisig
+    relation: associated-with-technological-artifact
+    strength: editorial
+  - from: projects:seguranca-de-documentos-eletronicos
+    to: projects:seguranca-eficiencia-e-controle-na-gestao-documental-secdoc
+    relation: continued-by
+    strength: editorial
+- id: pki-signatures
+  title: Public-Key Infrastructure & Digital Signatures
+  summary: A research line spanning academic PKI, certificate lifecycle management, secure key custody, national digital-signature
+    standards, and newer identity-centered and post-quantum trust infrastructures.
+  nodes:
+  - ref: projects:gt-icp-edu
+    period: 2003–2004
+    role: foundation
+    registry_status: canonical
+  - ref: projects:gt-icp-edu-ii
+    period: 2004–2006
+    role: continuation
+    registry_status: canonical
+  - ref: software:openhsm
+    period: '2005'
+    role: technological-artifact
+    registry_status: canonical
+  - ref: projects:programa-joao-de-barro
+    period: 2005–2007
+    role: national-infrastructure
+    registry_status: canonical
+  - ref: software:certificate-management-system-2007
+    period: '2007'
+    role: technological-artifact
+    registry_status: canonical
+  - ref: projects:desenvolvimento-de-codigos-de-referencia-para-o-padrao-brasileiro-de-ass
+    period: 2009–2011
+    role: standardization
+    registry_status: canonical
+  - ref: software:pbad-reference-library
+    period: '2011'
+    role: technological-artifact
+    registry_status: canonical
+  - ref: projects:certificacao-digital-e-identidade-eletronica
+    period: 2021–
+    role: identity-transition
+    registry_status: canonical
+  - ref: software:icp-rc
+    period: 2020s
+    role: technological-artifact
+    registry_status: canonical
+  - ref: software:idrc
+    period: 2020s
+    role: technological-artifact
+    registry_status: canonical
+  - ref: software:post-quantum-certificate-management-system
+    period: '2020'
+    role: post-quantum-transition
+    registry_status: canonical
+  editorial_edges:
+  - from: projects:gt-icp-edu
+    to: projects:gt-icp-edu-ii
+    relation: continued-by
+    strength: strong
+  - from: projects:gt-icp-edu-ii
+    to: software:openhsm
+    relation: associated-with-technological-artifact
+    strength: strong
+  - from: projects:programa-joao-de-barro
+    to: software:certificate-management-system-2007
+    relation: associated-with-technological-artifact
+    strength: strong
+  - from: projects:desenvolvimento-de-codigos-de-referencia-para-o-padrao-brasileiro-de-ass
+    to: software:pbad-reference-library
+    relation: associated-with-technological-artifact
+    strength: strong
+  - from: projects:certificacao-digital-e-identidade-eletronica
+    to: software:icp-rc
+    relation: associated-with-technological-artifact
+    strength: editorial
+  - from: projects:certificacao-digital-e-identidade-eletronica
+    to: software:idrc
+    relation: associated-with-technological-artifact
+    strength: editorial
+  - from: projects:certificacao-digital-e-identidade-eletronica
+    to: software:post-quantum-certificate-management-system
+    relation: associated-with-research-line
+    strength: editorial
+- id: electronic-identity
+  title: Electronic Identity
+  summary: A trajectory from PKI-based identification and authentication toward identity-centered signing, electronic
+    identity management, and civil-registration identity infrastructure.
+  nodes:
+  - ref: projects:certificado-de-identificacao-mobile-para-acesso-seguro-a-ambientes-de-te
+    period: 2011–2014
+    role: identity-and-authentication
+    registry_status: canonical
+  - ref: software:electronic-identity-management-system
+    period: '2020'
+    role: technological-artifact
+    registry_status: canonical
+  - ref: projects:certificacao-digital-e-identidade-eletronica
+    period: 2021–
+    role: research-line
+    registry_status: canonical
+  - ref: software:ades
+    period: 2020s
+    role: identity-centered-signing
+    registry_status: canonical
+  - ref: software:idrc
+    period: 2020s
+    role: civil-registration-identity
+    registry_status: canonical
+  - ref: software:icp-rc
+    period: 2020s
+    role: civil-registration-trust
+    registry_status: canonical
+  edge_policy: chronological/editorial unless an evidence-bearing relation is separately recorded
+- id: electronic-voting
+  title: Electronic Voting
+  summary: Research on verifiable and privacy-preserving electronic voting, including the OSTRACON system and the Farnel-based
+    verifiable voting protocol.
+  nodes:
+  - ref: projects:votacao-digital
+    period: 1999–2008
+    role: research-line
+    registry_status: canonical
+  - ref: software:ostracon
+    period: 2001–2002
+    role: technological-artifact
+    registry_status: canonical
+  edge_policy: chronological/editorial unless an evidence-bearing relation is separately recorded
+- id: post-quantum
+  title: Post-Quantum Cryptography
+  summary: From post-quantum certificate management to protocol migration, electronic identity, and systematic research
+    on cryptographic algorithms resistant to quantum adversaries.
+  nodes:
+  - ref: software:post-quantum-certificate-management-system
+    period: '2020'
+    role: early-artifact
+    registry_status: canonical
+  - ref: projects:post-quantum-cryptographic-algorithms
+    period: 2020s
+    role: research-line
+    registry_status: canonical
+  - ref: projects:certificacao-digital-e-identidade-eletronica
+    period: 2021–
+    role: identity-and-certification
+    registry_status: canonical
+  edge_policy: chronological/editorial unless an evidence-bearing relation is separately recorded
+- id: finite-fields
+  title: Finite-Field Arithmetic & Cryptography
+  summary: A distinct cryptographic research line concerned with efficient arithmetic over binary extension fields, irreducible
+    polynomials, modular reduction, and implementation cost.
+  nodes:
+  - ref: projects:finite-field-arithmetic
+    period: 2020s
+    role: research-line
+    registry_status: canonical
+  edge_policy: chronological/editorial unless an evidence-bearing relation is separately recorded
+- id: ai-digital-trust
+  title: AI, Agents & Digital Trust
+  summary: An emerging line connecting artificial intelligence with trustworthy digital infrastructures, personal AI
+    agents, identity, authorization, and domain-specific sovereign AI.
+  nodes:
+  - ref: projects:personal-ai
+    period: 2020s
+    role: agent-trust
+    registry_status: canonical
+  - ref: software:aria
+    period: 2020s
+    role: applied-ai
+    registry_status: canonical
+  - ref: projects:labrec-on-rcpn
+    period: 2020s
+    role: institutional-context
+    registry_status: canonical
+  edge_policy: chronological/editorial unless an evidence-bearing relation is separately recorded
+genealogy_method:
+  sequence_semantics: Node order expresses an editorial research trajectory, not automatic causality.
+  edge_policy: Only evidence-backed relation types assert research-output, precursor, continuation, or artifact association.
+    Editorial edges are explicitly marked.
+  public_page_policy: Do not expose needs-registry-check nodes as resolved links until reconciled.

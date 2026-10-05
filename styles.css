@@ -454,3 +454,64 @@ h2 {
 }
 .talk-details,.talk-notes { font-size:.88rem; opacity:.78; margin-top:.5rem; }
 @media (max-width:576px) { .talk-top{display:block}.talk-year{margin-top:.35rem} }
+
+
+/* Academic Archive */
+.archive-period {
+  border-left: .22rem solid var(--bs-border-color);
+  padding: .15rem 0 1.25rem 1.25rem;
+  margin: 0 0 1.15rem .35rem;
+}
+.archive-period-years {
+  font-size: .82rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  opacity: .72;
+  text-transform: uppercase;
+}
+.archive-period h3 { margin: .18rem 0 .45rem 0; }
+.archive-period p { max-width: 58rem; }
+.archive-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(14rem,1fr));
+  gap: .55rem .9rem;
+  margin-top: .85rem;
+}
+.archive-highlight { display:flex; gap:.55rem; align-items:flex-start; font-size:.9rem; }
+.archive-dot {
+  width:.52rem; height:.52rem; border-radius:50%;
+  background: currentColor; opacity:.35; flex:0 0 auto; margin-top:.38rem;
+}
+.archive-small { font-size:.78rem; opacity:.68; margin-top:.08rem; }
+
+.genealogy-card {
+  border:1px solid var(--bs-border-color);
+  border-radius:.8rem;
+  padding:1.05rem 1.15rem;
+  margin:0 0 1rem 0;
+}
+.genealogy-card h3 { margin-top:0; }
+.genealogy-card > p { max-width:60rem; }
+.genealogy-flow {
+  display:flex;
+  align-items:stretch;
+  gap:.45rem;
+  overflow-x:auto;
+  padding:.45rem .05rem .3rem .05rem;
+}
+.genealogy-node {
+  min-width:10.5rem;
+  max-width:14rem;
+  border:1px solid var(--bs-border-color);
+  border-radius:.65rem;
+  padding:.62rem .7rem;
+  display:flex;
+  flex-direction:column;
+}
+.genealogy-period,.genealogy-kind { font-size:.72rem; opacity:.68; }
+.genealogy-node strong { font-size:.86rem; line-height:1.25; margin:.18rem 0; }
+.genealogy-arrow { align-self:center; opacity:.45; font-size:1.1rem; }
+@media (max-width: 700px) {
+  .archive-highlights { grid-template-columns:1fr; }
+  .genealogy-flow { padding-bottom:.7rem; }
+}
