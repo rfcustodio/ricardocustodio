@@ -49,6 +49,209 @@
     "text": "My publication record spans cryptography, public-key infrastructure, digital signatures, electronic documents, digital identity, post-quantum cryptography, and earlier research in computing, networks, and signal analysis.\nThe bibliography is organized around canonical scholarly works. A conference paper, journal version, preprint, or ePrint belonging to the same scholarly contribution is therefore consolidated as one work, while the individual bibliographic manifestations remain accessible."
   },
   {
+    "objectID": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html",
+    "href": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html",
+    "title": "Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era",
+    "section": "",
+    "text": "Authors: Frederico Schardong · Alexandre Augusto Giron · Fernanda Larisa M\"uller · Ricardo Cust'odio\nYear: 2022\nResearch areas: Post-Quantum Cryptography · Digital Identity · Cryptography"
+  },
+  {
+    "objectID": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html#significance",
+    "href": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html#significance",
+    "title": "Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era",
+    "section": "Significance",
+    "text": "Significance\nPost-quantum adaptation of widely deployed electronic identity protocols."
+  },
+  {
+    "objectID": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html#bibliographic-manifestations",
+    "href": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html#bibliographic-manifestations",
+    "title": "Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nPost-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era\nFrederico Schardong, Alexandre Augusto Giron, Fernanda Larisa M\"uller, Ricardo Cust'odio\nCryptology and Network Security - 21st International Conference, CANS 2022, Dubai, United Arab Emirates, November 13-16, 2022, Proceedings, 2022\nVolume 13641\nPages 371–390\nDOI: 10.1007/978-3-031-20974-1_20"
+  },
+  {
+    "objectID": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html#persistent-identifier",
+    "href": "id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/index.html#persistent-identifier",
+    "title": "Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
+  },
+  {
+    "objectID": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html",
+    "href": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html",
+    "title": "OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure’s Hardware Security Modules",
+    "section": "",
+    "text": "Authors: Jean Everson Martina · T'ulio Cicero Salvaro de Souza · Ricardo Felipe Cust'odio\nYear: 2007\nResearch areas: Public-Key Infrastructure · Cryptography"
+  },
+  {
+    "objectID": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html#significance",
+    "href": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html#significance",
+    "title": "OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure’s Hardware Security Modules",
+    "section": "Significance",
+    "text": "Significance\nKey lifecycle management and open protocols for PKI hardware security modules."
+  },
+  {
+    "objectID": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html#bibliographic-manifestations",
+    "href": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html#bibliographic-manifestations",
+    "title": "OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure’s Hardware Security Modules",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nOpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure’s Hardware Security Modules\nJean Everson Martina, T'ulio Cicero Salvaro de Souza, Ricardo Felipe Cust'odio\nPublic Key Infrastructure, 4th European PKI Workshop: Theory and Practice, EuroPKI 2007, Palma de Mallorca, Spain, June 28-30, 2007, Proceedings, 2007\nVolume 4582\nPages 220–235\nDOI: 10.1007/978-3-540-73408-6_16"
+  },
+  {
+    "objectID": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html#persistent-identifier",
+    "href": "id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/index.html#persistent-identifier",
+    "title": "OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure’s Hardware Security Modules",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
+  },
+  {
+    "objectID": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html",
+    "href": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html",
+    "title": "Cleaning up the PKI for Long-term Signatures",
+    "section": "",
+    "text": "Authors: Martín Augusto Gagliotti Vigil · Ricardo Felipe Custodio\nYear: 2012\nResearch areas: Public-Key Infrastructure · Electronic Documents · Digital Signatures · Cryptography"
+  },
+  {
+    "objectID": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html#significance",
+    "href": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html#significance",
+    "title": "Cleaning up the PKI for Long-term Signatures",
+    "section": "Significance",
+    "text": "Significance\nSimplifying PKI mechanisms for the long-term validation of digital signatures."
+  },
+  {
+    "objectID": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html#bibliographic-manifestations",
+    "href": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html#bibliographic-manifestations",
+    "title": "Cleaning up the PKI for Long-term Signatures",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nCleaning up the PKI for Long-term Signatures\nMartín Augusto Gagliotti Vigil, Ricardo Felipe Custodio\nXII SBSeg 2012, 2012"
+  },
+  {
+    "objectID": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html#persistent-identifier",
+    "href": "id/work/cleaning-up-the-pki-for-long-term-signatures/index.html#persistent-identifier",
+    "title": "Cleaning up the PKI for Long-term Signatures",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/cleaning-up-the-pki-for-long-term-signatures/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
+  },
+  {
+    "objectID": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html",
+    "href": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html",
+    "title": "A Verifiable Voting Protocol Based on Farnel",
+    "section": "",
+    "text": "Authors: Roberto Ara'ujo · Ricardo Felipe Cust'odio · Jeroen van de Graaf\nYear: 2010\nResearch areas: Electronic Voting · Cryptography"
+  },
+  {
+    "objectID": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html#significance",
+    "href": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html#significance",
+    "title": "A Verifiable Voting Protocol Based on Farnel",
+    "section": "Significance",
+    "text": "Significance\nVerifiable electronic voting using the Farnel approach."
+  },
+  {
+    "objectID": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html#bibliographic-manifestations",
+    "href": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html#bibliographic-manifestations",
+    "title": "A Verifiable Voting Protocol Based on Farnel",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nA Verifiable Voting Protocol Based on Farnel\nRoberto Ara'ujo, Ricardo Felipe Cust'odio, Jeroen van de Graaf\nTowards Trustworthy Elections, New Directions in Electronic Voting, 2010\nVolume 6000\nPages 274–288\nDOI: 10.1007/978-3-642-12980-3_17\n\n\nIACR ePrint\nA Verifiable Voting Protocol based on Farnel\nRoberto Ara'ujo, Ricardo Felipe Cust'odio, Jeroen van de Graaf\nIACR Cryptol. ePrint Arch., 2007\nVolume 2007\nPages 252\nPublication record"
+  },
+  {
+    "objectID": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html#persistent-identifier",
+    "href": "id/work/a-verifiable-voting-protocol-based-on-farnel/index.html#persistent-identifier",
+    "title": "A Verifiable Voting Protocol Based on Farnel",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
+  },
+  {
+    "objectID": "supervision.html",
+    "href": "supervision.html",
+    "title": "Supervision",
+    "section": "",
+    "text": "My academic supervision has focused primarily on cryptography, information security, digital identity, digital signatures, electronic documents, and related areas of computer science.\nOver the years, I have supervised undergraduate, master’s, and doctoral students, many of whom have continued their careers in academia, research, industry, and technology development.\nCurrent doctoral and master’s students are listed below. Research topics reflect the structured supervision records maintained for this website."
+  },
+  {
+    "objectID": "supervision.html#academic-genealogy",
+    "href": "supervision.html#academic-genealogy",
+    "title": "Supervision",
+    "section": "Academic Genealogy",
+    "text": "Academic Genealogy\nAcademic supervision is more than a list of theses and dissertations. It represents the development of research lines, collaborations, and successive generations of researchers.\nSeveral students initially supervised at the master’s level later continued their doctoral studies, while former students have themselves become researchers, professors, and supervisors.\nA structured academic genealogy connecting students, publications, projects, software, and research topics is under development."
+  },
+  {
+    "objectID": "supervision.html#research-areas",
+    "href": "supervision.html#research-areas",
+    "title": "Supervision",
+    "section": "Research Areas",
+    "text": "Research Areas\nSupervision has covered topics including:\n\nCryptography\nPost-Quantum Cryptography\nFinite-Field Arithmetic\nDigital Signatures\nPublic-Key Infrastructure\nDigital Identity\nElectronic Documents\nLong-Term Digital Preservation\nCryptographic Protocols\nInformation and Network Security\nBlockchain\nSecurity and Artificial Intelligence"
+  },
+  {
+    "objectID": "supervision.html#from-supervision-to-research",
+    "href": "supervision.html#from-supervision-to-research",
+    "title": "Supervision",
+    "section": "From Supervision to Research",
+    "text": "From Supervision to Research\nStudent supervision is closely connected to the research activities described throughout this website.\nMany theses and dissertations have resulted in publications, software prototypes, datasets, technical reports, and subsequent research projects.\nThese relationships will progressively be represented using the structured metadata maintained by this website.\nSee also:\n\nResearch\nPublications\nProjects\nSoftware & Data"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books & Texts",
+    "section": "",
+    "text": "This section brings together books, chapters, technical and scientific texts, teaching materials, and selected professional works produced throughout my academic career.\nThe collection is being progressively reconstructed from bibliographic records and historical archives. A bibliographic record confirms that a work is part of the academic record; it does not necessarily mean that a public digital copy is currently available."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources."
+  },
+  {
+    "objectID": "teaching.html#current-recent-courses",
+    "href": "teaching.html#current-recent-courses",
+    "title": "Teaching",
+    "section": "Current & Recent Courses",
+    "text": "Current & Recent Courses\n\n\nINE5601undergraduate\nMathematical Foundations for Computer Science\nDiscrete mathematical foundations for computing, including logic, sets, integers, induction, recursion, relations, functions, order structures, Boolean algebra, and algebraic structures.\nDocumented offerings: 2026-1\n\nMathematical Logic\nSet Theory\nModular Arithmetic\nInduction\nRecursion\nRelations\nFunctions\nPosets\nBoolean Algebra\nAlgebraic Structures\n\n\n\nINE5448undergraduate\nSecurity and Artificial Intelligence\nTópicos Especiais em Aplicações Tecnológicas I\nTheory and practice at the intersection of artificial intelligence and information security, combining foundational concepts, case studies, guided study, seminars, and proof-of-concept development.\nDocumented offerings: 2025-2, 2026-1\n\nArtificial Intelligence\nInformation Security\nMachine Learning\nAdversarial Attacks\nPrivacy\nEthics\nGovernance\n\n\n\ngraduate-professional\nSecurity and Usability in Health Information Systems\nSecurity, privacy, cryptographic protocols, identity management, regulation, and usability applied to health information systems.\nDocumented offerings: 2026-1\n\nInformation Security\nCryptography\nKey Management\nPKI\nElectronic Identity\nPrivacy\nUsability\nUX/UI"
+  },
+  {
+    "objectID": "teaching.html#educational-resources",
+    "href": "teaching.html#educational-resources",
+    "title": "Teaching",
+    "section": "Educational Resources",
+    "text": "Educational Resources\nCourse programs\n2008-2 public candidate\n\nTeaching plans\n2026-1 public candidate\n2025-2 public candidate\n2026-1 public candidate\n2026-1 public candidate\n\nAssessments\nPropositional Logic review before publication\n\nExams\nComprehensive recovery exam review before publication"
+  },
+  {
+    "objectID": "teaching.html#teaching-trajectory",
+    "href": "teaching.html#teaching-trajectory",
+    "title": "Teaching",
+    "section": "Teaching Trajectory",
+    "text": "Teaching Trajectory\n\nLinear Algebra and Analytic Geometry I (monitor, 1982)\nComputer Architecture and Organization\nIntroduction to Computer Science\nObject-Oriented Programming\nData Structures\nNumerical Computing\nIntroduction to Computing\nDigital Electronics Laboratory\nMicroprocessors and Microcontrollers\nComputer Security\nTheory of Computation\nCryptography and Network Security\nPublic-Key Infrastructure\nCryptographic Protocols\nNetwork Security"
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "Teaching Philosophy",
+    "text": "Teaching Philosophy\nI approach teaching as a connection between formal foundations and real computational problems. In mathematics, security, cryptography, and artificial intelligence, students should understand not only how a technique works, but also the assumptions, limitations, and consequences of using it.\nPractical work, critical reading, discussion, and the construction of working prototypes complement the conceptual foundations of the courses."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "My research has often been developed through long-term initiatives that connect fundamental research, technological development, infrastructure, standards, and real-world applications.\nThe portfolio spans cryptography, digital trust, electronic documents, digital identity, post-quantum security, artificial intelligence, and information infrastructures. Research programs represent continuing lines of investigation, while projects have more specific technological, scientific, or institutional objectives."
+  },
+  {
+    "objectID": "projects.html#from-research-to-technology",
+    "href": "projects.html#from-research-to-technology",
+    "title": "Projects",
+    "section": "From Research to Technology",
+    "text": "From Research to Technology\nA recurring objective of these initiatives is to connect foundational research with deployable systems, standards, open implementations, and long-term digital infrastructures. Some completed projects continue to influence current work, either through technologies reused in new projects or through research questions that evolved into continuing research programs."
+  },
+  {
+    "objectID": "projects.html#related-resources",
+    "href": "projects.html#related-resources",
+    "title": "Projects",
+    "section": "Related Resources",
+    "text": "Related Resources\nSee also Research, Publications, Software & Data, Supervision, and Talks."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ricardo Custódio",
@@ -91,95 +294,144 @@
     "text": "An Academic Memory, Not Only a Website\nThis site is designed as a long-term scholarly record. Publications are only one part of that record. Projects, software, technical texts, courses, talks, supervision, and unfinished research directions also document how ideas develop over time.\nThe Academic Archive connects these records into historical periods and research genealogies.\nEnter the Academic Archive →"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html",
+    "href": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html",
+    "title": "Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation",
     "section": "",
-    "text": "My research has often been developed through long-term initiatives that connect fundamental research, technological development, infrastructure, standards, and real-world applications.\nThe portfolio spans cryptography, digital trust, electronic documents, digital identity, post-quantum security, artificial intelligence, and information infrastructures. Research programs represent continuing lines of investigation, while projects have more specific technological, scientific, or institutional objectives."
+    "text": "Authors: Ricardo Felipe Cust'odio · Mart'Augusto Gagliotti Vigil · Juliano Romani · Fernando Carlos Pereira · Joni da Silva Fraga\nYear: 2008\nResearch areas: Public-Key Infrastructure · Electronic Documents · Digital Signatures · Cryptography"
   },
   {
-    "objectID": "projects.html#from-research-to-technology",
-    "href": "projects.html#from-research-to-technology",
-    "title": "Projects",
-    "section": "From Research to Technology",
-    "text": "From Research to Technology\nA recurring objective of these initiatives is to connect foundational research with deployable systems, standards, open implementations, and long-term digital infrastructures. Some completed projects continue to influence current work, either through technologies reused in new projects or through research questions that evolved into continuing research programs."
+    "objectID": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html#significance",
+    "href": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html#significance",
+    "title": "Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation",
+    "section": "Significance",
+    "text": "Significance\nEfficient certificate design for electronic document signature validation."
   },
   {
-    "objectID": "projects.html#related-resources",
-    "href": "projects.html#related-resources",
-    "title": "Projects",
-    "section": "Related Resources",
-    "text": "Related Resources\nSee also Research, Publications, Software & Data, Supervision, and Talks."
+    "objectID": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html#bibliographic-manifestations",
+    "href": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html#bibliographic-manifestations",
+    "title": "Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nOptimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation\nRicardo Felipe Cust'odio, Mart'Augusto Gagliotti Vigil, Juliano Romani, Fernando Carlos Pereira, Joni da Silva Fraga\nPublic Key Infrastructure, 5th European PKI Workshop: Theory and Practice, EuroPKI 2008, Trondheim, Norway, June 16-17, 2008, Proceedings, 2008\nVolume 5057\nPages 49–59\nDOI: 10.1007/978-3-540-69485-4_4"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html#persistent-identifier",
+    "href": "id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/index.html#persistent-identifier",
+    "title": "Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
+  },
+  {
+    "objectID": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html",
+    "href": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html",
+    "title": "Tuning the Winternitz hash-based digital signature scheme",
     "section": "",
-    "text": "My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources."
+    "text": "Authors: Lucas Pandolfo Perin · Gustavo Zambonin · Douglas Marcelino Beppler Martins · Ricardo Felipe Cust'odio · Jean Everson Martina\nYear: 2018\nResearch areas: Post-Quantum Cryptography · Digital Signatures · Cryptography"
   },
   {
-    "objectID": "teaching.html#current-recent-courses",
-    "href": "teaching.html#current-recent-courses",
-    "title": "Teaching",
-    "section": "Current & Recent Courses",
-    "text": "Current & Recent Courses\n\n\nINE5601undergraduate\nMathematical Foundations for Computer Science\nDiscrete mathematical foundations for computing, including logic, sets, integers, induction, recursion, relations, functions, order structures, Boolean algebra, and algebraic structures.\nDocumented offerings: 2026-1\n\nMathematical Logic\nSet Theory\nModular Arithmetic\nInduction\nRecursion\nRelations\nFunctions\nPosets\nBoolean Algebra\nAlgebraic Structures\n\n\n\nINE5448undergraduate\nSecurity and Artificial Intelligence\nTópicos Especiais em Aplicações Tecnológicas I\nTheory and practice at the intersection of artificial intelligence and information security, combining foundational concepts, case studies, guided study, seminars, and proof-of-concept development.\nDocumented offerings: 2025-2, 2026-1\n\nArtificial Intelligence\nInformation Security\nMachine Learning\nAdversarial Attacks\nPrivacy\nEthics\nGovernance\n\n\n\ngraduate-professional\nSecurity and Usability in Health Information Systems\nSecurity, privacy, cryptographic protocols, identity management, regulation, and usability applied to health information systems.\nDocumented offerings: 2026-1\n\nInformation Security\nCryptography\nKey Management\nPKI\nElectronic Identity\nPrivacy\nUsability\nUX/UI"
+    "objectID": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html#significance",
+    "href": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html#significance",
+    "title": "Tuning the Winternitz hash-based digital signature scheme",
+    "section": "Significance",
+    "text": "Significance\nOptimization of Winternitz hash-based signatures and a bridge to post-quantum research."
   },
   {
-    "objectID": "teaching.html#educational-resources",
-    "href": "teaching.html#educational-resources",
-    "title": "Teaching",
-    "section": "Educational Resources",
-    "text": "Educational Resources\nCourse programs\n2008-2 public candidate\n\nTeaching plans\n2026-1 public candidate\n2025-2 public candidate\n2026-1 public candidate\n2026-1 public candidate\n\nAssessments\nPropositional Logic review before publication\n\nExams\nComprehensive recovery exam review before publication"
+    "objectID": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html#bibliographic-manifestations",
+    "href": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html#bibliographic-manifestations",
+    "title": "Tuning the Winternitz hash-based digital signature scheme",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nTuning the Winternitz hash-based digital signature scheme\nLucas Pandolfo Perin, Gustavo Zambonin, Douglas Marcelino Beppler Martins, Ricardo Felipe Cust'odio, Jean Everson Martina\n2018 IEEE Symposium on Computers and Communications, ISCC 2018, Natal, Brazil, June 25-28, 2018, 2018\nPages 537–542\nDOI: 10.1109/ISCC.2018.8538642"
   },
   {
-    "objectID": "teaching.html#teaching-trajectory",
-    "href": "teaching.html#teaching-trajectory",
-    "title": "Teaching",
-    "section": "Teaching Trajectory",
-    "text": "Teaching Trajectory\n\nLinear Algebra and Analytic Geometry I (monitor, 1982)\nComputer Architecture and Organization\nIntroduction to Computer Science\nObject-Oriented Programming\nData Structures\nNumerical Computing\nIntroduction to Computing\nDigital Electronics Laboratory\nMicroprocessors and Microcontrollers\nComputer Security\nTheory of Computation\nCryptography and Network Security\nPublic-Key Infrastructure\nCryptographic Protocols\nNetwork Security"
+    "objectID": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html#persistent-identifier",
+    "href": "id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/index.html#persistent-identifier",
+    "title": "Tuning the Winternitz hash-based digital signature scheme",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
   },
   {
-    "objectID": "teaching.html#teaching-philosophy",
-    "href": "teaching.html#teaching-philosophy",
-    "title": "Teaching",
-    "section": "Teaching Philosophy",
-    "text": "Teaching Philosophy\nI approach teaching as a connection between formal foundations and real computational problems. In mathematics, security, cryptography, and artificial intelligence, students should understand not only how a technique works, but also the assumptions, limitations, and consequences of using it.\nPractical work, critical reading, discussion, and the construction of working prototypes complement the conceptual foundations of the courses."
-  },
-  {
-    "objectID": "books.html",
-    "href": "books.html",
-    "title": "Books & Texts",
+    "objectID": "id/work/a-user-centric-digital-signature-scheme/index.html",
+    "href": "id/work/a-user-centric-digital-signature-scheme/index.html",
+    "title": "A User-Centric Digital Signature Scheme",
     "section": "",
-    "text": "This section brings together books, chapters, technical and scientific texts, teaching materials, and selected professional works produced throughout my academic career.\nThe collection is being progressively reconstructed from bibliographic records and historical archives. A bibliographic record confirms that a work is part of the academic record; it does not necessarily mean that a public digital copy is currently available."
+    "text": "Authors: Felipe Carlos Werlang · Ricardo Felipe Cust'odio · Mart'Augusto Gagliotti Vigil\nYear: 2013\nResearch areas: Digital Signatures · Public-Key Infrastructure · Cryptography"
   },
   {
-    "objectID": "supervision.html",
-    "href": "supervision.html",
-    "title": "Supervision",
+    "objectID": "id/work/a-user-centric-digital-signature-scheme/index.html#significance",
+    "href": "id/work/a-user-centric-digital-signature-scheme/index.html#significance",
+    "title": "A User-Centric Digital Signature Scheme",
+    "section": "Significance",
+    "text": "Significance\nA user-centric approach to digital signatures and electronic documents."
+  },
+  {
+    "objectID": "id/work/a-user-centric-digital-signature-scheme/index.html#bibliographic-manifestations",
+    "href": "id/work/a-user-centric-digital-signature-scheme/index.html#bibliographic-manifestations",
+    "title": "A User-Centric Digital Signature Scheme",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nA User-Centric Digital Signature Scheme\nFelipe Carlos Werlang, Ricardo Felipe Cust'odio, Mart'Augusto Gagliotti Vigil\nPublic Key Infrastructures, Services and Applications - 10th European Workshop, EuroPKI 2013, Egham, UK, September 12-13, 2013, Revised Selected Papers, 2013\nVolume 8341\nPages 152–169\nDOI: 10.1007/978-3-642-53997-8_10"
+  },
+  {
+    "objectID": "id/work/a-user-centric-digital-signature-scheme/index.html#persistent-identifier",
+    "href": "id/work/a-user-centric-digital-signature-scheme/index.html#persistent-identifier",
+    "title": "A User-Centric Digital Signature Scheme",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/a-user-centric-digital-signature-scheme/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
+  },
+  {
+    "objectID": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html",
+    "href": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html",
+    "title": "The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents",
     "section": "",
-    "text": "My academic supervision has focused primarily on cryptography, information security, digital identity, digital signatures, electronic documents, and related areas of computer science.\nOver the years, I have supervised undergraduate, master’s, and doctoral students, many of whom have continued their careers in academia, research, industry, and technology development.\nCurrent doctoral and master’s students are listed below. Research topics reflect the structured supervision records maintained for this website."
+    "text": "Authors: Mart'Augusto Gagliotti Vigil · Cristian Thiago Moecke · Ricardo Felipe Cust'odio · Melanie Volkamer\nYear: 2012\nResearch areas: Public-Key Infrastructure · Electronic Documents · Digital Signatures · Cryptography"
   },
   {
-    "objectID": "supervision.html#academic-genealogy",
-    "href": "supervision.html#academic-genealogy",
-    "title": "Supervision",
-    "section": "Academic Genealogy",
-    "text": "Academic Genealogy\nAcademic supervision is more than a list of theses and dissertations. It represents the development of research lines, collaborations, and successive generations of researchers.\nSeveral students initially supervised at the master’s level later continued their doctoral studies, while former students have themselves become researchers, professors, and supervisors.\nA structured academic genealogy connecting students, publications, projects, software, and research topics is under development."
+    "objectID": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html#significance",
+    "href": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html#significance",
+    "title": "The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents",
+    "section": "Significance",
+    "text": "Significance\nA lightweight notary-based PKI model for long-term document signatures."
   },
   {
-    "objectID": "supervision.html#research-areas",
-    "href": "supervision.html#research-areas",
-    "title": "Supervision",
-    "section": "Research Areas",
-    "text": "Research Areas\nSupervision has covered topics including:\n\nCryptography\nPost-Quantum Cryptography\nFinite-Field Arithmetic\nDigital Signatures\nPublic-Key Infrastructure\nDigital Identity\nElectronic Documents\nLong-Term Digital Preservation\nCryptographic Protocols\nInformation and Network Security\nBlockchain\nSecurity and Artificial Intelligence"
+    "objectID": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html#bibliographic-manifestations",
+    "href": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html#bibliographic-manifestations",
+    "title": "The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nThe Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents\nMart'Augusto Gagliotti Vigil, Cristian Thiago Moecke, Ricardo Felipe Cust'odio, Melanie Volkamer\nPublic Key Infrastructures, Services and Applications - 9th European Workshop, EuroPKI 2012, Pisa, Italy, September 13-14, 2012, Revised Selected Papers, 2012\nVolume 7868\nPages 85–97\nDOI: 10.1007/978-3-642-40012-4_6\n\n\nConference paper\nThe Notary Based PKI ? A Lightweight PKI for Long-term Protection of Digital Documents\nMartín Augusto Gagliotti Vigil, Cristian Thiago Moecke, Ricardo Felipe Custodio, Melanie Volkamer\n9th European PKI Workshop: Research and Applications, 2012\nPublication record"
   },
   {
-    "objectID": "supervision.html#from-supervision-to-research",
-    "href": "supervision.html#from-supervision-to-research",
-    "title": "Supervision",
-    "section": "From Supervision to Research",
-    "text": "From Supervision to Research\nStudent supervision is closely connected to the research activities described throughout this website.\nMany theses and dissertations have resulted in publications, software prototypes, datasets, technical reports, and subsequent research projects.\nThese relationships will progressively be represented using the structured metadata maintained by this website.\nSee also:\n\nResearch\nPublications\nProjects\nSoftware & Data"
+    "objectID": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html#persistent-identifier",
+    "href": "id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/index.html#persistent-identifier",
+    "title": "The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
+  },
+  {
+    "objectID": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html",
+    "href": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html",
+    "title": "Audit and backup procedures for hardware security modules",
+    "section": "",
+    "text": "Authors: T'ulio Cicero Salvaro de Souza · Jean Everson Martina · Ricardo Felipe Cust'odio\nYear: 2008\nResearch areas: Digital Identity"
+  },
+  {
+    "objectID": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html#significance",
+    "href": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html#significance",
+    "title": "Audit and backup procedures for hardware security modules",
+    "section": "Significance",
+    "text": "Significance\nAuditability, backup, and operational assurance for hardware security modules."
+  },
+  {
+    "objectID": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html#bibliographic-manifestations",
+    "href": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html#bibliographic-manifestations",
+    "title": "Audit and backup procedures for hardware security modules",
+    "section": "Bibliographic manifestations",
+    "text": "Bibliographic manifestations\n\nConference paper · preferred\nAudit and backup procedures for hardware security modules\nT'ulio Cicero Salvaro de Souza, Jean Everson Martina, Ricardo Felipe Cust'odio\nIDtrust 2008, Proceedings of the 7th Symposium on Identity and Trust on the Internet, March 4-6, 2008, Gaithersburg, Maryland, USA, 2008\nVolume 283\nPages 89–97\nDOI: 10.1145/1373290.1373302"
+  },
+  {
+    "objectID": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html#persistent-identifier",
+    "href": "id/work/audit-and-backup-procedures-for-hardware-security-modules/index.html#persistent-identifier",
+    "title": "Audit and backup procedures for hardware security modules",
+    "section": "Persistent identifier",
+    "text": "Persistent identifier\nhttps://ricardocustodio.com.br/id/work/audit-and-backup-procedures-for-hardware-security-modules/\nThis page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution."
   },
   {
     "objectID": "research.html",
