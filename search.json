@@ -46,7 +46,7 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "My publication record spans cryptography, public-key infrastructure, digital signatures, electronic documents, digital identity, post-quantum cryptography, and earlier research in computing and signal analysis.\nThe bibliography is maintained as a canonical scholarly-work registry. Different manifestations of the same work, such as a preprint and its final publication, are consolidated rather than counted as independent publications."
+    "text": "My publication record spans cryptography, public-key infrastructure, digital signatures, electronic documents, digital identity, post-quantum cryptography, and earlier research in computing, networks, and signal analysis.\nThe bibliography is organized around canonical scholarly works. A conference paper, journal version, preprint, or ePrint belonging to the same scholarly contribution is therefore consolidated as one work, while the individual bibliographic manifestations remain accessible."
   },
   {
     "objectID": "index.html",
