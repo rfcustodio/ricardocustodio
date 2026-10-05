@@ -2,10 +2,16 @@ project:
   type: website
   resources:
     - CNAME
+    - robots.txt
 
 website:
   title: "Ricardo Custódio"
+  description: "Academic website of Ricardo Custódio: research on cryptography, digital trust, electronic identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and AI security."
   site-url: "https://ricardocustodio.com.br"
+  repo-url: "https://github.com/rfcustodio/ricardocustodio"
+
+  open-graph: true
+  twitter-card: true
 
   navbar:
     left:
@@ -39,6 +45,16 @@ website:
             text: Contact
 
   search: true
+  back-to-top-navigation: true
+
+  page-footer:
+    left: "Ricardo Custódio · Academic website"
+    right:
+      - text: ORCID
+        href: https://orcid.org/0000-0001-9611-5694
+      - icon: github
+        href: https://github.com/rfcustodio
+        aria-label: GitHub
 
 format:
   html:
@@ -47,3 +63,18 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    lang: en
+    include-in-header:
+      - person-jsonld.html
+    author-meta: "Ricardo Custódio"
+    keywords:
+      - cryptography
+      - information security
+      - digital trust
+      - digital signatures
+      - public-key infrastructure
+      - electronic identity
+      - electronic documents
+      - post-quantum cryptography
+      - finite fields
+      - artificial intelligence security
