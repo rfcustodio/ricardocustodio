@@ -130,42 +130,35 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Teaching has been an integral part of my academic career.\nMy courses are closely connected to my research in information security, cryptography, digital identity, electronic documents, artificial intelligence, and the mathematical foundations of computer science.\nThis section also serves as a long-term archive of lecture notes, slides, exercises, assignments, and other educational resources developed throughout my academic career."
+    "text": "My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources."
   },
   {
-    "objectID": "teaching.html#current-courses",
-    "href": "teaching.html#current-courses",
+    "objectID": "teaching.html#current-recent-courses",
+    "href": "teaching.html#current-recent-courses",
     "title": "Teaching",
-    "section": "Current Courses",
-    "text": "Current Courses\n\nMathematical Foundations for Computer Science\nTopics include mathematical reasoning, logic, proofs, induction, recurrences, combinatorics, relations, functions, and other mathematical foundations used in computer science.\nLevel: Undergraduate\nCourse materials →\n\n\nSecurity and Artificial Intelligence\nThe course investigates the relationship between artificial intelligence and information security, including the use of AI in security applications and the security challenges introduced by AI-based systems and autonomous agents.\nLevel: Undergraduate\nCourse materials →\n\n\nSecurity and Usability in Health Information Systems\nThe course examines security, privacy, usability, identity, authentication, electronic documents, and trust mechanisms in the context of health information systems.\nLevel: Graduate\nCourse materials →"
-  },
-  {
-    "objectID": "teaching.html#previous-courses",
-    "href": "teaching.html#previous-courses",
-    "title": "Teaching",
-    "section": "Previous Courses",
-    "text": "Previous Courses\nThroughout my academic career, I have taught courses in areas including:\n\nInformation Security\nCryptography\nPublic Key Infrastructure and Applications\nDigital Signatures\nBlockchain and Cryptocurrencies\nComputer Networks\nMathematical Foundations for Computer Science\nHealth Information Systems\nArtificial Intelligence and Security\n\nThis archive will be progressively reconstructed and expanded."
+    "section": "Current & Recent Courses",
+    "text": "Current & Recent Courses\n\n\nINE5601undergraduate\nMathematical Foundations for Computer Science\nDiscrete mathematical foundations for computing, including logic, sets, integers, induction, recursion, relations, functions, order structures, Boolean algebra, and algebraic structures.\nDocumented offerings: 2026-1\n\nMathematical Logic\nSet Theory\nModular Arithmetic\nInduction\nRecursion\nRelations\nFunctions\nPosets\nBoolean Algebra\nAlgebraic Structures\n\n\n\nINE5448undergraduate\nSecurity and Artificial Intelligence\nTópicos Especiais em Aplicações Tecnológicas I\nTheory and practice at the intersection of artificial intelligence and information security, combining foundational concepts, case studies, guided study, seminars, and proof-of-concept development.\nDocumented offerings: 2025-2, 2026-1\n\nArtificial Intelligence\nInformation Security\nMachine Learning\nAdversarial Attacks\nPrivacy\nEthics\nGovernance\n\n\n\ngraduate-professional\nSecurity and Usability in Health Information Systems\nSecurity, privacy, cryptographic protocols, identity management, regulation, and usability applied to health information systems.\nDocumented offerings: 2026-1\n\nInformation Security\nCryptography\nKey Management\nPKI\nElectronic Identity\nPrivacy\nUsability\nUX/UI"
   },
   {
     "objectID": "teaching.html#educational-resources",
     "href": "teaching.html#educational-resources",
     "title": "Teaching",
     "section": "Educational Resources",
-    "text": "Educational Resources\n\nLecture Notes\nLecture notes and texts developed for undergraduate and graduate courses.\nResources will be progressively added.\n\n\nSlides\nPresentation material used in courses, seminars and lectures.\nResources will be progressively added.\n\n\nExercises and Assignments\nExercises, problem sets, practical activities and project assignments.\nResources will be progressively added.\n\n\nBooks and Texts\nSome educational material has evolved into books, technical texts and more extensive learning resources.\nBooks & Texts →"
+    "text": "Educational Resources\nCourse programs\n2008-2 public candidate\n\nTeaching plans\n2026-1 public candidate\n2025-2 public candidate\n2026-1 public candidate\n2026-1 public candidate\n\nAssessments\nPropositional Logic review before publication\n\nExams\nComprehensive recovery exam review before publication"
+  },
+  {
+    "objectID": "teaching.html#teaching-trajectory",
+    "href": "teaching.html#teaching-trajectory",
+    "title": "Teaching",
+    "section": "Teaching Trajectory",
+    "text": "Teaching Trajectory\n\nLinear Algebra and Analytic Geometry I (monitor, 1982)\nComputer Architecture and Organization\nIntroduction to Computer Science\nObject-Oriented Programming\nData Structures\nNumerical Computing\nIntroduction to Computing\nDigital Electronics Laboratory\nMicroprocessors and Microcontrollers\nComputer Security\nTheory of Computation\nCryptography and Network Security\nPublic-Key Infrastructure\nCryptographic Protocols\nNetwork Security"
   },
   {
     "objectID": "teaching.html#teaching-philosophy",
     "href": "teaching.html#teaching-philosophy",
     "title": "Teaching",
     "section": "Teaching Philosophy",
-    "text": "Teaching Philosophy\nI view teaching and research as closely connected activities.\nStudents should not only learn established concepts and technologies, but also understand the problems that motivated them, their limitations, and the open questions that remain.\nIn information security and cryptography in particular, this means combining theoretical foundations with the analysis and construction of real systems."
-  },
-  {
-    "objectID": "teaching.html#student-research",
-    "href": "teaching.html#student-research",
-    "title": "Teaching",
-    "section": "Student Research",
-    "text": "Student Research\nMany course activities have led to undergraduate research projects, Master’s dissertations and PhD research.\nStudents & Supervision →"
+    "text": "Teaching Philosophy\nI approach teaching as a connection between formal foundations and real computational problems. In mathematics, security, cryptography, and artificial intelligence, students should understand not only how a technique works, but also the assumptions, limitations, and consequences of using it.\nPractical work, critical reading, discussion, and the construction of working prototypes complement the conceptual foundations of the courses."
   },
   {
     "objectID": "books.html",
