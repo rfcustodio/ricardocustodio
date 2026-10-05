@@ -219,3 +219,14 @@ h2 {
   font-weight: 400;
   opacity: 0.7;
 }
+
+/* Projects v4 — append after previous Projects CSS rules. */
+.project-period { margin: .9rem 0; border: 1px solid rgba(127,127,127,.25); border-radius: .55rem; padding: 0; }
+.project-period > summary { cursor: pointer; font-weight: 600; padding: .85rem 1rem; }
+.project-period[open] > summary { border-bottom: 1px solid rgba(127,127,127,.2); }
+.archive-project { padding: .9rem 1rem; border-bottom: 1px solid rgba(127,127,127,.14); }
+.archive-project:last-of-type { border-bottom: 0; }
+.archive-project h4 { margin-top: 0; margin-bottom: .35rem; font-size: 1rem; }
+.archive-project p { margin-bottom: .45rem; }
+.project-archive-generated { margin-top: 1.5rem; }
+

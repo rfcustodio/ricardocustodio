@@ -1,158 +1,1150 @@
-# Structured metadata for research and development projects.
-#
-# This file is intended to become the canonical project registry
-# for the website. Descriptive pages should progressively derive
-# their information from this structured metadata.
-
+# Canonical registry of projects and continuing research programs.
+# Lattes historical metadata is preserved; website status is curated separately.
+# Unknown end dates remain null and are never inferred.
+# `evolved_into` records evolution from a completed project to a research program.
+# `legacy_note` records continuing impact without keeping a historical project active.
 projects:
-
-  - id: labrec
-    title: "LabREC"
-    subtitle: "Research and Development for Civil Registration"
-    status: active
-    type: research-development
-    start:
-    end:
-    role: coordinator
-    topics:
-      - digital-identity
-      - digital-signatures
-      - electronic-documents
-      - public-key-infrastructure
-      - artificial-intelligence
-      - information-security
+- id: votacao-digital
+  title: Votação Digital
+  scope: project
+  nature: research
+  status: completed
+  start: 1999
+  end: 2008
+  role: null
+  summary: Estamos desenvolvento um novo protocolo criptográfico, por nós denominado de Farnel, com o objetivo de
+    viabilizar a implantação de um sistema de votação digital em redes de computadores. A idéia do Farnel partil
+    da observação de como o sistema eleitoral brasileiro funciona. Nós criamos o conveito do voto digital assinado
+    digitalmente e da urna digital. Esta última consiste de uma rede de mistura simulando a urna eleitoral trradiconal.
+    Também está sendo implementado um protótipo com o protocolo sendo proposto na WEB e em WAP.
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
-
-  - id: post-quantum-cryptography
-    title: "Post-Quantum Cryptography"
-    status: active
-    type: research
-    start:
-    end:
-    topics:
-      - cryptography
-      - post-quantum-cryptography
-      - digital-signatures
-      - public-key-infrastructure
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: protocoladora-digital-de-documentos-eletronicos
+  title: Protocoladora Digital de Documentos Eletrônicos
+  scope: project
+  nature: research
+  status: completed
+  start: 1999
+  end: 2008
+  role: null
+  summary: Trata-se da datação de documentos eletrônicos. Procura-se definir protocolos que permitam a datação dos
+    documentos a prova de entidades maliciosas. Já foram desenvolvidos alguns algoritmos que estão sendo formalizados.
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
-
-  - id: finite-field-arithmetic
-    title: "Finite-Field Arithmetic"
-    status: active
-    type: research
-    start:
-    end:
-    topics:
-      - cryptography
-      - finite-fields
-      - irreducible-polynomials
-      - modular-reduction
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: criptossitemas-caoticos
+  title: Criptossitemas Caóticos
+  scope: project
+  nature: research
+  status: completed
+  start: 1999
+  end: 2001
+  role: null
+  summary: Esta-se estudando a viabilidade de se usar séries caóticas como chave de encriptação. Assim poder-se-ia
+    usar o &quot;one time pad&quot; como técnica eficiente de encriptação. O projeto de pesquisa visa a construção
+    de criptossistemas caóticos e a compração de vários requisitos com os cifradores simétricos de bloco.
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
-
-  - id: ai-agents-digital-trust
-    title: "AI Agents, Identity, and Digital Trust"
-    status: active
-    type: research
-    start:
-    end:
-    topics:
-      - artificial-intelligence
-      - digital-identity
-      - authentication
-      - authorization
-      - accountability
-      - digital-trust
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: projetos-de-caixas-s
+  title: Projetos de Caixas S
+  scope: project
+  nature: research
+  status: completed
+  start: 1999
+  end: 2001
+  role: null
+  summary: Estamos projetando as caixas S de cifradores simétricos usando algorítmos genéticos.
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
-
-  - id: digital-signatures-documents
-    title: "Digital Signatures and Long-Term Electronic Documents"
-    status: long-term
-    type: research
-    start:
-    end:
-    topics:
-      - digital-signatures
-      - electronic-documents
-      - long-term-validation
-      - digital-preservation
-      - public-key-infrastructure
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: modelo-simplificado-de-cifradores-de-bloco
+  title: Modelo Simplificado de Cifradores de Bloco
+  scope: project
+  nature: research
+  status: completed
+  start: 1999
+  end: 2001
+  role: null
+  summary: 'Neste projeto procuramos desenvolver modelos simplificados de cifradores simétricos de bloco. A primeira
+    etapa da pesquisa consistiu na criação de uma metodologia com as principais caracteristicas e funcionalides
+    que devem ser contempladas pelo modelo simplificado. Na segunda etapa estamos desenvolvendo dois modelos simplificados:
+    o primeiro é um modelo simplificado do cifrador RC6 proposto pela empresa norteamericana RSA; o segundo é um
+    modelo do cifrador Reijndal, cifrador este que está sendo definido como o próximo padrão AES. Os modelos simplificados
+    terão várias utilidades, salientando-se uma descrição didática com vistas a facilitar o entendimento do cifrador
+    pelos estudante e a possibilidade de analise da cifra, modificando algumas de suas característica com vistas
+    a verificar possíveis fraquesas no algoritmo.'
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
-
-  - id: digital-identity-pki
-    title: "Digital Identity and Public Key Infrastructure"
-    status: long-term
-    type: research
-    start:
-    end:
-    topics:
-      - digital-identity
-      - public-key-infrastructure
-      - self-sovereign-identity
-      - verifiable-credentials
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: autoridade-de-certificacao
+  title: Autoridade de Certificação
+  scope: project
+  nature: technological-development
+  status: completed
+  start: 1999
+  end: 2004
+  role: null
+  summary: 'Este projeto consiste no desenvolvimento de uma infra-estrutura de chave pública. Estamos usando os
+    certificados digitais recomendados pelo CCITT X.509v3. O projeto está organizado em três módulo: o primeiro
+    é a autoridade de certificação, responsável pela emissão do certificado digital. O segundo é a autoridade de
+    registro, responsável em verificar a autenticidade do proprietário do certificado e autorizar a autoridade de
+    certificação a emitir certificados digitais. O terceiro é o módulo público. Este útimo responsável pela interface
+    com o usuário. Parte do sistema já está desenvolvido e o estamos utilizando no nosso departamento.'
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
-
-  - id: electronic-voting
-    title: "Electronic Voting"
-    status: research
-    type: research
-    start:
-    end:
-    topics:
-      - electronic-voting
-      - cryptography
-      - verifiability
-      - post-quantum-cryptography
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: cartorio-virtual
+  title: Cartório Virtual
+  scope: project
+  nature: research
+  status: completed
+  start: 1999
+  end: 2004
+  role: null
+  summary: Trata-se de um ambiente que permitirá a implantação de um cartório na WEB. O projeto está organizado
+    na forma de vários subprojetos. O subprojeto mais adianto é o da emissão de certidões de registro público. Em
+    particular esta-se propondo uma série de protocolos criptográficos que permitirão a implementação de um protótipo.
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
-
-  - id: hash-based-signatures
-    title: "Hash-Based Digital Signatures"
-    status: research
-    type: research
-    start:
-    end:
-    topics:
-      - cryptography
-      - digital-signatures
-      - hash-based-signatures
-      - winternitz
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: programa-joao-de-barro
+  title: Programa João de Barro
+  scope: project
+  nature: research
+  status: completed
+  start: 2005
+  end: 2007
+  role: null
+  summary: O módulo Sala Cofre e Sistema de Gerenciamento de Certificados Digitais e um sub-projeto do programa
+    João de Barro do Instituto Nacional de Tecnologia da Informação - ITI.
+  topics: []
+  institutions: []
+  outputs:
     publications: []
     software: []
     datasets: []
     talks: []
-    students: []
-    links: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: desenvolvimento-de-codigos-de-referencia-para-o-padrao-brasileiro-de-ass
+  title: Desenvolvimento de Códigos de Referência para o Padrão Brasileiro de Assinatura Digital
+  scope: project
+  nature: technological-development
+  status: completed
+  start: 2009
+  end: 2011
+  role: null
+  summary: Desenvolver códigos abertos em linguagem de programação para orientar desenvolvedores de software na
+    elaboração de aplicações de assinatura digital aderentes ao Padrão Brasileiro de Assinatura Digital.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: revisao-do-padrao-do-padrao-brasileiro-de-assinatura-digital
+  title: Revisão do Padrão do Padrão Brasileiro de Assinatura Digital
+  scope: project
+  nature: extension
+  status: completed
+  start: 2009
+  end: 2009
+  role: null
+  summary: Revisar o Padrão Brasileiro de Assinatura Digital de modo a torná-lo implementável na Infraestrutura
+    de Chaves Públicas Brasileira (ICP-Brasil).
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: certificado-de-identificacao-mobile-para-acesso-seguro-a-ambientes-de-te
+  title: Certificado de Identificação Mobile para acesso seguro a ambientes de telesaude e telemedicina
+  scope: project
+  nature: research
+  status: completed
+  start: 2011
+  end: 2014
+  role: null
+  summary: O projeto tem por objetivo implementar mecanismos computacionais e múltiplas chaves de acesso que possam
+    proporcionar segurança em transações, acessos e comando executados por profissionais de saúde me ambiente eletrônico.
+    O processo deve ser executado através de dispositivos móveis tão presentes no quotidianos de tais profissionais.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: autenticacao-multifator-em-sistemas-computacionais
+  title: Autenticação Multifator em Sistemas Computacionais
+  scope: project
+  nature: technological-development
+  status: completed
+  start: 2010
+  end: 2011
+  role: null
+  summary: Este projeto visa especificar, analisar e implementar um protocolo para realizar a autenticação de pessoas
+    usando certificados digitais e, opcionalmente, sua impressão digital em um sistema computacional distribuído
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: assinador-pades-icp-brasil-bry
+  title: Assinador PAdES ICP-Brasil BRy
+  scope: project
+  nature: extension
+  status: completed
+  start: 2015
+  end: 2017
+  role: null
+  summary: Criação de uma biblioteca para trabalhar com assinaturas digitais no formato PAdES (PDF advanced electronic
+    signature),que será um novo produto BRy. Implementar um protótipo para assinaturas digitais em navegadores web,
+    utilizando e adaptando a biblioteca entregue anteriormente. Realizar uma revisão de literatura, a fim de mapear
+    métodos de extensões e aplicativos para os navegadores Chrome, Firefox e Edge, bem como métodos de acesso a
+    chave privada em dispositivos criptográficos e documentos em disco.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: consultoria-para-apoio-ao-desenvolvimento-sob-ywapa-e-ywyra
+  title: Consultoria para apoio ao desenvolvimento sob Ywapa e Ywyra
+  scope: project
+  nature: extension
+  status: completed
+  start: 2012
+  end: 2013
+  role: null
+  summary: O LabSEC, que tem amplo conhecimento nas plataformas Ywapa e Ywyra do ITI, auxiliará a empresa Valid,
+    usuária dessas plataformas, em suas dúvidas de desenvolvimento.&#10;- O objeto é a prestação de consultoria
+    pelo LabSEC a respeito dos sistemas Ywapa e Ywyra, do ITI;&#10;- Pelo período dos três meses iniciais do projeto,
+    em paralelo com a consultoria acima mencionada, também será desenvolvido pelo LabSEC o desenvolvimento de estudos
+    visando possibilitar a importação do applet Muscle produzido pela empresa OpenSC para cartões javacard. Tais
+    estudos indicarão como operacionalizar cartões Oberthur compatíveis com o ASI-HSM para que os mesmos se tornem
+    compatíveis com a plataforma&#10;Ywyra.&#10;- A consultoria se dará por e-mail, telefone ou videoconferência
+    (Skype) e o LabSEC&#10;- Todas as atividades executadas pelo LabSEC ocorrerão exclusivamente em dias úteis,
+    nos horários de funcionamento da UFSC;&#10;- O LabSEC não produzirá artefatos de software, mas apenas orientará
+    e tirará dúvidas manifestadas, usando para isso o ambiente replicado no Laboratório;
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: manutencao-dos-codigos-de-referencia-do-padrao-brasileiro-de-assinatura-
+  title: Manutenção dos Códigos de Referência do Padrão Brasileiro de Assinatura Digital
+  scope: project
+  nature: extension
+  status: completed
+  start: 2015
+  end: 2016
+  role: null
+  summary: Realizar a manutenção e suporte dos seguintes sistemas:&#10;&#10;* Biblioteca de referência do Padrão
+    Brasileiro de Assinatura Digital (PBAD;&#10;* Gerenciador de Políticas de Assinatura Digital;&#10;* Assinador
+    de Lista de Políticas Aprovadas (LPA);&#10;* Verificador de Conformidade de Assinaturas Digitais com suporte
+    a verificação de &#10;assinatura PAdES;&#10;* Assinador de Referência v2.0 com suporte a PAdES.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: verificador-de-conformidade-gerador-e-assinador-de-politicas-de-assinatu
+  title: Verificador de Conformidade, Gerador e Assinador de Políticas de Assinatura
+  scope: project
+  nature: extension
+  status: completed
+  start: 2015
+  end: 2016
+  role: null
+  summary: Este projeto tem como objetivo realizar a manutenção e suporte aos seguintes sistemas:&#10;&#10;1. Gerador
+    e Assinador de Políticas de Assinatura Digital&#10;2. Verificador de Conformidade de Assinaturas Digitais.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: suporte-e-avaliacao-de-adequabilidade-tecnologica-dos-sistemas-de-gerenc
+  title: Suporte e Avaliação de Adequabilidade Tecnológica dos Sistemas de Gerenciamento de Certificados Digitais
+    Ywapa e Ywyra.
+  scope: project
+  nature: extension
+  status: completed
+  start: 2015
+  end: 2016
+  role: null
+  summary: Este projeto tem como objetivo realizar o suporte e Avaliação de Adequabilidade Tecnológica dos &#10;5(cinco)artefatos
+    a seguir:&#10;*Atualização da Biblioteca Criptográfica;&#10;*Manutenção corretiva e de testes; &#10;*Atualização
+    do Sistema Operacional; &#10;*Suporte a Cartões JavaCard;&#10;*Gestão de Chaves Simétricas;
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: projeto-quot-sala-cofre-software-e-procedimentos-do-modulo-criptografico
+  title: Projeto &quot;Sala Cofre, Software e Procedimentos do Módulo Criptografico (MSC) para ICP-Brasil&quot;
+  scope: project
+  nature: extension
+  status: completed
+  start: 2007
+  end: 2009
+  role: null
+  summary: 'Desenvolvimento, implantação e testes de um sistema (software, sala cofre, procedimentos) de gestão
+    de certificados digitais ao longo de todo o seu ciclo de vida: emissão, publicação e revogação em um ambiente
+    seguro.'
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: proposta-de-treinamento-para-os-softwares-ywapa-e-ywyra
+  title: Proposta de Treinamento para os softwares Ywapa e Ywyra
+  scope: project
+  nature: extension
+  status: completed
+  start: 2011
+  end: 2011
+  role: null
+  summary: O Curso tem por objetivo capacitar e prover aos participantes treinamento avançado dos Sistemas Ywapa
+    e Ywyra, a partir deste treinamento os integrantes estarão aptos a instalar, configurar e colocar em operação
+    autoridades certificadoras raiz e intermediarias em modo offline.&#10;O curso também contempla os fundamentos
+    teóricos e práticos mínimos necessários para o correto entendimento dos Sistemas de Gerenciamentos de certificados
+    Digitais
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: suporte-a-infraestrutura-de-chaves-publicas-para-ensino-e-pesquisa
+  title: Suporte a Infraestrutura de Chaves Públicas para Ensino e Pesquisa
+  scope: project
+  nature: extension
+  status: completed
+  start: 2010
+  end: null
+  role: null
+  summary: Melhorar e dar suporte as ferramentas e documentos relativos a implantação de uma infraestrutura de chaves
+    públicas para ensino e pesquisa nas instituições de pesquisa e ensino brasileiras. Serão realizadas reuniões
+    semanais por videoconferências com os responsáveis pelas autoridades certificados das universidades brasileiras
+    credenciadas. Também será analisado documentos de políticas de certificação digital e de segurança dessas instituições,
+    dando pareceres técnicos e ajuda na resolução de possíveis problemas.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+- id: capacitacao-dos-sistemas-de-gerenciamento-de-certificados-digitais-icp-b
+  title: 'Capacitação dos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywapa, Ywyra e Hawa'
+  scope: project
+  nature: extension
+  status: completed
+  start: 2018
+  end: 2018
+  role: null
+  summary: Este projeto tem por objetivo realizar o Treinamento/ Capacitação aos Sistemas Ywapa Ywyra e Hawa, sistemas
+    estes desenvolvidos pelo Laboratório de Segurança em Computação - LabSEC. A proposta é de realizar o treinamento
+    no decorrer de sua a vigência a partir da assinatura do contrato. O professor coordenador e bolsistas desenvolvedores
+    do projeto irão dar o treinamento a equipe do CMB possibilitando dessa forma passar o conhecimento necessário
+    para a sua utilização.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: suporte-aos-sistemas-de-gerenciamento-de-certificados-digitais-icp-brasi
+  title: 'Suporte aos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywyra e Hawa - PRODEMGE'
+  scope: project
+  nature: extension
+  status: completed
+  start: 2016
+  end: null
+  role: null
+  summary: Este projeto tem por objetivo realizar o suporte técnico aos sistemas Ywyra e Hawa, sistemas estes desenvolvidos
+    pelo Laboratório de Segurança em Computação - LabSEC. A proposta é de realizar o suporte por  1 (hum) a partir
+    da assinatura do contrato, sendo este tempo de suporte o mínimo aconselhável para que a equipe da PRODEMGE tenha
+    condições de operar de forma autônoma e confidente os ambientes operacionais da AC. O suporte cobrirá todo o
+    processo de instalação e configuração dos sistemas Ywyra e Hawa, assim como o uso e configuração dos equipamentos
+    homologados de hardware tais como cartões, leitoras e HSMs para o correto funcionamento dos sistemas (excluindo-se
+    os defeitos de responsabilidade dos fabricantes e suas consequências).&#10;O contrato de suporte não prevê o
+    desenvolvimento de novas peças de software para adaptar o uso de novos equipamentos e/ou softwares. No entanto,
+    as questões relativas ao uso do software e seu código serão cobertas sempre de forma a possibilitar que as equipes
+    da contratante possam fazê-lo de forma independente. O LabSEC não produzirá artefatos de software, mas apenas
+    orientará e tirará dúvidas&#10;manifestadas, usando para isso o ambiente operacional da contratante, replicado
+    no&#10;LabSEC/UFSC.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+- id: atualizacao-do-verificador-de-conformidade-e-gerenciador-de-politicas-de
+  title: Atualização do Verificador de Conformidade e Gerenciador de Políticas de Assinatura Digital
+  scope: project
+  nature: extension
+  status: completed
+  start: 2017
+  end: null
+  role: null
+  summary: O projeto tem por objetivo geral realizar a atualização, suporte e manutenção dos sistemas, &quot;Verificador
+    de Conformidade&quot; e do Gerenciador de Políticas de Assinatura Digital&quot; e como objetivo específico realizar
+    as seguintes correções de erros e problemas encontrados nos sistemas:&#10;&#10;* Validação de formatos, para
+    tratar arquivos dos quais não contenham assinaturas;&#10;* Carga de arquivos, apresentar o nome do arquivo no
+    relatório da validação;&#10;* Mensagens em línguas estrangeiras, alteração de mensagens de erros em inglês;&#10;*Tratamento
+    de políticas vencidas, tratando assinaturas com políticas vencidas;&#10;*Melhoria nas mensagens de erro, para
+    melhor entendimento do usuário;&#10;*Melhoria na interface com o usuário, facilitando a interação com o usuário.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+- id: autenticacao-multifator
+  title: Autenticação Multifator
+  scope: project
+  nature: extension
+  status: completed
+  start: 2017
+  end: null
+  role: null
+  summary: O objetivo do projeto é entregar uma solução de autenticação multifator OTP (One Time Password) protegida
+    por execução segura de código no kNET HSM.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+  legacy_note: Results from this project continue to be applied in several current projects.
+- id: suporte-e-capacitacao-dos-sistemas-de-gerenciamento-de-certificados-digi
+  title: 'Suporte e Capacitação dos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywapa, Ywyra
+    e Hawa (Instituto FENACON)'
+  scope: project
+  nature: extension
+  status: completed
+  start: 2015
+  end: 2017
+  role: null
+  summary: Esta extensão tem por objetivo realizar o Suporte por um ano ao iniciar a implantação dos sistemas e
+    Capacitação de recursos humanos para instalar, configurar, usar os sistemas de gerenciamento de certificados
+    digitais Ywapa, Ywyra e Hawa, através de um treinamento avançado destes sistemas. A partir deste treinamento,
+    os integrantes estarão aptos a instalar, configurar e colocar em operação autoridasdes certificadoras raiz,
+    intermediárias e finais para a emissão de certificados.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: certificacao-digital-e-identidade-eletronica
+  title: Certificação Digital e Identidade Eletrônica
+  scope: project
+  nature: research
+  status: completed
+  start: 2021
+  end: null
+  role: null
+  summary: Projeto de pesquisa é o desenvolvimento de uma proposta de ICP e IdE integrados, permitindo que seus
+    usuários tenham uma IdE útil, barata e moderna que faça uso de ICP sob-demanda e de forma transparente para
+    o usuário. Projeto desenvolvido em parceria com o Instituto Federal de Educação, Ciência e Tecnologia do Rio
+    Grande do Sul (IFRS ).
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+  legacy_note: Results from this project led to new initiatives and continue to be applied in several current projects.
+- id: seguranca-de-documentos-eletronicos
+  title: Segurança de Documentos Eletrônicos
+  scope: project
+  nature: research
+  status: completed
+  start: 2021
+  end: null
+  role: null
+  summary: Este projeto trata do problema de autenticidade, integridade, sigilo e preservação em longo prazo de
+    documentos eletrônicos. Estamos interessado em novos métodos de assinatura digital de documentos eletrônicos.
+    Tais métodos devem levar em consideração o uso de algoritmos de assinatura digital pós-quânticos e melhoria
+    na forma de representação visual da assinatura digital. Em termos de sigilo, estamos interessados em como garantir
+    o sigilo de documentos eletrônicos, tanto a curto prazo quanto em longo prazo. Estaremos estudando protocolos
+    criptográficos adequados ao ciframento dos documentos, com possibilidade de gestão inteligente de chaves criptográficas.
+    Faz parte o estudo e melhoria de sistemas de gerenciamento de chaves, voltados ao sigilo de documentos eletrônicos.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+  evolved_into: electronic-document-security
+  legacy_note: This project evolved into the continuing Electronic Document Security research program.
+- id: seguranca-eficiencia-e-controle-na-gestao-documental-secdoc
+  title: Segurança, Eficiência e Controle na Gestão Documental (SecDoc)
+  scope: project
+  nature: research
+  status: current
+  start: 2025
+  end: null
+  role: null
+  summary: Desenvolver e aplicar soluções para melhorar a segurança e a eficiência na gestão documental, abordando
+    práticas seguras, criptografia, assinatura digital e inovação em segurança documental.Palavras chave:Segurança
+    em Gestao Documental;
+  topics:
+  - electronic-documents
+  - digital-preservation
+  - information-security
+  - document-management
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+  public_summary: Research on security, efficiency, and control in digital document management, including mechanisms
+    for trustworthy processing, protection, and preservation of electronic documents.
+- id: criptografia-aplicada-a-conformidade-regulatoria-e-a-protecao-de-dados-n
+  title: Criptografia Aplicada à Conformidade Regulatória e à Proteção de Dados no Open Insurance
+  scope: project
+  nature: extension
+  status: current
+  start: 2025
+  end: null
+  role: null
+  summary: 'O projeto de extensão Protocolos de Segurança para Open Insurance Integrando Criptografia Clássica e
+    Pós-Quântica tem como contexto a transformação digital do setor segurador brasileiro impulsionada pela iniciativa
+    Open Insurance, regulamentada pela Superintendência de Seguros Privados (SUSEP) e pelo Conselho Nacional de
+    Seguros Privados (CNSP). Essa abertura de dados e serviços entre instituições demanda soluções avançadas de
+    segurança da informação e de redução da dependência tecnológica de plataformas estrangeiras. O projeto tem como
+    objetivo geral desenvolver, validar e difundir protocolos de segurança híbridos, combinando criptografia clássica
+    e pós-quântica, para fortalecer a autonomia tecnológica nacional e a soberania digital no ecossistema de seguros
+    abertos. Entre os objetivos específicos, destacam-se: - analisar requisitos e vulnerabilidades de segurança
+    no Open Insurance; - modelar ameaças clássicas e quânticas; - projetar e implementar um protocolo híbrido de
+    comunicação segura; - avaliar seu desempenho e resistência a ataques; e - promover ações de extensão voltadas
+    à disseminação do conhecimento e à capacitação técnica de estudantes e profissionais. A metodologia combina
+    pesquisa exploratória e aplicada, com levantamento bibliográfico, entrevistas com especialistas, análises qualitativas
+    e quantitativas, desenvolvimento experimental e validação por meio de testes. As atividades serão conduzidas
+    no LabSEC/UFSC, em cooperação com a SUSEP e o Open Insurance and Knowledge Lab (OPENIK), integrando ensino,
+    pesquisa e extensão. Os resultados esperados incluem: desenvolvimento de um protótipo nacional de protocolo
+    de segurança híbrido para Open Insurance; formação de recursos humanos especializados em criptografia e segurança
+    digital; transferência de tecnologia para órgãos públicos e entidades do setor segurador; e contribuição efetiva
+    à soberania tecnológica brasileira em infraestrutura crítica. O projeto reforça o papel da universidade como
+    vetor de inovação e de cooperação tecnológica em áreas estratégicas para o país.'
+  topics:
+  - open-insurance
+  - cryptography
+  - data-protection
+  - regulatory-compliance
+  - information-security
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+  public_summary: Research on cryptography, information security, regulatory compliance, and data protection for
+    the Brazilian Open Insurance ecosystem.
+- id: labrec-on-rcpn
+  title: Inovação Tecnológica no Registro Civil Operador Nacional do Registro Civil do Brasil (ON-RCPN)
+  scope: project
+  nature: extension
+  status: current
+  start: 2024
+  end: null
+  role: null
+  summary: Este projeto de extensão, tem por objetivo o desenvolvimento de atividades de cunho técnico e científico
+    visando o aprimoramento e implementação de processos e técnicas de informatização e comunicação relacionadas
+    à segurança de dados, no Registro Civil brasileiro.
+  topics:
+  - civil-registration
+  - digital-identity
+  - digital-signatures
+  - electronic-documents
+  - artificial-intelligence
+  - information-security
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: in-progress
+  - type: curated
+    verified: 2026-10
+  public_title: LabREC / ON-RCPN
+  public_summary: Research and technological development for the Brazilian civil registration ecosystem, connecting
+    digital identity, electronic documents, digital signatures, artificial intelligence, and information security.
+- id: gt-icp-edu-ii
+  title: GT ICP-EDU II
+  scope: project
+  nature: technological-development
+  status: completed
+  start: 2004
+  end: 2006
+  role: null
+  summary: O GT ICP-EDU tem por objetivo o desesnvolvimento e implamtação de uma Infra-estrutura de chaves públicas
+    para as universidades brasileiras. Entre os produtos deste projeto estão um sistema para o gerenciamento do
+    ciclo de vida de certificados digitais e uma plataforma criptográfica para a gestão sesgura de chaves criptográficas.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: contrato-de-prestacao-de-servicos-especializado-de-suporte-tecnico-de-so
+  title: CONTRATO DE PRESTAÇÃO DE SERVIÇOS ESPECIALIZADO DE SUPORTE TÉCNICO DE SOFTWARE DE GERENCIAMENTO DE CERTIFICADO
+    DIGITAL
+  scope: project
+  nature: extension
+  status: completed
+  start: 2008
+  end: 2009
+  role: null
+  summary: Suporte Técnico as atividades necessárias para a operação dos sistemas:&#10;- Atualizações de programas;&#10;-
+    Patches (correção de código);&#10;- Versões de manutenção geral;&#10;- Atualizações de documentação.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: gt-icp-edu
+  title: GT ICP-EDU
+  scope: project
+  nature: technological-development
+  status: completed
+  start: 2003
+  end: 2004
+  role: null
+  summary: O GT ICP-EDU tem por objetivo o desesnvolvimento e implamtação de uma Infra-estrutura de chaves públicas
+    para as universidades brasileiras. Entre os produtos deste projeto estão um sistema para o gerenciamento do
+    ciclo de vida de certificados digitais e uma plataforma criptográfica para a gestão sesgura de chaves criptográficas.
+  topics: []
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: lattes
+    lattes_updated: '2026-04-08'
+    source_status: completed
+- id: finite-field-arithmetic
+  title: Finite-Field Arithmetic
+  scope: research-program
+  nature: research
+  summary: Research on arithmetic over finite fields, including efficient polynomial-basis arithmetic and irreducible
+    polynomial families.
+  links: []
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - finite-fields
+  - cryptography
+  - irreducible-polynomials
+  - modular-reduction
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  public_summary: Research on efficient arithmetic over binary finite fields, including irreducible polynomial families,
+    modular reduction, XOR complexity, and computational methods for discovering efficient algebraic structures.
+- id: ades
+  title: ADES
+  subtitle: Advanced Digital Signature
+  scope: project
+  nature: technological-development
+  summary: Research and development to improve an advanced digital signature system based on single-use signing
+    certificates.
+  links:
+  - type: website
+    url: https://ades.labsec.ufsc.br/
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - digital-signatures
+  - public-key-infrastructure
+  - electronic-documents
+  - digital-identity
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  public_summary: Research and development on advanced digital signatures, with emphasis on a digital signature
+    system based on single-use signing certificates.
+- id: intelligent-ocr
+  title: Intelligent OCR
+  scope: project
+  nature: technological-development
+  summary: null
+  links: []
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - artificial-intelligence
+  - ocr
+  - electronic-documents
+  - civil-registration
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  parent: labrec-on-rcpn
+  public_summary: Research and development of intelligent OCR methods for extracting, interpreting, and structuring
+    information from civil registration and other electronic documents.
+- id: digital-document-confidentiality
+  title: Confidentiality of Digital Documents
+  scope: project
+  nature: research
+  summary: null
+  links: []
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - electronic-documents
+  - confidentiality
+  - cryptography
+  - digital-preservation
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  public_summary: Research on cryptographic mechanisms for protecting the confidentiality of digital documents while
+    supporting long-term preservation and controlled access.
+- id: post-quantum-cryptographic-algorithms
+  title: Post-Quantum Cryptographic Algorithms
+  scope: research-program
+  nature: research
+  summary: null
+  links: []
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - cryptography
+  - post-quantum-cryptography
+  - digital-signatures
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  public_summary: Research on post-quantum cryptographic algorithms and their integration into existing protocols,
+    digital signatures, and digital trust infrastructures.
+- id: personal-ai
+  title: Personal AI
+  scope: project
+  nature: research
+  summary: null
+  links: []
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - artificial-intelligence
+  - ai-agents
+  - digital-identity
+  - authorization
+  - accountability
+  - digital-trust
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  public_summary: Research on personal AI agents and the digital trust mechanisms required for identity, authentication,
+    authorization, delegation, accountability, and auditable consequential digital actions.
+- id: aria
+  title: ARIA
+  subtitle: Artificial Intelligence for Civil Registration
+  scope: project
+  nature: technological-development
+  summary: null
+  links: []
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - artificial-intelligence
+  - civil-registration
+  - information-security
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  parent: labrec-on-rcpn
+  public_summary: Artificial intelligence for the Brazilian civil registration ecosystem, supporting specialized
+    knowledge, services, and intelligent applications in the domain.
+- id: iac
+  title: IAC
+  subtitle: Artificial Intelligence for CLARCIEV
+  scope: project
+  nature: technological-development
+  summary: null
+  links: []
+  status: current
+  start: null
+  end: null
+  role: null
+  topics:
+  - artificial-intelligence
+  - civil-registration
+  - clarciev
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  sources:
+  - type: curated
+    verified: 2026-10
+  public_summary: Artificial intelligence applied to the civil registration community represented by CLARCIEV, supporting
+    access to specialized knowledge and services across the regional ecosystem.
+- id: electronic-document-security
+  title: Electronic Document Security
+  scope: research-program
+  nature: research
+  status: current
+  start: null
+  end: null
+  role: null
+  summary: Continuing research on the security of electronic documents, including authenticity, confidentiality,
+    integrity, preservation, and trustworthy document infrastructures.
+  public_summary: Continuing research on the security of electronic documents, including authenticity, confidentiality,
+    integrity, preservation, and trustworthy document infrastructures.
+  topics:
+  - electronic-documents
+  - information-security
+  - digital-preservation
+  - confidentiality
+  - digital-signatures
+  institutions: []
+  outputs:
+    publications: []
+    software: []
+    datasets: []
+    talks: []
+  students: []
+  links: []
+  sources:
+  - type: curated
+    verified: 2026-10
