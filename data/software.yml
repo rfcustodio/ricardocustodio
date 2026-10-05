@@ -1,63 +1,775 @@
-# Structured metadata for software, datasets, research prototypes,
-# and reproducibility artifacts.
+# Canonical registry of software, technological products, research artifacts,
+# and datasets for Ricardo Custódio's academic website.
 #
-# These records describe research artifacts independently from
-# the pages on which they are presented.
+# V1 provenance:
+# - Based on the official Lattes XML updated on 2026-04-08.
+# - Lattes contains 21 software records and 15 technological-product records.
+# - Canonical objects may consolidate multiple Lattes records when they describe
+#   the same technological object at different maturity stages.
+# - No historical evolution is asserted unless supported by the source.
+# - `related` expresses a non-directional relationship.
+# - `family` groups technologically related objects without claiming succession.
+# - `visibility: featured` is an editorial choice for the main Software & Data page.
+# - `visibility: archive` preserves historical objects without overloading the main page.
+# - V2 adds curated contemporary artifacts reconciled with the current project registry.
+# - Contemporary records are deliberately conservative: no software/product is invented for a project
+#   when a distinct technological object has not yet been identified.
 
-software: []
+families:
+  - id: pki-management-suite
+    title: "PKI Management Suite"
+    summary: "Software for operating certification authorities at different levels of a public key infrastructure."
+
+  - id: hsm-technology
+    title: "HSM Technology"
+    summary: "Software and technological products for secure cryptographic-key lifecycle management."
+
+  - id: brazilian-digital-signature-reference-implementations
+    title: "Brazilian Digital Signature Reference Implementations"
+    summary: "Reference software and machine-readable policy artifacts supporting the Brazilian Digital Signature Standard."
+
+  - id: civil-registration-digital-trust
+    title: "Civil Registration Digital Trust Infrastructure"
+    summary: "Technological artifacts supporting identity, certification, electronic records, and intelligent services for the Brazilian civil registration ecosystem."
+
+artifact_types:
+  software:
+    label: "Software"
+  ai-platform:
+    label: "AI Platform"
+  ai-component:
+    label: "AI Component"
+  digital-platform:
+    label: "Digital Platform"
+  digital-infrastructure:
+    label: "Digital Infrastructure"
+  proof-of-concept:
+    label: "Proof of Concept"
+  research-software:
+    label: "Research Software"
+  research-artifact:
+    label: "Research Artifact"
+  technological-product:
+    label: "Technological Product"
+  dataset:
+    label: "Dataset"
+
+
+
+current_artifacts:
+  - id: ades
+    title: "ADES"
+    public_title: "Advanced Digital Signature (ADES)"
+    type: digital-platform
+    status: current
+    visibility: featured
+    parent_project: ades
+    summary: "Research and development platform for advanced digital signatures, with emphasis on signing mechanisms based on single-use signing certificates."
+    topics:
+      - digital-signatures
+      - public-key-infrastructure
+      - electronic-documents
+      - digital-identity
+    related_artifacts:
+      - nemisig
+    links:
+      - label: "Project website"
+        url: "https://ades.labsec.ufsc.br/"
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Current technological artifact reconciled with the ADES project."
+
+  - id: nemisig
+    title: "NemiSig"
+    type: proof-of-concept
+    status: current
+    visibility: featured
+    parent_project: ades
+    related_projects:
+      - confidentiality-of-digital-documents
+    summary: "Proof of concept for signing confidential electronic documents, combining browser-side cryptographic operations with single-use signing certificates."
+    topics:
+      - digital-signatures
+      - confidentiality
+      - electronic-documents
+      - public-key-infrastructure
+      - pades
+      - x509
+    related_artifacts:
+      - ades
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Contemporary LabSEC artifact associated with ADES and research on confidentiality of digital documents."
+
+  - id: aria
+    title: "ARIA"
+    public_title: "ARIA — Agente Registral de IA"
+    type: ai-platform
+    status: current
+    visibility: featured
+    family: civil-registration-digital-trust
+    parent_project: labrec-on-rcpn
+    summary: "Artificial-intelligence platform for the Brazilian civil registration ecosystem, designed to support specialized knowledge, services, and intelligent applications."
+    topics:
+      - artificial-intelligence
+      - civil-registration
+      - information-security
+    components:
+      - intelligent-ocr
+    related_artifacts:
+      - iac
+      - idrc
+      - icp-rc
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Current LabREC / ON-RCPN technological artifact."
+
+  - id: intelligent-ocr
+    title: "Intelligent OCR"
+    type: ai-component
+    status: current
+    visibility: featured
+    family: civil-registration-digital-trust
+    parent: aria
+    parent_project: labrec-on-rcpn
+    related_projects:
+      - intelligent-ocr
+    summary: "Artificial-intelligence component for extracting, interpreting, and structuring information from civil registration and other electronic documents."
+    topics:
+      - artificial-intelligence
+      - ocr
+      - electronic-documents
+      - civil-registration
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Modeled as an ARIA component while preserving the corresponding R&D initiative as a project."
+
+  - id: iac
+    title: "IAC"
+    public_title: "IAC — Artificial Intelligence for CLARCIEV"
+    type: ai-platform
+    status: current
+    visibility: featured
+    parent_project: iac
+    summary: "Artificial-intelligence service for the Latin American and Caribbean civil registration community represented by CLARCIEV."
+    topics:
+      - artificial-intelligence
+      - civil-registration
+      - clarciev
+    derived_from:
+      - aria
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Independent institutional artifact modeled as technologically derived from ARIA rather than organizationally subordinate to it."
+
+  - id: idrc
+    title: "IdRC"
+    type: digital-platform
+    status: current
+    visibility: featured
+    family: civil-registration-digital-trust
+    parent_project: labrec-on-rcpn
+    summary: "Digital identity platform for the Brazilian civil registration ecosystem, supporting identity and authentication mechanisms and related research on modern identity protocols."
+    topics:
+      - digital-identity
+      - authentication
+      - openid-connect
+      - oauth2
+      - verifiable-credentials
+      - civil-registration
+    related_artifacts:
+      - icp-rc
+      - aria
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Current LabREC / ON-RCPN identity platform. Specific protocol experiments remain research activities rather than separate software objects."
+
+  - id: icp-rc
+    title: "ICP-RC"
+    type: digital-infrastructure
+    status: current
+    visibility: featured
+    family: civil-registration-digital-trust
+    parent_project: labrec-on-rcpn
+    summary: "Public-key infrastructure for the Brazilian civil registration ecosystem, supporting digital certificates and digital-signature services."
+    topics:
+      - public-key-infrastructure
+      - digital-certificates
+      - digital-signatures
+      - civil-registration
+    related_artifacts:
+      - idrc
+      - ref
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Modeled as digital infrastructure rather than merely as software."
+
+  - id: ref
+    title: "Registro Eletrônico Federado (REF)"
+    type: digital-infrastructure
+    status: current
+    visibility: featured
+    family: civil-registration-digital-trust
+    parent_project: labrec-on-rcpn
+    summary: "Federated electronic-record infrastructure for trustworthy, interoperable access to digital records and certificates in the civil registration ecosystem."
+    topics:
+      - electronic-documents
+      - civil-registration
+      - interoperability
+      - digital-trust
+      - information-security
+    related_artifacts:
+      - icp-rc
+      - idrc
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Current LabREC / ON-RCPN digital-infrastructure artifact."
+
+  - id: intelligent-data-classification
+    title: "Classificação Inteligente de Dados"
+    public_title: "Intelligent Data Classification"
+    type: ai-component
+    status: current
+    visibility: featured
+    family: civil-registration-digital-trust
+    parent_project: labrec-on-rcpn
+    summary: "Artificial-intelligence component for automated classification and organization of data in the civil registration ecosystem."
+    topics:
+      - artificial-intelligence
+      - data-classification
+      - civil-registration
+      - electronic-documents
+    related_artifacts:
+      - aria
+      - intelligent-ocr
+    provenance:
+      - type: curated
+        verified: 2026-10
+        note: "Current LabREC / ON-RCPN technological artifact."
+
+software:
+  - id: pdde
+    title: "Protocoladora Digital de Documentos Eletrônicos (PDDE)"
+    year: 2000
+    type: software
+    status: historical
+    visibility: featured
+    summary: "Software for protocoling and dating electronic documents."
+    topics: [electronic-documents, digital-timestamping, digital-trust]
+    sources:
+      - type: lattes-software
+        year: 2000
+        title: "Protocoladora Digital de Documentos Eletrônicos (PDDE)"
+        lattes_updated: 2026-04-08
+      - type: lattes-technological-product
+        year: 2001
+        title: "Protocoladora Digital de Documentos Eletrônicos"
+        lattes_updated: 2026-04-08
+
+  - id: cartorio-virtual
+    title: "Cartório Virtual"
+    year: 2000
+    type: software
+    status: historical
+    visibility: featured
+    summary: "Web-based notarial/registry prototype using digital signatures for electronic documents."
+    topics: [electronic-documents, digital-signatures, civil-registration]
+    sources:
+      - type: lattes-software
+        year: 2000
+        title: "Cartório Virtual"
+        lattes_updated: 2026-04-08
+
+  - id: labsecsigner
+    title: "LabSECSigner"
+    year: 2000
+    type: software
+    status: historical
+    visibility: featured
+    summary: "Software for digitally signing electronic documents."
+    topics: [digital-signatures, electronic-documents]
+    sources:
+      - type: lattes-software
+        year: 2000
+        title: "LabSECSigner"
+        lattes_updated: 2026-04-08
+
+  - id: ostracon
+    title: "OSTRACON"
+    subtitle: "Secure Internet Voting System"
+    year: 2001
+    type: software
+    status: historical
+    visibility: featured
+    summary: "Framework and technological prototype for secure electronic voting over the Internet."
+    topics: [electronic-voting, cryptographic-protocols, information-security]
+    sources:
+      - type: lattes-technological-product
+        year: 2001
+        title: "OSTRACON: Sistema de Votação Digital Seguraça na Internet"
+        lattes_updated: 2026-04-08
+      - type: lattes-software
+        year: 2002
+        title: "OSTRACON: Sistema de Votação Digital Seguro para a Internet"
+        lattes_updated: 2026-04-08
+
+  - id: openhsm
+    title: "OpenHSM"
+    year: 2005
+    type: software
+    status: historical
+    visibility: featured
+    family: hsm-technology
+    summary: "Embedded software for managing the lifecycle of private keys in cryptographic devices."
+    topics: [cryptographic-keys, hsm, public-key-infrastructure]
+    related: [asi-hsm-hardware, pki-hsm, asi-hsm-software]
+    sources:
+      - type: lattes-software
+        year: 2005
+        title: "OpenHSM - Sistema gerenciador do ciclo de vida de chaves privadas em ambiente embarcado"
+        lattes_updated: 2026-04-08
+
+  - id: ywapa
+    title: "Ywapa"
+    subtitle: "Root CA Certificate Management System"
+    year: 2008
+    type: software
+    status: historical
+    visibility: featured
+    family: pki-management-suite
+    summary: "Certificate-management software for creating and operating root certification authorities."
+    topics: [public-key-infrastructure, digital-certificates]
+    related: [ywyra, hawa, certificate-management-system-2007]
+    sources:
+      - type: lattes-software
+        year: 2008
+        title: "Ywapa - Um Sistema de Gerência de Certificados Digitais para Autoridades Certificadoras Raíz"
+        lattes_updated: 2026-04-08
+
+  - id: ywyra
+    title: "Ywyra"
+    subtitle: "Intermediate CA Certificate Management System"
+    year: 2009
+    type: software
+    status: historical
+    visibility: featured
+    family: pki-management-suite
+    summary: "Certificate-management software for intermediate certification authorities."
+    topics: [public-key-infrastructure, digital-certificates]
+    related: [ywapa, hawa, certificate-management-system-2007]
+    sources:
+      - type: lattes-software
+        year: 2009
+        title: "Ywyra - Um Sistema de Gerência de Certificados de ACs Intermediárias"
+        lattes_updated: 2026-04-08
+
+  - id: hawa
+    title: "Hawa"
+    subtitle: "End-Entity CA System"
+    year: 2011
+    type: software
+    status: historical
+    visibility: featured
+    family: pki-management-suite
+    summary: "Certification-authority software for issuing certificates to end users."
+    topics: [public-key-infrastructure, digital-certificates]
+    related: [ywapa, ywyra, certificate-management-system-2007]
+    sources:
+      - type: lattes-software
+        year: 2011
+        title: "Hawa - Um sistema de autoridade certificadora final"
+        lattes_updated: 2026-04-08
+
+  - id: asi-hsm-software
+    title: "ASI-HSM"
+    year: 2010
+    type: software
+    status: historical
+    visibility: featured
+    family: hsm-technology
+    summary: "Software recorded in Lattes for managing certification-authority private keys using a cryptographic device."
+    topics: [cryptographic-keys, hsm, public-key-infrastructure]
+    related: [openhsm, asi-hsm-hardware, pki-hsm]
+    sources:
+      - type: lattes-software
+        year: 2010
+        title: "ASI-HSM"
+        lattes_updated: 2026-04-08
+
+  - id: email-certification-authority
+    title: "Autoridade Certificadora de Correio Eletrônico"
+    year: 2010
+    type: software
+    status: historical
+    visibility: archive
+    summary: "Software for issuing digital certificates for electronic mail."
+    topics: [public-key-infrastructure, digital-certificates, secure-email]
+    sources:
+      - type: lattes-software
+        year: 2010
+        title: "Autoridade Certificadora de Correio Eletrônico"
+        lattes_updated: 2026-04-08
+
+  - id: public-pki-module
+    title: "Módulo Público de ICP"
+    year: 2011
+    type: software
+    status: historical
+    visibility: archive
+    summary: "User-facing PKI module for generating cryptographic keys, submitting certificate requests, and installing issued certificates."
+    topics: [public-key-infrastructure, digital-certificates, cryptographic-keys]
+    sources:
+      - type: lattes-software
+        year: 2011
+        title: "Módulo Público de ICP"
+        lattes_updated: 2026-04-08
+
+  - id: icp-brasil-web-signer
+    title: "Assinador Digital Web ICP-Brasil"
+    year: 2010
+    type: software
+    status: historical
+    visibility: featured
+    family: brazilian-digital-signature-reference-implementations
+    summary: "Web signing software for producing electronic-document signatures aligned with the Brazilian Digital Signature Standard."
+    topics: [digital-signatures, icp-brasil, electronic-documents]
+    sources:
+      - type: lattes-software
+        year: 2010
+        title: "Assinador Digital Web ICP-Brasil"
+        lattes_updated: 2026-04-08
+
+  - id: pbad-reference-library
+    title: "Biblioteca de Códigos de Referência de Assinatura Digital"
+    year: 2011
+    type: software
+    status: historical
+    visibility: featured
+    family: brazilian-digital-signature-reference-implementations
+    summary: "Reference implementation of the Brazilian Digital Signature Standard supporting XAdES and CAdES signatures."
+    topics: [digital-signatures, icp-brasil, xades, cades]
+    sources:
+      - type: lattes-software
+        year: 2011
+        title: "Biblioteca de Códigos de Referência de Assinatura Digital"
+        lattes_updated: 2026-04-08
+
+  - id: pbad-minimal-signer
+    title: "Assinador Minimalista PBAD"
+    public_title: "Minimal PBAD Electronic Document Signer"
+    year: 2011
+    type: software
+    status: historical
+    visibility: archive
+    family: brazilian-digital-signature-reference-implementations
+    summary: "Minimal reference implementation illustrating an electronic-document signer compliant with the Brazilian Digital Signature Standard."
+    topics: [digital-signatures, icp-brasil, electronic-documents]
+    sources:
+      - type: lattes-software
+        year: 2011
+        title: "Assinador de Documentos Eletrônicos Minimalista do Padrão Brasileiro de Assinatura Digital"
+        lattes_updated: 2026-04-08
+
+  - id: saec
+    title: "Sistema Automático para a Emissão de Certificados Digitais (SAEC)"
+    year: 2018
+    type: software
+    status: historical
+    visibility: featured
+    summary: "System for implementing certification authorities in the Brazilian research and education PKI."
+    topics: [public-key-infrastructure, digital-certificates, research-and-education]
+    sources:
+      - type: lattes-software
+        year: 2018
+        title: "Sistema Automátco para a Emissão de Certificados Digitais (SAEC)"
+        lattes_updated: 2026-04-08
+
+  - id: tsas
+    title: "TSAS"
+    year: 1997
+    type: software
+    status: historical
+    visibility: archive
+    topics: [signal-processing, research-software]
+    sources:
+      - type: lattes-software
+        year: 1997
+        title: "TSAS"
+        lattes_updated: 2026-04-08
+
+  - id: pulsa
+    title: "PulSA"
+    year: 1999
+    type: software
+    status: historical
+    visibility: archive
+    summary: "Software for analysis of pulmonary sounds."
+    topics: [signal-processing, biomedical-computing, research-software]
+    sources:
+      - type: lattes-software
+        year: 1999
+        title: "PulSA"
+        lattes_updated: 2026-04-08
+
+  - id: automatic-program-generator
+    title: "Gerador Automático de Programas"
+    year: 1985
+    type: software
+    status: historical
+    visibility: archive
+    topics: [software-engineering]
+    sources:
+      - type: lattes-software
+        year: 1985
+        title: "Gerador Automático de Programas"
+        lattes_updated: 2026-04-08
+
+  - id: universal-calibration-system
+    title: "Sistema Universal de Calibração"
+    year: 1983
+    type: software
+    status: historical
+    visibility: archive
+    topics: [engineering-software]
+    sources:
+      - type: lattes-software
+        year: 1983
+        title: "Sistema Universal de Calibração"
+        lattes_updated: 2026-04-08
+
+  - id: hospital-infection-control
+    title: "Sistema de Controle de Infecção Hospitalar"
+    year: 1993
+    type: software
+    status: historical
+    visibility: archive
+    summary: "Software intended to support hospital infection control."
+    topics: [health-informatics]
+    sources:
+      - type: lattes-software
+        year: 1993
+        title: "Sistema de Controle de Infecção Hospitalar"
+        lattes_updated: 2026-04-08
+
+technological_products:
+  - id: asi-hsm-hardware
+    title: "Módulo de Segurança Criptográfica ASI-HSM"
+    year: 2006
+    type: technological-product
+    status: historical
+    visibility: featured
+    family: hsm-technology
+    summary: "Cryptographic security module for secure storage of private keys."
+    topics: [hsm, cryptographic-keys, public-key-infrastructure]
+    related: [openhsm, pki-hsm, asi-hsm-software]
+    sources:
+      - type: lattes-technological-product
+        year: 2006
+        title: "Módulo de Segurança Criptográfica ASI-HSM"
+        lattes_updated: 2026-04-08
+
+  - id: pki-hsm
+    title: "Hardware Criptográfico para Infraestrutura de Chaves Públicas (HSM)"
+    year: 2007
+    type: technological-product
+    status: historical
+    visibility: featured
+    family: hsm-technology
+    summary: "Cryptographic hardware for controlling the lifecycle of cryptographic keys."
+    topics: [hsm, cryptographic-keys, public-key-infrastructure]
+    related: [openhsm, asi-hsm-hardware, asi-hsm-software]
+    sources:
+      - type: lattes-technological-product
+        year: 2007
+        title: "Hardware Criptográfico para Infra-estrututura de Chaves Públicas (HSM)"
+        lattes_updated: 2026-04-08
+
+  - id: certificate-management-system-2007
+    title: "Sistema Gerenciador de Certificados Digitais"
+    year: 2007
+    type: technological-product
+    status: historical
+    visibility: featured
+    summary: "System for deploying certification authorities and registration authorities."
+    topics: [public-key-infrastructure, digital-certificates]
+    related: [ywapa, ywyra, hawa]
+    relationship_note: "The Lattes source supports technological proximity but does not establish a predecessor/successor relationship."
+    sources:
+      - type: lattes-technological-product
+        year: 2007
+        title: "Sistema Gerenciador de Certificados Digitais"
+        lattes_updated: 2026-04-08
+
+  - id: electronic-identity-management-system
+    title: "Sistema de Gerenciamento de Identidades Eletrônicas"
+    year: 2020
+    type: technological-product
+    status: historical
+    visibility: featured
+    summary: "Proof-of-concept prototype for electronic identity management."
+    topics: [digital-identity, authentication, digital-trust]
+    sources:
+      - type: lattes-technological-product
+        year: 2020
+        title: "Sistema de Gerenciamento de Identidades Eletrônicas"
+        lattes_updated: 2026-04-08
+
+  - id: post-quantum-certificate-management-system
+    title: "Sistema de Gerenciamento de Certificados Digitais Pós-quânticos"
+    year: 2020
+    type: technological-product
+    status: historical
+    visibility: featured
+    summary: "Prototype for issuing SSL/TLS digital certificates using post-quantum cryptographic algorithms."
+    topics: [post-quantum-cryptography, public-key-infrastructure, digital-certificates, tls]
+    sources:
+      - type: lattes-technological-product
+        year: 2020
+        title: "Sistema de Gerenciamento de Certificados Digitais Pós-quânticos"
+        lattes_updated: 2026-04-08
+
+  - id: intelligent-temperature-controller
+    title: "Controlador Inteligente de Temperaturas"
+    year: 1987
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1987
+        title: "Controlador Inteligente de Temperaturas"
+        lattes_updated: 2026-04-08
+
+  - id: repapi-1
+    title: "REPAPI 1.0"
+    year: 1985
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1985
+        title: "REPAPI 1.0"
+        lattes_updated: 2026-04-08
+
+  - id: modular-acquisition-control-interface
+    title: "Interface Modular de Aquisição e Controle"
+    year: 1984
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1984
+        title: "Interface Modular de Aquisição e Controle"
+        lattes_updated: 2026-04-08
+
+  - id: balanced-calorimeter
+    title: "Calorímetro Balanceado"
+    year: 1985
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1985
+        title: "Calorímetro Balanceado"
+        lattes_updated: 2026-04-08
+
+  - id: direct-numerical-control-system
+    title: "Sistema de Comando Numérico Direto"
+    year: 1984
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1984
+        title: "Sistema de Comando Numérico Direto"
+        lattes_updated: 2026-04-08
+
+  - id: press-monitoring-system
+    title: "Sistema de Monitoração de Prensas"
+    year: 1987
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1987
+        title: "Sistema de Monitoração de Prensas"
+        lattes_updated: 2026-04-08
+
+  - id: boiler-monitoring-system
+    title: "Sistema de Monitoração de Caldeiras"
+    year: 1987
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1987
+        title: "Sistema de Monitoração de Caldeiras"
+        lattes_updated: 2026-04-08
+
+  - id: combustion-engine-test-bench
+    title: "Banco de Ensaio de Motores a Combustão Interna"
+    year: 1988
+    type: technological-product
+    status: historical
+    visibility: archive
+    sources:
+      - type: lattes-technological-product
+        year: 1988
+        title: "Banco de Ensaio de Motores a Combustão Interna"
+        lattes_updated: 2026-04-08
+
+research_artifacts:
+  - id: pbad-signature-policies
+    title: "Políticas de Assinatura Digital e Listas de Políticas Aprovadas em CAdES e XAdES"
+    year: 2011
+    type: research-artifact
+    status: historical
+    visibility: featured
+    family: brazilian-digital-signature-reference-implementations
+    summary: "Machine-readable rules defining how electronic documents should be signed and how signatures should be validated under the Brazilian Digital Signature Standard."
+    topics: [digital-signatures, signature-policies, cades, xades, icp-brasil]
+    sources:
+      - type: lattes-software
+        year: 2011
+        title: "Políticas de Assinatura Digital e Listas de Políticas Aprovadas em CAdES e XAdES para o Padrão Brasileiro de Assinatura Digital no Âmbito da Infraestrutura de Chaves Públicas Brasileira"
+        lattes_updated: 2026-04-08
 
 datasets: []
 
-artifacts: []
+# Projects for which no distinct canonical technological artifact has yet been
+# identified. These entries are intentional safeguards against inventing software.
+unresolved_project_artifacts:
+  - project: personal-ai
+    expected_types: [research-artifact, proof-of-concept]
+    status: needs-identification
 
-# Future software example:
-#
-# software:
-#   - id: example-software
-#     title: "Example Research Software"
-#     type: research-software
-#     status: active
-#     description:
-#     start:
-#     end:
-#     license:
-#     repository:
-#     website:
-#     topics: []
-#     contributors: []
-#     related_projects: []
-#     related_publications: []
-#     related_datasets: []
-#     releases: []
-#
-# Future dataset example:
-#
-# datasets:
-#   - id: example-dataset
-#     title: "Example Dataset"
-#     status: published
-#     year:
-#     description:
-#     format:
-#     license:
-#     doi:
-#     repository:
-#     topics: []
-#     contributors: []
-#     related_software: []
-#     related_projects: []
-#     related_publications: []
-#
-# Future reproducibility artifact example:
-#
-# artifacts:
-#   - id: example-reproduction
-#     title: "Reproducibility Package"
-#     type: reproducibility-package
-#     status: published
-#     year:
-#     repository:
-#     doi:
-#     related_publication:
-#     related_software: []
-#     related_datasets: []
+  - project: open-insurance
+    expected_types: [proof-of-concept, research-software]
+    status: needs-identification
+
+  - project: secdoc
+    expected_types: [research-software, research-artifact]
+    status: needs-identification
+
+  - project: finite-field-arithmetic
+    expected_types: [research-software, dataset]
+    status: needs-identification
+
+  - project: post-quantum-cryptographic-algorithms
+    expected_types: [research-software, research-artifact]
+    status: needs-identification
+
