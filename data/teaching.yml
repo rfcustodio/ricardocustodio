@@ -1,0 +1,175 @@
+schema_version: 0.2-audit
+courses:
+- id: ine5601
+  code: INE5601
+  title: Mathematical Foundations for Computer Science
+  source_title: Fundamentos Matemáticos da Informática
+  level: undergraduate
+  institution: UFSC
+  first_documented_program: 2008-2
+  status: documented
+  summary: Discrete mathematical foundations for computing, including logic, sets, integers, induction, recursion,
+    relations, functions, order structures, Boolean algebra, and algebraic structures.
+  featured: true
+  topics:
+  - Mathematical Logic
+  - Set Theory
+  - Modular Arithmetic
+  - Induction
+  - Recursion
+  - Relations
+  - Functions
+  - Posets
+  - Boolean Algebra
+  - Algebraic Structures
+- id: ine5448-ai-security
+  code: INE5448
+  official_title: Tópicos Especiais em Aplicações Tecnológicas I
+  public_title: Security and Artificial Intelligence
+  level: undergraduate
+  institution: UFSC
+  status: documented
+  summary: Theory and practice at the intersection of artificial intelligence and information security, combining
+    foundational concepts, case studies, guided study, seminars, and proof-of-concept development.
+  featured: true
+  topics:
+  - Artificial Intelligence
+  - Information Security
+  - Machine Learning
+  - Adversarial Attacks
+  - Privacy
+  - Ethics
+  - Governance
+- id: health-information-security-usability
+  title: Security and Usability in Health Information Systems
+  source_title: Segurança e Usabilidade em Sistemas de Informação em Saúde
+  level: graduate-professional
+  institution: UFSC
+  status: documented
+  summary: Security, privacy, cryptographic protocols, identity management, regulation, and usability applied to
+    health information systems.
+  featured: true
+  topics:
+  - Information Security
+  - Cryptography
+  - Key Management
+  - PKI
+  - Electronic Identity
+  - Privacy
+  - Usability
+  - UX/UI
+offerings:
+- id: ine5601-2026-1
+  course_id: ine5601
+  term: 2026-1
+  hours: 72
+  program: Information Systems
+  instructors:
+  - Ricardo Custódio
+  status: documented
+- id: ine5448-ai-security-2025-2
+  course_id: ine5448-ai-security
+  term: 2025-2
+  hours: 72
+  program: Computer Science
+  status: documented
+  notes: Plan documents AI/security content, guided studies, seminars and PoC; internal wording about group/individual
+    PoC should be preserved as source inconsistency until reconciled.
+- id: ine5448-ai-security-2026-1
+  course_id: ine5448-ai-security
+  term: 2026-1
+  hours: 72
+  theory_hours: 36
+  practice_hours: 36
+  program: Computer Science
+  instructors:
+  - Jean Everson Martina
+  - Ricardo Custódio
+  status: documented
+  assessment:
+  - Participation 20%
+  - Individual PoC 80%
+  teaching_assistants:
+  - Lucas Mayr de Athayde
+  - Wellington Fernandes Silvano
+  - Gustavo Zambonin
+- id: health-information-security-usability-2026-1
+  course_id: health-information-security-usability
+  term: 2026-1
+  credits: 3
+  program: Professional Master's Program in Health Informatics
+  instructors:
+  - Ricardo Custódio
+  status: documented
+materials:
+- id: ine5601-program-2008-2
+  course_id: ine5601
+  type: course-program
+  date_or_term: 2008-2
+  visibility_candidate: public
+  status: documented
+  source_file: programa-ensino-INE5601-20082.pdf
+- id: ine5601-plan-2026-1
+  offering_id: ine5601-2026-1
+  type: teaching-plan
+  date_or_term: 2026-1
+  visibility_candidate: public
+  status: documented
+  source_file: plano-ensino-INE5601-01238A-20261.pdf
+- id: ine5601-aa2-logic
+  offering_id: ine5601-2026-1
+  type: assessment
+  topic: Propositional Logic
+  visibility_candidate: review-before-publication
+  status: documented
+  source_file: aa2.pdf
+- id: ine5601-recovery-2026-07-07
+  offering_id: ine5601-2026-1
+  type: exam
+  topic: Comprehensive recovery exam
+  date: '2026-07-07'
+  visibility_candidate: review-before-publication
+  status: documented
+  source_file: rec.pdf
+- id: ine5448-plan-2025-2
+  offering_id: ine5448-ai-security-2025-2
+  type: teaching-plan
+  date_or_term: 2025-2
+  visibility_candidate: public
+  status: documented
+  source_file: plano-ensino-INE5448-08208-20252.pdf
+- id: ine5448-plan-2026-1
+  offering_id: ine5448-ai-security-2026-1
+  type: teaching-plan
+  date_or_term: 2026-1
+  visibility_candidate: public
+  status: documented
+  source_file: plano-ensino-INE5448-08208-20261.pdf
+- id: health-security-usability-plan-2026-1
+  offering_id: health-information-security-usability-2026-1
+  type: teaching-plan
+  date_or_term: 2026-1
+  visibility_candidate: public
+  status: documented
+  source_file: PLANO DE ENSINO - Segurança e Usabilidade em Sistemas de Informação em Saúde 2026.pdf
+excluded_from_public_archive:
+- category: student-submissions
+  reason: student work is not a teaching resource authored for public release
+- category: individual-grading-reports
+  reason: contains student-specific academic records and should not be exposed in the public site
+historical_courses_from_lattes:
+- Linear Algebra and Analytic Geometry I (monitor, 1982)
+- Computer Architecture and Organization
+- Introduction to Computer Science
+- Object-Oriented Programming
+- Data Structures
+- Numerical Computing
+- Introduction to Computing
+- Digital Electronics Laboratory
+- Microprocessors and Microcontrollers
+- Computer Security
+- Theory of Computation
+- Cryptography and Network Security
+- Public-Key Infrastructure
+- Cryptographic Protocols
+- Network Security

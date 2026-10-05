@@ -1,121 +1,33 @@
 ---
 title: "Teaching"
-description: "Courses and educational resources by Ricardo Custódio."
 toc: true
-toc-title: "Teaching"
+filters:
+  - filters/teaching.lua
 ---
 
-Teaching has been an integral part of my academic career.
+My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources.
 
-My courses are closely connected to my research in information security,
-cryptography, digital identity, electronic documents, artificial
-intelligence, and the mathematical foundations of computer science.
+::: {.callout-note}
+The teaching archive is curated. Course plans and selected educational materials may be preserved here, while student submissions, grades, and individual assessment reports are excluded from the public archive.
+:::
 
-This section also serves as a long-term archive of lecture notes,
-slides, exercises, assignments, and other educational resources
-developed throughout my academic career.
+## Current & Recent Courses
 
-
-## Current Courses
-
-### Mathematical Foundations for Computer Science
-
-Topics include mathematical reasoning, logic, proofs, induction,
-recurrences, combinatorics, relations, functions, and other mathematical
-foundations used in computer science.
-
-**Level:** Undergraduate
-
-[Course materials →](#)
-
-
-### Security and Artificial Intelligence
-
-The course investigates the relationship between artificial
-intelligence and information security, including the use of AI in
-security applications and the security challenges introduced by
-AI-based systems and autonomous agents.
-
-**Level:** Undergraduate
-
-[Course materials →](#)
-
-
-### Security and Usability in Health Information Systems
-
-The course examines security, privacy, usability, identity,
-authentication, electronic documents, and trust mechanisms in the
-context of health information systems.
-
-**Level:** Graduate
-
-[Course materials →](#)
-
-
-## Previous Courses
-
-Throughout my academic career, I have taught courses in areas including:
-
-- Information Security
-- Cryptography
-- Public Key Infrastructure and Applications
-- Digital Signatures
-- Blockchain and Cryptocurrencies
-- Computer Networks
-- Mathematical Foundations for Computer Science
-- Health Information Systems
-- Artificial Intelligence and Security
-
-This archive will be progressively reconstructed and expanded.
-
+::: {#teaching-current}
+:::
 
 ## Educational Resources
 
-### Lecture Notes
+::: {#teaching-resources}
+:::
 
-Lecture notes and texts developed for undergraduate and graduate courses.
+## Teaching Trajectory
 
-*Resources will be progressively added.*
-
-
-### Slides
-
-Presentation material used in courses, seminars and lectures.
-
-*Resources will be progressively added.*
-
-
-### Exercises and Assignments
-
-Exercises, problem sets, practical activities and project assignments.
-
-*Resources will be progressively added.*
-
-
-### Books and Texts
-
-Some educational material has evolved into books, technical texts and
-more extensive learning resources.
-
-[Books & Texts →](books.qmd)
-
+::: {#teaching-history}
+:::
 
 ## Teaching Philosophy
 
-I view teaching and research as closely connected activities.
+I approach teaching as a connection between formal foundations and real computational problems. In mathematics, security, cryptography, and artificial intelligence, students should understand not only how a technique works, but also the assumptions, limitations, and consequences of using it.
 
-Students should not only learn established concepts and technologies,
-but also understand the problems that motivated them, their limitations,
-and the open questions that remain.
-
-In information security and cryptography in particular, this means
-combining theoretical foundations with the analysis and construction
-of real systems.
-
-
-## Student Research
-
-Many course activities have led to undergraduate research projects,
-Master's dissertations and PhD research.
-
-[Students & Supervision →](supervision.qmd)
+Practical work, critical reading, discussion, and the construction of working prototypes complement the conceptual foundations of the courses.
