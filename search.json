@@ -2,9 +2,9 @@
   {
     "objectID": "archive.html",
     "href": "archive.html",
-    "title": "Structured metadata for historical and preserved academic objects.",
+    "title": "Academic Archive",
     "section": "",
-    "text": "Structured metadata for historical and preserved academic objects.\n\n\n\n\n\nArchive records describe objects whose historical context and\n\n\nprovenance should be retained even when they are no longer part\n\n\nof current academic activities.\nitems: []\n\n\nFuture example:\n\n\n\n\n\nitems:\n\n\n\n\n\n- id: example-archive-item\n\n\ntitle: “Example Historical Object”\n\n\ntype: document\n\n\nstatus: archived\n\n\n\n\n\ndate:\n\n\ndescription:\n\n\n\n\n\nprovenance:\n\n\nsource:\n\n\noriginal_location:\n\n\nrecovered:\n\n\n\n\n\npreservation:\n\n\nformat:\n\n\nchecksum:\n\n\npreserved_at:\n\n\npersistent_identifier:\n\n\n\n\n\naccess:\n\n\npublic: true\n\n\nfile:\n\n\n\n\n\nrelated_projects: []\n\n\nrelated_publications: []\n\n\nrelated_courses: []\n\n\nrelated_software: []\n\n\nrelated_talks: []\n\n\nrelated_people: []\n\n\n\n\n\nnotes:"
+    "text": "My academic work has developed across engineering, scientific computing, cryptography, electronic documents, digital signatures, identity, post-quantum cryptography, and artificial intelligence.\nThis archive is not intended to reproduce a curriculum vitae. It is a historical view of how research questions, projects, technological artifacts, publications, students, and collaborations have evolved and intersected over time."
   },
   {
     "objectID": "talks.html",
