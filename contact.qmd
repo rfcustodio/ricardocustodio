@@ -3,58 +3,53 @@ title: "Contact"
 toc: false
 ---
 
-For academic inquiries, research collaboration, student supervision,
-technical discussions, and professional activities, you can contact me
-through the channels below.
+For academic inquiries, research collaboration, technical discussions, and professional activities, the channels below provide the most appropriate points of contact.
 
-## Academic & Research Contact
+::: {.contact-grid}
+
+::: {.contact-card}
+## Academic & Research
 
 **Ricardo Custódio**  
-Professor and Researcher  
-Information Security · Cryptography · Digital Trust · Artificial Intelligence
+Full Professor · Researcher · Advisor
 
-**LabSEC — Computer Security Laboratory**  
+Department of Informatics and Statistics  
 Federal University of Santa Catarina (UFSC)  
 Florianópolis, Santa Catarina, Brazil
 
-## Academic Profiles
+[Academic trajectory →](about.qmd)
+:::
 
-- [ORCID](https://orcid.org/0000-0001-9611-5694)
-- [Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en)
-- [Lattes Curriculum](http://lattes.cnpq.br/9716092379282146)
-
-## Professional & Development Profiles
-
-- [GitHub](https://github.com/rfcustodio)
-- [LinkedIn](https://www.linkedin.com/in/rfcustodio/)
-
+::: {.contact-card}
 ## Research Collaboration
 
-I welcome academic and technical collaboration in areas related to:
+My current interests include cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security and identity for AI agents.
 
-- information security;
-- cryptography;
-- digital signatures;
-- public key infrastructure;
-- digital identity;
-- electronic documents;
-- finite-field arithmetic;
-- post-quantum cryptography;
-- artificial intelligence and security;
-- digital trust infrastructures.
+[Current research questions →](research.qmd#current-research-questions)
+:::
 
-## Students & Research
+::: {.contact-card}
+## Students & Supervision
 
-Prospective students interested in research projects should consult the
-[Research](research.qmd), [Projects](projects.qmd), and
-[Supervision](supervision.qmd) sections before making contact.
+Prospective students should consult the Research, Projects, and Supervision sections before making contact. Research topics and supervision availability depend on current projects and academic commitments.
 
-Research topics evolve over time, and the availability of new supervision
-positions depends on current projects and academic commitments.
+[Research →](research.qmd) · [Projects →](projects.qmd) · [Supervision →](supervision.qmd)
+:::
 
-## Website
+::: {.contact-card}
+## Academic Profiles
 
-This website is also a long-term academic archive.
+[ORCID](https://orcid.org/0000-0001-9611-5694)  
+[Lattes Curriculum](http://lattes.cnpq.br/9716092379282146)  
+[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en)  
+[GitHub](https://github.com/rfcustodio)  
+[LinkedIn](https://www.linkedin.com/in/rfcustodio/)
+:::
 
-Corrections, additional information, and references to historical academic
-material related to the work documented here are welcome.
+:::
+
+## Academic Archive
+
+This website is intended to serve as a long-term academic record. Corrections, additional information, and references to historical academic material related to the work documented here are welcome.
+
+[Explore the Academic Archive →](archive.qmd)

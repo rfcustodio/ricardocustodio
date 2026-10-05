@@ -544,3 +544,172 @@ h2 {
 .teaching-status { margin-left:.35rem; opacity:.75; }
 .teaching-history-list { columns: 2 280px; column-gap: 2rem; }
 .teaching-history-item { break-inside:avoid; padding:.38rem 0; border-bottom:1px solid var(--bs-border-color); }
+
+
+/* Home V2 */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(220px, .65fr);
+  gap: 3rem;
+  align-items: center;
+  padding: 3.2rem 0 2.7rem;
+}
+.hero h1 {
+  font-size: clamp(2.7rem, 6vw, 5rem);
+  line-height: .98;
+  letter-spacing: -.045em;
+  margin-bottom: .65rem;
+}
+.hero h2 {
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  font-weight: 400;
+  opacity: .78;
+  margin-bottom: 1.35rem;
+}
+.hero-content > p {
+  font-size: 1.12rem;
+  max-width: 760px;
+}
+.hero-photo img {
+  width: min(100%, 310px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin-inline: auto;
+}
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin: 1.4rem 0 1rem;
+}
+.academic-links {
+  font-size: .92rem;
+  opacity: .85;
+}
+.home-intro, .home-collections, .home-trajectory, .home-archive-callout {
+  margin-top: 3.6rem;
+}
+.home-intro {
+  max-width: 880px;
+}
+.home-research-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0,1fr));
+  gap: .9rem;
+  margin-top: 1.4rem;
+}
+.home-topic-card, .home-collection-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 14px;
+  padding: 1.15rem;
+  background: var(--bs-body-bg);
+}
+.home-topic-card h3, .home-collection-card h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+.home-topic-card p, .home-collection-card p {
+  font-size: .91rem;
+}
+.home-collection-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0,1fr));
+  gap: .9rem;
+  margin-top: 1.3rem;
+}
+.archive-card {
+  grid-column: span 2;
+}
+.home-trajectory {
+  padding: 1.6rem 0;
+  max-width: 900px;
+}
+.home-archive-callout {
+  padding: 1.7rem 1.8rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 16px;
+  background: var(--bs-tertiary-bg);
+  margin-bottom: 3rem;
+}
+.home-archive-callout h2 {
+  margin-top: 0;
+}
+@media (max-width: 1100px) {
+  .home-research-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .home-collection-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+@media (max-width: 700px) {
+  .hero { grid-template-columns: 1fr; gap: 1.5rem; padding-top: 2rem; }
+  .hero-photo { grid-row: 1; }
+  .hero-photo img { width: 190px; }
+  .home-research-grid, .home-collection-grid { grid-template-columns: 1fr; }
+  .archive-card { grid-column: auto; }
+}
+
+
+/* Site consolidation V1
+   Shared presentation rules. Append after existing collection-specific CSS. */
+
+:root {
+  --rc-radius: .75rem;
+  --rc-gap: 1rem;
+}
+
+/* Consistent readable measure on ordinary content pages. */
+.quarto-title-block + * p,
+#quarto-document-content > p {
+  max-width: 72rem;
+}
+
+/* Contact */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: var(--rc-gap);
+  margin: 1.25rem 0 2.5rem;
+}
+.contact-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--rc-radius);
+  padding: 1.2rem 1.3rem;
+  background: var(--bs-body-bg);
+}
+.contact-card h2 {
+  margin-top: 0;
+  font-size: 1.18rem;
+}
+
+/* Harmonize generated/content cards without changing their semantics. */
+.supervision-card,
+.artifact-card,
+.pub-card,
+.text-work,
+.talk-card,
+.genealogy-card,
+.teaching-card,
+.home-topic-card,
+.home-collection-card {
+  border-radius: var(--rc-radius);
+}
+
+/* Keep long pages visually quieter. */
+details > summary {
+  cursor: pointer;
+}
+details > summary:hover {
+  text-decoration: underline;
+}
+
+/* Footer-like spacing at the end of content pages. */
+#quarto-document-content {
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

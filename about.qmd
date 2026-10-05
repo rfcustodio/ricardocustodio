@@ -1,108 +1,84 @@
 ---
 title: "About"
 toc: true
-toc-title: "On this page"
 ---
 
-# Ricardo Custódio
+## Short Bio
 
-I am a professor and researcher in computer science, working primarily
-in information security and cryptography. My research spans digital
-signatures, public key infrastructure, digital identity, electronic
-documents, cryptographic protocols, post-quantum cryptography,
-finite-field arithmetic, and artificial intelligence applied to security.
+I am a Full Professor in the Department of Informatics and Statistics at the Federal University of Santa Catarina (UFSC), Brazil, and have worked at the intersection of computing, cryptography, and digital trust for more than three decades.
 
-I am a Full Professor at the Department of Informatics and Statistics
-of the Federal University of Santa Catarina (UFSC), in Florianópolis,
-Brazil, and supervisor of the Computer Security Laboratory (LabSEC).
+My current research focuses on information security and cryptography, particularly digital signatures, electronic documents, public-key infrastructures, electronic identity, verifiable credentials, cryptographic key management, post-quantum cryptography, and finite-field arithmetic. More recently, I have also been investigating security, identity, authorization, and accountability for artificial-intelligence agents.
 
-Throughout my academic career, I have combined fundamental and applied
-research with the development of technologies and infrastructures for
-real-world digital trust systems.
+I have supervised the Laboratory for Computer Security (LabSEC) at UFSC since 2000, where research has combined theoretical questions with the design and implementation of security infrastructures and technological artifacts.
 
-## Academic trajectory
+## Academic Formation
 
-I received my Bachelor's degree in Electrical Engineering from the
-Federal University of Santa Catarina (UFSC), followed by a Master's
-degree in Electrical Engineering at the same university.
+My academic formation began in Electrical Engineering at UFSC, where I received my bachelor's degree in 1985. I subsequently completed a master's degree in Electrical Engineering at UFSC in 1990, working on parametric speech coding with multi-pulse excitation.
 
-I received my PhD in Computer Science from the Federal University of
-Rio Grande do Sul (UFRGS) in 1999.
+I received my PhD in Computer Science from the Federal University of Rio Grande do Sul (UFRGS) in 1999. My doctoral research investigated nonlinear analysis of sound patterns, with a case study involving lung sounds.
 
-I joined UFSC as a faculty member in 1994. Over the following decades,
-my academic activities have included teaching, research, technology
-development, graduate supervision, and collaboration with public and
-private institutions.
+From 2005 to 2006, I was a postdoctoral researcher at George Washington University in the United States.
 
-## Research
+## From Engineering to Computing
 
-My work is centered on the security and trust mechanisms required for
-digital systems.
+My professional trajectory began in engineering and industrial automation. From 1986 to 1991, I worked at Fundação CERTI in research and development related to information systems and industrial automation, including management responsibilities in the Industrial Automation Division.
 
-My main research interests include:
+In 1990–1991, I spent a period at the Robotiker technology center in Spain working with industrial robotics and automation.
 
-- information security;
-- cryptography and cryptographic protocols;
-- digital signatures and electronic signatures;
-- public key infrastructure (PKI);
-- digital identity and authentication;
-- electronic documents and long-term preservation;
-- cryptographic key management;
-- arithmetic over finite fields;
-- post-quantum cryptography;
-- artificial intelligence applied to security and digital trust.
+I joined the Universidade do Estado de Santa Catarina (UDESC) as a professor in 1992. There, my research already included cryptography and its applications.
 
-A recurring theme in my research is the connection between
-**cryptographic foundations and deployable systems**: how mathematical,
-cryptographic and security mechanisms can be transformed into
-infrastructures and applications that operate in real institutional
-environments.
+In 1994, I joined UFSC as a permanent faculty member. My initial research at the Department of Informatics and Statistics was associated with computational mathematics and the Laboratory of Algebraic and Symbolic Computing.
 
-## LabSEC
+## LabSEC and Digital Trust
 
-I supervise the **Computer Security Laboratory (LabSEC)** at UFSC.
+Around the turn of the millennium, my research shifted decisively toward computer security and cryptography. Research activities at LabSEC began in 2000, followed by my supervision of the laboratory.
 
-LabSEC conducts research and technology development in information
-security and cryptography, bringing together undergraduate, Master's
-and PhD students and collaborating with universities, government
-institutions and organizations involved in digital infrastructures.
+Early research addressed secure electronic documents, electronic voting, cryptographic protocols, digital signatures, and public-key infrastructures. These themes developed into a broader research program concerned with the technological foundations of digital trust.
 
-Over the years, the laboratory has worked on topics including public
-key infrastructure, digital certification, digital signatures,
-electronic documents, digital identity, cryptographic protocols,
-blockchain technologies and post-quantum cryptography.
+Over the following decades, this work expanded to certificate lifecycle management, hardware security modules, long-term digital signatures, secure document preservation, authentication, electronic identity, and national-scale trust infrastructures.
 
-## Students and supervision
+My work has also involved collaboration with Brazilian digital-trust initiatives. I coordinated the ICP-EDU working group of the Brazilian National Research and Education Network (RNP) and have participated in activities associated with ICP-Brasil.
 
-An important part of my academic work has been the education and
-supervision of researchers.
+## Research Evolution
 
-I supervise undergraduate research, Master's dissertations and PhD
-theses, particularly in information security, cryptography, digital
-identity and trustworthy digital infrastructures.
+A useful way to understand my research is as a sequence of connected questions:
 
-Many of the research projects developed with students combine
-theoretical investigation with the design, implementation and
-experimental evaluation of security technologies.
+**How can computation be made trustworthy?**
 
-[Students and supervision →](supervision.qmd)
+That question first appeared in my work through cryptography, secure protocols, and electronic documents. It subsequently led to digital signatures and public-key infrastructures, then to electronic identity and new models for credentials and authentication.
 
-## Beyond the university
+The long-term security of these systems introduced further questions about post-quantum cryptography, cryptographic agility, efficient finite-field arithmetic, and preservation of electronic evidence.
 
-My work also involves research, development and innovation projects
-with institutions outside the university.
+Artificial intelligence introduces another transition. Autonomous and semi-autonomous agents raise questions that are familiar to security research but appear in a new form: Who or what is acting? Under whose authority? With which credentials? How can an action be audited, attributed, authorized, or repudiated?
 
-These collaborations have provided opportunities to apply research in
-areas such as digital certification, electronic documents, civil
-registration, digital identity, financial infrastructures and
-post-quantum security.
+These questions currently connect my earlier work on digital trust with research on AI agents and personal AI.
 
-[Projects →](projects.qmd)
+## Research and Technology
 
-## Academic profiles
+I have always considered research prototypes and technological artifacts an important complement to theoretical and academic work.
+
+Across LabSEC projects, research has resulted in software and infrastructure related to electronic documents, digital signatures, PKI, hardware security modules, certificate management, electronic identity, post-quantum migration, and civil-registration services.
+
+The [Projects](projects.qmd) and [Software & Data](software.qmd) sections document this technological trajectory in greater detail.
+
+## Students and Research Community
+
+Supervision has been a central part of my academic work. Master's and doctoral research conducted at LabSEC has contributed to many of the research lines represented on this site, including electronic documents, cryptographic protocols, PKI, digital signatures, identity, post-quantum cryptography, and finite-field arithmetic.
+
+Rather than treating supervision as a separate activity, I regard students as participants in a continuing research community. The [Supervision](supervision.qmd) section preserves this academic genealogy.
+
+## Academic Memory
+
+This website is also intended as a long-term academic archive.
+
+Publications alone provide an incomplete account of a research career. Projects, software, technical texts, lectures, courses, students, collaborations, and unfinished research directions often explain how ideas developed and how one line of investigation led to another.
+
+The [Academic Archive](archive.qmd) therefore connects these different kinds of records and provides a historical view of my work.
+
+## Academic Profiles
 
 - [ORCID](https://orcid.org/0000-0001-9611-5694)
-- [Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=pt-BR)
-- [Currículo Lattes](http://lattes.cnpq.br/9716092379282146)
+- [Lattes CV](http://lattes.cnpq.br/9716092379282146)
+- [Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en)
 - [GitHub](https://github.com/rfcustodio)
 - [LinkedIn](https://www.linkedin.com/in/rfcustodio/)

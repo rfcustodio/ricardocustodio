@@ -6,135 +6,171 @@ title-block-banner: false
 ---
 
 ::: {.hero}
-
-::: {.hero-text}
-
+::: {.hero-content}
 # Ricardo Custódio
 
 ## Professor · Researcher · Advisor
 
-My research spans information security, cryptography, digital identity,
-digital signatures, electronic documents, post-quantum cryptography,
-finite-field arithmetic, and artificial intelligence applied to security.
+I work on the foundations and infrastructures of **digital trust**: cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security for artificial-intelligence agents.
 
-::: {.hero-buttons}
+My research connects mathematical foundations with architectures, technological artifacts, and real-world trust ecosystems.
 
+::: {.hero-actions}
 [About me](about.qmd){.btn .btn-primary}
-
+[Research](research.qmd){.btn .btn-outline-primary}
 [Publications](publications.qmd){.btn .btn-outline-primary}
-
-[Contact](contact.qmd){.btn .btn-outline-primary}
-
 :::
 
 ::: {.academic-links}
-
 [ORCID](https://orcid.org/0000-0001-9611-5694) ·
-[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=pt-BR) ·
-[GitHub](https://github.com/rfcustodio) ·
 [Lattes](http://lattes.cnpq.br/9716092379282146) ·
+[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en) ·
+[GitHub](https://github.com/rfcustodio) ·
 [LinkedIn](https://www.linkedin.com/in/rfcustodio/)
-
 :::
-
 :::
 
 ::: {.hero-photo}
-
 ![](foto-minha.jpeg){fig-alt="Ricardo Custódio"}
-
+:::
 :::
 
-:::
-
-
+::: {.home-intro}
 ## Research
 
-::: {.research-grid}
+My research asks a broad question: **how can computation be made trustworthy?**
 
-::: {.research-card}
-### Digital Identity
+This question has guided work on cryptographic mechanisms, secure electronic documents, digital signatures and PKI, electronic identity, post-quantum transition, and, more recently, identity and authorization for AI agents.
 
-Digital identity, authentication, authorization and verifiable credentials.
+[Explore the research program →](research.qmd)
 :::
 
-::: {.research-card}
-### Digital Signatures
+::: {.home-research-grid}
 
-Electronic signatures, digital signatures, PKI and long-term validation.
+::: {.home-topic-card}
+### Cryptography & Finite Fields
+
+Cryptographic protocols, implementation foundations, binary extension fields, irreducible polynomials, and efficient arithmetic.
+
+[Research →](research.qmd#research-foundations)
 :::
 
-::: {.research-card}
-### Cryptography
+::: {.home-topic-card}
+### Digital Signatures & PKI
 
-Cryptographic algorithms, protocols and applied cryptography.
+Digital signatures, certificates, trust infrastructures, hardware security modules, signature policies, and long-term verification.
+
+[Research →](research.qmd#digital-trust)
 :::
 
-::: {.research-card}
-### Finite Fields
+::: {.home-topic-card}
+### Identity & Electronic Documents
 
-Efficient arithmetic over binary finite fields and modular reduction.
+Electronic identity, credentials, authentication, authorization, document authenticity, confidentiality, provenance, and preservation.
+
+[Research →](research.qmd#electronic-identity)
 :::
 
-::: {.research-card}
-### Post-Quantum Cryptography
+::: {.home-topic-card}
+### Post-Quantum Security
 
-Cryptographic mechanisms and infrastructures for the post-quantum transition.
+Migration of certificates, protocols, identity systems, signatures, and long-lived electronic evidence to post-quantum cryptography.
+
+[Research →](research.qmd#post-quantum-cryptography)
 :::
 
-::: {.research-card}
-### AI & Security
+::: {.home-topic-card}
+### AI, Agents & Digital Trust
 
-Artificial intelligence applied to security, identity and autonomous agents.
+Identity, delegation, authorization, accountability, and auditability for autonomous and semi-autonomous AI agents.
+
+[Research →](research.qmd#artificial-intelligence-security)
 :::
 
-::: {.research-card}
-### Electronic Documents
-
-Electronic documents, long-term validation, preservation and trust infrastructures.
 :::
 
-::: {.research-card}
-### Information Security
+::: {.home-collections}
+## Explore the Academic Record
 
-Security architectures, protocols, infrastructures and trustworthy systems.
+The site is organized as a set of connected academic collections rather than as a single curriculum vitae.
+
+::: {.home-collection-grid}
+
+::: {.home-collection-card}
+### Publications
+Scholarly publications, selected works, and research areas.
+
+[Browse publications →](publications.qmd)
+:::
+
+::: {.home-collection-card}
+### Projects
+Research projects and technological development across different periods.
+
+[Browse projects →](projects.qmd)
+:::
+
+::: {.home-collection-card}
+### Supervision
+Master's and doctoral research and the academic genealogy around LabSEC.
+
+[Browse supervision →](supervision.qmd)
+:::
+
+::: {.home-collection-card}
+### Software & Data
+Research software, prototypes, reference implementations, and technological artifacts.
+
+[Browse software & data →](software.qmd)
+:::
+
+::: {.home-collection-card}
+### Books & Texts
+Books, technical texts, reports, and longer-form academic material.
+
+[Browse books & texts →](books.qmd)
+:::
+
+::: {.home-collection-card}
+### Teaching
+Courses, teaching trajectory, and selected educational resources.
+
+[Browse teaching →](teaching.qmd)
+:::
+
+::: {.home-collection-card}
+### Talks
+Selected talks, presentations, workshops, and historical speaking record.
+
+[Browse talks →](talks.qmd)
+:::
+
+::: {.home-collection-card .archive-card}
+### Academic Archive
+A historical view connecting research themes, projects, publications, software, students, texts, and talks.
+
+[Explore the archive →](archive.qmd)
+:::
+
 :::
 :::
 
-[Explore my research →](research.qmd){.section-link}
+::: {.home-trajectory}
+## From Engineering to Digital Trust
 
+My academic trajectory began in electrical engineering and industrial automation, moved through scientific computing and cryptography, and developed into a long-term research program on computer security and digital trust.
 
-## Current Research
+Since 2000, much of this work has been developed through the **Laboratory for Computer Security (LabSEC)** at the Federal University of Santa Catarina, combining research, student supervision, and technological development.
 
-- **Personal AI Agents** — identity, authorization, accountability and non-repudiation for autonomous agents.
-- **Digital Identity & Digital Signatures** — infrastructures and protocols for trustworthy digital transactions.
-- **Finite Field Arithmetic** — efficient multiplication and modular reduction over binary extension fields.
-- **Post-Quantum Cryptography** — transition of digital-signature and trust infrastructures to post-quantum cryptography.
+[Read the academic trajectory →](about.qmd)
+:::
 
+::: {.home-archive-callout}
+## An Academic Memory, Not Only a Website
 
-## Publications
+This site is designed as a long-term scholarly record. Publications are only one part of that record. Projects, software, technical texts, courses, talks, supervision, and unfinished research directions also document how ideas develop over time.
 
-Selected and recent scientific publications will be presented here.
+The **Academic Archive** connects these records into historical periods and research genealogies.
 
-[View all publications →](publications.qmd){.section-link}
-
-
-## Books & Texts
-
-Books, lecture notes, technical texts and other open academic resources.
-
-[Explore books and texts →](books.qmd){.section-link}
-
-
-## Teaching
-
-Courses, lecture notes, exercises and educational resources developed throughout my academic career.
-
-[Teaching resources →](teaching.qmd){.section-link}
-
-
-## Projects
-
-Current and historical research and development projects.
-
-[View projects →](projects.qmd){.section-link}
+[Enter the Academic Archive →](archive.qmd)
+:::
