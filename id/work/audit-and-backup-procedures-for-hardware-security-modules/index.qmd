@@ -1,0 +1,38 @@
+---
+title: "Audit and backup procedures for hardware security modules"
+pagetitle: "Audit and backup procedures for hardware security modules · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** T\'ulio Cicero Salvaro de Souza · Jean Everson Martina · Ricardo Felipe Cust\'odio  
+**Year:** 2008  
+**Research areas:** Digital Identity
+</div>
+
+## Significance
+
+Auditability, backup, and operational assurance for hardware security modules.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**Audit and backup procedures for hardware security modules**  
+T\'ulio Cicero Salvaro de Souza, Jean Everson Martina, Ricardo Felipe Cust\'odio  
+IDtrust 2008, Proceedings of the 7th Symposium on Identity and Trust on the Internet, March 4-6, 2008, Gaithersburg, Maryland, USA, 2008  
+Volume 283  
+Pages 89--97  
+DOI: [10.1145/1373290.1373302](https://doi.org/10.1145/1373290.1373302)
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/audit-and-backup-procedures-for-hardware-security-modules/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/audit-and-backup-procedures-for-hardware-security-modules/","name":"Audit and backup procedures for hardware security modules","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Digital Identity"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/audit-and-backup-procedures-for-hardware-security-modules/#manifestation-DBLP-conf-idtrust-SouzaMC08"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/audit-and-backup-procedures-for-hardware-security-modules/#manifestation-DBLP-conf-idtrust-SouzaMC08","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/audit-and-backup-procedures-for-hardware-security-modules/"},"name":"Audit and backup procedures for hardware security modules","author":[{"@type":"Person","name":"T\\'ulio Cicero Salvaro de Souza"},{"@type":"Person","name":"Jean Everson Martina"},{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"}],"datePublished":"2008","isPartOf":{"@type":"CreativeWork","name":"IDtrust 2008, Proceedings of the 7th Symposium on Identity and Trust on the Internet, March 4-6, 2008, Gaithersburg, Maryland, USA"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1145/1373290.1373302"},"sameAs":"https://doi.org/10.1145/1373290.1373302"}]}
+</script>

@@ -1,0 +1,35 @@
+---
+title: "Cleaning up the PKI for Long-term Signatures"
+pagetitle: "Cleaning up the PKI for Long-term Signatures · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Martín Augusto Gagliotti Vigil · Ricardo Felipe Custodio  
+**Year:** 2012  
+**Research areas:** Public-Key Infrastructure · Electronic Documents · Digital Signatures · Cryptography
+</div>
+
+## Significance
+
+Simplifying PKI mechanisms for the long-term validation of digital signatures.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**Cleaning up the PKI for Long-term Signatures**  
+Martín Augusto Gagliotti Vigil, Ricardo Felipe Custodio  
+XII SBSeg 2012, 2012  
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/cleaning-up-the-pki-for-long-term-signatures/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/cleaning-up-the-pki-for-long-term-signatures/","name":"Cleaning up the PKI for Long-term Signatures","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Public-Key Infrastructure","Electronic Documents","Digital Signatures","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/cleaning-up-the-pki-for-long-term-signatures/#manifestation-lattes-vigil-2012-cleaning-up-the-pki-for-long-term-si"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/cleaning-up-the-pki-for-long-term-signatures/#manifestation-lattes-vigil-2012-cleaning-up-the-pki-for-long-term-si","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/cleaning-up-the-pki-for-long-term-signatures/"},"name":"Cleaning up the PKI for Long-term Signatures","author":[{"@type":"Person","name":"Martín Augusto Gagliotti Vigil"},{"@type":"Person","name":"Ricardo Felipe Custodio","@id":"https://ricardocustodio.com.br/#person"}],"datePublished":"2012","isPartOf":{"@type":"CreativeWork","name":"XII SBSeg 2012"}}]}
+</script>

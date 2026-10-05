@@ -1,0 +1,37 @@
+---
+title: "Tuning the Winternitz hash-based digital signature scheme"
+pagetitle: "Tuning the Winternitz hash-based digital signature scheme · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Lucas Pandolfo Perin · Gustavo Zambonin · Douglas Marcelino Beppler Martins · Ricardo Felipe Cust\'odio · Jean Everson Martina  
+**Year:** 2018  
+**Research areas:** Post-Quantum Cryptography · Digital Signatures · Cryptography
+</div>
+
+## Significance
+
+Optimization of Winternitz hash-based signatures and a bridge to post-quantum research.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**Tuning the Winternitz hash-based digital signature scheme**  
+Lucas Pandolfo Perin, Gustavo Zambonin, Douglas Marcelino Beppler Martins, Ricardo Felipe Cust\'odio, Jean Everson Martina  
+2018 IEEE Symposium on Computers and Communications, ISCC 2018, Natal, Brazil, June 25-28, 2018, 2018  
+Pages 537--542  
+DOI: [10.1109/ISCC.2018.8538642](https://doi.org/10.1109/ISCC.2018.8538642)
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/","name":"Tuning the Winternitz hash-based digital signature scheme","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Post-Quantum Cryptography","Digital Signatures","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/#manifestation-DBLP-conf-iscc-PerinZMCM18"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/#manifestation-DBLP-conf-iscc-PerinZMCM18","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/tuning-the-winternitz-hash-based-digital-signature-scheme/"},"name":"Tuning the Winternitz hash-based digital signature scheme","author":[{"@type":"Person","name":"Lucas Pandolfo Perin"},{"@type":"Person","name":"Gustavo Zambonin"},{"@type":"Person","name":"Douglas Marcelino Beppler Martins"},{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"},{"@type":"Person","name":"Jean Everson Martina"}],"datePublished":"2018","isPartOf":{"@type":"CreativeWork","name":"2018 IEEE Symposium on Computers and Communications, ISCC 2018, Natal, Brazil, June 25-28, 2018"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1109/ISCC.2018.8538642"},"sameAs":"https://doi.org/10.1109/ISCC.2018.8538642"}]}
+</script>

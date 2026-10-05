@@ -1,0 +1,38 @@
+---
+title: "Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era"
+pagetitle: "Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Frederico Schardong · Alexandre Augusto Giron · Fernanda Larisa M\"uller · Ricardo Cust\'odio  
+**Year:** 2022  
+**Research areas:** Post-Quantum Cryptography · Digital Identity · Cryptography
+</div>
+
+## Significance
+
+Post-quantum adaptation of widely deployed electronic identity protocols.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era**  
+Frederico Schardong, Alexandre Augusto Giron, Fernanda Larisa M\"uller, Ricardo Cust\'odio  
+Cryptology and Network Security - 21st International Conference, CANS 2022, Dubai, United Arab Emirates, November 13-16, 2022, Proceedings, 2022  
+Volume 13641  
+Pages 371--390  
+DOI: [10.1007/978-3-031-20974-1_20](https://doi.org/10.1007/978-3-031-20974-1_20)
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/","name":"Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Post-Quantum Cryptography","Digital Identity","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/#manifestation-DBLP-conf-cans-SchardongGMC22"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/#manifestation-DBLP-conf-cans-SchardongGMC22","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t/"},"name":"Post-Quantum Electronic Identity: Adapting OpenID Connect and OAuth 2.0 to the Post-Quantum Era","author":[{"@type":"Person","name":"Frederico Schardong"},{"@type":"Person","name":"Alexandre Augusto Giron"},{"@type":"Person","name":"Fernanda Larisa M\\\"uller"},{"@type":"Person","name":"Ricardo Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"}],"datePublished":"2022","isPartOf":{"@type":"CreativeWork","name":"Cryptology and Network Security - 21st International Conference, CANS 2022, Dubai, United Arab Emirates, November 13-16, 2022, Proceedings"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/978-3-031-20974-1_20"},"sameAs":"https://doi.org/10.1007/978-3-031-20974-1_20"}]}
+</script>

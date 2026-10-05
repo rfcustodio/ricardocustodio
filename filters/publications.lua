@@ -141,7 +141,11 @@ local function work_card(w,bib,labels,selected,compact)
   local cls=compact and "pub-card pub-card-compact" or "pub-card"
   return pandoc.RawBlock("html",
     '<article class="'..cls..'">'
-    ..'<div class="pub-title">'..title..'</div>'
+    ..'<div class="pub-title">'
+    ..((w.selected and ms(w.selected.featured)=="true")
+        and '<a href="/id/work/'..esc(ms(w.id))..'/">'..title..'</a>'
+        or title)
+    ..'</div>'
     ..'<div class="pub-authors">'..author..'</div>'
     ..'<div class="pub-venue">'..venue..(venue~="" and year~="" and ", " or "")..year..'</div>'
     ..reason

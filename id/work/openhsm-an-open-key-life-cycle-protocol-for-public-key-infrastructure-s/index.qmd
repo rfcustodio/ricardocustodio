@@ -1,0 +1,38 @@
+---
+title: "OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure's Hardware Security Modules"
+pagetitle: "OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure's Hardware Security Modules · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Jean Everson Martina · T\'ulio Cicero Salvaro de Souza · Ricardo Felipe Cust\'odio  
+**Year:** 2007  
+**Research areas:** Public-Key Infrastructure · Cryptography
+</div>
+
+## Significance
+
+Key lifecycle management and open protocols for PKI hardware security modules.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure's Hardware Security Modules**  
+Jean Everson Martina, T\'ulio Cicero Salvaro de Souza, Ricardo Felipe Cust\'odio  
+Public Key Infrastructure, 4th European PKI Workshop: Theory and Practice, EuroPKI 2007, Palma de Mallorca, Spain, June 28-30, 2007, Proceedings, 2007  
+Volume 4582  
+Pages 220--235  
+DOI: [10.1007/978-3-540-73408-6_16](https://doi.org/10.1007/978-3-540-73408-6_16)
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/","name":"OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure's Hardware Security Modules","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Public-Key Infrastructure","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/#manifestation-DBLP-conf-europki-MartinaSC07"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/#manifestation-DBLP-conf-europki-MartinaSC07","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s/"},"name":"OpenHSM: An Open Key Life Cycle Protocol for Public Key Infrastructure's Hardware Security Modules","author":[{"@type":"Person","name":"Jean Everson Martina"},{"@type":"Person","name":"T\\'ulio Cicero Salvaro de Souza"},{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"}],"datePublished":"2007","isPartOf":{"@type":"CreativeWork","name":"Public Key Infrastructure, 4th European PKI Workshop: Theory and Practice, EuroPKI 2007, Palma de Mallorca, Spain, June 28-30, 2007, Proceedings"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/978-3-540-73408-6_16"},"sameAs":"https://doi.org/10.1007/978-3-540-73408-6_16"}]}
+</script>

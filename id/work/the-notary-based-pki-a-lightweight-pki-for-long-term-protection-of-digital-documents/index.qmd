@@ -1,0 +1,46 @@
+---
+title: "The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents"
+pagetitle: "The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Mart\'\in Augusto Gagliotti Vigil · Cristian Thiago Moecke · Ricardo Felipe Cust\'odio · Melanie Volkamer  
+**Year:** 2012  
+**Research areas:** Public-Key Infrastructure · Electronic Documents · Digital Signatures · Cryptography
+</div>
+
+## Significance
+
+A lightweight notary-based PKI model for long-term document signatures.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents**  
+Mart\'\in Augusto Gagliotti Vigil, Cristian Thiago Moecke, Ricardo Felipe Cust\'odio, Melanie Volkamer  
+Public Key Infrastructures, Services and Applications - 9th European Workshop, EuroPKI 2012, Pisa, Italy, September 13-14, 2012, Revised Selected Papers, 2012  
+Volume 7868  
+Pages 85--97  
+DOI: [10.1007/978-3-642-40012-4_6](https://doi.org/10.1007/978-3-642-40012-4_6)
+
+
+### Conference paper
+
+**The Notary Based PKI ? A Lightweight PKI for Long-term Protection of Digital Documents**  
+Martín Augusto Gagliotti Vigil, Cristian Thiago Moecke, Ricardo Felipe Custodio, Melanie Volkamer  
+9th European PKI Workshop: Research and Applications, 2012  
+[Publication record]([http://europki2012.dti.unimi.it/])
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/","name":"The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Public-Key Infrastructure","Electronic Documents","Digital Signatures","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/#manifestation-DBLP-conf-europki-VigilMCV12"},{"@id":"https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/#manifestation-lattes-vigil-2012-the-notary-based-pki-a-lightweight-p"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/#manifestation-DBLP-conf-europki-VigilMCV12","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/"},"name":"The Notary Based PKI - A Lightweight PKI for Long-Term Signatures on Documents","author":[{"@type":"Person","name":"Mart\\'\\in Augusto Gagliotti Vigil"},{"@type":"Person","name":"Cristian Thiago Moecke"},{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"},{"@type":"Person","name":"Melanie Volkamer"}],"datePublished":"2012","isPartOf":{"@type":"CreativeWork","name":"Public Key Infrastructures, Services and Applications - 9th European Workshop, EuroPKI 2012, Pisa, Italy, September 13-14, 2012, Revised Selected Papers"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/978-3-642-40012-4_6"},"sameAs":"https://doi.org/10.1007/978-3-642-40012-4_6"},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/#manifestation-lattes-vigil-2012-the-notary-based-pki-a-lightweight-p","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents/"},"name":"The Notary Based PKI ? A Lightweight PKI for Long-term Protection of Digital Documents","author":[{"@type":"Person","name":"Martín Augusto Gagliotti Vigil"},{"@type":"Person","name":"Cristian Thiago Moecke"},{"@type":"Person","name":"Ricardo Felipe Custodio","@id":"https://ricardocustodio.com.br/#person"},{"@type":"Person","name":"Melanie Volkamer"}],"datePublished":"2012","isPartOf":{"@type":"CreativeWork","name":"9th European PKI Workshop: Research and Applications"},"url":"[http://europki2012.dti.unimi.it/]"}]}
+</script>

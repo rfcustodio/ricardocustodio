@@ -1,0 +1,38 @@
+---
+title: "Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation"
+pagetitle: "Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Ricardo Felipe Cust\'odio · Mart\'\in Augusto Gagliotti Vigil · Juliano Romani · Fernando Carlos Pereira · Joni da Silva Fraga  
+**Year:** 2008  
+**Research areas:** Public-Key Infrastructure · Electronic Documents · Digital Signatures · Cryptography
+</div>
+
+## Significance
+
+Efficient certificate design for electronic document signature validation.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation**  
+Ricardo Felipe Cust\'odio, Mart\'\in Augusto Gagliotti Vigil, Juliano Romani, Fernando Carlos Pereira, Joni da Silva Fraga  
+Public Key Infrastructure, 5th European PKI Workshop: Theory and Practice, EuroPKI 2008, Trondheim, Norway, June 16-17, 2008, Proceedings, 2008  
+Volume 5057  
+Pages 49--59  
+DOI: [10.1007/978-3-540-69485-4_4](https://doi.org/10.1007/978-3-540-69485-4_4)
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/","name":"Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Public-Key Infrastructure","Electronic Documents","Digital Signatures","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/#manifestation-DBLP-conf-europki-CustodioVRPF08"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/#manifestation-DBLP-conf-europki-CustodioVRPF08","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/optimized-certificates-a-new-proposal-for-efficient-electronic-document/"},"name":"Optimized Certificates - A New Proposal for Efficient Electronic Document Signature Validation","author":[{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"},{"@type":"Person","name":"Mart\\'\\in Augusto Gagliotti Vigil"},{"@type":"Person","name":"Juliano Romani"},{"@type":"Person","name":"Fernando Carlos Pereira"},{"@type":"Person","name":"Joni da Silva Fraga"}],"datePublished":"2008","isPartOf":{"@type":"CreativeWork","name":"Public Key Infrastructure, 5th European PKI Workshop: Theory and Practice, EuroPKI 2008, Trondheim, Norway, June 16-17, 2008, Proceedings"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/978-3-540-69485-4_4"},"sameAs":"https://doi.org/10.1007/978-3-540-69485-4_4"}]}
+</script>

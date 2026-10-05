@@ -1,0 +1,38 @@
+---
+title: "A User-Centric Digital Signature Scheme"
+pagetitle: "A User-Centric Digital Signature Scheme · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Felipe Carlos Werlang · Ricardo Felipe Cust\'odio · Mart\'\in Augusto Gagliotti Vigil  
+**Year:** 2013  
+**Research areas:** Digital Signatures · Public-Key Infrastructure · Cryptography
+</div>
+
+## Significance
+
+A user-centric approach to digital signatures and electronic documents.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**A User-Centric Digital Signature Scheme**  
+Felipe Carlos Werlang, Ricardo Felipe Cust\'odio, Mart\'\in Augusto Gagliotti Vigil  
+Public Key Infrastructures, Services and Applications - 10th European Workshop, EuroPKI 2013, Egham, UK, September 12-13, 2013, Revised Selected Papers, 2013  
+Volume 8341  
+Pages 152--169  
+DOI: [10.1007/978-3-642-53997-8_10](https://doi.org/10.1007/978-3-642-53997-8_10)
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/a-user-centric-digital-signature-scheme/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/a-user-centric-digital-signature-scheme/","name":"A User-Centric Digital Signature Scheme","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Digital Signatures","Public-Key Infrastructure","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/a-user-centric-digital-signature-scheme/#manifestation-DBLP-conf-europki-WerlangCV13"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/a-user-centric-digital-signature-scheme/#manifestation-DBLP-conf-europki-WerlangCV13","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/a-user-centric-digital-signature-scheme/"},"name":"A User-Centric Digital Signature Scheme","author":[{"@type":"Person","name":"Felipe Carlos Werlang"},{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"},{"@type":"Person","name":"Mart\\'\\in Augusto Gagliotti Vigil"}],"datePublished":"2013","isPartOf":{"@type":"CreativeWork","name":"Public Key Infrastructures, Services and Applications - 10th European Workshop, EuroPKI 2013, Egham, UK, September 12-13, 2013, Revised Selected Papers"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/978-3-642-53997-8_10"},"sameAs":"https://doi.org/10.1007/978-3-642-53997-8_10"}]}
+</script>

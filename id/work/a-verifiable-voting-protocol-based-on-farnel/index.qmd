@@ -1,0 +1,48 @@
+---
+title: "A Verifiable Voting Protocol Based on Farnel"
+pagetitle: "A Verifiable Voting Protocol Based on Farnel · Ricardo Custódio"
+toc: true
+title-block-banner: false
+---
+
+<div class="scholarly-work-meta">
+**Authors:** Roberto Ara\'ujo · Ricardo Felipe Cust\'odio · Jeroen van de Graaf  
+**Year:** 2010  
+**Research areas:** Electronic Voting · Cryptography
+</div>
+
+## Significance
+
+Verifiable electronic voting using the Farnel approach.
+
+## Bibliographic manifestations
+
+### Conference paper · preferred
+
+**A Verifiable Voting Protocol Based on Farnel**  
+Roberto Ara\'ujo, Ricardo Felipe Cust\'odio, Jeroen van de Graaf  
+Towards Trustworthy Elections, New Directions in Electronic Voting, 2010  
+Volume 6000  
+Pages 274--288  
+DOI: [10.1007/978-3-642-12980-3_17](https://doi.org/10.1007/978-3-642-12980-3_17)
+
+
+### IACR ePrint
+
+**A Verifiable Voting Protocol based on Farnel**  
+Roberto Ara\'ujo, Ricardo Felipe Cust\'odio, Jeroen van de Graaf  
+IACR Cryptol. ePrint Arch., 2007  
+Volume 2007  
+Pages 252  
+[Publication record](http://eprint.iacr.org/2007/252)
+
+
+## Persistent identifier
+
+`https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/`
+
+This page represents the canonical scholarly work. Bibliographic versions above are treated as manifestations of the same intellectual contribution.
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[{"@type":"CreativeWork","@id":"https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/","name":"A Verifiable Voting Protocol Based on Farnel","creator":{"@id":"https://ricardocustodio.com.br/#person"},"about":["Electronic Voting","Cryptography"],"workExample":[{"@id":"https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/#manifestation-DBLP-conf-wote-AraujoCG10"},{"@id":"https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/#manifestation-DBLP-journals-iacr-AraujoCG07"}]},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/#manifestation-DBLP-conf-wote-AraujoCG10","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/"},"name":"A Verifiable Voting Protocol Based on Farnel","author":[{"@type":"Person","name":"Roberto Ara\\'ujo"},{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"},{"@type":"Person","name":"Jeroen van de Graaf"}],"datePublished":"2010","isPartOf":{"@type":"CreativeWork","name":"Towards Trustworthy Elections, New Directions in Electronic Voting"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/978-3-642-12980-3_17"},"sameAs":"https://doi.org/10.1007/978-3-642-12980-3_17"},{"@type":"ScholarlyArticle","@id":"https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/#manifestation-DBLP-journals-iacr-AraujoCG07","exampleOfWork":{"@id":"https://ricardocustodio.com.br/id/work/a-verifiable-voting-protocol-based-on-farnel/"},"name":"A Verifiable Voting Protocol based on Farnel","author":[{"@type":"Person","name":"Roberto Ara\\'ujo"},{"@type":"Person","name":"Ricardo Felipe Cust\\'odio","@id":"https://ricardocustodio.com.br/#person"},{"@type":"Person","name":"Jeroen van de Graaf"}],"datePublished":"2007","isPartOf":{"@type":"CreativeWork","name":"IACR Cryptol. ePrint Arch."},"url":"http://eprint.iacr.org/2007/252"}]}
+</script>
