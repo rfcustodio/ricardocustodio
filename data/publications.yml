@@ -1,11 +1,2465 @@
-# Additional metadata for publications.
-#
-# Bibliographic metadata belongs in:
-# bibliography/publications.bib
-#
-# This file contains website-specific metadata that should not
-# be stored in the canonical BibTeX database.
-
-selected: []
-
-resources: {}
+schema_version: '4.0'
+taxonomy:
+  topics:
+    cryptography:
+      label: Cryptography
+      group: Research Foundations
+    finite-field-arithmetic:
+      label: Finite-Field Arithmetic
+      group: Research Foundations
+    digital-signatures:
+      label: Digital Signatures
+      group: Digital Trust
+    public-key-infrastructure:
+      label: Public-Key Infrastructure
+      group: Digital Trust
+    digital-identity:
+      label: Digital Identity
+      group: Digital Trust
+    electronic-documents:
+      label: Electronic Documents
+      group: Digital Trust
+    post-quantum-cryptography:
+      label: Post-Quantum Cryptography
+      group: Emerging Directions
+    ai-security:
+      label: AI & Security
+      group: Emerging Directions
+    electronic-voting:
+      label: Electronic Voting
+      group: Historical & Cross-Cutting
+    security-ceremonies:
+      label: Security Ceremonies
+      group: Historical & Cross-Cutting
+    privacy-information-sharing:
+      label: Privacy & Secure Information Sharing
+      group: Security & Privacy
+    network-security-systems:
+      label: Networks, Distributed Systems & Security
+      group: Historical & Cross-Cutting
+    biomedical-signal-analysis:
+      label: Biomedical Signal Analysis
+      group: Historical Research
+    computational-intelligence:
+      label: Computational Intelligence
+      group: Historical Research
+    scientific-computing:
+      label: Scientific Computing & Instrumentation
+      group: Historical Research
+notes:
+- Bibliographic manifestations are stored in bibliography/publications.bib.
+- Canonical scholarly works and their relationships are stored here.
+- Selected publications are an editorial selection by Ricardo Custódio, not a citation ranking.
+- Topic classifications preserve provenance; inferred classifications remain distinct from manually reviewed classifications.
+- Projects, students, and software are not inferred solely from topical similarity.
+works:
+- id: automated-issuance-of-post-quantum-certificates-a-new-challenge
+  preferred_bibtex: DBLP:conf/acns/GironSPCVM24
+  versions:
+  - DBLP:conf/acns/GironSPCVM24
+  - DBLP:journals/iacr/GironSPCVM23
+  topics:
+  - post-quantum-cryptography
+  - public-key-infrastructure
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: curated
+    verified: 2026-10
+    decision: same-work
+    note: Conference publication and earlier IACR ePrint version.
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: post-quantum-hybrid-kemtls-performance-in-simulated-and-real-network-environments
+  preferred_bibtex: DBLP:conf/latincrypt/GironNCPM23
+  versions:
+  - DBLP:conf/latincrypt/GironNCPM23
+  - DBLP:journals/iacr/GironNCP22
+  topics:
+  - post-quantum-cryptography
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: curated
+    verified: 2026-10
+    decision: same-work
+    note: Conference publication and earlier IACR ePrint version.
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: a-new-class-of-irreducible-pentanomials-for-polynomial-based-multipliers-in-binary-fields
+  preferred_bibtex: DBLP:journals/jce/BanegasCP19
+  versions:
+  - DBLP:journals/jce/BanegasCP19
+  - DBLP:journals/corr/abs-1806-00432
+  - DBLP:journals/iacr/BanegasCP18
+  topics:
+  - finite-field-arithmetic
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: curated
+    verified: 2026-10
+    decision: same-work
+    note: Journal article, CoRR preprint, and IACR ePrint of one canonical work.
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: locating-modifications-in-signed-data-for-partial-data-integrity
+  preferred_bibtex: DBLP:journals/ipl/IdalinoMCP15
+  versions:
+  - DBLP:journals/ipl/IdalinoMCP15
+  - DBLP:journals/corr/abs-2208-01411
+  topics:
+  - digital-signatures
+  - electronic-documents
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: curated
+    verified: 2026-10
+    decision: same-work
+    note: Published 2015 article and later CoRR deposit of the same work.
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: a-verifiable-voting-protocol-based-on-farnel
+  preferred_bibtex: DBLP:conf/wote/AraujoCG10
+  versions:
+  - DBLP:conf/wote/AraujoCG10
+  - DBLP:journals/iacr/AraujoCG07
+  selected:
+    featured: true
+    order: 6
+    reason: Verifiable electronic voting using the Farnel approach.
+  topics:
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: curated
+    verified: 2026-10
+    decision: same-work
+    note: Published version and earlier IACR ePrint.
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: dont-forget-your-roots-constant-time-root-finding
+  preferred_bibtex: DBLP:conf/latincrypt/MartinsBC19
+  versions:
+  - DBLP:conf/latincrypt/MartinsBC19
+  - DBLP:journals/iacr/MartinsBC19
+  - lattes:martins:2019:don-t-forget-your-roots-constant-tim
+  topics:
+  - finite-field-arithmetic
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: curated
+    verified: 2026-10
+    decision: same-work
+    note: Same work; apparent title differences are mathematical-character encoding variants.
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: the-notary-based-pki-a-lightweight-pki-for-long-term-protection-of-digital-documents
+  preferred_bibtex: DBLP:conf/europki/VigilMCV12
+  versions:
+  - DBLP:conf/europki/VigilMCV12
+  - lattes:vigil:2012:the-notary-based-pki-a-lightweight-p
+  selected:
+    featured: true
+    order: 5
+    reason: A lightweight notary-based PKI model for long-term document signatures.
+  topics:
+  - public-key-infrastructure
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: curated
+    verified: 2026-10
+    decision: same-work
+    note: Same EuroPKI 2012 work with variant title transcription between DBLP and Lattes.
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: redefining-digital-web-signature-secrecy-a-client-side-model-for-enhance
+  preferred_bibtex: DBLP:journals/jbcs/SilvanoMBCSC26
+  versions:
+  - DBLP:journals/jbcs/SilvanoMBCSC26
+  topics:
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: cryptographic-applications-of-combinatorial-ranking-for-integer-composit
+  preferred_bibtex: DBLP:conf/iwoca/ZamboninRCP26
+  versions:
+  - DBLP:conf/iwoca/ZamboninRCP26
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: anamorphic-construction-for-the-winternitz-ots-scheme-family
+  preferred_bibtex: DBLP:journals/iacr/MayrFPC26
+  versions:
+  - DBLP:journals/iacr/MayrFPC26
+  topics:
+  - post-quantum-cryptography
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: from-elgamal-to-lattice-based-enhancing-helios-voting-with-quantum-safe
+  preferred_bibtex: DBLP:conf/acns/BarbosaZIC25
+  versions:
+  - DBLP:conf/acns/BarbosaZIC25
+  topics:
+  - post-quantum-cryptography
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: automation-and-risk-transformers-models-reshape-sensitive-information-ma
+  preferred_bibtex: DBLP:conf/iciss/SilvanoKMC25
+  versions:
+  - DBLP:conf/iciss/SilvanoKMC25
+  topics:
+  - ai-security
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: rethinking-gan-bert-for-sensitive-text-classification-the-impact-of-trai
+  preferred_bibtex: DBLP:conf/micai/SilvanoKC25
+  versions:
+  - DBLP:conf/micai/SilvanoKC25
+  topics:
+  - ai-security
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: limits-and-surprises-of-cross-lingual-bert-under-data-scarcity-a-portugu
+  preferred_bibtex: DBLP:conf/micai/SilvanoKC25a
+  versions:
+  - DBLP:conf/micai/SilvanoKC25a
+  topics:
+  - ai-security
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: a-concrete-lip-based-kem-with-simple-lattices
+  preferred_bibtex: DBLP:journals/access/BiageZIPC24
+  versions:
+  - DBLP:journals/access/BiageZIPC24
+  topics:
+  - post-quantum-cryptography
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: probabilistic-root-finding-in-code-based-cryptography
+  preferred_bibtex: DBLP:journals/jce/MarchioriCPM24
+  versions:
+  - DBLP:journals/jce/MarchioriCPM24
+  topics:
+  - post-quantum-cryptography
+  - finite-field-arithmetic
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: the-role-artifact-function-framework-for-understanding-digital-identity
+  preferred_bibtex: DBLP:conf/er/SchardongC24
+  versions:
+  - DBLP:conf/er/SchardongC24
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: from-self-sovereign-identity-to-fiduciary-identity-a-journey-towards-gre
+  preferred_bibtex: DBLP:conf/sac/SchardongC24
+  versions:
+  - DBLP:conf/sac/SchardongC24
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: proposal-of-an-electronic-auditing-system-applied-to-the-brazilian-elect
+  preferred_bibtex: DBLP:journals/corr/abs-2408-11195
+  versions:
+  - DBLP:journals/corr/abs-2408-11195
+  topics:
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: monitoring-key-pair-usage-through-distributed-ledgers-and-one-time-signa
+  preferred_bibtex: DBLP:journals/information/MayrPZSC23
+  versions:
+  - DBLP:journals/information/MayrPZSC23
+  topics:
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: post-quantum-hybrid-key-exchange-a-systematic-mapping-study
+  preferred_bibtex: DBLP:journals/jce/GironCR23
+  versions:
+  - DBLP:journals/jce/GironCR23
+  topics:
+  - post-quantum-cryptography
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: self-sovereign-identity-a-systematic-review-mapping-and-taxonomy
+  preferred_bibtex: DBLP:journals/sensors/SchardongC22
+  versions:
+  - DBLP:journals/sensors/SchardongC22
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: redacting-blockchain-without-exposing-chameleon-hash-collisions
+  preferred_bibtex: DBLP:conf/cans/AstriziC22
+  versions:
+  - DBLP:conf/cans/AstriziC22
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: post-quantum-electronic-identity-adapting-openid-connect-and-oauth-2-0-t
+  preferred_bibtex: DBLP:conf/cans/SchardongGMC22
+  versions:
+  - DBLP:conf/cans/SchardongGMC22
+  selected:
+    featured: true
+    order: 9
+    reason: Post-quantum adaptation of widely deployed electronic identity protocols.
+  topics:
+  - post-quantum-cryptography
+  - digital-identity
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: touchless-authentication-for-health-professionals-analyzing-the-risks-an
+  preferred_bibtex: DBLP:conf/cbms/ValeSBC22
+  versions:
+  - DBLP:conf/cbms/ValeSBC22
+  topics:
+  - electronic-documents
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: leveraging-self-sovereign-identity-blockchain-and-zero-knowledge-proof-t
+  preferred_bibtex: DBLP:journals/corr/abs-2202-09207
+  versions:
+  - DBLP:journals/corr/abs-2202-09207
+  topics:
+  - digital-identity
+  - cryptography
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: simplifying-electronic-document-digital-signatures
+  preferred_bibtex: DBLP:journals/corr/abs-2208-03951
+  versions:
+  - DBLP:journals/corr/abs-2208-03951
+  topics:
+  - digital-signatures
+  - electronic-documents
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: improved-constant-sum-encodings-for-hash-based-signatures
+  preferred_bibtex: DBLP:journals/jce/PerinZCMP21
+  versions:
+  - DBLP:journals/jce/PerinZCMP21
+  topics:
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: steganographic-analysis-of-blockchains
+  preferred_bibtex: DBLP:journals/sensors/GironMC21
+  versions:
+  - DBLP:journals/sensors/GironMC21
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: matching-metadata-on-blockchain-for-self-sovereign-identity
+  preferred_bibtex: DBLP:conf/bpm/SchardongCPM21
+  versions:
+  - DBLP:conf/bpm/SchardongCPM21
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: self-sovereign-identity-a-systematic-map-and-review
+  preferred_bibtex: DBLP:journals/corr/abs-2108-08338
+  versions:
+  - DBLP:journals/corr/abs-2108-08338
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: bitcoin-blockchain-steganographic-analysis
+  preferred_bibtex: DBLP:conf/acns/GironMC20
+  versions:
+  - DBLP:conf/acns/GironMC20
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: handling-vinegar-variables-to-shorten-rainbow-key-pairs
+  preferred_bibtex: DBLP:conf/africacrypt/ZamboninBC19
+  versions:
+  - DBLP:conf/africacrypt/ZamboninBC19
+  topics:
+  - post-quantum-cryptography
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: fast-modular-reduction-and-squaring-in-2
+  preferred_bibtex: DBLP:journals/ipl/NiehuesCP18
+  versions:
+  - DBLP:journals/ipl/NiehuesCP18
+  topics:
+  - finite-field-arithmetic
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: tuning-the-winternitz-hash-based-digital-signature-scheme
+  preferred_bibtex: DBLP:conf/iscc/PerinZMCM18
+  versions:
+  - DBLP:conf/iscc/PerinZMCM18
+  selected:
+    featured: true
+    order: 8
+    reason: Optimization of Winternitz hash-based signatures and a bridge to post-quantum research.
+  topics:
+  - post-quantum-cryptography
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: secret-sharing-schemes-with-hidden-sets
+  preferred_bibtex: DBLP:conf/iscc/SouzaVCCMP18
+  versions:
+  - DBLP:conf/iscc/SouzaVCCMP18
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: privacy-information-in-a-positive-credit-system
+  preferred_bibtex: DBLP:journals/ijguc/BrocardoRDCT17
+  versions:
+  - DBLP:journals/ijguc/BrocardoRDCT17
+  topics:
+  - privacy-information-sharing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: an-adaptive-threat-model-for-security-ceremonies
+  preferred_bibtex: DBLP:journals/ijisec/MartinaSCPC15
+  versions:
+  - DBLP:journals/ijisec/MartinaSCPC15
+  topics:
+  - security-ceremonies
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: sharing-privacy-information-in-credit-analysis-environment
+  preferred_bibtex: DBLP:conf/cisis/BrocardoCRDT15
+  versions:
+  - DBLP:conf/cisis/BrocardoCRDT15
+  topics:
+  - privacy-information-sharing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: a-user-centric-digital-signature-scheme
+  preferred_bibtex: DBLP:conf/europki/WerlangCV13
+  versions:
+  - DBLP:conf/europki/WerlangCV13
+  selected:
+    featured: true
+    order: 7
+    reason: A user-centric approach to digital signatures and electronic documents.
+  topics:
+  - digital-signatures
+  - public-key-infrastructure
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: mobile-ipv6-in-wireless-sensor-networks
+  preferred_bibtex: DBLP:conf/icsenst/CustodioSSNB013
+  versions:
+  - DBLP:conf/icsenst/CustodioSSNB013
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: an-updated-threat-model-for-security-ceremonies
+  preferred_bibtex: DBLP:conf/sac/CarlosMPC13
+  versions:
+  - DBLP:conf/sac/CarlosMPC13
+  topics:
+  - security-ceremonies
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: multi-factor-authentication-in-key-management-systems
+  preferred_bibtex: DBLP:conf/trustcom/SouzaLC13
+  versions:
+  - DBLP:conf/trustcom/SouzaLC13
+  topics:
+  - public-key-infrastructure
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: a-proposed-framework-for-analysing-security-ceremonies
+  preferred_bibtex: DBLP:conf/secrypt/CarlosMPC12
+  versions:
+  - DBLP:conf/secrypt/CarlosMPC12
+  topics:
+  - security-ceremonies
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: towards-a-formal-verification-of-a-multi-factor-authentication-protocol
+  preferred_bibtex: DBLP:conf/trustcom/SantosMC12
+  versions:
+  - DBLP:conf/trustcom/SantosMC12
+  topics:
+  - digital-identity
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: a-coordination-layer-to-handle-real-time-communication-in-wi-fi-networks
+  preferred_bibtex: DBLP:conf/lcn/CostaPVMC11
+  versions:
+  - DBLP:conf/lcn/CostaPVMC11
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: assessment-of-the-ieee-802-11e-edca-protocol-limitations-when-dealing-wi
+  preferred_bibtex: DBLP:journals/ejwcn/MoraesPVC10
+  versions:
+  - DBLP:journals/ejwcn/MoraesPVC10
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: analytical-model-to-evaluate-the-performance-of-mobile-agents-in-a-gener
+  preferred_bibtex: DBLP:journals/jnsm/ArantesWCC10
+  versions:
+  - DBLP:journals/jnsm/ArantesWCC10
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: an-infrastructure-for-long-term-archiving-of-authenticated-and-sensitive
+  preferred_bibtex: DBLP:conf/europki/RamosSLKC10
+  versions:
+  - DBLP:conf/europki/RamosSLKC10
+  topics:
+  - public-key-infrastructure
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: ceremonies-formal-analysis-in-pki-s-context
+  preferred_bibtex: DBLP:conf/cse/MartinaSC09
+  versions:
+  - DBLP:conf/cse/MartinaSC09
+  topics:
+  - public-key-infrastructure
+  - security-ceremonies
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: distributed-dbp-a-m-k-firm-based-distributed-approach-for-qos-provision
+  preferred_bibtex: DBLP:conf/etfa/SemprebomMMVC09
+  versions:
+  - DBLP:conf/etfa/SemprebomMMVC09
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: self-adaptable-and-intrusion-tolerant-certificate-authority-for-mobile-a
+  preferred_bibtex: DBLP:conf/aina/PereiraFC08
+  versions:
+  - DBLP:conf/aina/PereiraFC08
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: optimized-certificates-a-new-proposal-for-efficient-electronic-document
+  preferred_bibtex: DBLP:conf/europki/CustodioVRPF08
+  versions:
+  - DBLP:conf/europki/CustodioVRPF08
+  selected:
+    featured: true
+    order: 3
+    reason: Efficient certificate design for electronic document signature validation.
+  topics:
+  - public-key-infrastructure
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: audit-and-backup-procedures-for-hardware-security-modules
+  preferred_bibtex: DBLP:conf/idtrust/SouzaMC08
+  versions:
+  - DBLP:conf/idtrust/SouzaMC08
+  selected:
+    featured: true
+    order: 2
+    reason: Auditability, backup, and operational assurance for hardware security modules.
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: openhsm-an-open-key-life-cycle-protocol-for-public-key-infrastructure-s
+  preferred_bibtex: DBLP:conf/europki/MartinaSC07
+  versions:
+  - DBLP:conf/europki/MartinaSC07
+  selected:
+    featured: true
+    order: 1
+    reason: Key lifecycle management and open protocols for PKI hardware security modules.
+  topics:
+  - public-key-infrastructure
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: reliable-clock-synchronization-for-eletronic-documents
+  preferred_bibtex: DBLP:conf/lanoms/DiasDCR03
+  versions:
+  - DBLP:conf/lanoms/DiasDCR03
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: an-alise-n-ao-linear-no-reconhecimento-de-padr-oes-sonoros-estudo-de-cas
+  preferred_bibtex: DBLP:phd/lareferencia/Custodio99
+  versions:
+  - DBLP:phd/lareferencia/Custodio99
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: dblp
+    verified: 2026-10
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: cartorio-virtual-uma-experiencia-na-emissao-de-certidao-de-nascimento
+  preferred_bibtex: lattes:rover:2001:cartorio-virtual-uma-experiencia-na-
+  versions:
+  - lattes:rover:2001:cartorio-virtual-uma-experiencia-na-
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: denuncia-anonima-segura
+  preferred_bibtex: lattes:lopes:2004:denuncia-anonima-segura
+  versions:
+  - lattes:lopes:2004:denuncia-anonima-segura
+  topics:
+  - privacy-information-sharing
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: lung-sound-analysis-with-time-dependent-fractal-dimensions
+  preferred_bibtex: lattes:oliveira:1999:lung-sound-analysis-with-time-depend
+  versions:
+  - lattes:oliveira:1999:lung-sound-analysis-with-time-depend
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: autenticacao-digital-de-documentos-medicos-encontramos-a-solucao
+  preferred_bibtex: lattes:felipe:2011:autenticacao-digital-de-documentos-m
+  versions:
+  - lattes:felipe:2011:autenticacao-digital-de-documentos-m
+  topics:
+  - electronic-documents
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: digital-authentication-of-medical-records-have-we-found-a-solution
+  preferred_bibtex: lattes:wangenheim:2013:digital-authentication-of-medical-re
+  versions:
+  - lattes:wangenheim:2013:digital-authentication-of-medical-re
+  topics:
+  - electronic-documents
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: an-attribute-based-public-key-infrastructure
+  preferred_bibtex: lattes:nogueira:2013:an-attribute-based-public-key-infras
+  versions:
+  - lattes:nogueira:2013:an-attribute-based-public-key-infras
+  topics:
+  - public-key-infrastructure
+  - digital-identity
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: formulas-for-pth-root-computations-in-finite-fields-of-characteristic-p
+  preferred_bibtex: lattes:l-p:2016:formulas-for-pth-root-computations-i
+  versions:
+  - lattes:l-p:2016:formulas-for-pth-root-computations-i
+  topics:
+  - finite-field-arithmetic
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: uma-infra-estrutura-para-o-sigilo-temporal-de-documentos-eletronicos
+  preferred_bibtex: lattes:custodio:2004:uma-infra-estrutura-para-o-sigilo-te
+  versions:
+  - lattes:custodio:2004:uma-infra-estrutura-para-o-sigilo-te
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: seamless-transition-to-post-quantum-tls-1-3-a-hybrid-approach-using-iden
+  preferred_bibtex: lattes:leucz:2024:seamless-transition-to-post-quantum-
+  versions:
+  - lattes:leucz:2024:seamless-transition-to-post-quantum-
+  topics:
+  - post-quantum-cryptography
+  - digital-identity
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: the-open-paradigm-a-systematic-analysis-of-evolutionary-frameworks-and-c
+  preferred_bibtex: lattes:figueiredo:2025:the-open-paradigm-a-systematic-analy
+  versions:
+  - lattes:figueiredo:2025:the-open-paradigm-a-systematic-analy
+  topics:
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: atomic-decomposition-with-genetic-algorithms
+  preferred_bibtex: lattes:custodio:1997:atomic-decomposition-with-genetic-al
+  versions:
+  - lattes:custodio:1997:atomic-decomposition-with-genetic-al
+  topics:
+  - computational-intelligence
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: negative-lyapunov-exponent-estimations-in-non-chaotic-data-time-series
+  preferred_bibtex: lattes:oliveira:1999:negative-lyapunov-exponent-estimatio
+  versions:
+  - lattes:oliveira:1999:negative-lyapunov-exponent-estimatio
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: pulsa-a-system-to-support-lung-sound-analysis
+  preferred_bibtex: lattes:roque:1999:pulsa-a-system-to-support-lung-sound
+  versions:
+  - lattes:roque:1999:pulsa-a-system-to-support-lung-sound
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: identifying-lung-sound-patterns-through-lyapunov-exponent-estimations
+  preferred_bibtex: lattes:roque:1999:identifying-lung-sound-patterns-thro
+  versions:
+  - lattes:roque:1999:identifying-lung-sound-patterns-thro
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: metodo-da-iteracao-dinamica-para-a-determinacaoo-de-zeros-de-funcoes
+  preferred_bibtex: lattes:custodio:1994:metodo-da-iteracao-dinamica-para-a-d
+  versions:
+  - lattes:custodio:1994:metodo-da-iteracao-dinamica-para-a-d
+  topics:
+  - scientific-computing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: time-dependent-fractal-dimension-of-lung-sounds
+  preferred_bibtex: lattes:roque:1998:time-dependent-fractal-dimension-of-
+  versions:
+  - lattes:roque:1998:time-dependent-fractal-dimension-of-
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: poligraph-as-a-virtual-instrumentation
+  preferred_bibtex: lattes:ardigo:1994:poligraph-as-a-virtual-instrumentati
+  versions:
+  - lattes:ardigo:1994:poligraph-as-a-virtual-instrumentati
+  topics:
+  - scientific-computing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: regula-um-cad-para-o-projeto-de-fontes-de-alimentacao-com-reguladores-in
+  preferred_bibtex: lattes:neto:1993:regula-um-cad-para-o-projeto-de-font
+  versions:
+  - lattes:neto:1993:regula-um-cad-para-o-projeto-de-font
+  topics:
+  - scientific-computing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: estructuracion-eficiente-de-los-datos-de-las-redes-de-neuronas-artificia
+  preferred_bibtex: lattes:custodio:1993:estructuracion-eficiente-de-los-dato
+  versions:
+  - lattes:custodio:1993:estructuracion-eficiente-de-los-dato
+  topics:
+  - computational-intelligence
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: a-proposal-for-efficient-neural-network-data-structuring
+  preferred_bibtex: lattes:custodio:1993:a-proposal-for-efficient-neural-netw
+  versions:
+  - lattes:custodio:1993:a-proposal-for-efficient-neural-netw
+  topics:
+  - ai-security
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: prototipacao-de-sistemas-a-partir-da-definicao-da-interface-homem-maquin
+  preferred_bibtex: lattes:aguiar:1989:prototipacao-de-sistemas-a-partir-da
+  versions:
+  - lattes:aguiar:1989:prototipacao-de-sistemas-a-partir-da
+  topics:
+  - scientific-computing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: use-of-lyapunov-exponents-for-pattern-recognition-in-lung-sounds
+  preferred_bibtex: lattes:oliveira:2000:use-of-lyapunov-exponents-for-patter
+  versions:
+  - lattes:oliveira:2000:use-of-lyapunov-exponents-for-patter
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: fundamentos-de-criptografia
+  preferred_bibtex: lattes:zancanella:2001:fundamentos-de-criptografia
+  versions:
+  - lattes:zancanella:2001:fundamentos-de-criptografia
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: infra-estrutura-de-chaves-publicas
+  preferred_bibtex: lattes:custodio:2001:infra-estrutura-de-chaves-publicas
+  versions:
+  - lattes:custodio:2001:infra-estrutura-de-chaves-publicas
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: um-novo-metodo-para-datacao-de-documentos-eletronicos
+  preferred_bibtex: lattes:pasqual:2001:um-novo-metodo-para-datacao-de-docum
+  versions:
+  - lattes:pasqual:2001:um-novo-metodo-para-datacao-de-docum
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: aspectos-tecnologicos-para-a-validade-juridica-da-copia-impressa-10-de-u
+  preferred_bibtex: lattes:notoya:2001:aspectos-tecnologicos-para-a-validad
+  versions:
+  - lattes:notoya:2001:aspectos-tecnologicos-para-a-validad
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: protecao-de-software-por-certificacao-digital
+  preferred_bibtex: lattes:rocha:2001:protecao-de-software-por-certificaca
+  versions:
+  - lattes:rocha:2001:protecao-de-software-por-certificaca
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: analise-de-sons-pulmonares-via-dinamica-caotica
+  preferred_bibtex: lattes:roque:1999:analise-de-sons-pulmonares-via-dinam
+  versions:
+  - lattes:roque:1999:analise-de-sons-pulmonares-via-dinam
+  topics:
+  - biomedical-signal-analysis
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: modelo-analitico-para-avaliar-plataformas-cliente-servidor-e-agentes-mov
+  preferred_bibtex: lattes:arantes:2002:modelo-analitico-para-avaliar-plataf
+  versions:
+  - lattes:arantes:2002:modelo-analitico-para-avaliar-plataf
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: farnel-um-protocolo-criptograficos-para-votacao-digital
+  preferred_bibtex: lattes:custodio:2002:farnel-um-protocolo-criptograficos-p
+  versions:
+  - lattes:custodio:2002:farnel-um-protocolo-criptograficos-p
+  topics:
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: um-protocolo-criptografico-para-comunicacao-anonima-segura
+  preferred_bibtex: lattes:ribeiro:2002:um-protocolo-criptografico-para-comu
+  versions:
+  - lattes:ribeiro:2002:um-protocolo-criptografico-para-comu
+  topics:
+  - cryptography
+  - privacy-information-sharing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: uma-proposta-para-garantia-da-validade-do-documento-eletronico-por-tempo
+  preferred_bibtex: lattes:notoya:2002:uma-proposta-para-garantia-da-valida
+  versions:
+  - lattes:notoya:2002:uma-proposta-para-garantia-da-valida
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: tecnologias-para-a-seguranca-da-informacao-infra-estrutura-de-chaves-pub
+  preferred_bibtex: lattes:custodio:2002:tecnologias-para-a-seguranca-da-info
+  versions:
+  - lattes:custodio:2002:tecnologias-para-a-seguranca-da-info
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: iarsde-infra-estrutura-de-armazenamento-e-recuperacao-segura-de-document
+  preferred_bibtex: lattes:notoya:2002:iarsde-infra-estrutura-de-armazename
+  versions:
+  - lattes:notoya:2002:iarsde-infra-estrutura-de-armazename
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: assinatura-digital-de-documentos-eletronicos-atraves-da-impressao-digita
+  preferred_bibtex: lattes:kazienko:2002:assinatura-digital-de-documentos-ele
+  versions:
+  - lattes:kazienko:2002:assinatura-digital-de-documentos-ele
+  topics:
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: redes-neurais-artificiais-para-representacao-de-conhecimento-medico-em-a
+  preferred_bibtex: lattes:oliveira:1993:redes-neurais-artificiais-para-repre
+  versions:
+  - lattes:oliveira:1993:redes-neurais-artificiais-para-repre
+  topics:
+  - computational-intelligence
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: sistema-optoeletronico-de-medicao-de-posicao-por-triangulacao
+  preferred_bibtex: lattes:dias:1993:sistema-optoeletronico-de-medicao-de
+  versions:
+  - lattes:dias:1993:sistema-optoeletronico-de-medicao-de
+  topics:
+  - scientific-computing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: a-computacao-algebrica-no-ensino
+  preferred_bibtex: lattes:peters:1996:a-computacao-algebrica-no-ensino
+  versions:
+  - lattes:peters:1996:a-computacao-algebrica-no-ensino
+  topics:
+  - scientific-computing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: a-new-method-for-digital-time-stamping-of-electronic-documents
+  preferred_bibtex: lattes:pasqual:2002:a-new-method-for-digital-time-stampi
+  versions:
+  - lattes:pasqual:2002:a-new-method-for-digital-time-stampi
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: sincronizacao-segura-de-relogio-para-documentos-eletronicos
+  preferred_bibtex: lattes:dias:2003:sincronizacao-segura-de-relogio-para
+  versions:
+  - lattes:dias:2003:sincronizacao-segura-de-relogio-para
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: ostracon-um-sistema-de-votacao-digital-pela-internet
+  preferred_bibtex: lattes:pereira:2003:ostracon-um-sistema-de-votacao-digit
+  versions:
+  - lattes:pereira:2003:ostracon-um-sistema-de-votacao-digit
+  topics:
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: assinatura-confiavel-de-documentos-eletronicos
+  preferred_bibtex: lattes:dias:2003:assinatura-confiavel-de-documentos-e
+  versions:
+  - lattes:dias:2003:assinatura-confiavel-de-documentos-e
+  topics:
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: sistema-seguro-para-assinatura-de-documentos-eletronicos
+  preferred_bibtex: lattes:dias:2003:sistema-seguro-para-assinatura-de-do
+  versions:
+  - lattes:dias:2003:sistema-seguro-para-assinatura-de-do
+  topics:
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: confianca-na-tempestividade-dos-documentos-eletronicos-auditoria-da-prot
+  preferred_bibtex: lattes:costa:2003:confianca-na-tempestividade-dos-docu
+  versions:
+  - lattes:costa:2003:confianca-na-tempestividade-dos-docu
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: protocolacao-digital-de-documentos-eletronicos
+  preferred_bibtex: lattes:costa:2003:protocolacao-digital-de-documentos-e
+  versions:
+  - lattes:costa:2003:protocolacao-digital-de-documentos-e
+  topics:
+  - electronic-documents
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: protocolo-criptografico-para-envio-de-propostas-em-processos-de-compras
+  preferred_bibtex: lattes:pereira:2003:protocolo-criptografico-para-envio-d
+  versions:
+  - lattes:pereira:2003:protocolo-criptografico-para-envio-d
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: execucao-segura-de-assinaturas-confiaveis-em-documentos-eletronicos
+  preferred_bibtex: lattes:dias:2004:execucao-segura-de-assinaturas-confi
+  versions:
+  - lattes:dias:2004:execucao-segura-de-assinaturas-confi
+  topics:
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: an-electronic-scheme-for-the-farnel-paper-based-voting-protocol
+  preferred_bibtex: lattes:araujo:2006:an-electronic-scheme-for-the-farnel-
+  versions:
+  - lattes:araujo:2006:an-electronic-scheme-for-the-farnel-
+  topics:
+  - electronic-voting
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: temporal-key-release-infrastructure
+  preferred_bibtex: lattes:custodio:2007:temporal-key-release-infrastructure
+  versions:
+  - lattes:custodio:2007:temporal-key-release-infrastructure
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: autoridade-certificadora-dinamica-para-redes-ad-hoc-moveis
+  preferred_bibtex: lattes:pereira:2007:autoridade-certificadora-dinamica-pa
+  versions:
+  - lattes:pereira:2007:autoridade-certificadora-dinamica-pa
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: certificados-otimizados-para-a-validacao-eficiente-da-assinatura-digital
+  preferred_bibtex: lattes:notoya:2007:certificados-otimizados-para-a-valid
+  versions:
+  - lattes:notoya:2007:certificados-otimizados-para-a-valid
+  topics:
+  - public-key-infrastructure
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: modulo-cifrador-de-documentos-eletronicos
+  preferred_bibtex: lattes:custodio:2004:modulo-cifrador-de-documentos-eletro
+  versions:
+  - lattes:custodio:2004:modulo-cifrador-de-documentos-eletro
+  topics:
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: good-practices-for-long-term-key-management-in-a-public-key-infrastructu
+  preferred_bibtex: lattes:carlos:2008:good-practices-for-long-term-key-man
+  versions:
+  - lattes:carlos:2008:good-practices-for-long-term-key-man
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: propostas-para-apoiar-a-preservacao-documental-de-longo-prazo-na-icp-bra
+  preferred_bibtex: lattes:jr:2009:propostas-para-apoiar-a-preservacao-
+  versions:
+  - lattes:jr:2009:propostas-para-apoiar-a-preservacao-
+  topics:
+  - public-key-infrastructure
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: infra-estrutura-de-chaves-publicas-otimizada-uma-icp-de-suporte-a-assina
+  preferred_bibtex: lattes:vigil:2009:infra-estrutura-de-chaves-publicas-o
+  versions:
+  - lattes:vigil:2009:infra-estrutura-de-chaves-publicas-o
+  topics:
+  - electronic-documents
+  - public-key-infrastructure
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: uma-icp-baseada-em-certificados-digitais-autoassinados
+  preferred_bibtex: lattes:moecke:2010:uma-icp-baseada-em-certificados-digi
+  versions:
+  - lattes:moecke:2010:uma-icp-baseada-em-certificados-digi
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: avaliacao-analitica-de-desempenho-do-uso-do-ipv6
+  preferred_bibtex: lattes:costa:2000:avaliacao-analitica-de-desempenho-do
+  versions:
+  - lattes:costa:2000:avaliacao-analitica-de-desempenho-do
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: client-server-and-mobile-agent-paradigms-an-analytical-model-for-perform
+  preferred_bibtex: lattes:arantes:2003:client-server-and-mobile-agent-parad
+  versions:
+  - lattes:arantes:2003:client-server-and-mobile-agent-parad
+  topics:
+  - network-security-systems
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: ceremonies-design-for-pki-s-hardware-security-modules
+  preferred_bibtex: lattes:martina:2009:ceremonies-design-for-pki-s-hardware
+  versions:
+  - lattes:martina:2009:ceremonies-design-for-pki-s-hardware
+  topics:
+  - public-key-infrastructure
+  - security-ceremonies
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: tornando-uma-infra-estrutura-de-chaves-publicas-dinamica
+  preferred_bibtex: lattes:carlos:2006:tornando-uma-infra-estrutura-de-chav
+  versions:
+  - lattes:carlos:2006:tornando-uma-infra-estrutura-de-chav
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: carimbos-do-tempo-autenticados-para-a-preservacao-por-longo-prazo-de-ass
+  preferred_bibtex: lattes:silva:2011:carimbos-do-tempo-autenticados-para-
+  versions:
+  - lattes:silva:2011:carimbos-do-tempo-autenticados-para-
+  topics:
+  - electronic-documents
+  - digital-signatures
+  - digital-identity
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: analise-e-implementacao-de-um-protocolo-de-gerenciamento-de-certificados
+  preferred_bibtex: lattes:silverio:2011:analise-e-implementacao-de-um-protoc
+  versions:
+  - lattes:silverio:2011:analise-e-implementacao-de-um-protoc
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: electronic-documents-with-signature-constraints
+  preferred_bibtex: lattes:werlang:2011:electronic-documents-with-signature-
+  versions:
+  - lattes:werlang:2011:electronic-documents-with-signature-
+  topics:
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: using-notary-based-public-key-infrastructure-in-shibboleth
+  preferred_bibtex: lattes:h:2011:using-notary-based-public-key-infras
+  versions:
+  - lattes:h:2011:using-notary-based-public-key-infras
+  topics:
+  - public-key-infrastructure
+  - electronic-documents
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: cleaning-up-the-pki-for-long-term-signatures
+  preferred_bibtex: lattes:vigil:2012:cleaning-up-the-pki-for-long-term-si
+  versions:
+  - lattes:vigil:2012:cleaning-up-the-pki-for-long-term-si
+  selected:
+    featured: true
+    order: 4
+    reason: Simplifying PKI mechanisms for the long-term validation of digital signatures.
+  topics:
+  - public-key-infrastructure
+  - electronic-documents
+  - digital-signatures
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: sistema-gerenciador-de-certificados-digitais-um-modelo-para-governo-elet
+  preferred_bibtex: lattes:martins:2013:sistema-gerenciador-de-certificados-
+  versions:
+  - lattes:martins:2013:sistema-gerenciador-de-certificados-
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: implementation-of-trust-metrics-in-x-509-public-key-infrastructure
+  preferred_bibtex: lattes:martins:2013:implementation-of-trust-metrics-in-x
+  versions:
+  - lattes:martins:2013:implementation-of-trust-metrics-in-x
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: multi-factor-authentication-in-telemedicine-systems
+  preferred_bibtex: lattes:spagnuelo:2013:multi-factor-authentication-in-telem
+  versions:
+  - lattes:spagnuelo:2013:multi-factor-authentication-in-telem
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: ssicc-sharing-sensitive-information-in-a-cloud-of-clouds
+  preferred_bibtex: lattes:souza:2014:ssicc-sharing-sensitive-information-
+  versions:
+  - lattes:souza:2014:ssicc-sharing-sensitive-information-
+  topics:
+  - privacy-information-sharing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: cloudsec-um-middleware-para-compartilhamento-de-informacoes-sigilosas-em
+  preferred_bibtex: lattes:souza:2014:cloudsec-um-middleware-para-comparti
+  versions:
+  - lattes:souza:2014:cloudsec-um-middleware-para-comparti
+  topics:
+  - privacy-information-sharing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: efficient-data-integrity-checking-for-untrusted-database-systems
+  preferred_bibtex: lattes:silverio:2014:efficient-data-integrity-checking-fo
+  versions:
+  - lattes:silverio:2014:efficient-data-integrity-checking-fo
+  topics:
+  - privacy-information-sharing
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: a-privacy-enhanced-user-centric-identity-and-access-management-based-on
+  preferred_bibtex: lattes:nogueira:2013:a-privacy-enhanced-user-centric-iden
+  versions:
+  - lattes:nogueira:2013:a-privacy-enhanced-user-centric-iden
+  topics:
+  - electronic-documents
+  - public-key-infrastructure
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: privacy-aware-web-authentication-protocol-with-recovery-and-revocation
+  preferred_bibtex: lattes:niehues:2017:privacy-aware-web-authentication-pro
+  versions:
+  - lattes:niehues:2017:privacy-aware-web-authentication-pro
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: analise-de-vulnerabilidade-de-esquemas-de-segredo-compartilhado-consider
+  preferred_bibtex: lattes:souza:2017:analise-de-vulnerabilidade-de-esquem
+  versions:
+  - lattes:souza:2017:analise-de-vulnerabilidade-de-esquem
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: an-entropy-source-based-on-the-bluetooth-received-signal-strength-indica
+  preferred_bibtex: lattes:augusto:2020:an-entropy-source-based-on-the-bluet
+  versions:
+  - lattes:augusto:2020:an-entropy-source-based-on-the-bluet
+  topics:
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: post-quantum-signature-with-preimage-chameleon-hashing
+  preferred_bibtex: lattes:astrizi:2020:post-quantum-signature-with-preimage
+  versions:
+  - lattes:astrizi:2020:post-quantum-signature-with-preimage
+  topics:
+  - post-quantum-cryptography
+  - cryptography
+  - digital-signatures
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: certicado-digital-academico-na-nuvem
+  preferred_bibtex: lattes:jean:2019:certicado-digital-academico-na-nuvem
+  versions:
+  - lattes:jean:2019:certicado-digital-academico-na-nuvem
+  topics:
+  - digital-identity
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: timing-analysis-of-algorithm-substitution-attacks-in-a-post-quantum-tls
+  preferred_bibtex: lattes:dunia:2021:timing-analysis-of-algorithm-substit
+  versions:
+  - lattes:dunia:2021:timing-analysis-of-algorithm-substit
+  topics:
+  - post-quantum-cryptography
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: towards-constant-time-probabilistic-root-finding-for-code-based-cryptogr
+  preferred_bibtex: lattes:dunia:2021:towards-constant-time-probabilistic-
+  versions:
+  - lattes:dunia:2021:towards-constant-time-probabilistic-
+  topics:
+  - post-quantum-cryptography
+  - finite-field-arithmetic
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3
+    status: inferred
+    reviewed: false
+- id: tls-1-3-handshake-analyzer
+  preferred_bibtex: lattes:augusto:2022:tls-1-3-handshake-analyzer
+  versions:
+  - lattes:augusto:2022:tls-1-3-handshake-analyzer
+  topics:
+  - network-security-systems
+  - cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true
+- id: quantum-threats-to-the-tls-1-3-protocol
+  preferred_bibtex: lattes:moura:2023:quantum-threats-to-the-tls-1-3-proto
+  versions:
+  - lattes:moura:2023:quantum-threats-to-the-tls-1-3-proto
+  topics:
+  - cryptography
+  - post-quantum-cryptography
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: central-notarial-de-servicos-eletronicos-compartilhados
+  preferred_bibtex: lattes:silva:2007:central-notarial-de-servicos-eletron
+  versions:
+  - lattes:silva:2007:central-notarial-de-servicos-eletron
+  topics:
+  - electronic-documents
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: inteligencia-artificial-no-registro-civil-do-brasil
+  preferred_bibtex: lattes:fiscarelli:2025:inteligencia-artificial-no-registro-
+  versions:
+  - lattes:fiscarelli:2025:inteligencia-artificial-no-registro-
+  topics:
+  - electronic-documents
+  - ai-security
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: automatic-v3.1
+    status: inferred
+    reviewed: false
+- id: infra-estrutura-de-chaves-publicas-e-aplicacoes
+  preferred_bibtex: lattes:custodio:2004:infra-estrutura-de-chaves-publicas-e
+  versions:
+  - lattes:custodio:2004:infra-estrutura-de-chaves-publicas-e
+  topics:
+  - public-key-infrastructure
+  projects: []
+  students: []
+  software: []
+  provenance:
+  - type: lattes
+    lattes_updated: 2026-04-08
+  topic_provenance:
+    method: manual-semantic-review-v3.2
+    status: curated
+    reviewed: true

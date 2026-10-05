@@ -325,3 +325,27 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Publications V4 */
+.pub-card {
+  margin: 1rem 0 1.35rem 0;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--bs-border-color);
+  border-radius: .6rem;
+}
+.pub-title { font-weight: 650; font-size: 1.05rem; }
+.pub-authors, .pub-venue { margin-top: .25rem; }
+.pub-venue { opacity: .78; }
+.pub-reason { margin-top: .55rem; font-style: italic; }
+.pub-topics, .pub-links { margin-top: .55rem; }
+.pub-topic, .topic-summary {
+  display: inline-block;
+  padding: .18rem .48rem;
+  margin: .12rem .18rem .12rem 0;
+  border: 1px solid var(--bs-border-color);
+  border-radius: 999px;
+  font-size: .82rem;
+}
+.topic-summary-grid { margin: .75rem 0 1.5rem 0; }
+.pub-links { font-size: .9rem; }
