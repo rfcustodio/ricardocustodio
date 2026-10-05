@@ -713,3 +713,78 @@ details > summary:hover {
   }
 }
 
+
+
+/* CSS Theme Fix V2.1
+   Append after the current stylesheet.
+   Makes Ricardo Custódio site tokens theme-aware. */
+
+:root {
+  --rc-text: var(--bs-body-color);
+  --rc-muted: var(--bs-secondary-color);
+  --rc-line: var(--bs-border-color);
+  --rc-soft: var(--bs-tertiary-bg);
+}
+
+/* Let Bootstrap/Quarto control foreground colors in both Cosmo and Darkly. */
+body,
+#quarto-document-content {
+  color: var(--bs-body-color);
+}
+
+/* Explicitly protect ordinary content and headings from legacy fixed colors. */
+#quarto-document-content h1,
+#quarto-document-content h2,
+#quarto-document-content h3,
+#quarto-document-content h4,
+#quarto-document-content h5,
+#quarto-document-content h6,
+#quarto-document-content p,
+#quarto-document-content li {
+  color: inherit;
+}
+
+/* Secondary text that uses the site's semantic muted token. */
+.hero h2,
+.academic-links,
+.research-card p {
+  color: var(--rc-muted);
+}
+
+/* Home V2 hero: only one divider, at the bottom of the hero. */
+.hero {
+  border-bottom: 1px solid var(--bs-border-color);
+}
+
+.hero h2 {
+  border-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+/* Cards must inherit the active theme foreground/background. */
+.home-topic-card,
+.home-collection-card,
+.contact-card,
+.supervision-card,
+.artifact-card,
+.pub-card,
+.text-work,
+.talk-card,
+.genealogy-card,
+.teaching-card {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: var(--bs-border-color);
+}
+
+.home-archive-callout {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-left: 4px solid var(--bs-link-color);
+}
+
+.home-archive-callout h2,
+.home-archive-callout p {
+  color: inherit;
+}
