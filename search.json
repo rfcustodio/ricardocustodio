@@ -53,56 +53,42 @@
     "href": "index.html",
     "title": "Ricardo Custódio",
     "section": "",
-    "text": "My research spans information security, cryptography, digital identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and artificial intelligence applied to security.\n\nAbout me\nPublications\nContact\n\n\nORCID · Google Scholar · GitHub · Lattes · LinkedIn"
+    "text": "I work on the foundations and infrastructures of digital trust: cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security for artificial-intelligence agents.\nMy research connects mathematical foundations with architectures, technological artifacts, and real-world trust ecosystems.\n\nAbout me Research Publications\n\n\nORCID · Lattes · Google Scholar · GitHub · LinkedIn"
   },
   {
     "objectID": "index.html#professor-researcher-advisor",
     "href": "index.html#professor-researcher-advisor",
     "title": "Ricardo Custódio",
     "section": "",
-    "text": "My research spans information security, cryptography, digital identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and artificial intelligence applied to security.\n\nAbout me\nPublications\nContact\n\n\nORCID · Google Scholar · GitHub · Lattes · LinkedIn"
+    "text": "I work on the foundations and infrastructures of digital trust: cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security for artificial-intelligence agents.\nMy research connects mathematical foundations with architectures, technological artifacts, and real-world trust ecosystems.\n\nAbout me Research Publications\n\n\nORCID · Lattes · Google Scholar · GitHub · LinkedIn"
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "Ricardo Custódio",
     "section": "Research",
-    "text": "Research\n\n\nDigital Identity\nDigital identity, authentication, authorization and verifiable credentials.\n\n\nDigital Signatures\nElectronic signatures, digital signatures, PKI and long-term validation.\n\n\nCryptography\nCryptographic algorithms, protocols and applied cryptography.\n\n\nFinite Fields\nEfficient arithmetic over binary finite fields and modular reduction.\n\n\nPost-Quantum Cryptography\nCryptographic mechanisms and infrastructures for the post-quantum transition.\n\n\nAI & Security\nArtificial intelligence applied to security, identity and autonomous agents.\n\n\nElectronic Documents\nElectronic documents, long-term validation, preservation and trust infrastructures.\n\n\nInformation Security\nSecurity architectures, protocols, infrastructures and trustworthy systems.\n\n\nExplore my research →"
+    "text": "Research\nMy research asks a broad question: how can computation be made trustworthy?\nThis question has guided work on cryptographic mechanisms, secure electronic documents, digital signatures and PKI, electronic identity, post-quantum transition, and, more recently, identity and authorization for AI agents.\nExplore the research program →"
   },
   {
-    "objectID": "index.html#current-research",
-    "href": "index.html#current-research",
+    "objectID": "index.html#explore-the-academic-record",
+    "href": "index.html#explore-the-academic-record",
     "title": "Ricardo Custódio",
-    "section": "Current Research",
-    "text": "Current Research\n\nPersonal AI Agents — identity, authorization, accountability and non-repudiation for autonomous agents.\nDigital Identity & Digital Signatures — infrastructures and protocols for trustworthy digital transactions.\nFinite Field Arithmetic — efficient multiplication and modular reduction over binary extension fields.\nPost-Quantum Cryptography — transition of digital-signature and trust infrastructures to post-quantum cryptography."
+    "section": "Explore the Academic Record",
+    "text": "Explore the Academic Record\nThe site is organized as a set of connected academic collections rather than as a single curriculum vitae.\n\n\nPublications\nScholarly publications, selected works, and research areas.\nBrowse publications →\n\n\nProjects\nResearch projects and technological development across different periods.\nBrowse projects →\n\n\nSupervision\nMaster’s and doctoral research and the academic genealogy around LabSEC.\nBrowse supervision →\n\n\nSoftware & Data\nResearch software, prototypes, reference implementations, and technological artifacts.\nBrowse software & data →\n\n\nBooks & Texts\nBooks, technical texts, reports, and longer-form academic material.\nBrowse books & texts →\n\n\nTeaching\nCourses, teaching trajectory, and selected educational resources.\nBrowse teaching →\n\n\nTalks\nSelected talks, presentations, workshops, and historical speaking record.\nBrowse talks →\n\n\nAcademic Archive\nA historical view connecting research themes, projects, publications, software, students, texts, and talks.\nExplore the archive →"
   },
   {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
+    "objectID": "index.html#from-engineering-to-digital-trust",
+    "href": "index.html#from-engineering-to-digital-trust",
     "title": "Ricardo Custódio",
-    "section": "Publications",
-    "text": "Publications\nSelected and recent scientific publications will be presented here.\nView all publications →"
+    "section": "From Engineering to Digital Trust",
+    "text": "From Engineering to Digital Trust\nMy academic trajectory began in electrical engineering and industrial automation, moved through scientific computing and cryptography, and developed into a long-term research program on computer security and digital trust.\nSince 2000, much of this work has been developed through the Laboratory for Computer Security (LabSEC) at the Federal University of Santa Catarina, combining research, student supervision, and technological development.\nRead the academic trajectory →"
   },
   {
-    "objectID": "index.html#books-texts",
-    "href": "index.html#books-texts",
+    "objectID": "index.html#an-academic-memory-not-only-a-website",
+    "href": "index.html#an-academic-memory-not-only-a-website",
     "title": "Ricardo Custódio",
-    "section": "Books & Texts",
-    "text": "Books & Texts\nBooks, lecture notes, technical texts and other open academic resources.\nExplore books and texts →"
-  },
-  {
-    "objectID": "index.html#teaching",
-    "href": "index.html#teaching",
-    "title": "Ricardo Custódio",
-    "section": "Teaching",
-    "text": "Teaching\nCourses, lecture notes, exercises and educational resources developed throughout my academic career.\nTeaching resources →"
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Ricardo Custódio",
-    "section": "Projects",
-    "text": "Projects\nCurrent and historical research and development projects.\nView projects →"
+    "section": "An Academic Memory, Not Only a Website",
+    "text": "An Academic Memory, Not Only a Website\nThis site is designed as a long-term scholarly record. Publications are only one part of that record. Projects, software, technical texts, courses, talks, supervision, and unfinished research directions also document how ideas develop over time.\nThe Academic Archive connects these records into historical periods and research genealogies.\nEnter the Academic Archive →"
   },
   {
     "objectID": "projects.html",
@@ -200,146 +186,167 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research investigates the foundations, mechanisms and infrastructures required to establish security and trust in digital environments.\nIt spans a spectrum from cryptographic and mathematical foundations to large-scale digital trust infrastructures, with increasing attention to the challenges introduced by post-quantum cryptography and autonomous artificial-intelligence agents."
+    "text": "My research is concerned with a broad question: how can computation be made trustworthy?\nOver time, this question has connected mathematical foundations, cryptographic mechanisms, electronic documents, digital signatures, public-key infrastructures, electronic identity, post-quantum cryptography, and, more recently, artificial-intelligence agents.\nThe research areas below are therefore not independent topics. They form a set of related problems around digital trust: how identities, actions, documents, credentials, and computational processes can be authenticated, authorized, protected, verified, preserved, and audited."
   },
   {
     "objectID": "research.html#research-foundations",
     "href": "research.html#research-foundations",
     "title": "Research",
     "section": "Research Foundations",
-    "text": "Research Foundations\n\nCryptography\nMy work in cryptography includes cryptographic algorithms and protocols, security mechanisms, key management, digital signatures and the design and analysis of cryptographic systems.\nA recurring objective is to connect cryptographic constructions with their practical use in secure computing infrastructures.\n\n\nFinite-Field Arithmetic\nEfficient arithmetic over finite fields is an important component of many cryptographic systems.\nMy research includes arithmetic over binary extension fields, particularly efficient polynomial multiplication, squaring and modular reduction in \\(\\mathrm{GF}(2^m)\\).\nCurrent work investigates structured families of irreducible polynomials and methods for reducing the computational complexity of finite-field arithmetic."
+    "text": "Research Foundations\n\nCryptography\nCryptography provides the technical foundation for much of my research.\nMy work has addressed cryptographic protocols and their applications to secure electronic transactions, digital signatures, authentication, electronic documents, voting systems, public-key infrastructures, and key-management systems.\nA recurring concern is not only whether a cryptographic primitive is secure in isolation, but how it behaves when incorporated into a complete system involving people, software, hardware, institutions, and long-lived information.\n\n\nFinite-Field Arithmetic\nEfficient arithmetic over finite fields is an important foundation for cryptographic implementations.\nCurrent work investigates polynomial-basis arithmetic over binary extension fields, particularly the selection and structure of irreducible polynomials and the cost of modular reduction. The objective is to understand how algebraic structure influences implementation cost, including the number of logical operations and circuit depth.\nThis line also explores computational methods for discovering and evaluating useful families of irreducible polynomials."
   },
   {
     "objectID": "research.html#digital-trust",
     "href": "research.html#digital-trust",
     "title": "Research",
     "section": "Digital Trust",
-    "text": "Digital Trust\n\nDigital Signatures\nDigital signatures have been one of the central themes of my research.\nMy work addresses signature mechanisms, signature systems, cryptographic key management, certification, validation and the long-term trustworthiness of digitally signed information.\nA particular interest is the complete lifecycle of digital signatures, from identity establishment and key generation to long-term validation and preservation.\n\n\nPublic Key Infrastructure\nMy research on Public Key Infrastructure (PKI) investigates the technologies, protocols and trust models required to establish cryptographic identities and trustworthy digital transactions.\nThis work includes digital certificates, certification authorities, key management, certificate lifecycle management and the integration of PKI with real-world information systems.\n\n\nDigital Identity\nDigital identity has progressively become a major component of my research.\nTopics include authentication, authorization, identity federation, OpenID Connect, OAuth, electronic identity and verifiable credentials.\nA central question is how identity attributes and credentials can be represented, verified and used while maintaining security, privacy, interoperability and user control.\n\n\nElectronic Documents\nMy research on electronic documents investigates how documents can remain authentic, verifiable and trustworthy throughout their lifecycle.\nThis includes digital signatures, document formats, validation evidence, trusted timestamps and long-term digital preservation.\nThe objective is not merely to protect a file, but to preserve the ability to establish the authenticity and integrity of a digital document over long periods of time."
+    "text": "Digital Trust\n\nDigital Signatures\nDigital signatures have been one of the central themes of my research for more than two decades.\nThe work ranges from signature mechanisms and certificate infrastructures to signature policies, long-term signatures, user-centric signing models, and the relationship between a cryptographic signature and the electronic document or act that it represents.\nA persistent research question is how digital evidence can remain verifiable as algorithms, certificates, software, and trust infrastructures evolve.\n\n\nPublic-Key Infrastructure\nPublic-key infrastructures connect cryptographic mechanisms to operational trust.\nMy research in PKI has included certificate management, certification architectures, hardware security modules, signature policies, educational PKIs, certificate validation, and the design of trust infrastructures.\nThis work has included both academic research and technological development in collaboration with Brazilian digital-trust initiatives.\n\n\nElectronic Identity\nElectronic identity extends the trust problem beyond certificates.\nCurrent research considers authentication, identity management, attributes, authorization, verifiable credentials, and the relationship between an identity and the digital acts performed under that identity.\nOne objective is to develop architectures in which identity, authentication, signatures, attributes, and authorization can be composed without unnecessarily collapsing them into a single mechanism.\n\n\nElectronic Documents\nElectronic documents are not merely files. They are information objects whose authenticity, integrity, confidentiality, provenance, signatures, and evidentiary value may need to survive for long periods.\nResearch in this area includes secure document exchange, trusted timestamps, digital signatures, long-term preservation, confidentiality, cryptographic key management, and mechanisms for maintaining verifiability despite technological change.\nThis research has increasingly converged with electronic identity and post-quantum cryptography."
   },
   {
     "objectID": "research.html#emerging-directions",
     "href": "research.html#emerging-directions",
     "title": "Research",
     "section": "Emerging Directions",
-    "text": "Emerging Directions\n\nPost-Quantum Cryptography\nThe transition to post-quantum cryptography creates new challenges for digital signatures, PKI, network protocols and long-lived digital documents.\nMy research investigates post-quantum cryptographic mechanisms and their integration into existing security infrastructures.\nParticular interests include post-quantum signatures, hybrid cryptographic systems, migration strategies and crypto-agility.\n\n\nArtificial Intelligence & Security\nArtificial intelligence is creating a new class of actors in digital systems.\nMy current research investigates the security and trust requirements of AI systems and autonomous agents, particularly questions involving:\n\nagent identity;\nauthentication;\nauthorization;\ndelegation;\naccountability;\nauditability;\nnon-repudiation.\n\nAn important direction is the concept of Personal AI Agents: autonomous agents acting on behalf of individuals and interacting with organizations, services and other agents."
+    "text": "Emerging Directions\n\nPost-Quantum Cryptography\nThe transition to post-quantum cryptography is not simply the replacement of one algorithm by another.\nIt affects certificate formats, protocols, hardware, key management, digital signatures, identity systems, software lifecycles, interoperability, and long-term electronic evidence.\nMy research therefore examines post-quantum migration as a systems problem, including hybrid mechanisms, legacy-system adaptation, electronic identity, certificates, network protocols, and the preservation of digitally signed information.\n\n\nArtificial Intelligence & Security\nArtificial intelligence creates both new security mechanisms and new security subjects.\nAI can support security analysis, document processing, classification, and interaction with complex information systems. At the same time, autonomous and semi-autonomous agents introduce questions about identity, credentials, authorization, accountability, privacy, and auditability.\nA current research direction investigates how an AI agent can be identified and authorized to perform consequential digital acts on behalf of a person or organization.\nThis connects emerging agentic systems to long-standing security concepts such as authentication, delegation, authorization, signatures, attributes, evidence, and non-repudiation."
   },
   {
     "objectID": "research.html#current-research-questions",
     "href": "research.html#current-research-questions",
     "title": "Research",
     "section": "Current Research Questions",
-    "text": "Current Research Questions\nSeveral questions currently connect these research areas:\n\nHow should autonomous AI agents be identified and authorized when acting on behalf of people or organizations?\nHow can the actions of autonomous agents produce trustworthy and auditable digital evidence?\nHow should digital-signature and PKI infrastructures evolve during the transition to post-quantum cryptography?\nWhich irreducible-polynomial structures lead to more efficient arithmetic over binary finite fields?\nHow can digital identity evolve from centralized identity providers toward portable and verifiable digital credentials?\nHow can electronic documents remain verifiable for decades despite changes in cryptographic algorithms, technologies and trust infrastructures?"
+    "text": "Current Research Questions\nSeveral questions currently connect these research areas:\n\nAI agent identity and authority. How should an autonomous or semi-autonomous agent be identified, authenticated, and authorized when acting for a person or organization?\nAccountable digital acts. What evidence should be produced when software or an AI agent performs an action with legal, financial, administrative, or security consequences?\nPost-quantum transition. How can existing PKI, identity, document, and network infrastructures migrate to post-quantum cryptography without losing interoperability or historical evidence?\nLong-term electronic evidence. How can electronic documents and signatures remain verifiable when algorithms, certificates, keys, software, and trust anchors change over decades?\nEfficient finite-field arithmetic. Can structured families of irreducible polynomials reduce the implementation cost of arithmetic over binary extension fields?\nComposable digital identity. How should identity, authentication, attributes, signatures, representation, delegation, and authorization interact in modern digital-trust architectures?\nSovereign and domain-specific AI. How can specialized AI systems operate over sensitive institutional knowledge while maintaining control over data, provenance, access, and accountability?"
   },
   {
-    "objectID": "research.html#research-philosophy",
-    "href": "research.html#research-philosophy",
+    "objectID": "research.html#research-approach",
+    "href": "research.html#research-approach",
     "title": "Research",
-    "section": "Research Philosophy",
-    "text": "Research Philosophy\nAcross these topics, my research follows a common principle:\n\nDigital trust requires more than cryptographic algorithms.\n\nIt requires the integration of cryptography, identity, protocols, software, governance and long-term evidence into systems that can be deployed and operated in real environments.\nThis connection between foundations and deployable systems has been a recurring theme throughout my research."
+    "section": "Research Approach",
+    "text": "Research Approach\nMy research combines several levels of investigation:\nFoundations. Mathematical structures, cryptographic algorithms, protocols, and security models.\nArchitectures. PKI, identity systems, electronic-document infrastructures, key-management systems, and AI-agent trust models.\nTechnological artifacts. Prototypes, reference implementations, software, and experimental infrastructures used to test research ideas.\nDeployment and institutions. The interaction between technology, regulation, operational processes, usability, and real trust ecosystems.\nThis combination is deliberate. Security mechanisms that are correct in isolation may fail when embedded in larger sociotechnical systems. Conversely, practical infrastructure problems often expose research questions that are invisible at the level of individual algorithms."
   },
   {
-    "objectID": "research.html#related-resources",
-    "href": "research.html#related-resources",
+    "objectID": "research.html#research-genealogies",
+    "href": "research.html#research-genealogies",
     "title": "Research",
-    "section": "Related Resources",
-    "text": "Related Resources\nPublications →\nProjects →\nSoftware & Data →\nStudents & Supervision →"
+    "section": "Research Genealogies",
+    "text": "Research Genealogies\nThe evolution of these themes is documented in the Academic Archive, which connects projects, publications, technological artifacts, talks, texts, and student research.\nSeven genealogies currently provide a historical view of this development:\n\nElectronic Documents & Long-Term Preservation\nPublic-Key Infrastructure & Digital Signatures\nElectronic Identity\nElectronic Voting\nPost-Quantum Cryptography\nFinite-Field Arithmetic & Cryptography\nAI, Agents & Digital Trust\n\nThe sequence within a genealogy represents an editorial research trajectory; it does not, by itself, assert a causal or derivational relationship between the individual objects."
+  },
+  {
+    "objectID": "research.html#related-collections",
+    "href": "research.html#related-collections",
+    "title": "Research",
+    "section": "Related Collections",
+    "text": "Related Collections\nThe research described here can be explored through the site’s structured collections:\n\nPublications — scholarly publications and selected works\nProjects — research and technological projects\nSupervision — master’s and doctoral research\nSoftware & Data — technological artifacts and research software\nBooks & Texts — books, technical texts, and longer-form material\nTalks — selected presentations and invited talks\nAcademic Archive — historical trajectory and research genealogies"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am a professor and researcher in computer science, working primarily in information security and cryptography. My research spans digital signatures, public key infrastructure, digital identity, electronic documents, cryptographic protocols, post-quantum cryptography, finite-field arithmetic, and artificial intelligence applied to security.\nI am a Full Professor at the Department of Informatics and Statistics of the Federal University of Santa Catarina (UFSC), in Florianópolis, Brazil, and supervisor of the Computer Security Laboratory (LabSEC).\nThroughout my academic career, I have combined fundamental and applied research with the development of technologies and infrastructures for real-world digital trust systems.\n\n\nI received my Bachelor’s degree in Electrical Engineering from the Federal University of Santa Catarina (UFSC), followed by a Master’s degree in Electrical Engineering at the same university.\nI received my PhD in Computer Science from the Federal University of Rio Grande do Sul (UFRGS) in 1999.\nI joined UFSC as a faculty member in 1994. Over the following decades, my academic activities have included teaching, research, technology development, graduate supervision, and collaboration with public and private institutions.\n\n\n\nMy work is centered on the security and trust mechanisms required for digital systems.\nMy main research interests include:\n\ninformation security;\ncryptography and cryptographic protocols;\ndigital signatures and electronic signatures;\npublic key infrastructure (PKI);\ndigital identity and authentication;\nelectronic documents and long-term preservation;\ncryptographic key management;\narithmetic over finite fields;\npost-quantum cryptography;\nartificial intelligence applied to security and digital trust.\n\nA recurring theme in my research is the connection between cryptographic foundations and deployable systems: how mathematical, cryptographic and security mechanisms can be transformed into infrastructures and applications that operate in real institutional environments.\n\n\n\nI supervise the Computer Security Laboratory (LabSEC) at UFSC.\nLabSEC conducts research and technology development in information security and cryptography, bringing together undergraduate, Master’s and PhD students and collaborating with universities, government institutions and organizations involved in digital infrastructures.\nOver the years, the laboratory has worked on topics including public key infrastructure, digital certification, digital signatures, electronic documents, digital identity, cryptographic protocols, blockchain technologies and post-quantum cryptography.\n\n\n\nAn important part of my academic work has been the education and supervision of researchers.\nI supervise undergraduate research, Master’s dissertations and PhD theses, particularly in information security, cryptography, digital identity and trustworthy digital infrastructures.\nMany of the research projects developed with students combine theoretical investigation with the design, implementation and experimental evaluation of security technologies.\nStudents and supervision →\n\n\n\nMy work also involves research, development and innovation projects with institutions outside the university.\nThese collaborations have provided opportunities to apply research in areas such as digital certification, electronic documents, civil registration, digital identity, financial infrastructures and post-quantum security.\nProjects →\n\n\n\n\nORCID\nGoogle Scholar\nCurrículo Lattes\nGitHub\nLinkedIn"
+    "text": "I am a Full Professor in the Department of Informatics and Statistics at the Federal University of Santa Catarina (UFSC), Brazil, and have worked at the intersection of computing, cryptography, and digital trust for more than three decades.\nMy current research focuses on information security and cryptography, particularly digital signatures, electronic documents, public-key infrastructures, electronic identity, verifiable credentials, cryptographic key management, post-quantum cryptography, and finite-field arithmetic. More recently, I have also been investigating security, identity, authorization, and accountability for artificial-intelligence agents.\nI have supervised the Laboratory for Computer Security (LabSEC) at UFSC since 2000, where research has combined theoretical questions with the design and implementation of security infrastructures and technological artifacts."
   },
   {
-    "objectID": "about.html#academic-trajectory",
-    "href": "about.html#academic-trajectory",
+    "objectID": "about.html#short-bio",
+    "href": "about.html#short-bio",
     "title": "About",
     "section": "",
-    "text": "I received my Bachelor’s degree in Electrical Engineering from the Federal University of Santa Catarina (UFSC), followed by a Master’s degree in Electrical Engineering at the same university.\nI received my PhD in Computer Science from the Federal University of Rio Grande do Sul (UFRGS) in 1999.\nI joined UFSC as a faculty member in 1994. Over the following decades, my academic activities have included teaching, research, technology development, graduate supervision, and collaboration with public and private institutions."
+    "text": "I am a Full Professor in the Department of Informatics and Statistics at the Federal University of Santa Catarina (UFSC), Brazil, and have worked at the intersection of computing, cryptography, and digital trust for more than three decades.\nMy current research focuses on information security and cryptography, particularly digital signatures, electronic documents, public-key infrastructures, electronic identity, verifiable credentials, cryptographic key management, post-quantum cryptography, and finite-field arithmetic. More recently, I have also been investigating security, identity, authorization, and accountability for artificial-intelligence agents.\nI have supervised the Laboratory for Computer Security (LabSEC) at UFSC since 2000, where research has combined theoretical questions with the design and implementation of security infrastructures and technological artifacts."
   },
   {
-    "objectID": "about.html#research",
-    "href": "about.html#research",
+    "objectID": "about.html#academic-formation",
+    "href": "about.html#academic-formation",
     "title": "About",
-    "section": "",
-    "text": "My work is centered on the security and trust mechanisms required for digital systems.\nMy main research interests include:\n\ninformation security;\ncryptography and cryptographic protocols;\ndigital signatures and electronic signatures;\npublic key infrastructure (PKI);\ndigital identity and authentication;\nelectronic documents and long-term preservation;\ncryptographic key management;\narithmetic over finite fields;\npost-quantum cryptography;\nartificial intelligence applied to security and digital trust.\n\nA recurring theme in my research is the connection between cryptographic foundations and deployable systems: how mathematical, cryptographic and security mechanisms can be transformed into infrastructures and applications that operate in real institutional environments."
+    "section": "Academic Formation",
+    "text": "Academic Formation\nMy academic formation began in Electrical Engineering at UFSC, where I received my bachelor’s degree in 1985. I subsequently completed a master’s degree in Electrical Engineering at UFSC in 1990, working on parametric speech coding with multi-pulse excitation.\nI received my PhD in Computer Science from the Federal University of Rio Grande do Sul (UFRGS) in 1999. My doctoral research investigated nonlinear analysis of sound patterns, with a case study involving lung sounds.\nFrom 2005 to 2006, I was a postdoctoral researcher at George Washington University in the United States."
   },
   {
-    "objectID": "about.html#labsec",
-    "href": "about.html#labsec",
+    "objectID": "about.html#from-engineering-to-computing",
+    "href": "about.html#from-engineering-to-computing",
     "title": "About",
-    "section": "",
-    "text": "I supervise the Computer Security Laboratory (LabSEC) at UFSC.\nLabSEC conducts research and technology development in information security and cryptography, bringing together undergraduate, Master’s and PhD students and collaborating with universities, government institutions and organizations involved in digital infrastructures.\nOver the years, the laboratory has worked on topics including public key infrastructure, digital certification, digital signatures, electronic documents, digital identity, cryptographic protocols, blockchain technologies and post-quantum cryptography."
+    "section": "From Engineering to Computing",
+    "text": "From Engineering to Computing\nMy professional trajectory began in engineering and industrial automation. From 1986 to 1991, I worked at Fundação CERTI in research and development related to information systems and industrial automation, including management responsibilities in the Industrial Automation Division.\nIn 1990–1991, I spent a period at the Robotiker technology center in Spain working with industrial robotics and automation.\nI joined the Universidade do Estado de Santa Catarina (UDESC) as a professor in 1992. There, my research already included cryptography and its applications.\nIn 1994, I joined UFSC as a permanent faculty member. My initial research at the Department of Informatics and Statistics was associated with computational mathematics and the Laboratory of Algebraic and Symbolic Computing."
   },
   {
-    "objectID": "about.html#students-and-supervision",
-    "href": "about.html#students-and-supervision",
+    "objectID": "about.html#labsec-and-digital-trust",
+    "href": "about.html#labsec-and-digital-trust",
     "title": "About",
-    "section": "",
-    "text": "An important part of my academic work has been the education and supervision of researchers.\nI supervise undergraduate research, Master’s dissertations and PhD theses, particularly in information security, cryptography, digital identity and trustworthy digital infrastructures.\nMany of the research projects developed with students combine theoretical investigation with the design, implementation and experimental evaluation of security technologies.\nStudents and supervision →"
+    "section": "LabSEC and Digital Trust",
+    "text": "LabSEC and Digital Trust\nAround the turn of the millennium, my research shifted decisively toward computer security and cryptography. Research activities at LabSEC began in 2000, followed by my supervision of the laboratory.\nEarly research addressed secure electronic documents, electronic voting, cryptographic protocols, digital signatures, and public-key infrastructures. These themes developed into a broader research program concerned with the technological foundations of digital trust.\nOver the following decades, this work expanded to certificate lifecycle management, hardware security modules, long-term digital signatures, secure document preservation, authentication, electronic identity, and national-scale trust infrastructures.\nMy work has also involved collaboration with Brazilian digital-trust initiatives. I coordinated the ICP-EDU working group of the Brazilian National Research and Education Network (RNP) and have participated in activities associated with ICP-Brasil."
   },
   {
-    "objectID": "about.html#beyond-the-university",
-    "href": "about.html#beyond-the-university",
+    "objectID": "about.html#research-evolution",
+    "href": "about.html#research-evolution",
     "title": "About",
-    "section": "",
-    "text": "My work also involves research, development and innovation projects with institutions outside the university.\nThese collaborations have provided opportunities to apply research in areas such as digital certification, electronic documents, civil registration, digital identity, financial infrastructures and post-quantum security.\nProjects →"
+    "section": "Research Evolution",
+    "text": "Research Evolution\nA useful way to understand my research is as a sequence of connected questions:\nHow can computation be made trustworthy?\nThat question first appeared in my work through cryptography, secure protocols, and electronic documents. It subsequently led to digital signatures and public-key infrastructures, then to electronic identity and new models for credentials and authentication.\nThe long-term security of these systems introduced further questions about post-quantum cryptography, cryptographic agility, efficient finite-field arithmetic, and preservation of electronic evidence.\nArtificial intelligence introduces another transition. Autonomous and semi-autonomous agents raise questions that are familiar to security research but appear in a new form: Who or what is acting? Under whose authority? With which credentials? How can an action be audited, attributed, authorized, or repudiated?\nThese questions currently connect my earlier work on digital trust with research on AI agents and personal AI."
+  },
+  {
+    "objectID": "about.html#research-and-technology",
+    "href": "about.html#research-and-technology",
+    "title": "About",
+    "section": "Research and Technology",
+    "text": "Research and Technology\nI have always considered research prototypes and technological artifacts an important complement to theoretical and academic work.\nAcross LabSEC projects, research has resulted in software and infrastructure related to electronic documents, digital signatures, PKI, hardware security modules, certificate management, electronic identity, post-quantum migration, and civil-registration services.\nThe Projects and Software & Data sections document this technological trajectory in greater detail."
+  },
+  {
+    "objectID": "about.html#students-and-research-community",
+    "href": "about.html#students-and-research-community",
+    "title": "About",
+    "section": "Students and Research Community",
+    "text": "Students and Research Community\nSupervision has been a central part of my academic work. Master’s and doctoral research conducted at LabSEC has contributed to many of the research lines represented on this site, including electronic documents, cryptographic protocols, PKI, digital signatures, identity, post-quantum cryptography, and finite-field arithmetic.\nRather than treating supervision as a separate activity, I regard students as participants in a continuing research community. The Supervision section preserves this academic genealogy."
+  },
+  {
+    "objectID": "about.html#academic-memory",
+    "href": "about.html#academic-memory",
+    "title": "About",
+    "section": "Academic Memory",
+    "text": "Academic Memory\nThis website is also intended as a long-term academic archive.\nPublications alone provide an incomplete account of a research career. Projects, software, technical texts, lectures, courses, students, collaborations, and unfinished research directions often explain how ideas developed and how one line of investigation led to another.\nThe Academic Archive therefore connects these different kinds of records and provides a historical view of my work."
   },
   {
     "objectID": "about.html#academic-profiles",
     "href": "about.html#academic-profiles",
     "title": "About",
-    "section": "",
-    "text": "ORCID\nGoogle Scholar\nCurrículo Lattes\nGitHub\nLinkedIn"
+    "section": "Academic Profiles",
+    "text": "Academic Profiles\n\nORCID\nLattes CV\nGoogle Scholar\nGitHub\nLinkedIn"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "For academic inquiries, research collaboration, student supervision, technical discussions, and professional activities, you can contact me through the channels below."
+    "text": "For academic inquiries, research collaboration, technical discussions, and professional activities, the channels below provide the most appropriate points of contact."
   },
   {
-    "objectID": "contact.html#academic-research-contact",
-    "href": "contact.html#academic-research-contact",
+    "objectID": "contact.html#academic-research",
+    "href": "contact.html#academic-research",
     "title": "Contact",
-    "section": "Academic & Research Contact",
-    "text": "Academic & Research Contact\nRicardo Custódio\nProfessor and Researcher\nInformation Security · Cryptography · Digital Trust · Artificial Intelligence\nLabSEC — Computer Security Laboratory\nFederal University of Santa Catarina (UFSC)\nFlorianópolis, Santa Catarina, Brazil"
-  },
-  {
-    "objectID": "contact.html#academic-profiles",
-    "href": "contact.html#academic-profiles",
-    "title": "Contact",
-    "section": "Academic Profiles",
-    "text": "Academic Profiles\n\nORCID\nGoogle Scholar\nLattes Curriculum"
-  },
-  {
-    "objectID": "contact.html#professional-development-profiles",
-    "href": "contact.html#professional-development-profiles",
-    "title": "Contact",
-    "section": "Professional & Development Profiles",
-    "text": "Professional & Development Profiles\n\nGitHub\nLinkedIn"
+    "section": "Academic & Research",
+    "text": "Academic & Research\nRicardo Custódio\nFull Professor · Researcher · Advisor\nDepartment of Informatics and Statistics\nFederal University of Santa Catarina (UFSC)\nFlorianópolis, Santa Catarina, Brazil\nAcademic trajectory →"
   },
   {
     "objectID": "contact.html#research-collaboration",
     "href": "contact.html#research-collaboration",
     "title": "Contact",
     "section": "Research Collaboration",
-    "text": "Research Collaboration\nI welcome academic and technical collaboration in areas related to:\n\ninformation security;\ncryptography;\ndigital signatures;\npublic key infrastructure;\ndigital identity;\nelectronic documents;\nfinite-field arithmetic;\npost-quantum cryptography;\nartificial intelligence and security;\ndigital trust infrastructures."
+    "text": "Research Collaboration\nMy current interests include cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security and identity for AI agents.\nCurrent research questions →"
   },
   {
-    "objectID": "contact.html#students-research",
-    "href": "contact.html#students-research",
+    "objectID": "contact.html#students-supervision",
+    "href": "contact.html#students-supervision",
     "title": "Contact",
-    "section": "Students & Research",
-    "text": "Students & Research\nProspective students interested in research projects should consult the Research, Projects, and Supervision sections before making contact.\nResearch topics evolve over time, and the availability of new supervision positions depends on current projects and academic commitments."
+    "section": "Students & Supervision",
+    "text": "Students & Supervision\nProspective students should consult the Research, Projects, and Supervision sections before making contact. Research topics and supervision availability depend on current projects and academic commitments.\nResearch → · Projects → · Supervision →"
   },
   {
-    "objectID": "contact.html#website",
-    "href": "contact.html#website",
+    "objectID": "contact.html#academic-profiles",
+    "href": "contact.html#academic-profiles",
     "title": "Contact",
-    "section": "Website",
-    "text": "Website\nThis website is also a long-term academic archive.\nCorrections, additional information, and references to historical academic material related to the work documented here are welcome."
+    "section": "Academic Profiles",
+    "text": "Academic Profiles\nORCID\nLattes Curriculum\nGoogle Scholar\nGitHub\nLinkedIn"
+  },
+  {
+    "objectID": "contact.html#academic-archive",
+    "href": "contact.html#academic-archive",
+    "title": "Contact",
+    "section": "Academic Archive",
+    "text": "Academic Archive\nThis website is intended to serve as a long-term academic record. Corrections, additional information, and references to historical academic material related to the work documented here are welcome.\nExplore the Academic Archive →"
   }
 ]
