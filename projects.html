@@ -78,35 +78,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -364,23 +335,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#current-projects" id="toc-current-projects" class="nav-link active" data-scroll-target="#current-projects">Current Projects</a>
-  <ul class="collapse">
-  <li><a href="#labrec-research-and-development-for-civil-registration" id="toc-labrec-research-and-development-for-civil-registration" class="nav-link" data-scroll-target="#labrec-research-and-development-for-civil-registration">LabREC — Research and Development for Civil Registration</a></li>
-  <li><a href="#post-quantum-cryptography" id="toc-post-quantum-cryptography" class="nav-link" data-scroll-target="#post-quantum-cryptography">Post-Quantum Cryptography</a></li>
-  <li><a href="#finite-field-arithmetic" id="toc-finite-field-arithmetic" class="nav-link" data-scroll-target="#finite-field-arithmetic">Finite-Field Arithmetic</a></li>
-  <li><a href="#ai-agents-identity-and-digital-trust" id="toc-ai-agents-identity-and-digital-trust" class="nav-link" data-scroll-target="#ai-agents-identity-and-digital-trust">AI Agents, Identity, and Digital Trust</a></li>
-  </ul></li>
-  <li><a href="#selected-research-development-projects" id="toc-selected-research-development-projects" class="nav-link" data-scroll-target="#selected-research-development-projects">Selected Research &amp; Development Projects</a>
-  <ul class="collapse">
-  <li><a href="#digital-signatures-and-long-term-electronic-documents" id="toc-digital-signatures-and-long-term-electronic-documents" class="nav-link" data-scroll-target="#digital-signatures-and-long-term-electronic-documents">Digital Signatures and Long-Term Electronic Documents</a></li>
-  <li><a href="#digital-identity-and-public-key-infrastructure" id="toc-digital-identity-and-public-key-infrastructure" class="nav-link" data-scroll-target="#digital-identity-and-public-key-infrastructure">Digital Identity and Public Key Infrastructure</a></li>
-  <li><a href="#electronic-voting" id="toc-electronic-voting" class="nav-link" data-scroll-target="#electronic-voting">Electronic Voting</a></li>
-  <li><a href="#hash-based-digital-signatures" id="toc-hash-based-digital-signatures" class="nav-link" data-scroll-target="#hash-based-digital-signatures">Hash-Based Digital Signatures</a></li>
-  <li><a href="#cryptographic-protocols-and-security-infrastructures" id="toc-cryptographic-protocols-and-security-infrastructures" class="nav-link" data-scroll-target="#cryptographic-protocols-and-security-infrastructures">Cryptographic Protocols and Security Infrastructures</a></li>
-  </ul></li>
-  <li><a href="#from-research-to-technology" id="toc-from-research-to-technology" class="nav-link" data-scroll-target="#from-research-to-technology">From Research to Technology</a></li>
-  <li><a href="#project-archive" id="toc-project-archive" class="nav-link" data-scroll-target="#project-archive">Project Archive</a></li>
+  <li><a href="#from-research-to-technology" id="toc-from-research-to-technology" class="nav-link active" data-scroll-target="#from-research-to-technology">From Research to Technology</a></li>
+  <li>Project Archive</li>
   <li><a href="#related-resources" id="toc-related-resources" class="nav-link" data-scroll-target="#related-resources">Related Resources</a></li>
   </ul>
 </nav>
@@ -408,132 +364,262 @@ window.Quarto = {
 </header>
 
 
-<p>My research has often been developed through long-term projects that connect fundamental research, technological development, infrastructure, standards, and real-world applications.</p>
-<p>These projects span cryptography, digital trust, electronic documents, digital identity, post-quantum security, artificial intelligence, and information infrastructures.</p>
-<section id="current-projects" class="level2">
-<h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
-<section id="labrec-research-and-development-for-civil-registration" class="level3">
-<h3 class="anchored" data-anchor-id="labrec-research-and-development-for-civil-registration">LabREC — Research and Development for Civil Registration</h3>
-<p>LabREC is a research and development initiative focused on technologies for Brazil’s civil registration ecosystem. Its activities combine academic research with the design and evaluation of technological solutions for digital trust, identity, electronic documents, and artificial intelligence.</p>
-<p>Research and development topics include:</p>
-<ul>
-<li>digital identity and authentication;</li>
-<li>digital signatures and long-term validation;</li>
-<li>electronic documents and preservation;</li>
-<li>public key infrastructures;</li>
-<li>verifiable credentials;</li>
-<li>artificial intelligence applied to civil registration;</li>
-<li>privacy and information security;</li>
-<li>trustworthy digital infrastructures.</li>
-</ul>
-<p>Several technological initiatives have emerged from this environment, including <strong>ICP-RC</strong>, <strong>IdRC</strong>, and AI-based systems for the civil registration ecosystem.</p>
+<p>My research has often been developed through long-term initiatives that connect fundamental research, technological development, infrastructure, standards, and real-world applications.</p>
+<p>The portfolio spans cryptography, digital trust, electronic documents, digital identity, post-quantum security, artificial intelligence, and information infrastructures. Research programs represent continuing lines of investigation, while projects have more specific technological, scientific, or institutional objectives.</p>
+<div class="projects-generated">
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">Current Research Programs (3)</h2>
+<div class="research-programs-grid">
+<section class="level3 research-program-card">
+<h3 class="anchored" data-anchor-id="">Electronic Document Security</h3>
+<p>Continuing research on the security of electronic documents, including authenticity, confidentiality, integrity, preservation, and trustworthy document infrastructures.</p>
+<p><span class="project-topic">Electronic Documents</span> · <span class="project-topic">Information Security</span> · <span class="project-topic">Digital Preservation</span> · <span class="project-topic">Confidentiality</span> · <span class="project-topic">Digital Signatures</span></p>
 </section>
-<section id="post-quantum-cryptography" class="level3">
-<h3 class="anchored" data-anchor-id="post-quantum-cryptography">Post-Quantum Cryptography</h3>
-<p>This research investigates cryptographic mechanisms and infrastructures capable of remaining secure in the presence of quantum computers.</p>
-<p>Current interests include:</p>
-<ul>
-<li>post-quantum public-key cryptography;</li>
-<li>hybrid classical/post-quantum protocols;</li>
-<li>post-quantum digital signatures;</li>
-<li>post-quantum certificates and PKI;</li>
-<li>quantum-safe voting systems;</li>
-<li>migration strategies for existing digital infrastructures.</li>
-</ul>
-<p>A particular concern is the practical transition from today’s cryptographic infrastructures to quantum-resistant systems.</p>
+<section class="level3 research-program-card">
+<h3 class="anchored" data-anchor-id="">Finite-Field Arithmetic</h3>
+<p>Research on efficient arithmetic over binary finite fields, including irreducible polynomial families, modular reduction, XOR complexity, and computational methods for discovering efficient algebraic structures.</p>
+<p><span class="project-topic">Finite Fields</span> · <span class="project-topic">Cryptography</span> · <span class="project-topic">Irreducible Polynomials</span> · <span class="project-topic">Modular Reduction</span></p>
 </section>
-<section id="finite-field-arithmetic" class="level3">
-<h3 class="anchored" data-anchor-id="finite-field-arithmetic">Finite-Field Arithmetic</h3>
-<p>This research investigates efficient arithmetic over binary finite fields, particularly polynomial-basis representations of <span class="math inline">\(\mathrm{GF}(2^m)\)</span>.</p>
-<p>Topics include:</p>
-<ul>
-<li>irreducible polynomials;</li>
-<li>structured families of pentanomials;</li>
-<li>modular reduction;</li>
-<li>multiplication algorithms;</li>
-<li>XOR complexity;</li>
-<li>circuit depth;</li>
-<li>computational search for efficient polynomial families;</li>
-<li>AI-assisted discovery of algebraic structures.</li>
-</ul>
-<p>The objective is to identify mathematical structures that lead to efficient implementations of cryptographic arithmetic.</p>
+<section class="level3 research-program-card">
+<h3 class="anchored" data-anchor-id="">Post-Quantum Cryptographic Algorithms</h3>
+<p>Research on post-quantum cryptographic algorithms and their integration into existing protocols, digital signatures, and digital trust infrastructures.</p>
+<p><span class="project-topic">Cryptography</span> · <span class="project-topic">Post-Quantum Cryptography</span> · <span class="project-topic">Digital Signatures</span></p>
 </section>
-<section id="ai-agents-identity-and-digital-trust" class="level3">
-<h3 class="anchored" data-anchor-id="ai-agents-identity-and-digital-trust">AI Agents, Identity, and Digital Trust</h3>
-<p>Artificial intelligence agents increasingly perform actions that have consequences outside the computational environment in which they operate.</p>
-<p>This research studies mechanisms for establishing trust in such agents, including:</p>
-<ul>
-<li>agent identity;</li>
-<li>authentication;</li>
-<li>authorization;</li>
-<li>delegation;</li>
-<li>accountability;</li>
-<li>auditability;</li>
-<li>non-repudiation;</li>
-<li>verifiable actions and evidence.</li>
-</ul>
-<p>A broader research question is how traditional digital trust infrastructures must evolve when autonomous AI agents become active participants in digital ecosystems.</p>
+</div>
 </section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">Current Projects (7)</h2>
+<div class="projects-grid">
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">ADES</h3>
+<p><em>Advanced Digital Signature</em></p>
+<p>Research and development on advanced digital signatures, with emphasis on a digital signature system based on single-use signing certificates.</p>
+<p><span class="project-topic">Digital Signatures</span> · <span class="project-topic">PKI</span> · <span class="project-topic">Electronic Documents</span> · <span class="project-topic">Digital Identity</span></p>
+<p><a href="https://ades.labsec.ufsc.br/">Project website</a></p>
 </section>
-<section id="selected-research-development-projects" class="level2">
-<h2 class="anchored" data-anchor-id="selected-research-development-projects">Selected Research &amp; Development Projects</h2>
-<section id="digital-signatures-and-long-term-electronic-documents" class="level3">
-<h3 class="anchored" data-anchor-id="digital-signatures-and-long-term-electronic-documents">Digital Signatures and Long-Term Electronic Documents</h3>
-<p>A long-standing research line investigates the use of digital signatures for electronic documents and the preservation of their evidentiary value over long periods.</p>
-<p>Research topics have included:</p>
-<ul>
-<li>digital signature formats;</li>
-<li>long-term signatures;</li>
-<li>signature validation;</li>
-<li>document preservation;</li>
-<li>public key infrastructures;</li>
-<li>cryptographic evidence;</li>
-<li>trusted services;</li>
-<li>location of modifications in signed data.</li>
-</ul>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Confidentiality of Digital Documents</h3>
+<p>Research on cryptographic mechanisms for protecting the confidentiality of digital documents while supporting long-term preservation and controlled access.</p>
+<p><span class="project-topic">Electronic Documents</span> · <span class="project-topic">Confidentiality</span> · <span class="project-topic">Cryptography</span> · <span class="project-topic">Digital Preservation</span></p>
 </section>
-<section id="digital-identity-and-public-key-infrastructure" class="level3">
-<h3 class="anchored" data-anchor-id="digital-identity-and-public-key-infrastructure">Digital Identity and Public Key Infrastructure</h3>
-<p>Research on digital identity has evolved from traditional PKI-based architectures toward federated identity, self-sovereign identity, verifiable credentials, and emerging identity models for humans, organizations, devices, and software agents.</p>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Criptografia Aplicada à Conformidade Regulatória e à Proteção de Dados no Open Insurance</h3>
+<p>Research on cryptography, information security, regulatory compliance, and data protection for the Brazilian Open Insurance ecosystem.</p>
+<p><span class="project-topic">Open Insurance</span> · <span class="project-topic">Cryptography</span> · <span class="project-topic">Data Protection</span> · <span class="project-topic">Regulatory Compliance</span> · <span class="project-topic">Information Security</span></p>
 </section>
-<section id="electronic-voting" class="level3">
-<h3 class="anchored" data-anchor-id="electronic-voting">Electronic Voting</h3>
-<p>Research in electronic voting has explored cryptographic mechanisms for verifiability, privacy, and trustworthy election processes.</p>
-<p>This line includes work on verifiable voting protocols and, more recently, the incorporation of post-quantum cryptography into electronic voting architectures.</p>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">IAC</h3>
+<p><em>Artificial Intelligence for CLARCIEV</em></p>
+<p>Artificial intelligence applied to the civil registration community represented by CLARCIEV, supporting access to specialized knowledge and services across the regional ecosystem.</p>
+<p><span class="project-topic">Artificial Intelligence</span> · <span class="project-topic">Civil Registration</span> · <span class="project-topic">CLARCIEV</span></p>
 </section>
-<section id="hash-based-digital-signatures" class="level3">
-<h3 class="anchored" data-anchor-id="hash-based-digital-signatures">Hash-Based Digital Signatures</h3>
-<p>Research on hash-based signatures has investigated efficient encodings and variants of the Winternitz signature family, including techniques for improving performance and reducing signature size.</p>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">LabREC / ON-RCPN</h3>
+<p>Research and technological development for the Brazilian civil registration ecosystem, connecting digital identity, electronic documents, digital signatures, artificial intelligence, and information security.</p>
+<p><span class="project-topic">Civil Registration</span> · <span class="project-topic">Digital Identity</span> · <span class="project-topic">Digital Signatures</span> · <span class="project-topic">Electronic Documents</span> · <span class="project-topic">Artificial Intelligence</span> · <span class="project-topic">Information Security</span></p>
+<section class="level4">
+<h4 class="anchored" data-anchor-id="">Related initiatives</h4>
 </section>
-<section id="cryptographic-protocols-and-security-infrastructures" class="level3">
-<h3 class="anchored" data-anchor-id="cryptographic-protocols-and-security-infrastructures">Cryptographic Protocols and Security Infrastructures</h3>
-<p>Several projects have addressed the design, implementation, and analysis of cryptographic protocols and security infrastructures.</p>
-<p>The emphasis is not only on cryptographic primitives, but also on their integration into operational systems involving identities, keys, authorization, audit, and governance.</p>
+<div class="project-children-grid">
+<section class="level4 project-child-card">
+<h4 class="anchored" data-anchor-id="">ARIA</h4>
+<p><em>Artificial Intelligence for Civil Registration</em></p>
+<p>Artificial intelligence for the Brazilian civil registration ecosystem, supporting specialized knowledge, services, and intelligent applications in the domain.</p>
+<p><span class="project-topic">Artificial Intelligence</span> · <span class="project-topic">Civil Registration</span> · <span class="project-topic">Information Security</span></p>
 </section>
+<section class="level4 project-child-card">
+<h4 class="anchored" data-anchor-id="">Intelligent OCR</h4>
+<p>Research and development of intelligent OCR methods for extracting, interpreting, and structuring information from civil registration and other electronic documents.</p>
+<p><span class="project-topic">Artificial Intelligence</span> · <span class="project-topic">OCR</span> · <span class="project-topic">Electronic Documents</span> · <span class="project-topic">Civil Registration</span></p>
 </section>
+</div>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Personal AI</h3>
+<p>Research on personal AI agents and the digital trust mechanisms required for identity, authentication, authorization, delegation, accountability, and auditable consequential digital actions.</p>
+<p><span class="project-topic">Artificial Intelligence</span> · <span class="project-topic">AI Agents</span> · <span class="project-topic">Digital Identity</span> · <span class="project-topic">Authorization</span> · <span class="project-topic">Accountability</span> · <span class="project-topic">Digital Trust</span></p>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Segurança, Eficiência e Controle na Gestão Documental (SecDoc)</h3>
+<p>Research on security, efficiency, and control in digital document management, including mechanisms for trustworthy processing, protection, and preservation of electronic documents.</p>
+<p><span class="project-topic">Electronic Documents</span> · <span class="project-topic">Digital Preservation</span> · <span class="project-topic">Information Security</span> · <span class="project-topic">Document Management</span></p>
+</section>
+</div>
+</section>
+</div>
 <section id="from-research-to-technology" class="level2">
 <h2 class="anchored" data-anchor-id="from-research-to-technology">From Research to Technology</h2>
-<p>An important characteristic of these projects is the connection between fundamental research and technological applications.</p>
-<p>The typical research cycle involves:</p>
-<p><strong>research question → formal model → protocol or algorithm → prototype → experimental evaluation → publication → technological application</strong></p>
-<p>Some projects result primarily in scientific publications. Others generate software, datasets, prototypes, technical reports, standards contributions, or operational systems.</p>
+<p>A recurring objective of these initiatives is to connect foundational research with deployable systems, standards, open implementations, and long-term digital infrastructures. Some completed projects continue to influence current work, either through technologies reused in new projects or through research questions that evolved into continuing research programs.</p>
 </section>
-<section id="project-archive" class="level2">
-<h2 class="anchored" data-anchor-id="project-archive">Project Archive</h2>
-<p>This page presents selected projects and research lines.</p>
-<p>A structured project archive is being developed to document previous projects, collaborations, research outputs, software, datasets, students, and related publications.</p>
-<p>The archive will progressively incorporate material from earlier academic websites, institutional records, research repositories, and personal academic collections.</p>
+<section class="level2 project-archive-generated">
+<h2 class="anchored" data-anchor-id="">Project Archive</h2>
+<p><em>30 historical projects</em></p>
+<p>Historical projects are grouped by starting year. An unknown closing year is shown as “?”.</p>
+<details class="project-period"><summary>2020–2026 (2)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Certificação Digital e Identidade Eletrônica · 2021–?</h4>
+<p><strong>Research</strong></p>
+<p>Projeto de pesquisa é o desenvolvimento de uma proposta de ICP e IdE integrados, permitindo que seus usuários tenham uma IdE útil, barata e moderna que faça uso de ICP sob-demanda e de forma transparente para o usuário. Projeto desenvolvido em parceria com o Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS ).</p>
+<p><em>Legacy: Results from this project led to new initiatives and continue to be applied in several current projects.</em></p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Segurança de Documentos Eletrônicos · 2021–?</h4>
+<p><strong>Research</strong></p>
+<p>Este projeto trata do problema de autenticidade, integridade, sigilo e preservação em longo prazo de documentos eletrônicos. Estamos interessado em novos métodos de assinatura digital de documentos eletrônicos. Tais métodos devem levar em consideração o uso de algoritmos de assinatura digital pós-quânticos e melhoria na forma de representação visual da assinatura digital. Em termos de sigilo, estamos interessados em como garantir o sigilo de documentos eletrônicos, tanto a curto prazo quanto em longo prazo. Estaremos estudando protocolos criptográficos adequados ao ciframento dos documentos, com possibilidade de gestão inteligente de chaves criptográficas. Faz parte o estudo e melhoria de sistemas de gerenciamento de chaves, voltados ao sigilo de documentos eletrônicos.</p>
+<p><em>Legacy: This project evolved into the continuing Electronic Document Security research program.</em></p>
+</section>
+</details>
+<details class="project-period"><summary>2010–2019 (14)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Capacitação dos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywapa, Ywyra e Hawa · 2018–2018</h4>
+<p><strong>Extension</strong></p>
+<p>Este projeto tem por objetivo realizar o Treinamento/ Capacitação aos Sistemas Ywapa Ywyra e Hawa, sistemas estes desenvolvidos pelo Laboratório de Segurança em Computação - LabSEC. A proposta é de realizar o treinamento no decorrer de sua a vigência a partir da assinatura do contrato. O professor coordenador e bolsistas desenvolvedores do projeto irão dar o treinamento a equipe do CMB possibilitando dessa forma passar o conhecimento necessário para a sua utilização.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Atualização do Verificador de Conformidade e Gerenciador de Políticas de Assinatura Digital · 2017–?</h4>
+<p><strong>Extension</strong></p>
+<p>O projeto tem por objetivo geral realizar a atualização, suporte e manutenção dos sistemas, "Verificador de Conformidade" e do Gerenciador de Políticas de Assinatura Digital" e como objetivo específico realizar as seguintes correções de erros e problemas encontrados nos sistemas: * Validação de formatos, para tratar arquivos dos quais não contenham assinaturas; * Carga de arquivos, apresentar o nome do arquivo no relatório da validação; * Mensagens em línguas estrangeiras, alteração de mensagens de erros em inglês; Tratamento de políticas vencidas, tratando assinaturas com políticas vencidas; Melhoria nas mensagens de erro, para melhor entendimento do usuário; *Melhoria na interface com o usuário, facilitando a interação com o usuário.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Autenticação Multifator · 2017–?</h4>
+<p><strong>Extension</strong></p>
+<p>O objetivo do projeto é entregar uma solução de autenticação multifator OTP (One Time Password) protegida por execução segura de código no kNET HSM.</p>
+<p><em>Legacy: Results from this project continue to be applied in several current projects.</em></p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte aos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywyra e Hawa - PRODEMGE · 2016–?</h4>
+<p><strong>Extension</strong></p>
+<p>Este projeto tem por objetivo realizar o suporte técnico aos sistemas Ywyra e Hawa, sistemas estes desenvolvidos pelo Laboratório de Segurança em Computação - LabSEC. A proposta é de realizar o suporte por 1 (hum) a partir da assinatura do contrato, sendo este tempo de suporte o mínimo aconselhável para que a equipe da PRODEMGE tenha condições de operar de forma autônoma e confidente os ambientes operacionais da AC. O suporte cobrirá todo o processo de instalação e configuração dos sistemas Ywyra e Hawa, assim como o uso e configuração dos equipamentos homologados de hardware tais como cartões, leitoras e HSMs para o correto funcionamento dos sistemas (excluindo-se os defeitos de responsabilidade dos fabricantes e suas consequências). O contrato de suporte não prevê o desenvolvimento de novas peças de software para adaptar o uso de novos equipamentos e/ou softwares. No entanto, as questões relativas ao uso do software e seu código serão cobertas sempre de forma a possibilitar que as equipes da contratante possam fazê-lo de forma independente. O LabSEC não produzirá artefatos de software, mas apenas orientará e tirará dúvidas manifestadas, usando para isso o ambiente operacional da contratante, replicado no LabSEC/UFSC.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Assinador PAdES ICP-Brasil BRy · 2015–2017</h4>
+<p><strong>Extension</strong></p>
+<p>Criação de uma biblioteca para trabalhar com assinaturas digitais no formato PAdES (PDF advanced electronic signature),que será um novo produto BRy. Implementar um protótipo para assinaturas digitais em navegadores web, utilizando e adaptando a biblioteca entregue anteriormente. Realizar uma revisão de literatura, a fim de mapear métodos de extensões e aplicativos para os navegadores Chrome, Firefox e Edge, bem como métodos de acesso a chave privada em dispositivos criptográficos e documentos em disco.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Manutenção dos Códigos de Referência do Padrão Brasileiro de Assinatura Digital · 2015–2016</h4>
+<p><strong>Extension</strong></p>
+<p>Realizar a manutenção e suporte dos seguintes sistemas: * Biblioteca de referência do Padrão Brasileiro de Assinatura Digital (PBAD; * Gerenciador de Políticas de Assinatura Digital; * Assinador de Lista de Políticas Aprovadas (LPA); * Verificador de Conformidade de Assinaturas Digitais com suporte a verificação de assinatura PAdES; * Assinador de Referência v2.0 com suporte a PAdES.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte e Avaliação de Adequabilidade Tecnológica dos Sistemas de Gerenciamento de Certificados Digitais Ywapa e Ywyra. · 2015–2016</h4>
+<p><strong>Extension</strong></p>
+<p>Este projeto tem como objetivo realizar o suporte e Avaliação de Adequabilidade Tecnológica dos 5(cinco)artefatos a seguir: Atualização da Biblioteca Criptográfica; Manutenção corretiva e de testes; Atualização do Sistema Operacional; Suporte a Cartões JavaCard; *Gestão de Chaves Simétricas;</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte e Capacitação dos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywapa, Ywyra e Hawa (Instituto FENACON) · 2015–2017</h4>
+<p><strong>Extension</strong></p>
+<p>Esta extensão tem por objetivo realizar o Suporte por um ano ao iniciar a implantação dos sistemas e Capacitação de recursos humanos para instalar, configurar, usar os sistemas de gerenciamento de certificados digitais Ywapa, Ywyra e Hawa, através de um treinamento avançado destes sistemas. A partir deste treinamento, os integrantes estarão aptos a instalar, configurar e colocar em operação autoridasdes certificadoras raiz, intermediárias e finais para a emissão de certificados.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Verificador de Conformidade, Gerador e Assinador de Políticas de Assinatura · 2015–2016</h4>
+<p><strong>Extension</strong></p>
+<p>Este projeto tem como objetivo realizar a manutenção e suporte aos seguintes sistemas: 1. Gerador e Assinador de Políticas de Assinatura Digital 2. Verificador de Conformidade de Assinaturas Digitais.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Consultoria para apoio ao desenvolvimento sob Ywapa e Ywyra · 2012–2013</h4>
+<p><strong>Extension</strong></p>
+<p>O LabSEC, que tem amplo conhecimento nas plataformas Ywapa e Ywyra do ITI, auxiliará a empresa Valid, usuária dessas plataformas, em suas dúvidas de desenvolvimento. - O objeto é a prestação de consultoria pelo LabSEC a respeito dos sistemas Ywapa e Ywyra, do ITI; - Pelo período dos três meses iniciais do projeto, em paralelo com a consultoria acima mencionada, também será desenvolvido pelo LabSEC o desenvolvimento de estudos visando possibilitar a importação do applet Muscle produzido pela empresa OpenSC para cartões javacard. Tais estudos indicarão como operacionalizar cartões Oberthur compatíveis com o ASI-HSM para que os mesmos se tornem compatíveis com a plataforma Ywyra. - A consultoria se dará por e-mail, telefone ou videoconferência (Skype) e o LabSEC - Todas as atividades executadas pelo LabSEC ocorrerão exclusivamente em dias úteis, nos horários de funcionamento da UFSC; - O LabSEC não produzirá artefatos de software, mas apenas orientará e tirará dúvidas manifestadas, usando para isso o ambiente replicado no Laboratório;</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Certificado de Identificação Mobile para acesso seguro a ambientes de telesaude e telemedicina · 2011–2014</h4>
+<p><strong>Research</strong></p>
+<p>O projeto tem por objetivo implementar mecanismos computacionais e múltiplas chaves de acesso que possam proporcionar segurança em transações, acessos e comando executados por profissionais de saúde me ambiente eletrônico. O processo deve ser executado através de dispositivos móveis tão presentes no quotidianos de tais profissionais.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Proposta de Treinamento para os softwares Ywapa e Ywyra · 2011–2011</h4>
+<p><strong>Extension</strong></p>
+<p>O Curso tem por objetivo capacitar e prover aos participantes treinamento avançado dos Sistemas Ywapa e Ywyra, a partir deste treinamento os integrantes estarão aptos a instalar, configurar e colocar em operação autoridades certificadoras raiz e intermediarias em modo offline. O curso também contempla os fundamentos teóricos e práticos mínimos necessários para o correto entendimento dos Sistemas de Gerenciamentos de certificados Digitais</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Autenticação Multifator em Sistemas Computacionais · 2010–2011</h4>
+<p><strong>Technological Development</strong></p>
+<p>Este projeto visa especificar, analisar e implementar um protocolo para realizar a autenticação de pessoas usando certificados digitais e, opcionalmente, sua impressão digital em um sistema computacional distribuído</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte a Infraestrutura de Chaves Públicas para Ensino e Pesquisa · 2010–?</h4>
+<p><strong>Extension</strong></p>
+<p>Melhorar e dar suporte as ferramentas e documentos relativos a implantação de uma infraestrutura de chaves públicas para ensino e pesquisa nas instituições de pesquisa e ensino brasileiras. Serão realizadas reuniões semanais por videoconferências com os responsáveis pelas autoridades certificados das universidades brasileiras credenciadas. Também será analisado documentos de políticas de certificação digital e de segurança dessas instituições, dando pareceres técnicos e ajuda na resolução de possíveis problemas.</p>
+</section>
+</details>
+<details class="project-period"><summary>2000–2009 (7)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Desenvolvimento de Códigos de Referência para o Padrão Brasileiro de Assinatura Digital · 2009–2011</h4>
+<p><strong>Technological Development</strong></p>
+<p>Desenvolver códigos abertos em linguagem de programação para orientar desenvolvedores de software na elaboração de aplicações de assinatura digital aderentes ao Padrão Brasileiro de Assinatura Digital.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Revisão do Padrão do Padrão Brasileiro de Assinatura Digital · 2009–2009</h4>
+<p><strong>Extension</strong></p>
+<p>Revisar o Padrão Brasileiro de Assinatura Digital de modo a torná-lo implementável na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">CONTRATO DE PRESTAÇÃO DE SERVIÇOS ESPECIALIZADO DE SUPORTE TÉCNICO DE SOFTWARE DE GERENCIAMENTO DE CERTIFICADO DIGITAL · 2008–2009</h4>
+<p><strong>Extension</strong></p>
+<p>Suporte Técnico as atividades necessárias para a operação dos sistemas: - Atualizações de programas; - Patches (correção de código); - Versões de manutenção geral; - Atualizações de documentação.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Projeto "Sala Cofre, Software e Procedimentos do Módulo Criptografico (MSC) para ICP-Brasil" · 2007–2009</h4>
+<p><strong>Extension</strong></p>
+<p>Desenvolvimento, implantação e testes de um sistema (software, sala cofre, procedimentos) de gestão de certificados digitais ao longo de todo o seu ciclo de vida: emissão, publicação e revogação em um ambiente seguro.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Programa João de Barro · 2005–2007</h4>
+<p><strong>Research</strong></p>
+<p>O módulo Sala Cofre e Sistema de Gerenciamento de Certificados Digitais e um sub-projeto do programa João de Barro do Instituto Nacional de Tecnologia da Informação - ITI.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">GT ICP-EDU II · 2004–2006</h4>
+<p><strong>Technological Development</strong></p>
+<p>O GT ICP-EDU tem por objetivo o desesnvolvimento e implamtação de uma Infra-estrutura de chaves públicas para as universidades brasileiras. Entre os produtos deste projeto estão um sistema para o gerenciamento do ciclo de vida de certificados digitais e uma plataforma criptográfica para a gestão sesgura de chaves criptográficas.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">GT ICP-EDU · 2003–2004</h4>
+<p><strong>Technological Development</strong></p>
+<p>O GT ICP-EDU tem por objetivo o desesnvolvimento e implamtação de uma Infra-estrutura de chaves públicas para as universidades brasileiras. Entre os produtos deste projeto estão um sistema para o gerenciamento do ciclo de vida de certificados digitais e uma plataforma criptográfica para a gestão sesgura de chaves criptográficas.</p>
+</section>
+</details>
+<details class="project-period"><summary>Before 2000 (7)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Autoridade de Certificação · 1999–2004</h4>
+<p><strong>Technological Development</strong></p>
+<p>Este projeto consiste no desenvolvimento de uma infra-estrutura de chave pública. Estamos usando os certificados digitais recomendados pelo CCITT X.509v3. O projeto está organizado em três módulo: o primeiro é a autoridade de certificação, responsável pela emissão do certificado digital. O segundo é a autoridade de registro, responsável em verificar a autenticidade do proprietário do certificado e autorizar a autoridade de certificação a emitir certificados digitais. O terceiro é o módulo público. Este útimo responsável pela interface com o usuário. Parte do sistema já está desenvolvido e o estamos utilizando no nosso departamento.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Cartório Virtual · 1999–2004</h4>
+<p><strong>Research</strong></p>
+<p>Trata-se de um ambiente que permitirá a implantação de um cartório na WEB. O projeto está organizado na forma de vários subprojetos. O subprojeto mais adianto é o da emissão de certidões de registro público. Em particular esta-se propondo uma série de protocolos criptográficos que permitirão a implementação de um protótipo.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Criptossitemas Caóticos · 1999–2001</h4>
+<p><strong>Research</strong></p>
+<p>Esta-se estudando a viabilidade de se usar séries caóticas como chave de encriptação. Assim poder-se-ia usar o "one time pad" como técnica eficiente de encriptação. O projeto de pesquisa visa a construção de criptossistemas caóticos e a compração de vários requisitos com os cifradores simétricos de bloco.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Modelo Simplificado de Cifradores de Bloco · 1999–2001</h4>
+<p><strong>Research</strong></p>
+<p>Neste projeto procuramos desenvolver modelos simplificados de cifradores simétricos de bloco. A primeira etapa da pesquisa consistiu na criação de uma metodologia com as principais caracteristicas e funcionalides que devem ser contempladas pelo modelo simplificado. Na segunda etapa estamos desenvolvendo dois modelos simplificados: o primeiro é um modelo simplificado do cifrador RC6 proposto pela empresa norteamericana RSA; o segundo é um modelo do cifrador Reijndal, cifrador este que está sendo definido como o próximo padrão AES. Os modelos simplificados terão várias utilidades, salientando-se uma descrição didática com vistas a facilitar o entendimento do cifrador pelos estudante e a possibilidade de analise da cifra, modificando algumas de suas característica com vistas a verificar possíveis fraquesas no algoritmo.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Projetos de Caixas S · 1999–2001</h4>
+<p><strong>Research</strong></p>
+<p>Estamos projetando as caixas S de cifradores simétricos usando algorítmos genéticos.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Protocoladora Digital de Documentos Eletrônicos · 1999–2008</h4>
+<p><strong>Research</strong></p>
+<p>Trata-se da datação de documentos eletrônicos. Procura-se definir protocolos que permitam a datação dos documentos a prova de entidades maliciosas. Já foram desenvolvidos alguns algoritmos que estão sendo formalizados.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Votação Digital · 1999–2008</h4>
+<p><strong>Research</strong></p>
+<p>Estamos desenvolvento um novo protocolo criptográfico, por nós denominado de Farnel, com o objetivo de viabilizar a implantação de um sistema de votação digital em redes de computadores. A idéia do Farnel partil da observação de como o sistema eleitoral brasileiro funciona. Nós criamos o conveito do voto digital assinado digitalmente e da urna digital. Esta última consiste de uma rede de mistura simulando a urna eleitoral trradiconal. Também está sendo implementado um protótipo com o protocolo sendo proposto na WEB e em WAP.</p>
+</section>
+</details>
 </section>
 <section id="related-resources" class="level2">
 <h2 class="anchored" data-anchor-id="related-resources">Related Resources</h2>
-<ul>
-<li><a href="./research.html">Research</a></li>
-<li><a href="./publications.html">Publications</a></li>
-<li><a href="./supervision.html">Supervision</a></li>
-<li><a href="./software.html">Software &amp; Data</a></li>
-<li><a href="./talks.html">Talks</a></li>
-<li><a href="./archive.html">Archive</a></li>
-</ul>
+<p>See also <a href="./research.html">Research</a>, <a href="./publications.html">Publications</a>, <a href="./software.html">Software &amp; Data</a>, <a href="./supervision.html">Supervision</a>, and <a href="./talks.html">Talks</a>.</p>
 
 
 </section>
