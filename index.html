@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -114,19 +114,159 @@ ul.task-list li input[type="checkbox"] {
   ]
 }
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+
+  let lang = "pt";
+  if (path === "/en" || path.startsWith("/en/")) lang = "en";
+  else if (path === "/es" || path.startsWith("/es/")) lang = "es";
+
+  const labels = {
+    pt: {
+      main: [
+        ["", "Início"],
+        ["about", "Sobre"],
+        ["research", "Pesquisa"],
+        ["publications", "Publicações"],
+        ["teaching", "Ensino"],
+        ["projects", "Projetos"]
+      ],
+      more: "Mais",
+      menu: [
+        ["books", "Livros & Textos"],
+        ["supervision", "Orientações"],
+        ["software", "Software & Dados"],
+        ["talks", "Palestras"],
+        ["archive", "Arquivo"],
+        ["contact", "Contato"]
+      ]
+    },
+
+    en: {
+      main: [
+        ["", "Home"],
+        ["about", "About"],
+        ["research", "Research"],
+        ["publications", "Publications"],
+        ["teaching", "Teaching"],
+        ["projects", "Projects"]
+      ],
+      more: "More",
+      menu: [
+        ["books", "Books & Texts"],
+        ["supervision", "Supervision"],
+        ["software", "Software & Data"],
+        ["talks", "Talks"],
+        ["archive", "Archive"],
+        ["contact", "Contact"]
+      ]
+    },
+
+    es: {
+      main: [
+        ["", "Inicio"],
+        ["about", "Acerca de"],
+        ["research", "Investigación"],
+        ["publications", "Publicaciones"],
+        ["teaching", "Docencia"],
+        ["projects", "Proyectos"]
+      ],
+      more: "Más",
+      menu: [
+        ["books", "Libros & Textos"],
+        ["supervision", "Supervisión"],
+        ["software", "Software & Datos"],
+        ["talks", "Charlas"],
+        ["archive", "Archivo"],
+        ["contact", "Contacto"]
+      ]
+    }
+  };
+
+  const L = labels[lang];
+
+  // Main navigation.
+  const navLinks = document.querySelectorAll(
+    ".navbar-nav .nav-link:not(.dropdown-toggle)"
+  );
+
+  L.main.forEach(function ([page, text], i) {
+    if (!navLinks[i]) return;
+
+    navLinks[i].textContent = text;
+    navLinks[i].href =
+      "/" + lang + "/" + (page ? page + "/" : "");
+  });
+
+  // "More" menu.
+  const more = document.querySelector(".navbar-nav .dropdown-toggle");
+
+  if (more) {
+    const moreText = more.querySelector(".menu-text");
+    if (moreText) {
+      moreText.textContent = L.more;
+    }
+
+    const menu = more.closest(".nav-item");
+    const items = menu
+      ? menu.querySelectorAll(".dropdown-menu .dropdown-item")
+      : [];
+
+    L.menu.forEach(function ([page, text], i) {
+      if (!items[i]) return;
+
+      items[i].textContent = text;
+      items[i].href = "/" + lang + "/" + page + "/";
+    });
+  }
+
+  // Language switcher preserving the equivalent page.
+  const match = path.match(/^\/(?:pt|en|es)(\/.*)?$/);
+  let suffix = match && match[1] ? match[1] : "/";
+
+  if (!suffix.endsWith("/")) suffix += "/";
+
+  const navbarRight = document.querySelector(
+    "#quarto-header .navbar .navbar-nav.ms-auto"
+  );
+
+  if (navbarRight) {
+    const item = document.createElement("li");
+    item.className = "nav-item language-switcher";
+
+    ["pt", "en", "es"].forEach(function (code, index) {
+      if (index > 0) {
+        item.appendChild(document.createTextNode(" · "));
+      }
+
+      const a = document.createElement("a");
+      a.href = "/" + code + suffix;
+      a.textContent = code.toUpperCase();
+
+      if (code === lang) {
+        a.className = "active";
+        a.setAttribute("aria-current", "page");
+      }
+
+      item.appendChild(a);
+    });
+
+    navbarRight.insertBefore(item, navbarRight.firstChild);
+  }
+});
+</script>
+<meta http-equiv="refresh" content="0; url=/pt/">
+<link rel="canonical" href="https://ricardocustodio.com.br/pt/">
 
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Ricardo Custódio">
 <meta property="og:description" content="Academic website of Ricardo Custódio: research on cryptography, digital trust, electronic identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and AI security.">
-<meta property="og:image" content="https://ricardocustodio.com.br/foto-minha.jpeg">
 <meta property="og:site_name" content="Ricardo Custódio">
-<meta property="og:image:alt" content="Ricardo Custódio">
 <meta name="twitter:title" content="Ricardo Custódio">
 <meta name="twitter:description" content="Academic website of Ricardo Custódio: research on cryptography, digital trust, electronic identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and AI security.">
-<meta name="twitter:image" content="https://ricardocustodio.com.br/foto-minha.jpeg">
-<meta name="twitter:image:alt" content="Ricardo Custódio">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -309,59 +449,59 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./pt/"> 
+<span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./pt/about/"> 
+<span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./pt/research/"> 
+<span class="menu-text">Pesquisa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="./pt/publications/"> 
+<span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./pt/teaching/"> 
+<span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./pt/projects/"> 
+<span class="menu-text">Projetos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">More</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-mais" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Mais</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-mais">    
         <li>
-    <a class="dropdown-item" href="./books.html">
- <span class="dropdown-text">Books &amp; Texts</span></a>
+    <a class="dropdown-item" href="./pt/books/">
+ <span class="dropdown-text">Livros &amp; Textos</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./supervision.html">
- <span class="dropdown-text">Supervision</span></a>
+    <a class="dropdown-item" href="./pt/supervision/">
+ <span class="dropdown-text">Orientações</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./software.html">
- <span class="dropdown-text">Software &amp; Data</span></a>
+    <a class="dropdown-item" href="./pt/software/">
+ <span class="dropdown-text">Software &amp; Dados</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./talks.html">
- <span class="dropdown-text">Talks</span></a>
+    <a class="dropdown-item" href="./pt/talks/">
+ <span class="dropdown-text">Palestras</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./archive.html">
- <span class="dropdown-text">Archive</span></a>
+    <a class="dropdown-item" href="./pt/archive/">
+ <span class="dropdown-text">Arquivo</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./contact.html">
- <span class="dropdown-text">Contact</span></a>
+    <a class="dropdown-item" href="./pt/contact/">
+ <span class="dropdown-text">Contato</span></a>
   </li>  
     </ul>
   </li>
@@ -406,116 +546,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="hero">
-<section id="ricardo-custódio" class="level1 hero-content">
-<h1>Ricardo Custódio</h1>
-<section id="professor-researcher-advisor" class="level2">
-<h2 class="anchored" data-anchor-id="professor-researcher-advisor">Professor · Researcher · Advisor</h2>
-<p>I work on the foundations and infrastructures of <strong>digital trust</strong>: cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security for artificial-intelligence agents.</p>
-<p>My research connects mathematical foundations with architectures, technological artifacts, and real-world trust ecosystems.</p>
-<div class="hero-actions">
-<p><a href="./about.html" class="btn btn-primary">About me</a> <a href="./research.html" class="btn btn-outline-primary">Research</a> <a href="./publications.html" class="btn btn-outline-primary">Publications</a></p>
-</div>
-<div class="academic-links">
-<p><a href="https://orcid.org/0000-0001-9611-5694">ORCID</a> · <a href="http://lattes.cnpq.br/9716092379282146">Lattes</a> · <a href="https://scholar.google.com/citations?user=l29lg_IAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://github.com/rfcustodio">GitHub</a> · <a href="https://www.linkedin.com/in/rfcustodio/">LinkedIn</a></p>
-</div>
-</section>
-</section>
-<div class="hero-photo">
-<p><img src="foto-minha.jpeg" class="img-fluid" alt="Ricardo Custódio"></p>
-</div>
-</div>
-<section id="research" class="level2 home-intro">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
-<p>My research asks a broad question: <strong>how can computation be made trustworthy?</strong></p>
-<p>This question has guided work on cryptographic mechanisms, secure electronic documents, digital signatures and PKI, electronic identity, post-quantum transition, and, more recently, identity and authorization for AI agents.</p>
-<p><a href="./research.html">Explore the research program →</a></p>
-</section>
-<div class="home-research-grid">
-<section id="cryptography-finite-fields" class="level3 home-topic-card">
-<h3 class="anchored" data-anchor-id="cryptography-finite-fields">Cryptography &amp; Finite Fields</h3>
-<p>Cryptographic protocols, implementation foundations, binary extension fields, irreducible polynomials, and efficient arithmetic.</p>
-<p><a href="./research.html#research-foundations">Research →</a></p>
-</section>
-<section id="digital-signatures-pki" class="level3 home-topic-card">
-<h3 class="anchored" data-anchor-id="digital-signatures-pki">Digital Signatures &amp; PKI</h3>
-<p>Digital signatures, certificates, trust infrastructures, hardware security modules, signature policies, and long-term verification.</p>
-<p><a href="./research.html#digital-trust">Research →</a></p>
-</section>
-<section id="identity-electronic-documents" class="level3 home-topic-card">
-<h3 class="anchored" data-anchor-id="identity-electronic-documents">Identity &amp; Electronic Documents</h3>
-<p>Electronic identity, credentials, authentication, authorization, document authenticity, confidentiality, provenance, and preservation.</p>
-<p><a href="./research.html#electronic-identity">Research →</a></p>
-</section>
-<section id="post-quantum-security" class="level3 home-topic-card">
-<h3 class="anchored" data-anchor-id="post-quantum-security">Post-Quantum Security</h3>
-<p>Migration of certificates, protocols, identity systems, signatures, and long-lived electronic evidence to post-quantum cryptography.</p>
-<p><a href="./research.html#post-quantum-cryptography">Research →</a></p>
-</section>
-<section id="ai-agents-digital-trust" class="level3 home-topic-card">
-<h3 class="anchored" data-anchor-id="ai-agents-digital-trust">AI, Agents &amp; Digital Trust</h3>
-<p>Identity, delegation, authorization, accountability, and auditability for autonomous and semi-autonomous AI agents.</p>
-<p><a href="./research.html#artificial-intelligence-security">Research →</a></p>
-</section>
-</div>
-<section id="explore-the-academic-record" class="level2 home-collections">
-<h2 class="anchored" data-anchor-id="explore-the-academic-record">Explore the Academic Record</h2>
-<p>The site is organized as a set of connected academic collections rather than as a single curriculum vitae.</p>
-<div class="home-collection-grid">
-<section id="publications" class="level3 home-collection-card">
-<h3 class="anchored" data-anchor-id="publications">Publications</h3>
-<p>Scholarly publications, selected works, and research areas.</p>
-<p><a href="./publications.html">Browse publications →</a></p>
-</section>
-<section id="projects" class="level3 home-collection-card">
-<h3 class="anchored" data-anchor-id="projects">Projects</h3>
-<p>Research projects and technological development across different periods.</p>
-<p><a href="./projects.html">Browse projects →</a></p>
-</section>
-<section id="supervision" class="level3 home-collection-card">
-<h3 class="anchored" data-anchor-id="supervision">Supervision</h3>
-<p>Master’s and doctoral research and the academic genealogy around LabSEC.</p>
-<p><a href="./supervision.html">Browse supervision →</a></p>
-</section>
-<section id="software-data" class="level3 home-collection-card">
-<h3 class="anchored" data-anchor-id="software-data">Software &amp; Data</h3>
-<p>Research software, prototypes, reference implementations, and technological artifacts.</p>
-<p><a href="./software.html">Browse software &amp; data →</a></p>
-</section>
-<section id="books-texts" class="level3 home-collection-card">
-<h3 class="anchored" data-anchor-id="books-texts">Books &amp; Texts</h3>
-<p>Books, technical texts, reports, and longer-form academic material.</p>
-<p><a href="./books.html">Browse books &amp; texts →</a></p>
-</section>
-<section id="teaching" class="level3 home-collection-card">
-<h3 class="anchored" data-anchor-id="teaching">Teaching</h3>
-<p>Courses, teaching trajectory, and selected educational resources.</p>
-<p><a href="./teaching.html">Browse teaching →</a></p>
-</section>
-<section id="talks" class="level3 home-collection-card">
-<h3 class="anchored" data-anchor-id="talks">Talks</h3>
-<p>Selected talks, presentations, workshops, and historical speaking record.</p>
-<p><a href="./talks.html">Browse talks →</a></p>
-</section>
-<section id="academic-archive" class="level3 home-collection-card archive-card">
-<h3 class="anchored" data-anchor-id="academic-archive">Academic Archive</h3>
-<p>A historical view connecting research themes, projects, publications, software, students, texts, and talks.</p>
-<p><a href="./archive.html">Explore the archive →</a></p>
-</section>
-</div>
-</section>
-<section id="from-engineering-to-digital-trust" class="level2 home-trajectory">
-<h2 class="anchored" data-anchor-id="from-engineering-to-digital-trust">From Engineering to Digital Trust</h2>
-<p>My academic trajectory began in electrical engineering and industrial automation, moved through scientific computing and cryptography, and developed into a long-term research program on computer security and digital trust.</p>
-<p>Since 2000, much of this work has been developed through the <strong>Laboratory for Computer Security (LabSEC)</strong> at the Federal University of Santa Catarina, combining research, student supervision, and technological development.</p>
-<p><a href="./about.html">Read the academic trajectory →</a></p>
-</section>
-<section id="an-academic-memory-not-only-a-website" class="level2 home-archive-callout">
-<h2 class="anchored" data-anchor-id="an-academic-memory-not-only-a-website">An Academic Memory, Not Only a Website</h2>
-<p>This site is designed as a long-term scholarly record. Publications are only one part of that record. Projects, software, technical texts, courses, talks, supervision, and unfinished research directions also document how ideas develop over time.</p>
-<p>The <strong>Academic Archive</strong> connects these records into historical periods and research genealogies.</p>
-<p><a href="./archive.html">Enter the Academic Archive →</a></p>
-</section>
+<script>
+window.location.replace("/pt/");
+</script>
+<p>Caso o redirecionamento não ocorra automaticamente, acesse a <a href="./pt/">versão em português</a>.</p>
 
 
 

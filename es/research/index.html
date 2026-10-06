@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -44,9 +44,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -112,12 +112,153 @@ ul.task-list li input[type="checkbox"] {
     "Artificial Intelligence Security"
   ]
 }
+</script><script>
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+
+  let lang = "pt";
+  if (path === "/en" || path.startsWith("/en/")) lang = "en";
+  else if (path === "/es" || path.startsWith("/es/")) lang = "es";
+
+  const labels = {
+    pt: {
+      main: [
+        ["", "Início"],
+        ["about", "Sobre"],
+        ["research", "Pesquisa"],
+        ["publications", "Publicações"],
+        ["teaching", "Ensino"],
+        ["projects", "Projetos"]
+      ],
+      more: "Mais",
+      menu: [
+        ["books", "Livros & Textos"],
+        ["supervision", "Orientações"],
+        ["software", "Software & Dados"],
+        ["talks", "Palestras"],
+        ["archive", "Arquivo"],
+        ["contact", "Contato"]
+      ]
+    },
+
+    en: {
+      main: [
+        ["", "Home"],
+        ["about", "About"],
+        ["research", "Research"],
+        ["publications", "Publications"],
+        ["teaching", "Teaching"],
+        ["projects", "Projects"]
+      ],
+      more: "More",
+      menu: [
+        ["books", "Books & Texts"],
+        ["supervision", "Supervision"],
+        ["software", "Software & Data"],
+        ["talks", "Talks"],
+        ["archive", "Archive"],
+        ["contact", "Contact"]
+      ]
+    },
+
+    es: {
+      main: [
+        ["", "Inicio"],
+        ["about", "Acerca de"],
+        ["research", "Investigación"],
+        ["publications", "Publicaciones"],
+        ["teaching", "Docencia"],
+        ["projects", "Proyectos"]
+      ],
+      more: "Más",
+      menu: [
+        ["books", "Libros & Textos"],
+        ["supervision", "Supervisión"],
+        ["software", "Software & Datos"],
+        ["talks", "Charlas"],
+        ["archive", "Archivo"],
+        ["contact", "Contacto"]
+      ]
+    }
+  };
+
+  const L = labels[lang];
+
+  // Main navigation.
+  const navLinks = document.querySelectorAll(
+    ".navbar-nav .nav-link:not(.dropdown-toggle)"
+  );
+
+  L.main.forEach(function ([page, text], i) {
+    if (!navLinks[i]) return;
+
+    navLinks[i].textContent = text;
+    navLinks[i].href =
+      "/" + lang + "/" + (page ? page + "/" : "");
+  });
+
+  // "More" menu.
+  const more = document.querySelector(".navbar-nav .dropdown-toggle");
+
+  if (more) {
+    const moreText = more.querySelector(".menu-text");
+    if (moreText) {
+      moreText.textContent = L.more;
+    }
+
+    const menu = more.closest(".nav-item");
+    const items = menu
+      ? menu.querySelectorAll(".dropdown-menu .dropdown-item")
+      : [];
+
+    L.menu.forEach(function ([page, text], i) {
+      if (!items[i]) return;
+
+      items[i].textContent = text;
+      items[i].href = "/" + lang + "/" + page + "/";
+    });
+  }
+
+  // Language switcher preserving the equivalent page.
+  const match = path.match(/^\/(?:pt|en|es)(\/.*)?$/);
+  let suffix = match && match[1] ? match[1] : "/";
+
+  if (!suffix.endsWith("/")) suffix += "/";
+
+  const navbarRight = document.querySelector(
+    "#quarto-header .navbar .navbar-nav.ms-auto"
+  );
+
+  if (navbarRight) {
+    const item = document.createElement("li");
+    item.className = "nav-item language-switcher";
+
+    ["pt", "en", "es"].forEach(function (code, index) {
+      if (index > 0) {
+        item.appendChild(document.createTextNode(" · "));
+      }
+
+      const a = document.createElement("a");
+      a.href = "/" + code + suffix;
+      a.textContent = code.toUpperCase();
+
+      if (code === lang) {
+        a.className = "active";
+        a.setAttribute("aria-current", "page");
+      }
+
+      item.appendChild(a);
+    });
+
+    navbarRight.insertBefore(item, navbarRight.firstChild);
+  }
+});
 </script>
 <link rel="canonical" href="https://ricardocustodio.com.br/es/research/">
 <link rel="alternate" hreflang="en" href="https://ricardocustodio.com.br/en/research/">
 <link rel="alternate" hreflang="pt-BR" href="https://ricardocustodio.com.br/pt/research/">
 <link rel="alternate" hreflang="es" href="https://ricardocustodio.com.br/es/research/">
-<link rel="alternate" hreflang="x-default" href="https://ricardocustodio.com.br/en/research/">
+<link rel="alternate" hreflang="x-default" href="https://ricardocustodio.com.br/pt/research/">
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -309,59 +450,59 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../pt/"> 
+<span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../pt/about/"> 
+<span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../../pt/research/"> 
+<span class="menu-text">Pesquisa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html"> 
-<span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../pt/publications/"> 
+<span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html"> 
-<span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="../../pt/teaching/"> 
+<span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../../pt/projects/"> 
+<span class="menu-text">Projetos</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">More</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-mais" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Mais</span>
     </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-mais">    
         <li>
-    <a class="dropdown-item" href="../../books.html">
- <span class="dropdown-text">Books &amp; Texts</span></a>
+    <a class="dropdown-item" href="../../pt/books/">
+ <span class="dropdown-text">Livros &amp; Textos</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../supervision.html">
- <span class="dropdown-text">Supervision</span></a>
+    <a class="dropdown-item" href="../../pt/supervision/">
+ <span class="dropdown-text">Orientações</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../software.html">
- <span class="dropdown-text">Software &amp; Data</span></a>
+    <a class="dropdown-item" href="../../pt/software/">
+ <span class="dropdown-text">Software &amp; Dados</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../talks.html">
- <span class="dropdown-text">Talks</span></a>
+    <a class="dropdown-item" href="../../pt/talks/">
+ <span class="dropdown-text">Palestras</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../archive.html">
- <span class="dropdown-text">Archive</span></a>
+    <a class="dropdown-item" href="../../pt/archive/">
+ <span class="dropdown-text">Arquivo</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../contact.html">
- <span class="dropdown-text">Contact</span></a>
+    <a class="dropdown-item" href="../../pt/contact/">
+ <span class="dropdown-text">Contato</span></a>
   </li>  
     </ul>
   </li>
@@ -432,9 +573,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="language-switch">
-<a href="../../pt/research/">PT</a> · <a href="../../en/research/">EN</a> · <strong>ES</strong>
-</div>
 <p>Mi investigación se organiza alrededor de una pregunta amplia: <strong>¿cómo podemos hacer que la computación sea confiable?</strong></p>
 <p>A lo largo del tiempo, esta pregunta ha conectado fundamentos matemáticos, mecanismos criptográficos, documentos electrónicos, firmas digitales, infraestructuras de clave pública, identidad electrónica, criptografía poscuántica y, más recientemente, agentes de inteligencia artificial.</p>
 <p>Las áreas siguientes no son temas independientes. Forman un conjunto de problemas relacionados con la <strong>confianza digital</strong>: cómo identidades, acciones, documentos, credenciales y procesos computacionales pueden ser autenticados, autorizados, protegidos, verificados, preservados y auditados.</p>

@@ -788,3 +788,19 @@ body,
 .home-archive-callout p {
   color: inherit;
 }
+
+/* Language switcher */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 0.75rem;
+}
+
+.language-switcher a {
+  text-decoration: none;
+}
+
+.language-switcher a.active {
+  font-weight: 700;
+}
