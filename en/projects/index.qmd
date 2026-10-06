@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/projects/"
 ---
 
-<div class="language-switch">[PT](../../pt/projects/) · **EN** · [ES](../../es/projects/)</div>
 
 
 My research has often been developed through long-term initiatives that connect

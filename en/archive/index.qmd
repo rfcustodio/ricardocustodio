@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/archive/"
 ---
 
-<div class="language-switch">[PT](../../pt/archive/) · **EN** · [ES](../../es/archive/)</div>
 
 
 My academic work has developed across engineering, scientific computing, cryptography, electronic documents, digital signatures, identity, post-quantum cryptography, and artificial intelligence.

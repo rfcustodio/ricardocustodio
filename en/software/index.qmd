@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/software/"
 ---
 
-<div class="language-switch">[PT](../../pt/software/) · **EN** · [ES](../../es/software/)</div>
 
 
 My research has produced software, technological platforms, digital infrastructures, prototypes, reference implementations, and other artifacts. This page preserves both current work and the technological history behind it.

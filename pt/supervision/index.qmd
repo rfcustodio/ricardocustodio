@@ -7,7 +7,6 @@ filters:
 canonical-path: "/pt/supervision/"
 ---
 
-<div class="language-switch">**PT** · [EN](../../en/supervision/) · [ES](../../es/supervision/)</div>
 
 Minha atuação em orientação acadêmica tem se concentrado principalmente em criptografia, segurança da informação, identidade digital, assinaturas digitais, documentos eletrônicos e áreas relacionadas da Ciência da Computação.
 

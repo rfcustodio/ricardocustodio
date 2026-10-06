@@ -7,7 +7,6 @@ filters:
 canonical-path: "/pt/books/"
 ---
 
-<div class="language-switch">**PT** · [EN](../../en/books/) · [ES](../../es/books/)</div>
 
 Esta seção reúne livros, capítulos, textos técnicos e científicos, materiais didáticos e trabalhos profissionais selecionados produzidos ao longo da minha carreira acadêmica.
 

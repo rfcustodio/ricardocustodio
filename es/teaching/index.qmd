@@ -7,7 +7,6 @@ filters:
 canonical-path: "/es/teaching/"
 ---
 
-<div class="language-switch">[PT](../../pt/teaching/) · [EN](../../en/teaching/) · **ES**</div>
 
 Mi docencia conecta fundamentos matemáticos, seguridad de la información, criptografía, identidad digital y aplicaciones emergentes de inteligencia artificial. Esta página presenta asignaturas actuales y recientes seleccionadas junto con un registro histórico curado de actividades docentes y recursos educativos.
 

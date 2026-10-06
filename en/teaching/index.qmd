@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/teaching/"
 ---
 
-<div class="language-switch">[PT](../../pt/teaching/) · **EN** · [ES](../../es/teaching/)</div>
 
 
 My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources.

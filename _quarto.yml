@@ -15,34 +15,34 @@ website:
 
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: teaching.qmd
-        text: Teaching
-      - href: projects.qmd
-        text: Projects
+      - href: /pt/
+        text: Início
+      - href: /pt/about/
+        text: Sobre
+      - href: /pt/research/
+        text: Pesquisa
+      - href: /pt/publications/
+        text: Publicações
+      - href: /pt/teaching/
+        text: Ensino
+      - href: /pt/projects/
+        text: Projetos
 
     right:
-      - text: More
+      - text: Mais
         menu:
-          - href: books.qmd
-            text: Books & Texts
-          - href: supervision.qmd
-            text: Supervision
-          - href: software.qmd
-            text: Software & Data
-          - href: talks.qmd
-            text: Talks
-          - href: archive.qmd
-            text: Archive
-          - href: contact.qmd
-            text: Contact
+          - href: /pt/books/
+            text: Livros & Textos
+          - href: /pt/supervision/
+            text: Orientações
+          - href: /pt/software/
+            text: Software & Dados
+          - href: /pt/talks/
+            text: Palestras
+          - href: /pt/archive/
+            text: Arquivo
+          - href: /pt/contact/
+            text: Contato
 
   search: true
   back-to-top-navigation: true
@@ -65,6 +65,7 @@ format:
     toc: true
     include-in-header:
       - person-jsonld.html
+      - navbar-i18n.html
     author-meta: "Ricardo Custódio"
     keywords:
       - cryptography

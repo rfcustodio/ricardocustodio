@@ -7,7 +7,6 @@ filters:
 canonical-path: "/es/software/"
 ---
 
-<div class="language-switch">[PT](../../pt/software/) · [EN](../../en/software/) · **ES**</div>
 
 Mi investigación ha producido software, plataformas tecnológicas, infraestructuras digitales, prototipos, implementaciones de referencia y otros artefactos. Esta página preserva tanto el trabajo actual como la historia tecnológica que lo precede.
 

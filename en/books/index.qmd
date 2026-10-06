@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/books/"
 ---
 
-<div class="language-switch">[PT](../../pt/books/) · **EN** · [ES](../../es/books/)</div>
 
 
 This section brings together books, chapters, technical and scientific texts, teaching materials, and selected professional works produced throughout my academic career.

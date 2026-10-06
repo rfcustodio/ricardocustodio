@@ -7,7 +7,6 @@ filters:
 canonical-path: "/pt/archive/"
 ---
 
-<div class="language-switch">**PT** · [EN](../../en/archive/) · [ES](../../es/archive/)</div>
 
 Meu trabalho acadêmico se desenvolveu entre engenharia, computação científica, criptografia, documentos eletrônicos, assinaturas digitais, identidade, criptografia pós-quântica e inteligência artificial.
 

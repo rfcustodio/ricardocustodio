@@ -7,7 +7,6 @@ filters:
 canonical-path: "/es/archive/"
 ---
 
-<div class="language-switch">[PT](../../pt/archive/) · [EN](../../en/archive/) · **ES**</div>
 
 Mi trabajo académico se ha desarrollado entre la ingeniería, la computación científica, la criptografía, los documentos electrónicos, las firmas digitales, la identidad, la criptografía poscuántica y la inteligencia artificial.
 

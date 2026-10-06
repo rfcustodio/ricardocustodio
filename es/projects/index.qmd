@@ -7,7 +7,6 @@ filters:
 canonical-path: "/es/projects/"
 ---
 
-<div class="language-switch">[PT](../../pt/projects/) · [EN](../../en/projects/) · **ES**</div>
 
 Mi investigación se ha desarrollado con frecuencia a través de iniciativas de largo plazo que conectan la investigación fundamental, el desarrollo tecnológico, la infraestructura, los estándares y las aplicaciones en el mundo real.
 

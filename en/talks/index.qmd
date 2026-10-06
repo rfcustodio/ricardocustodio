@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/talks/"
 ---
 
-<div class="language-switch">[PT](../../pt/talks/) · **EN** · [ES](../../es/talks/)</div>
 
 
 Invited talks, conference presentations, panels, tutorials, workshops, and professional presentations form an important part of my academic and technical activity.

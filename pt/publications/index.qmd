@@ -7,7 +7,6 @@ filters:
 canonical-path: "/pt/publications/"
 ---
 
-<div class="language-switch">**PT** · [EN](../../en/publications/) · [ES](../../es/publications/)</div>
 
 Meu registro de publicações abrange criptografia, infraestrutura de chaves públicas, assinaturas digitais, documentos eletrônicos, identidade digital, criptografia pós-quântica e pesquisas anteriores em computação, redes e análise de sinais.
 

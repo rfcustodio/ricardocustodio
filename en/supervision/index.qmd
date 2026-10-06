@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/supervision/"
 ---
 
-<div class="language-switch">[PT](../../pt/supervision/) · **EN** · [ES](../../es/supervision/)</div>
 
 
 My academic supervision has focused primarily on cryptography, information security, digital identity, digital signatures, electronic documents, and related areas of computer science.

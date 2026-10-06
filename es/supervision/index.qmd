@@ -7,7 +7,6 @@ filters:
 canonical-path: "/es/supervision/"
 ---
 
-<div class="language-switch">[PT](../../pt/supervision/) · [EN](../../en/supervision/) · **ES**</div>
 
 Mi actividad de dirección académica se ha concentrado principalmente en criptografía, seguridad de la información, identidad digital, firmas digitales, documentos electrónicos y áreas relacionadas con la Informática.
 

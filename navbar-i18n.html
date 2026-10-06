@@ -1,0 +1,142 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const path = window.location.pathname;
+
+  let lang = "pt";
+  if (path === "/en" || path.startsWith("/en/")) lang = "en";
+  else if (path === "/es" || path.startsWith("/es/")) lang = "es";
+
+  const labels = {
+    pt: {
+      main: [
+        ["", "Início"],
+        ["about", "Sobre"],
+        ["research", "Pesquisa"],
+        ["publications", "Publicações"],
+        ["teaching", "Ensino"],
+        ["projects", "Projetos"]
+      ],
+      more: "Mais",
+      menu: [
+        ["books", "Livros & Textos"],
+        ["supervision", "Orientações"],
+        ["software", "Software & Dados"],
+        ["talks", "Palestras"],
+        ["archive", "Arquivo"],
+        ["contact", "Contato"]
+      ]
+    },
+
+    en: {
+      main: [
+        ["", "Home"],
+        ["about", "About"],
+        ["research", "Research"],
+        ["publications", "Publications"],
+        ["teaching", "Teaching"],
+        ["projects", "Projects"]
+      ],
+      more: "More",
+      menu: [
+        ["books", "Books & Texts"],
+        ["supervision", "Supervision"],
+        ["software", "Software & Data"],
+        ["talks", "Talks"],
+        ["archive", "Archive"],
+        ["contact", "Contact"]
+      ]
+    },
+
+    es: {
+      main: [
+        ["", "Inicio"],
+        ["about", "Acerca de"],
+        ["research", "Investigación"],
+        ["publications", "Publicaciones"],
+        ["teaching", "Docencia"],
+        ["projects", "Proyectos"]
+      ],
+      more: "Más",
+      menu: [
+        ["books", "Libros & Textos"],
+        ["supervision", "Supervisión"],
+        ["software", "Software & Datos"],
+        ["talks", "Charlas"],
+        ["archive", "Archivo"],
+        ["contact", "Contacto"]
+      ]
+    }
+  };
+
+  const L = labels[lang];
+
+  // Main navigation.
+  const navLinks = document.querySelectorAll(
+    ".navbar-nav .nav-link:not(.dropdown-toggle)"
+  );
+
+  L.main.forEach(function ([page, text], i) {
+    if (!navLinks[i]) return;
+
+    navLinks[i].textContent = text;
+    navLinks[i].href =
+      "/" + lang + "/" + (page ? page + "/" : "");
+  });
+
+  // "More" menu.
+  const more = document.querySelector(".navbar-nav .dropdown-toggle");
+
+  if (more) {
+    const moreText = more.querySelector(".menu-text");
+    if (moreText) {
+      moreText.textContent = L.more;
+    }
+
+    const menu = more.closest(".nav-item");
+    const items = menu
+      ? menu.querySelectorAll(".dropdown-menu .dropdown-item")
+      : [];
+
+    L.menu.forEach(function ([page, text], i) {
+      if (!items[i]) return;
+
+      items[i].textContent = text;
+      items[i].href = "/" + lang + "/" + page + "/";
+    });
+  }
+
+  // Language switcher preserving the equivalent page.
+  const match = path.match(/^\/(?:pt|en|es)(\/.*)?$/);
+  let suffix = match && match[1] ? match[1] : "/";
+
+  if (!suffix.endsWith("/")) suffix += "/";
+
+  const navbarRight = document.querySelector(
+    "#quarto-header .navbar .navbar-nav.ms-auto"
+  );
+
+  if (navbarRight) {
+    const item = document.createElement("li");
+    item.className = "nav-item language-switcher";
+
+    ["pt", "en", "es"].forEach(function (code, index) {
+      if (index > 0) {
+        item.appendChild(document.createTextNode(" · "));
+      }
+
+      const a = document.createElement("a");
+      a.href = "/" + code + suffix;
+      a.textContent = code.toUpperCase();
+
+      if (code === lang) {
+        a.className = "active";
+        a.setAttribute("aria-current", "page");
+      }
+
+      item.appendChild(a);
+    });
+
+    navbarRight.insertBefore(item, navbarRight.firstChild);
+  }
+});
+</script>

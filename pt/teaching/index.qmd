@@ -7,7 +7,6 @@ filters:
 canonical-path: "/pt/teaching/"
 ---
 
-<div class="language-switch">**PT** · [EN](../../en/teaching/) · [ES](../../es/teaching/)</div>
 
 Meu ensino conecta fundamentos matemáticos, segurança da informação, criptografia, identidade digital e aplicações emergentes de inteligência artificial. Esta página apresenta disciplinas atuais e recentes selecionadas, juntamente com um registro histórico curado de atividades de ensino e recursos educacionais.
 

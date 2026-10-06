@@ -7,7 +7,6 @@ filters:
   - ../../filters/i18n-head.lua
 ---
 
-<div class="language-switch">**PT** · [EN](../../en/research/) · [ES](../../es/research/)</div>
 
 Minha pesquisa está organizada em torno de uma questão ampla: **como podemos tornar a computação confiável?**
 

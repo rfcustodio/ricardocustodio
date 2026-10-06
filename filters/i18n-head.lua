@@ -38,7 +38,7 @@ function Meta(meta)
     '<link rel="alternate" hreflang="en" href="' .. url_for("en") .. '">',
     '<link rel="alternate" hreflang="pt-BR" href="' .. url_for("pt") .. '">',
     '<link rel="alternate" hreflang="es" href="' .. url_for("es") .. '">',
-    '<link rel="alternate" hreflang="x-default" href="' .. (suffix == "/" and (base .. "/") or url_for("en")) .. '">'
+    '<link rel="alternate" hreflang="x-default" href="' .. (suffix == "/" and (base .. "/") or url_for("pt")) .. '">'
   }, "\n")
 
   local seo = meta_raw_html(html)

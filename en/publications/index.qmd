@@ -7,7 +7,6 @@ filters:
 canonical-path: "/en/publications/"
 ---
 
-<div class="language-switch">[PT](../../pt/publications/) · **EN** · [ES](../../es/publications/)</div>
 
 
 My publication record spans cryptography, public-key infrastructure, digital signatures, electronic documents, digital identity, post-quantum cryptography, and earlier research in computing, networks, and signal analysis.

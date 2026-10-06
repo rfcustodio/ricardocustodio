@@ -6,7 +6,6 @@ filters:
   - ../../filters/i18n-head.lua
 ---
 
-<div class="language-switch">[PT](../../pt/contact/) · **EN** · [ES](../../es/contact/)</div>
 
 
 For academic inquiries, research collaboration, technical discussions, and professional activities, the channels below provide the most appropriate points of contact.
