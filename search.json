@@ -179,7 +179,7 @@
     "href": "pt/index.html#explore-o-registro-acadêmico",
     "title": "Ricardo Custódio",
     "section": "Explore o Registro Acadêmico",
-    "text": "Explore o Registro Acadêmico\nO site é organizado como um conjunto de coleções acadêmicas interconectadas, e não apenas como um currículo.\nPublicações · Projetos · Orientações · Software e Dados · Livros e Textos · Ensino · Palestras · Arquivo Acadêmico"
+    "text": "Explore o Registro Acadêmico\nO site é organizado como um conjunto de coleções acadêmicas interconectadas, e não apenas como um currículo.\n\n\nPublicações\nPublicações científicas, trabalhos selecionados e áreas de pesquisa.\nExplore as publicações →\n\n\nProjetos\nProjetos de pesquisa e desenvolvimento tecnológico desenvolvidos em diferentes períodos.\nExplore os projetos →\n\n\nOrientações\nPesquisas de mestrado e doutorado e a genealogia acadêmica em torno do LabSEC.\nExplore as orientações →\n\n\nSoftware e Dados\nSoftware de pesquisa, protótipos, implementações de referência e artefatos tecnológicos.\nExplore software e dados →\n\n\nLivros e Textos\nLivros, textos técnicos, relatórios e materiais acadêmicos de maior extensão.\nExplore livros e textos →\n\n\nEnsino\nDisciplinas, trajetória docente e recursos educacionais selecionados.\nExplore o ensino →\n\n\nPalestras\nPalestras, apresentações, workshops e o registro histórico de atividades de divulgação.\nExplore as palestras →\n\n\nArquivo Acadêmico\nUma visão histórica que conecta temas de pesquisa, projetos, publicações, software, orientandos, textos e palestras.\nExplore o arquivo →"
   },
   {
     "objectID": "pt/index.html#da-engenharia-à-confiança-digital",
@@ -192,8 +192,8 @@
     "objectID": "pt/index.html#uma-memória-acadêmica-não-apenas-um-site",
     "href": "pt/index.html#uma-memória-acadêmica-não-apenas-um-site",
     "title": "Ricardo Custódio",
-    "section": "Uma memória acadêmica, não apenas um site",
-    "text": "Uma memória acadêmica, não apenas um site\nEste site foi concebido como um registro acadêmico de longo prazo. Publicações são apenas uma parte desse registro. Projetos, software, textos técnicos, disciplinas, palestras, orientações e linhas de pesquisa ainda em desenvolvimento também documentam como as ideias evoluem ao longo do tempo."
+    "section": "Uma Memória Acadêmica, Não Apenas um Site",
+    "text": "Uma Memória Acadêmica, Não Apenas um Site\nEste site foi concebido como um registro acadêmico de longo prazo. Publicações são apenas uma parte desse registro. Projetos, software, textos técnicos, disciplinas, palestras, orientações e linhas de pesquisa ainda em desenvolvimento também documentam como as ideias evoluem ao longo do tempo.\nO Arquivo Acadêmico conecta esses registros em períodos históricos e genealogias de pesquisa.\nEntre no Arquivo Acadêmico →"
   },
   {
     "objectID": "pt/contact/index.html",
@@ -784,8 +784,8 @@
     "text": "Trabajo en los fundamentos y las infraestructuras de la confianza digital: criptografía, firmas digitales, documentos electrónicos, infraestructuras de clave pública, identidad electrónica, seguridad poscuántica, aritmética de cuerpos finitos y seguridad de agentes de inteligencia artificial.\nMi investigación conecta fundamentos matemáticos con arquitecturas, artefactos tecnológicos y ecosistemas reales de confianza.\n\nSobre mí Investigación Publicaciones\n\n\nORCID · Lattes · Google Scholar · GitHub · LinkedIn"
   },
   {
-    "objectID": "es/index.html#profesor-investigador-director-de-investigación",
-    "href": "es/index.html#profesor-investigador-director-de-investigación",
+    "objectID": "es/index.html#profesor-investigador-director-de-tesis",
+    "href": "es/index.html#profesor-investigador-director-de-tesis",
     "title": "Ricardo Custódio",
     "section": "",
     "text": "Trabajo en los fundamentos y las infraestructuras de la confianza digital: criptografía, firmas digitales, documentos electrónicos, infraestructuras de clave pública, identidad electrónica, seguridad poscuántica, aritmética de cuerpos finitos y seguridad de agentes de inteligencia artificial.\nMi investigación conecta fundamentos matemáticos con arquitecturas, artefactos tecnológicos y ecosistemas reales de confianza.\n\nSobre mí Investigación Publicaciones\n\n\nORCID · Lattes · Google Scholar · GitHub · LinkedIn"
@@ -798,18 +798,25 @@
     "text": "Investigación\nMi investigación parte de una pregunta amplia: ¿cómo podemos hacer que la computación sea confiable?\nEsta pregunta ha orientado trabajos sobre mecanismos criptográficos, documentos electrónicos seguros, firmas digitales y PKI, identidad electrónica, transición poscuántica y, más recientemente, identidad y autorización de agentes de IA.\nExplorar el programa de investigación →"
   },
   {
-    "objectID": "es/index.html#áreas-principales",
-    "href": "es/index.html#áreas-principales",
+    "objectID": "es/index.html#explorar-el-registro-académico",
+    "href": "es/index.html#explorar-el-registro-académico",
     "title": "Ricardo Custódio",
-    "section": "Áreas principales",
-    "text": "Áreas principales\nCriptografía y cuerpos finitos · Firmas digitales y PKI · Identidad y documentos electrónicos · Seguridad poscuántica · IA, agentes y confianza digital"
+    "section": "Explorar el Registro Académico",
+    "text": "Explorar el Registro Académico\nEl sitio está organizado como un conjunto de colecciones académicas interconectadas, y no solamente como un currículum.\n\n\nPublicaciones\nPublicaciones científicas, trabajos seleccionados y áreas de investigación.\nExplorar las publicaciones →\n\n\nProyectos\nProyectos de investigación y desarrollo tecnológico realizados en diferentes períodos.\nExplorar los proyectos →\n\n\nDirección de tesis\nInvestigaciones de maestría y doctorado y la genealogía académica en torno al LabSEC.\nExplorar la dirección de tesis →\n\n\nSoftware y Datos\nSoftware de investigación, prototipos, implementaciones de referencia y artefactos tecnológicos.\nExplorar software y datos →\n\n\nLibros y Textos\nLibros, textos técnicos, informes y materiales académicos de mayor extensión.\nExplorar libros y textos →\n\n\nDocencia\nCursos, trayectoria docente y recursos educativos seleccionados.\nExplorar la docencia →\n\n\nCharlas\nCharlas, presentaciones, talleres y el registro histórico de actividades de divulgación.\nExplorar las charlas →\n\n\nArchivo Académico\nUna visión histórica que conecta temas de investigación, proyectos, publicaciones, software, estudiantes, textos y charlas.\nExplorar el archivo →"
   },
   {
-    "objectID": "es/index.html#registro-académico",
-    "href": "es/index.html#registro-académico",
+    "objectID": "es/index.html#de-la-ingeniería-a-la-confianza-digital",
+    "href": "es/index.html#de-la-ingeniería-a-la-confianza-digital",
     "title": "Ricardo Custódio",
-    "section": "Registro académico",
-    "text": "Registro académico\nEl sitio está concebido como un registro académico de largo plazo que conecta publicaciones, proyectos, software, textos, docencia, charlas, dirección académica y la evolución histórica de las líneas de investigación."
+    "section": "De la Ingeniería a la Confianza Digital",
+    "text": "De la Ingeniería a la Confianza Digital\nMi trayectoria académica comenzó en la ingeniería eléctrica y la automatización industrial, pasó por la computación científica y la criptografía y evolucionó hacia un programa de investigación de largo plazo sobre seguridad informática y confianza digital.\nDesde 2000, gran parte de este trabajo se ha desarrollado en el Laboratorio de Seguridad en Computación (LabSEC) de la Universidad Federal de Santa Catarina, combinando investigación, dirección académica y desarrollo tecnológico.\nLeer la trayectoria académica →"
+  },
+  {
+    "objectID": "es/index.html#una-memoria-académica-no-solo-un-sitio-web",
+    "href": "es/index.html#una-memoria-académica-no-solo-un-sitio-web",
+    "title": "Ricardo Custódio",
+    "section": "Una Memoria Académica, No Solo un Sitio Web",
+    "text": "Una Memoria Académica, No Solo un Sitio Web\nEste sitio fue concebido como un registro académico de largo plazo. Las publicaciones son solo una parte de ese registro. Proyectos, software, textos técnicos, cursos, charlas, dirección académica y líneas de investigación aún en desarrollo también documentan cómo evolucionan las ideas a lo largo del tiempo.\nEl Archivo Académico conecta estos registros en períodos históricos y genealogías de investigación.\nEntrar en el Archivo Académico →"
   },
   {
     "objectID": "es/teaching/index.html",
