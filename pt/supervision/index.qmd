@@ -2,57 +2,36 @@
 title: "Orientações"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/supervision.lua
+canonical-path: "/pt/supervision/"
 ---
 
 <div class="language-switch">**PT** · [EN](../../en/supervision/) · [ES](../../es/supervision/)</div>
 
+Minha atuação em orientação acadêmica tem se concentrado principalmente em criptografia, segurança da informação, identidade digital, assinaturas digitais, documentos eletrônicos e áreas relacionadas da Ciência da Computação.
 
-My academic supervision has focused primarily on cryptography, information security, digital identity, digital signatures, electronic documents, and related areas of computer science.
+Ao longo dos anos, orientei estudantes de graduação, mestrado e doutorado, muitos dos quais prosseguiram suas carreiras na academia, pesquisa, indústria e desenvolvimento tecnológico.
 
-Over the years, I have supervised undergraduate, master's, and doctoral students, many of whom have continued their careers in academia, research, industry, and technology development.
-
-Current doctoral and master's students are listed below. Research topics reflect the structured supervision records maintained for this website.
+Os atuais doutorandos e mestrandos são apresentados abaixo. Os temas de pesquisa refletem os registros estruturados de orientação mantidos neste site.
 
 ::: {.supervision-generated}
 :::
 
-## Academic Genealogy
+## Genealogia Acadêmica
 
-Academic supervision is more than a list of theses and dissertations. It represents the development of research lines, collaborations, and successive generations of researchers.
+A orientação acadêmica é mais do que uma lista de teses e dissertações. Ela representa o desenvolvimento de linhas de pesquisa, colaborações e sucessivas gerações de pesquisadores.
 
-Several students initially supervised at the master's level later continued their doctoral studies, while former students have themselves become researchers, professors, and supervisors.
+Vários estudantes inicialmente orientados no mestrado prosseguiram para o doutorado, enquanto antigos orientandos se tornaram pesquisadores, professores e orientadores.
 
-A structured academic genealogy connecting students, publications, projects, software, and research topics is under development.
+Uma genealogia acadêmica estruturada, conectando estudantes, publicações, projetos, software e temas de pesquisa, está em desenvolvimento.
 
-## Research Areas
+## Áreas de Pesquisa
 
-Supervision has covered topics including:
+As orientações abrangeram temas como criptografia, criptografia pós-quântica, aritmética de corpos finitos, assinaturas digitais, infraestrutura de chaves públicas, identidade digital, documentos eletrônicos, preservação digital de longo prazo, protocolos criptográficos, segurança da informação e de redes, blockchain e segurança e inteligência artificial.
 
-- Cryptography
-- Post-Quantum Cryptography
-- Finite-Field Arithmetic
-- Digital Signatures
-- Public-Key Infrastructure
-- Digital Identity
-- Electronic Documents
-- Long-Term Digital Preservation
-- Cryptographic Protocols
-- Information and Network Security
-- Blockchain
-- Security and Artificial Intelligence
+## Das Orientações à Pesquisa
 
-## From Supervision to Research
+A orientação de estudantes está estreitamente conectada às atividades de pesquisa descritas neste site. Muitas teses e dissertações resultaram em publicações, protótipos de software, conjuntos de dados, relatórios técnicos e projetos de pesquisa subsequentes.
 
-Student supervision is closely connected to the research activities described throughout this website.
-
-Many theses and dissertations have resulted in publications, software prototypes, datasets, technical reports, and subsequent research projects.
-
-These relationships will progressively be represented using the structured metadata maintained by this website.
-
-See also:
-
-- [Research](/pt/research/)
-- [Publications](/pt/publications/)
-- [Projects](/pt/projects/)
-- [Software & Data](/pt/software/)
+Veja também [Pesquisa](/pt/research/), [Publicações](/pt/publications/), [Projetos](/pt/projects/) e [Software e Dados](/pt/software/).

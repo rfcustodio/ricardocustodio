@@ -2,15 +2,16 @@
 title: "Publicaciones"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/publications.lua
+canonical-path: "/es/publications/"
 ---
 
 <div class="language-switch">[PT](../../pt/publications/) · [EN](../../en/publications/) · **ES**</div>
 
+Mi registro de publicaciones abarca criptografía, infraestructura de clave pública, firmas digitales, documentos electrónicos, identidad digital, criptografía poscuántica e investigaciones anteriores en computación, redes y análisis de señales.
 
-My publication record spans cryptography, public-key infrastructure, digital signatures, electronic documents, digital identity, post-quantum cryptography, and earlier research in computing, networks, and signal analysis.
-
-The bibliography is organized around **canonical scholarly works**. A conference paper, journal version, preprint, or ePrint belonging to the same scholarly contribution is therefore consolidated as one work, while the individual bibliographic manifestations remain accessible.
+La bibliografía se organiza en torno a **trabajos académicos canónicos**. Un artículo de conferencia, una versión de revista, un preprint o un ePrint perteneciente a la misma contribución académica se consolida como un único trabajo, mientras que las manifestaciones bibliográficas individuales permanecen accesibles.
 
 ::: {#publications-generated}
 :::

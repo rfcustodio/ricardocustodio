@@ -1,73 +1,279 @@
 language: en
 labels:
-  current: "Current"
-  completed: "Completed"
-  selected: "Selected"
-  all: "All"
-  year: "Year"
-  years: "Years"
-  status: "Status"
-  type: "Type"
-  role: "Role"
-  advisor: "Advisor"
-  coadvisor: "Co-advisor"
-  research_areas: "Research Areas"
-  publications: "Publications"
-  projects: "Projects"
-  teaching: "Teaching"
-  books_texts: "Books & Texts"
-  supervision: "Supervision"
-  software_data: "Software & Data"
-  talks: "Talks"
-  archive: "Academic Archive"
-  contact: "Contact"
-  current_projects: "Current Projects"
-  completed_projects: "Completed Projects"
-  selected_publications: "Selected Publications"
-  all_publications: "All Publications"
-  browse_by_research_area: "Browse by Research Area"
-  selected_publications_intro: "A curated selection of publications that mark significant stages in my research trajectory."
-  canonical_work_note: "Each canonical scholarly work is listed once. Preprints, ePrints, and other manifestations are shown as versions of the same work."
-  bibliographic_manifestations: "Bibliographic manifestations"
-  preferred: "preferred"
-  journal_article: "Journal article"
-  conference_paper: "Conference paper"
-  book_chapter: "Book chapter"
-  book: "Book"
-  phd_thesis: "PhD thesis"
-  masters_thesis: "Master's thesis"
-  bibliographic_record: "Bibliographic record"
-  undated: "Undated"
-  invited_talk: "Invited talk"
-  conference_presentation: "Conference presentation"
-  workshop: "Workshop"
-  tutorial: "Tutorial"
-  panel: "Panel"
-  roundtable: "Roundtable"
-  guest_lecture: "Guest lecture"
-  institutional_talk: "Institutional talk"
-  professional_talk: "Professional talk"
+  current: Current
+  completed: Completed
+  selected: Selected
+  all: All
+  year: Year
+  years: Years
+  status: Status
+  type: Type
+  role: Role
+  advisor: Advisor
+  coadvisor: Co-advisor
+  research_areas: Research Areas
+  publications: Publications
+  projects: Projects
+  teaching: Teaching
+  books_texts: Books & Texts
+  supervision: Supervision
+  software_data: Software & Data
+  talks: Talks
+  archive: Academic Archive
+  contact: Contact
+  current_projects: Current Projects
+  completed_projects: Completed Projects
+  selected_publications: Selected Publications
+  all_publications: All Publications
+  browse_by_research_area: Browse by Research Area
+  selected_publications_intro: A curated selection of publications that mark significant stages in my research trajectory.
+  canonical_work_note: Each canonical scholarly work is listed once. Preprints, ePrints, and other manifestations are shown as versions of the same work.
+  bibliographic_manifestations: Bibliographic manifestations
+  preferred: preferred
+  journal_article: Journal article
+  conference_paper: Conference paper
+  book_chapter: Book chapter
+  book: Book
+  phd_thesis: PhD thesis
+  masters_thesis: Master's thesis
+  bibliographic_record: Bibliographic record
+  undated: Undated
+  invited_talk: Invited talk
+  conference_presentation: Conference presentation
+  workshop: Workshop
+  tutorial: Tutorial
+  panel: Panel
+  roundtable: Roundtable
+  guest_lecture: Guest lecture
+  institutional_talk: Institutional talk
+  professional_talk: Professional talk
+  project_website: Project website
+  related_initiatives: Related initiatives
+  current_research_programs: Current Research Programs
+  project_archive: Project Archive
+  historical_projects: historical projects
+  project_archive_explanation: Historical projects are grouped by starting year. An unknown closing year is shown as “?”.
+  before_2000: Before 2000
+  legacy: Legacy
+  nature_research: Research
+  nature_technological_development: Technological Development
+  nature_extension: Extension
+  unable_load_project_data: Unable to load project data.
+  current_technological_artifacts: Current Technological Artifacts
+  technology_families: Technology Families
+  technology_archive: Technology Archive
+  historical_technological_artifacts: historical technological artifacts
+  artifacts_under_identification: Artifacts Under Identification
+  artifacts_under_identification_explanation: These active research areas are expected to produce software, datasets, prototypes, or other research artifacts, but no distinct canonical technological object has yet been identified.
+  link: Link
+  untitled: Untitled
+  current_phd_students: Current PhD Students
+  phd_student: PhD student
+  current_masters_students: Current Master's Students
+  masters_student: Master's student
+  former_phd_students: Former PhD Students
+  former_masters_students: Former Master's Students
+  no_current_students: No current students listed.
+  no_completed_supervisions: No completed supervisions listed.
+  academic_work: Academic work
+  dissertation: Dissertation
+  masters_thesis_link: Master's thesis
+  year_to_verify: Year to be verified
+  unable_load_supervision: Unable to load supervision data.
+  selected_talks: Selected Talks
+  selected_talks_intro: A selection spanning digital trust, electronic documents, public-key infrastructure, identity, post-quantum cryptography, and artificial intelligence.
+  recent_talks: Recent Talks
+  recent_talks_intro: Recent invited presentations, panels, workshops, and institutional talks.
+  browse_by_type: Browse by Type
+  invited_talks: Invited Talks
+  conference_presentations: Conference Presentations
+  panels_roundtables: Panels & Roundtables
+  tutorials_workshops: Tutorials & Workshops
+  professional_institutional_talks: Professional & Institutional Talks
+  historical_talks_archive: Historical Talks Archive
+  historical_talks_intro: 'Earlier presentations reconstructed from the academic record. The archive is intentionally evidence-based: years with no documented talk remain gaps rather than being filled by inference.'
+  talk: Talk
+  documented_offerings: Documented offerings
+  course_programs: Course programs
+  teaching_plans: Teaching plans
+  assessments: Assessments
+  exams: Exams
+  public_candidate: public candidate
+  review_before_publication: review before publication
+  undergraduate: Undergraduate
+  graduate_professional: Graduate / professional
+  books: Books
+  books_intro: Books and longer-form works authored or co-authored by Ricardo Custódio.
+  book_chapters_commentary: Book Chapters & Commentary
+  book_chapters_commentary_intro: Selected chapters, tutorials, and commentary maintained as long-form scholarly or professional texts.
+  technical_scientific_texts: Technical & Scientific Texts
+  technical_scientific_texts_intro: Technical and scientific texts for which a document has already been identified.
+  teaching_materials: Teaching Materials
+  teaching_materials_intro: Teaching-oriented texts and instructional material preserved as part of the academic record.
+  historical_archive: Historical Archive
+  historical_texts_intro: Historical technical and scientific texts identified in the academic record. Some original digital copies are still being recovered from personal, LabSEC, UFSC, and institutional archives.
+  document_identified: Document identified
+  externally_corroborated: Externally corroborated
+  institutional_context: Institutional context
+  academic_context: Academic context
+  project_context: Project context
+  bibliographic_record_text: Bibliographic record
+  commentary: Commentary
+  technical_report: Technical report
+  scientific_text: Scientific text
+  teaching_material: Teaching material
+  historical_trajectory: Historical Trajectory
+  historical_trajectory_intro: The archive organizes my academic trajectory as a sequence of overlapping research periods. Period labels identify dominant themes rather than strict boundaries.
+  research_genealogies: Research Genealogies
+  research_genealogies_intro: These genealogies show long-running research continuities across projects, publications, software, texts, supervision, and talks. Their sequence is historical and editorial; it does not by itself assert causality or derivation.
+  about_archive: About this Archive
+  about_archive_intro: This archive is evidence-based and metadata-centered. Canonical records remain in their original collections, while this page provides historical context and cross-collection interpretation. Gaps are preserved when documentary evidence is incomplete.
+  collection_project: Project
+  collection_software: Software & Data
+  collection_texts: Books & Texts
+  collection_publication: Publication
+  collection_supervision: Supervision
+  collection_talk: Talk
+  collection_archive: Archive
+  keynote: Keynote
 topic_labels:
-  cryptography: "Cryptography"
-  finite-field-arithmetic: "Finite-Field Arithmetic"
-  digital-signatures: "Digital Signatures"
-  public-key-infrastructure: "Public-Key Infrastructure"
-  digital-identity: "Digital Identity"
-  electronic-documents: "Electronic Documents"
-  post-quantum-cryptography: "Post-Quantum Cryptography"
-  ai-security: "AI & Security"
-  electronic-voting: "Electronic Voting"
-  security-ceremonies: "Security Ceremonies"
-  privacy-information-sharing: "Privacy & Secure Information Sharing"
-  network-security-systems: "Networks, Distributed Systems & Security"
-  biomedical-signal-analysis: "Biomedical Signal Analysis"
-  computational-intelligence: "Computational Intelligence"
-  scientific-computing: "Scientific Computing & Instrumentation"
-
+  cryptography: Cryptography
+  finite-field-arithmetic: Finite-Field Arithmetic
+  digital-signatures: Digital Signatures
+  public-key-infrastructure: Public-Key Infrastructure
+  digital-identity: Digital Identity
+  electronic-documents: Electronic Documents
+  post-quantum-cryptography: Post-Quantum Cryptography
+  ai-security: AI & Security
+  electronic-voting: Electronic Voting
+  security-ceremonies: Security Ceremonies
+  privacy-information-sharing: Privacy & Secure Information Sharing
+  network-security-systems: Networks, Distributed Systems & Security
+  biomedical-signal-analysis: Biomedical Signal Analysis
+  computational-intelligence: Computational Intelligence
+  scientific-computing: Scientific Computing & Instrumentation
 group_labels:
-  "Research Foundations": "Research Foundations"
-  "Digital Trust": "Digital Trust"
-  "Emerging Directions": "Emerging Directions"
-  "Historical & Cross-Cutting": "Historical & Cross-Cutting"
-  "Security & Privacy": "Security & Privacy"
-  "Historical Research": "Historical Research"
+  research-foundations: Research Foundations
+  digital-trust: Digital Trust
+  emerging-directions: Emerging Directions
+  historical-cross-cutting: Historical & Cross-Cutting
+  security-privacy: Security & Privacy
+  historical-research: Historical Research
+project_topic_labels:
+  accountability: Accountability
+  ai-agents: AI Agents
+  artificial-intelligence: Artificial Intelligence
+  authorization: Authorization
+  civil-registration: Civil Registration
+  clarciev: CLARCIEV
+  confidentiality: Confidentiality
+  cryptography: Cryptography
+  data-protection: Data Protection
+  digital-identity: Digital Identity
+  digital-preservation: Digital Preservation
+  digital-signatures: Digital Signatures
+  digital-trust: Digital Trust
+  document-management: Document Management
+  electronic-documents: Electronic Documents
+  finite-fields: Finite Fields
+  information-security: Information Security
+  irreducible-polynomials: Irreducible Polynomials
+  modular-reduction: Modular Reduction
+  ocr: OCR
+  open-insurance: Open Insurance
+  post-quantum-cryptography: Post-Quantum Cryptography
+  public-key-infrastructure: PKI
+  regulatory-compliance: Regulatory Compliance
+artifact_type_labels:
+  software: Software
+  ai-platform: AI Platform
+  ai-component: AI Component
+  digital-platform: Digital Platform
+  digital-infrastructure: Digital Infrastructure
+  proof-of-concept: Proof of Concept
+  research-software: Research Software
+  research-artifact: Research Artifact
+  technological-product: Technological Product
+  dataset: Dataset
+software_topic_labels:
+  ades: ADES
+  aria: ARIA
+  artificial-intelligence: Artificial Intelligence
+  authentication: Authentication
+  civil-registration: Civil Registration
+  clarciev: CLARCIEV
+  confidentiality: Confidentiality
+  confidentiality-of-digital-documents: Confidentiality of Digital Documents
+  data-classification: Data Classification
+  digital-certificates: Digital Certificates
+  digital-identity: Digital Identity
+  digital-signatures: Digital Signatures
+  digital-trust: Digital Trust
+  electronic-documents: Electronic Documents
+  iac: IAC
+  icp-rc: ICP-RC
+  idrc: IdRC
+  information-security: Information Security
+  intelligent-ocr: Intelligent OCR
+  interoperability: Interoperability
+  nemisig: NemiSig
+  oauth2: OAuth 2.0
+  ocr: OCR
+  openid-connect: OpenID Connect
+  pades: PAdES
+  public-key-infrastructure: Public-Key Infrastructure
+  ref: REF
+  verifiable-credentials: Verifiable Credentials
+  x509: X.509
+supervision_topic_labels:
+  cryptography: Cryptography
+  post-quantum-cryptography: Post-Quantum Cryptography
+  digital-signatures: Digital Signatures
+  hash-based-signatures: Hash-Based Signatures
+  digital-identity: Digital Identity
+  self-sovereign-identity: Self-Sovereign Identity
+  public-key-infrastructure: Public-Key Infrastructure
+  electronic-documents: Electronic Documents
+  digital-trust: Digital Trust
+  information-security: Information Security
+  long-term-preservation: Long-Term Preservation
+  cryptographic-protocols: Cryptographic Protocols
+  network-security: Network Security
+  secret-sharing: Secret Sharing
+  blockchain: Blockchain
+  tls: TLS
+  code-based-cryptography: Code-Based Cryptography
+  lattice-based-cryptography: Lattice-Based Cryptography
+  isogeny-based-cryptography: Isogeny-Based Cryptography
+  finite-field-arithmetic: Finite-Field Arithmetic
+  artificial-intelligence: Artificial Intelligence
+talk_role_labels:
+  speaker: Speaker
+  panelist: Panelist
+  presenter: Presenter
+  lecturer: Lecturer
+  instructor: Instructor
+teaching_topic_labels:
+  Mathematical Logic: Mathematical Logic
+  Set Theory: Set Theory
+  Modular Arithmetic: Modular Arithmetic
+  Induction: Induction
+  Recursion: Recursion
+  Relations: Relations
+  Functions: Functions
+  Posets: Posets
+  Boolean Algebra: Boolean Algebra
+  Algebraic Structures: Algebraic Structures
+  Artificial Intelligence: Artificial Intelligence
+  Information Security: Information Security
+  Machine Learning: Machine Learning
+  Adversarial Attacks: Adversarial Attacks
+  Privacy: Privacy
+  Ethics: Ethics
+  Governance: Governance
+  Cryptography: Cryptography
+  Key Management: Key Management
+  PKI: PKI
+  Electronic Identity: Electronic Identity
+  Usability: Usability
+  UX/UI: UX/UI

@@ -1,73 +1,279 @@
-language: pt-BR
+language: pt
 labels:
-  current: "Em andamento"
-  completed: "Concluído"
-  selected: "Selecionado"
-  all: "Todos"
-  year: "Ano"
-  years: "Anos"
-  status: "Situação"
-  type: "Tipo"
-  role: "Papel"
-  advisor: "Orientador"
-  coadvisor: "Coorientador"
-  research_areas: "Áreas de Pesquisa"
-  publications: "Publicações"
-  projects: "Projetos"
-  teaching: "Ensino"
-  books_texts: "Livros e Textos"
-  supervision: "Orientações"
-  software_data: "Software e Dados"
-  talks: "Palestras"
-  archive: "Arquivo Acadêmico"
-  contact: "Contato"
-  current_projects: "Projetos em andamento"
-  completed_projects: "Projetos concluídos"
-  selected_publications: "Publicações selecionadas"
-  all_publications: "Todas as publicações"
-  browse_by_research_area: "Explorar por área de pesquisa"
-  selected_publications_intro: "Uma seleção de publicações que representam etapas significativas da minha trajetória de pesquisa."
-  canonical_work_note: "Cada trabalho acadêmico canônico é listado uma única vez. Preprints, ePrints e outras manifestações são apresentados como versões do mesmo trabalho."
-  bibliographic_manifestations: "Manifestações bibliográficas"
-  preferred: "preferencial"
-  journal_article: "Artigo em periódico"
-  conference_paper: "Artigo em conferência"
-  book_chapter: "Capítulo de livro"
-  book: "Livro"
-  phd_thesis: "Tese de doutorado"
-  masters_thesis: "Dissertação de mestrado"
-  bibliographic_record: "Registro bibliográfico"
-  undated: "Sem data"
-  invited_talk: "Palestra convidada"
-  conference_presentation: "Apresentação em conferência"
-  workshop: "Workshop"
-  tutorial: "Tutorial"
-  panel: "Painel"
-  roundtable: "Mesa-redonda"
-  guest_lecture: "Aula convidada"
-  institutional_talk: "Palestra institucional"
-  professional_talk: "Palestra profissional"
+  current: Atuais
+  completed: Concluídos
+  selected: Selecionados
+  all: Todos
+  year: Ano
+  years: Anos
+  status: Status
+  type: Tipo
+  role: Papel
+  advisor: Orientador
+  coadvisor: Coorientador
+  research_areas: Áreas de Pesquisa
+  publications: Publicações
+  projects: Projetos
+  teaching: Ensino
+  books_texts: Livros e Textos
+  supervision: Orientações
+  software_data: Software e Dados
+  talks: Palestras
+  archive: Arquivo Acadêmico
+  contact: Contato
+  current_projects: Projetos Atuais
+  completed_projects: Projetos Concluídos
+  selected_publications: Publicações Selecionadas
+  all_publications: Todas as Publicações
+  browse_by_research_area: Navegar por Área de Pesquisa
+  selected_publications_intro: Uma seleção curada de publicações que marcam etapas significativas da minha trajetória de pesquisa.
+  canonical_work_note: Cada trabalho acadêmico canônico é listado uma única vez. Preprints, ePrints e outras manifestações são apresentados como versões do mesmo trabalho.
+  bibliographic_manifestations: Manifestações bibliográficas
+  preferred: preferida
+  journal_article: Artigo em periódico
+  conference_paper: Artigo em conferência
+  book_chapter: Capítulo de livro
+  book: Livro
+  phd_thesis: Tese de doutorado
+  masters_thesis: Dissertação de mestrado
+  bibliographic_record: Registro bibliográfico
+  undated: Sem data
+  invited_talk: Palestra convidada
+  conference_presentation: Apresentação em conferência
+  workshop: Workshop
+  tutorial: Tutorial
+  panel: Painel
+  roundtable: Mesa-redonda
+  guest_lecture: Aula convidada
+  institutional_talk: Palestra institucional
+  professional_talk: Palestra profissional
+  project_website: Site do projeto
+  related_initiatives: Iniciativas relacionadas
+  current_research_programs: Programas de Pesquisa Atuais
+  project_archive: Arquivo de Projetos
+  historical_projects: projetos históricos
+  project_archive_explanation: Os projetos históricos são agrupados pelo ano de início. Um ano de encerramento desconhecido é indicado por “?”.
+  before_2000: Antes de 2000
+  legacy: Legado
+  nature_research: Pesquisa
+  nature_technological_development: Desenvolvimento Tecnológico
+  nature_extension: Extensão
+  unable_load_project_data: Não foi possível carregar os dados dos projetos.
+  current_technological_artifacts: Artefatos Tecnológicos Atuais
+  technology_families: Famílias Tecnológicas
+  technology_archive: Arquivo Tecnológico
+  historical_technological_artifacts: artefatos tecnológicos históricos
+  artifacts_under_identification: Artefatos em Identificação
+  artifacts_under_identification_explanation: Espera-se que estas áreas de pesquisa ativas produzam software, conjuntos de dados, protótipos ou outros artefatos de pesquisa, mas ainda não foi identificado um objeto tecnológico canônico distinto.
+  link: Link
+  untitled: Sem título
+  current_phd_students: Doutorandos Atuais
+  phd_student: Doutorando
+  current_masters_students: Mestrandos Atuais
+  masters_student: Mestrando
+  former_phd_students: Doutores Orientados
+  former_masters_students: Mestres Orientados
+  no_current_students: Nenhum aluno atual listado.
+  no_completed_supervisions: Nenhuma orientação concluída listada.
+  academic_work: Trabalho acadêmico
+  dissertation: Tese
+  masters_thesis_link: Dissertação
+  year_to_verify: Ano a verificar
+  unable_load_supervision: Não foi possível carregar os dados de orientação.
+  selected_talks: Palestras Selecionadas
+  selected_talks_intro: Uma seleção que percorre confiança digital, documentos eletrônicos, infraestrutura de chaves públicas, identidade, criptografia pós-quântica e inteligência artificial.
+  recent_talks: Palestras Recentes
+  recent_talks_intro: Apresentações convidadas, painéis, workshops e palestras institucionais recentes.
+  browse_by_type: Navegar por Tipo
+  invited_talks: Palestras Convidadas
+  conference_presentations: Apresentações em Conferências
+  panels_roundtables: Painéis e Mesas-redondas
+  tutorials_workshops: Tutoriais e Workshops
+  professional_institutional_talks: Palestras Profissionais e Institucionais
+  historical_talks_archive: Arquivo Histórico de Palestras
+  historical_talks_intro: 'Apresentações anteriores reconstruídas a partir do registro acadêmico. O arquivo é deliberadamente baseado em evidências: anos sem palestra documentada permanecem como lacunas, em vez de serem preenchidos por inferência.'
+  talk: Palestra
+  documented_offerings: Ofertas documentadas
+  course_programs: Programas de disciplina
+  teaching_plans: Planos de ensino
+  assessments: Avaliações
+  exams: Provas
+  public_candidate: candidato à publicação
+  review_before_publication: revisar antes da publicação
+  undergraduate: Graduação
+  graduate_professional: Pós-graduação / profissional
+  books: Livros
+  books_intro: Livros e obras de maior extensão de autoria ou coautoria de Ricardo Custódio.
+  book_chapters_commentary: Capítulos de Livros e Comentários
+  book_chapters_commentary_intro: Capítulos, tutoriais e comentários selecionados, mantidos como textos acadêmicos ou profissionais de maior extensão.
+  technical_scientific_texts: Textos Técnicos e Científicos
+  technical_scientific_texts_intro: Textos técnicos e científicos para os quais um documento já foi identificado.
+  teaching_materials: Materiais Didáticos
+  teaching_materials_intro: Textos voltados ao ensino e materiais instrucionais preservados como parte do registro acadêmico.
+  historical_archive: Arquivo Histórico
+  historical_texts_intro: Textos técnicos e científicos históricos identificados no registro acadêmico. Algumas cópias digitais originais ainda estão sendo recuperadas de arquivos pessoais, do LabSEC, da UFSC e de arquivos institucionais.
+  document_identified: Documento identificado
+  externally_corroborated: Corroborado externamente
+  institutional_context: Contexto institucional
+  academic_context: Contexto acadêmico
+  project_context: Contexto de projeto
+  bibliographic_record_text: Registro bibliográfico
+  commentary: Comentário
+  technical_report: Relatório técnico
+  scientific_text: Texto científico
+  teaching_material: Material didático
+  historical_trajectory: Trajetória Histórica
+  historical_trajectory_intro: O arquivo organiza minha trajetória acadêmica como uma sequência de períodos de pesquisa sobrepostos. Os rótulos dos períodos identificam temas dominantes, e não fronteiras rígidas.
+  research_genealogies: Genealogias de Pesquisa
+  research_genealogies_intro: Estas genealogias mostram continuidades de pesquisa de longa duração entre projetos, publicações, software, textos, orientações e palestras. Sua sequência é histórica e editorial; por si só, não afirma causalidade ou derivação.
+  about_archive: Sobre este Arquivo
+  about_archive_intro: Este arquivo é baseado em evidências e centrado em metadados. Os registros canônicos permanecem em suas coleções originais, enquanto esta página oferece contexto histórico e interpretação entre coleções. Lacunas são preservadas quando a evidência documental é incompleta.
+  collection_project: Projeto
+  collection_software: Software e Dados
+  collection_texts: Livros e Textos
+  collection_publication: Publicação
+  collection_supervision: Orientação
+  collection_talk: Palestra
+  collection_archive: Arquivo
+  keynote: Palestra principal
 topic_labels:
-  cryptography: "Criptografia"
-  finite-field-arithmetic: "Aritmética de Corpos Finitos"
-  digital-signatures: "Assinaturas Digitais"
-  public-key-infrastructure: "Infraestrutura de Chaves Públicas"
-  digital-identity: "Identidade Digital"
-  electronic-documents: "Documentos Eletrônicos"
-  post-quantum-cryptography: "Criptografia Pós-Quântica"
-  ai-security: "IA e Segurança"
-  electronic-voting: "Votação Eletrônica"
-  security-ceremonies: "Cerimônias de Segurança"
-  privacy-information-sharing: "Privacidade e Compartilhamento Seguro de Informações"
-  network-security-systems: "Redes, Sistemas Distribuídos e Segurança"
-  biomedical-signal-analysis: "Análise de Sinais Biomédicos"
-  computational-intelligence: "Inteligência Computacional"
-  scientific-computing: "Computação Científica e Instrumentação"
-
+  cryptography: Criptografia
+  finite-field-arithmetic: Aritmética de Corpos Finitos
+  digital-signatures: Assinaturas Digitais
+  public-key-infrastructure: Infraestrutura de Chaves Públicas
+  digital-identity: Identidade Digital
+  electronic-documents: Documentos Eletrônicos
+  post-quantum-cryptography: Criptografia Pós-Quântica
+  ai-security: IA e Segurança
+  electronic-voting: Votação Eletrônica
+  security-ceremonies: Cerimônias de Segurança
+  privacy-information-sharing: Privacidade e Compartilhamento Seguro de Informações
+  network-security-systems: Redes, Sistemas Distribuídos e Segurança
+  biomedical-signal-analysis: Análise de Sinais Biomédicos
+  computational-intelligence: Inteligência Computacional
+  scientific-computing: Computação Científica e Instrumentação
 group_labels:
-  "Research Foundations": "Fundamentos de Pesquisa"
-  "Digital Trust": "Confiança Digital"
-  "Emerging Directions": "Direções Emergentes"
-  "Historical & Cross-Cutting": "Temas Históricos e Transversais"
-  "Security & Privacy": "Segurança e Privacidade"
-  "Historical Research": "Pesquisa Histórica"
+  research-foundations: Fundamentos de Pesquisa
+  digital-trust: Confiança Digital
+  emerging-directions: Direções Emergentes
+  historical-cross-cutting: Temas Históricos e Transversais
+  security-privacy: Segurança e Privacidade
+  historical-research: Pesquisa Histórica
+project_topic_labels:
+  accountability: Responsabilização
+  ai-agents: Agentes de IA
+  artificial-intelligence: Inteligência Artificial
+  authorization: Autorização
+  civil-registration: Registro Civil
+  clarciev: CLARCIEV
+  confidentiality: Confidencialidade
+  cryptography: Criptografia
+  data-protection: Proteção de Dados
+  digital-identity: Identidade Digital
+  digital-preservation: Preservação Digital
+  digital-signatures: Assinaturas Digitais
+  digital-trust: Confiança Digital
+  document-management: Gestão de Documentos
+  electronic-documents: Documentos Eletrônicos
+  finite-fields: Corpos Finitos
+  information-security: Segurança da Informação
+  irreducible-polynomials: Polinômios Irredutíveis
+  modular-reduction: Redução Modular
+  ocr: OCR
+  open-insurance: Open Insurance
+  post-quantum-cryptography: Criptografia Pós-Quântica
+  public-key-infrastructure: ICP
+  regulatory-compliance: Conformidade Regulatória
+artifact_type_labels:
+  software: Software
+  ai-platform: Plataforma de IA
+  ai-component: Componente de IA
+  digital-platform: Plataforma Digital
+  digital-infrastructure: Infraestrutura Digital
+  proof-of-concept: Prova de Conceito
+  research-software: Software de Pesquisa
+  research-artifact: Artefato de Pesquisa
+  technological-product: Produto Tecnológico
+  dataset: Conjunto de Dados
+software_topic_labels:
+  ades: ADES
+  aria: ARIA
+  artificial-intelligence: Inteligência Artificial
+  authentication: Autenticação
+  civil-registration: Registro Civil
+  clarciev: CLARCIEV
+  confidentiality: Confidencialidade
+  confidentiality-of-digital-documents: Confidencialidade de Documentos Digitais
+  data-classification: Classificação de Dados
+  digital-certificates: Certificados Digitais
+  digital-identity: Identidade Digital
+  digital-signatures: Assinaturas Digitais
+  digital-trust: Confiança Digital
+  electronic-documents: Documentos Eletrônicos
+  iac: IAC
+  icp-rc: ICP-RC
+  idrc: IdRC
+  information-security: Segurança da Informação
+  intelligent-ocr: OCR Inteligente
+  interoperability: Interoperabilidade
+  nemisig: NemiSig
+  oauth2: OAuth 2.0
+  ocr: OCR
+  openid-connect: OpenID Connect
+  pades: PAdES
+  public-key-infrastructure: Infraestrutura de Chaves Públicas
+  ref: REF
+  verifiable-credentials: Credenciais Verificáveis
+  x509: X.509
+supervision_topic_labels:
+  cryptography: Criptografia
+  post-quantum-cryptography: Criptografia Pós-Quântica
+  digital-signatures: Assinaturas Digitais
+  hash-based-signatures: Assinaturas Baseadas em Hash
+  digital-identity: Identidade Digital
+  self-sovereign-identity: Identidade Autossoberana
+  public-key-infrastructure: Infraestrutura de Chaves Públicas
+  electronic-documents: Documentos Eletrônicos
+  digital-trust: Confiança Digital
+  information-security: Segurança da Informação
+  long-term-preservation: Preservação de Longo Prazo
+  cryptographic-protocols: Protocolos Criptográficos
+  network-security: Segurança de Redes
+  secret-sharing: Compartilhamento de Segredos
+  blockchain: Blockchain
+  tls: TLS
+  code-based-cryptography: Criptografia Baseada em Códigos
+  lattice-based-cryptography: Criptografia Baseada em Reticulados
+  isogeny-based-cryptography: Criptografia Baseada em Isogenias
+  finite-field-arithmetic: Aritmética de Corpos Finitos
+  artificial-intelligence: Inteligência Artificial
+talk_role_labels:
+  speaker: Palestrante
+  panelist: Painelista
+  presenter: Apresentador
+  lecturer: Palestrante
+  instructor: Instrutor
+teaching_topic_labels:
+  Mathematical Logic: Lógica Matemática
+  Set Theory: Teoria dos Conjuntos
+  Modular Arithmetic: Aritmética Modular
+  Induction: Indução
+  Recursion: Recursão
+  Relations: Relações
+  Functions: Funções
+  Posets: Conjuntos Parcialmente Ordenados
+  Boolean Algebra: Álgebra Booleana
+  Algebraic Structures: Estruturas Algébricas
+  Artificial Intelligence: Inteligência Artificial
+  Information Security: Segurança da Informação
+  Machine Learning: Aprendizado de Máquina
+  Adversarial Attacks: Ataques Adversariais
+  Privacy: Privacidade
+  Ethics: Ética
+  Governance: Governança
+  Cryptography: Criptografia
+  Key Management: Gestão de Chaves
+  PKI: ICP
+  Electronic Identity: Identidade Eletrônica
+  Usability: Usabilidade
+  UX/UI: UX/UI

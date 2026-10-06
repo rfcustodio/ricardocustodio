@@ -2,7 +2,9 @@
 title: "Projects"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/projects.lua
+canonical-path: "/en/projects/"
 ---
 
 <div class="language-switch">[PT](../../pt/projects/) · **EN** · [ES](../../es/projects/)</div>

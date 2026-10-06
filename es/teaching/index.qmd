@@ -2,35 +2,33 @@
 title: "Docencia"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/teaching.lua
+canonical-path: "/es/teaching/"
 ---
 
 <div class="language-switch">[PT](../../pt/teaching/) · [EN](../../en/teaching/) · **ES**</div>
 
-
-My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources.
+Mi docencia conecta fundamentos matemáticos, seguridad de la información, criptografía, identidad digital y aplicaciones emergentes de inteligencia artificial. Esta página presenta asignaturas actuales y recientes seleccionadas junto con un registro histórico curado de actividades docentes y recursos educativos.
 
 ::: {.callout-note}
-The teaching archive is curated. Course plans and selected educational materials may be preserved here, while student submissions, grades, and individual assessment reports are excluded from the public archive.
+El archivo docente es curado. Los planes docentes y materiales educativos seleccionados pueden preservarse aquí, mientras que los trabajos de estudiantes, calificaciones e informes individuales de evaluación se excluyen del archivo público.
 :::
 
-## Current & Recent Courses
-
+## Asignaturas Actuales y Recientes
 ::: {#teaching-current}
 :::
 
-## Educational Resources
-
+## Recursos Educativos
 ::: {#teaching-resources}
 :::
 
-## Teaching Trajectory
-
+## Trayectoria Docente
 ::: {#teaching-history}
 :::
 
-## Teaching Philosophy
+## Filosofía Docente
 
-I approach teaching as a connection between formal foundations and real computational problems. In mathematics, security, cryptography, and artificial intelligence, students should understand not only how a technique works, but also the assumptions, limitations, and consequences of using it.
+Concibo la docencia como una conexión entre fundamentos formales y problemas computacionales reales. En matemáticas, seguridad, criptografía e inteligencia artificial, los estudiantes deben comprender no solo cómo funciona una técnica, sino también sus supuestos, limitaciones y consecuencias.
 
-Practical work, critical reading, discussion, and the construction of working prototypes complement the conceptual foundations of the courses.
+El trabajo práctico, la lectura crítica, la discusión y la construcción de prototipos funcionales complementan los fundamentos conceptuales de las asignaturas.

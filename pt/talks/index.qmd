@@ -2,12 +2,13 @@
 title: "Palestras"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/talks.lua
+canonical-path: "/pt/talks/"
 ---
 
 <div class="language-switch">**PT** · [EN](../../en/talks/) · [ES](../../es/talks/)</div>
 
+Palestras convidadas, apresentações em conferências, painéis, tutoriais, workshops e apresentações profissionais constituem uma parte importante da minha atividade acadêmica e técnica.
 
-Invited talks, conference presentations, panels, tutorials, workshops, and professional presentations form an important part of my academic and technical activity.
-
-This archive is being reconstructed from curriculum records, institutional sources, event programs, and historical material. It records presentations for which there is documentary evidence; simple event attendance and academic-service activities are maintained separately.
+Este arquivo está sendo reconstruído a partir de registros curriculares, fontes institucionais, programas de eventos e material histórico. Ele registra apresentações para as quais existe evidência documental; a simples participação em eventos e atividades de serviço acadêmico é mantida separadamente.

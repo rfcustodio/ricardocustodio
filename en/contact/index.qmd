@@ -1,6 +1,9 @@
 ---
 title: "Contact"
 toc: false
+canonical-path: "/en/contact/"
+filters:
+  - ../../filters/i18n-head.lua
 ---
 
 <div class="language-switch">[PT](../../pt/contact/) · **EN** · [ES](../../es/contact/)</div>

@@ -2,7 +2,9 @@
 title: "Academic Archive"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/archive.lua
+canonical-path: "/en/archive/"
 ---
 
 <div class="language-switch">[PT](../../pt/archive/) · **EN** · [ES](../../es/archive/)</div>

@@ -4,6 +4,9 @@ page-layout: full
 toc: false
 title-block-banner: false
 lang: pt-BR
+canonical-path: "/pt/"
+filters:
+  - ../filters/i18n-head.lua
 ---
 
 <div class="language-switch">**PT** · [EN](../en/) · [ES](../es/)</div>

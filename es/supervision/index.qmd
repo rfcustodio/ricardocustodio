@@ -2,57 +2,36 @@
 title: "Dirección Académica"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/supervision.lua
+canonical-path: "/es/supervision/"
 ---
 
 <div class="language-switch">[PT](../../pt/supervision/) · [EN](../../en/supervision/) · **ES**</div>
 
+Mi actividad de dirección académica se ha concentrado principalmente en criptografía, seguridad de la información, identidad digital, firmas digitales, documentos electrónicos y áreas relacionadas con la Informática.
 
-My academic supervision has focused primarily on cryptography, information security, digital identity, digital signatures, electronic documents, and related areas of computer science.
+A lo largo de los años he dirigido estudiantes de grado, maestría y doctorado, muchos de los cuales continuaron sus carreras en la academia, la investigación, la industria y el desarrollo tecnológico.
 
-Over the years, I have supervised undergraduate, master's, and doctoral students, many of whom have continued their careers in academia, research, industry, and technology development.
-
-Current doctoral and master's students are listed below. Research topics reflect the structured supervision records maintained for this website.
+A continuación se presentan los doctorandos y estudiantes de maestría actuales. Los temas de investigación reflejan los registros estructurados de dirección académica mantenidos en este sitio.
 
 ::: {.supervision-generated}
 :::
 
-## Academic Genealogy
+## Genealogía Académica
 
-Academic supervision is more than a list of theses and dissertations. It represents the development of research lines, collaborations, and successive generations of researchers.
+La dirección académica es más que una lista de tesis. Representa el desarrollo de líneas de investigación, colaboraciones y sucesivas generaciones de investigadores.
 
-Several students initially supervised at the master's level later continued their doctoral studies, while former students have themselves become researchers, professors, and supervisors.
+Varios estudiantes inicialmente dirigidos en la maestría continuaron posteriormente sus estudios de doctorado, mientras que antiguos estudiantes se convirtieron en investigadores, profesores y directores académicos.
 
-A structured academic genealogy connecting students, publications, projects, software, and research topics is under development.
+Se encuentra en desarrollo una genealogía académica estructurada que conecta estudiantes, publicaciones, proyectos, software y temas de investigación.
 
-## Research Areas
+## Áreas de Investigación
 
-Supervision has covered topics including:
+La dirección académica ha abarcado criptografía, criptografía poscuántica, aritmética de campos finitos, firmas digitales, infraestructura de clave pública, identidad digital, documentos electrónicos, preservación digital a largo plazo, protocolos criptográficos, seguridad de la información y de redes, blockchain y seguridad e inteligencia artificial.
 
-- Cryptography
-- Post-Quantum Cryptography
-- Finite-Field Arithmetic
-- Digital Signatures
-- Public-Key Infrastructure
-- Digital Identity
-- Electronic Documents
-- Long-Term Digital Preservation
-- Cryptographic Protocols
-- Information and Network Security
-- Blockchain
-- Security and Artificial Intelligence
+## De la Dirección Académica a la Investigación
 
-## From Supervision to Research
+La dirección de estudiantes está estrechamente vinculada con las actividades de investigación descritas en este sitio. Muchas tesis han dado lugar a publicaciones, prototipos de software, conjuntos de datos, informes técnicos y proyectos de investigación posteriores.
 
-Student supervision is closely connected to the research activities described throughout this website.
-
-Many theses and dissertations have resulted in publications, software prototypes, datasets, technical reports, and subsequent research projects.
-
-These relationships will progressively be represented using the structured metadata maintained by this website.
-
-See also:
-
-- [Research](/es/research/)
-- [Publications](/es/publications/)
-- [Projects](/es/projects/)
-- [Software & Data](/es/software/)
+Véanse también [Investigación](/es/research/), [Publicaciones](/es/publications/), [Proyectos](/es/projects/) y [Software y Datos](/es/software/).

@@ -2,7 +2,9 @@
 title: "Software & Data"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/software.lua
+canonical-path: "/en/software/"
 ---
 
 <div class="language-switch">[PT](../../pt/software/) · **EN** · [ES](../../es/software/)</div>

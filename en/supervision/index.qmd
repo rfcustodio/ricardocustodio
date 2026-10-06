@@ -2,7 +2,9 @@
 title: "Supervision"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/supervision.lua
+canonical-path: "/en/supervision/"
 ---
 
 <div class="language-switch">[PT](../../pt/supervision/) · **EN** · [ES](../../es/supervision/)</div>

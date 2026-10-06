@@ -2,38 +2,27 @@
 title: "Projetos"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/projects.lua
+canonical-path: "/pt/projects/"
 ---
 
 <div class="language-switch">**PT** · [EN](../../en/projects/) · [ES](../../es/projects/)</div>
 
+Minha pesquisa tem sido frequentemente desenvolvida por meio de iniciativas de longo prazo que conectam pesquisa fundamental, desenvolvimento tecnológico, infraestrutura, padrões e aplicações no mundo real.
 
-My research has often been developed through long-term initiatives that connect
-fundamental research, technological development, infrastructure, standards,
-and real-world applications.
-
-The portfolio spans cryptography, digital trust, electronic documents,
-digital identity, post-quantum security, artificial intelligence, and
-information infrastructures. Research programs represent continuing lines of
-investigation, while projects have more specific technological, scientific,
-or institutional objectives.
+O portfólio abrange criptografia, confiança digital, documentos eletrônicos, identidade digital, segurança pós-quântica, inteligência artificial e infraestruturas de informação. Os programas de pesquisa representam linhas contínuas de investigação, enquanto os projetos possuem objetivos tecnológicos, científicos ou institucionais mais específicos.
 
 ::: {.projects-current-generated}
 :::
 
-## From Research to Technology
+## Da Pesquisa à Tecnologia
 
-A recurring objective of these initiatives is to connect foundational research
-with deployable systems, standards, open implementations, and long-term digital
-infrastructures. Some completed projects continue to influence current work,
-either through technologies reused in new projects or through research questions
-that evolved into continuing research programs.
+Um objetivo recorrente dessas iniciativas é conectar a pesquisa fundamental a sistemas implantáveis, padrões, implementações abertas e infraestruturas digitais de longo prazo. Alguns projetos concluídos continuam a influenciar os trabalhos atuais, seja por meio de tecnologias reutilizadas em novos projetos, seja por questões de pesquisa que evoluíram para programas de investigação contínuos.
 
 ::: {.projects-archive-generated}
 :::
 
-## Related Resources
+## Recursos Relacionados
 
-See also [Research](/pt/research/), [Publications](/pt/publications/),
-[Software & Data](/pt/software/), [Supervision](/pt/supervision/), and
-[Talks](/pt/talks/).
+Veja também [Pesquisa](/pt/research/), [Publicações](/pt/publications/), [Software e Dados](/pt/software/), [Orientações](/pt/supervision/) e [Palestras](/pt/talks/).

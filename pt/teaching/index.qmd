@@ -2,35 +2,33 @@
 title: "Ensino"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/teaching.lua
+canonical-path: "/pt/teaching/"
 ---
 
 <div class="language-switch">**PT** · [EN](../../en/teaching/) · [ES](../../es/teaching/)</div>
 
-
-My teaching connects mathematical foundations, information security, cryptography, digital identity, and emerging applications of artificial intelligence. This page presents selected current and recent courses together with a curated historical record of teaching activities and educational resources.
+Meu ensino conecta fundamentos matemáticos, segurança da informação, criptografia, identidade digital e aplicações emergentes de inteligência artificial. Esta página apresenta disciplinas atuais e recentes selecionadas, juntamente com um registro histórico curado de atividades de ensino e recursos educacionais.
 
 ::: {.callout-note}
-The teaching archive is curated. Course plans and selected educational materials may be preserved here, while student submissions, grades, and individual assessment reports are excluded from the public archive.
+O arquivo de ensino é curado. Planos de ensino e materiais educacionais selecionados podem ser preservados aqui, enquanto trabalhos de estudantes, notas e relatórios individuais de avaliação são excluídos do arquivo público.
 :::
 
-## Current & Recent Courses
-
+## Disciplinas Atuais e Recentes
 ::: {#teaching-current}
 :::
 
-## Educational Resources
-
+## Recursos Educacionais
 ::: {#teaching-resources}
 :::
 
-## Teaching Trajectory
-
+## Trajetória de Ensino
 ::: {#teaching-history}
 :::
 
-## Teaching Philosophy
+## Filosofia de Ensino
 
-I approach teaching as a connection between formal foundations and real computational problems. In mathematics, security, cryptography, and artificial intelligence, students should understand not only how a technique works, but also the assumptions, limitations, and consequences of using it.
+Entendo o ensino como uma conexão entre fundamentos formais e problemas computacionais reais. Em matemática, segurança, criptografia e inteligência artificial, os estudantes devem compreender não apenas como uma técnica funciona, mas também as premissas, limitações e consequências de seu uso.
 
-Practical work, critical reading, discussion, and the construction of working prototypes complement the conceptual foundations of the courses.
+Trabalhos práticos, leitura crítica, discussão e construção de protótipos funcionais complementam os fundamentos conceituais das disciplinas.

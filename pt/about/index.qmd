@@ -2,6 +2,9 @@
 title: "Sobre"
 toc: true
 lang: pt-BR
+canonical-path: "/pt/about/"
+filters:
+  - ../../filters/i18n-head.lua
 ---
 
 <div class="language-switch">**PT** · [EN](../../en/about/) · [ES](../../es/about/)</div>

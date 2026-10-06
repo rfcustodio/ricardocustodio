@@ -17,6 +17,8 @@ function M.normalize_lang(lang)
   return "en"
 end
 
+-- Fallback language detection based on the input file path.
+-- This is retained for contexts in which document metadata is unavailable.
 function M.document_language()
   local input = ""
 
@@ -36,8 +38,22 @@ function M.document_language()
     return "en"
   end
 
-  -- Root and language-independent pages use English as the canonical fallback.
   return "en"
+end
+
+-- Preferred language detection.
+-- Uses the effective Pandoc/Quarto document metadata first and falls back
+-- to the input-file path only when `lang` is unavailable.
+function M.meta_language(meta)
+  if meta and meta.lang then
+    local lang = pandoc.utils.stringify(meta.lang)
+
+    if lang ~= "" then
+      return M.normalize_lang(lang)
+    end
+  end
+
+  return M.document_language()
 end
 
 function M.load(lang)
@@ -48,7 +64,13 @@ function M.load(lang)
     language = code,
     labels = meta.labels or {},
     topic_labels = meta.topic_labels or {},
-    group_labels = meta.group_labels or {}
+    group_labels = meta.group_labels or {},
+    project_topic_labels = meta.project_topic_labels or {},
+    artifact_type_labels = meta.artifact_type_labels or {},
+    software_topic_labels = meta.software_topic_labels or {},
+    supervision_topic_labels = meta.supervision_topic_labels or {},
+    talk_role_labels = meta.talk_role_labels or {},
+    teaching_topic_labels = meta.teaching_topic_labels or {}
   }
 end
 

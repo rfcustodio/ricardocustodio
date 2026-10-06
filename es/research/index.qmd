@@ -2,6 +2,9 @@
 title: "Investigación"
 toc: true
 lang: es
+canonical-path: "/es/research/"
+filters:
+  - ../../filters/i18n-head.lua
 ---
 
 <div class="language-switch">[PT](../../pt/research/) · [EN](../../en/research/) · **ES**</div>

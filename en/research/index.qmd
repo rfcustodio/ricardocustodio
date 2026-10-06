@@ -1,6 +1,9 @@
 ---
 title: "Research"
 toc: true
+canonical-path: "/en/research/"
+filters:
+  - ../../filters/i18n-head.lua
 ---
 
 My research is concerned with a broad question: **how can computation be made trustworthy?**

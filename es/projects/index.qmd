@@ -2,38 +2,27 @@
 title: "Proyectos"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/projects.lua
+canonical-path: "/es/projects/"
 ---
 
 <div class="language-switch">[PT](../../pt/projects/) · [EN](../../en/projects/) · **ES**</div>
 
+Mi investigación se ha desarrollado con frecuencia a través de iniciativas de largo plazo que conectan la investigación fundamental, el desarrollo tecnológico, la infraestructura, los estándares y las aplicaciones en el mundo real.
 
-My research has often been developed through long-term initiatives that connect
-fundamental research, technological development, infrastructure, standards,
-and real-world applications.
-
-The portfolio spans cryptography, digital trust, electronic documents,
-digital identity, post-quantum security, artificial intelligence, and
-information infrastructures. Research programs represent continuing lines of
-investigation, while projects have more specific technological, scientific,
-or institutional objectives.
+El portafolio abarca criptografía, confianza digital, documentos electrónicos, identidad digital, seguridad poscuántica, inteligencia artificial e infraestructuras de información. Los programas de investigación representan líneas continuas de investigación, mientras que los proyectos tienen objetivos tecnológicos, científicos o institucionales más específicos.
 
 ::: {.projects-current-generated}
 :::
 
-## From Research to Technology
+## De la Investigación a la Tecnología
 
-A recurring objective of these initiatives is to connect foundational research
-with deployable systems, standards, open implementations, and long-term digital
-infrastructures. Some completed projects continue to influence current work,
-either through technologies reused in new projects or through research questions
-that evolved into continuing research programs.
+Un objetivo recurrente de estas iniciativas es conectar la investigación fundamental con sistemas desplegables, estándares, implementaciones abiertas e infraestructuras digitales de largo plazo. Algunos proyectos completados continúan influyendo en el trabajo actual, ya sea mediante tecnologías reutilizadas en nuevos proyectos o mediante preguntas de investigación que evolucionaron hacia programas de investigación continuos.
 
 ::: {.projects-archive-generated}
 :::
 
-## Related Resources
+## Recursos Relacionados
 
-See also [Research](/es/research/), [Publications](/es/publications/),
-[Software & Data](/es/software/), [Supervision](/es/supervision/), and
-[Talks](/es/talks/).
+Véanse también [Investigación](/es/research/), [Publicaciones](/es/publications/), [Software y Datos](/es/software/), [Dirección Académica](/es/supervision/) y [Conferencias](/es/talks/).

@@ -2,7 +2,9 @@
 title: "Books & Texts"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/texts.lua
+canonical-path: "/en/books/"
 ---
 
 <div class="language-switch">[PT](../../pt/books/) · **EN** · [ES](../../es/books/)</div>

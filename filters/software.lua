@@ -1,22 +1,23 @@
--- filters/software.lua
--- Generates the Software & Data page from data/software.yml.
--- Compatible with Quarto/Pandoc Lua filters.
+-- filters/software.lua — Software & Data V1.3
+-- Multilingual presentation over the single canonical data/software.yml registry.
 
 local stringify = pandoc.utils.stringify
+local project = require("lib.project")
+local i18n = require("lib.i18n")
 
-local function read_yaml(path)
-  local f = io.open(path, "r")
-  if not f then
-    error("Could not open " .. path)
-  end
-  local body = f:read("*all")
-  f:close()
+local L = {}
+local artifact_type_labels = {}
+local software_topic_labels = {}
 
-  -- Pandoc can parse YAML metadata reliably when wrapped as document front matter.
-  local doc = pandoc.read("---\nregistry:\n" ..
-    body:gsub("\n", "\n  ") ..
-    "\n---\n", "markdown")
-  return doc.meta.registry
+local function configure_i18n(meta)
+  local I = i18n.load(i18n.meta_language(meta))
+  L = I.labels or {}
+  artifact_type_labels = I.artifact_type_labels or {}
+  software_topic_labels = I.software_topic_labels or {}
+end
+
+local function tr(key, fallback)
+  return i18n.tr(L, key, fallback)
 end
 
 local function val(x)
@@ -31,16 +32,6 @@ local function seq(x)
   return r
 end
 
-local function map_by_id(items)
-  local m = {}
-  if items then
-    for _, item in ipairs(items) do
-      if item.id then m[val(item.id)] = item end
-    end
-  end
-  return m
-end
-
 local function esc(s)
   s = s or ""
   s = s:gsub("&", "&amp;"):gsub("<", "&lt;"):gsub(">", "&gt;")
@@ -49,11 +40,16 @@ local function esc(s)
 end
 
 local function title_of(item)
-  return val(item.public_title) or val(item.title) or "Untitled"
+  return val(item.public_title) or val(item.title) or tr("untitled", "Untitled")
 end
 
 local function type_label(item, type_defs)
   local t = val(item.type) or "artifact"
+
+  if artifact_type_labels[t] then
+    return i18n.tr(artifact_type_labels, t, t)
+  end
+
   local def = type_defs and type_defs[t]
   return (def and val(def.label)) or t:gsub("-", " "):gsub("^%l", string.upper)
 end
@@ -61,40 +57,54 @@ end
 local function chips(values)
   if not values or #values == 0 then return "" end
   local out = {}
-  for _, x in ipairs(values) do
-    table.insert(out, '<span class="artifact-chip">' .. esc(x:gsub("-", " ")) .. '</span>')
+
+  for _, key in ipairs(values) do
+    local label = i18n.tr(software_topic_labels, key, key:gsub("-", " "))
+    table.insert(out, '<span class="artifact-chip">' .. esc(label) .. '</span>')
   end
+
   return '<div class="artifact-chips">' .. table.concat(out, "") .. '</div>'
 end
 
 local function links_html(item)
   if not item.links then return "" end
   local out = {}
+
   for _, link in ipairs(item.links) do
-    local label = val(link.label) or "Link"
+    local label = val(link.label) or tr("link", "Link")
     local url = val(link.url)
+
     if url then
-      table.insert(out, '<a class="artifact-link" href="' .. esc(url) .. '">' .. esc(label) .. '</a>')
+      table.insert(out,
+        '<a class="artifact-link" href="' .. esc(url) .. '">' .. esc(label) .. '</a>')
     end
   end
+
   if #out == 0 then return "" end
   return '<div class="artifact-links">' .. table.concat(out, " · ") .. '</div>'
 end
 
 local function card_html(item, type_defs, extra_class)
-  local t = type_label(item, type_defs)
-  local summary = val(item.summary) or ""
-  local subtitle = val(item.subtitle)
+  local meta = {type_label(item, type_defs)}
   local year = val(item.year)
-  local meta = {t}
   if year then table.insert(meta, year) end
 
-  local h = {}
-  table.insert(h, '<article class="artifact-card ' .. (extra_class or "") .. '">')
-  table.insert(h, '<div class="artifact-meta">' .. esc(table.concat(meta, " · ")) .. '</div>')
-  table.insert(h, '<h3>' .. esc(title_of(item)) .. '</h3>')
-  if subtitle then table.insert(h, '<div class="artifact-subtitle">' .. esc(subtitle) .. '</div>') end
-  if summary ~= "" then table.insert(h, '<p>' .. esc(summary) .. '</p>') end
+  local h = {
+    '<article class="artifact-card ' .. (extra_class or "") .. '">',
+    '<div class="artifact-meta">' .. esc(table.concat(meta, " · ")) .. '</div>',
+    '<h3>' .. esc(title_of(item)) .. '</h3>'
+  }
+
+  local subtitle = val(item.subtitle)
+  local summary = val(item.summary) or ""
+
+  if subtitle then
+    table.insert(h, '<div class="artifact-subtitle">' .. esc(subtitle) .. '</div>')
+  end
+  if summary ~= "" then
+    table.insert(h, '<p>' .. esc(summary) .. '</p>')
+  end
+
   table.insert(h, chips(seq(item.topics)))
   table.insert(h, links_html(item))
   table.insert(h, '</article>')
@@ -102,10 +112,15 @@ local function card_html(item, type_defs, extra_class)
 end
 
 local function family_block(family, members, type_defs)
-  local h = {}
-  table.insert(h, '<section class="artifact-family">')
-  table.insert(h, '<h3>' .. esc(val(family.title) or val(family.id)) .. '</h3>')
-  if family.summary then table.insert(h, '<p class="family-summary">' .. esc(val(family.summary)) .. '</p>') end
+  local h = {
+    '<section class="artifact-family">',
+    '<h3>' .. esc(val(family.title) or val(family.id)) .. '</h3>'
+  }
+
+  if family.summary then
+    table.insert(h, '<p class="family-summary">' .. esc(val(family.summary)) .. '</p>')
+  end
+
   table.insert(h, '<div class="artifact-grid">')
   for _, item in ipairs(members) do
     table.insert(h, card_html(item, type_defs, "family-member"))
@@ -114,13 +129,19 @@ local function family_block(family, members, type_defs)
   return table.concat(h, "\n")
 end
 
-local function period(year)
+local function period_key(year)
   local y = tonumber(year or "")
-  if not y then return "Undated" end
+  if not y then return "undated" end
   if y >= 2020 then return "2020–2026" end
   if y >= 2010 then return "2010–2019" end
   if y >= 2000 then return "2000–2009" end
-  return "Before 2000"
+  return "before-2000"
+end
+
+local function period_label(key)
+  if key == "before-2000" then return tr("before_2000", "Before 2000") end
+  if key == "undated" then return tr("undated", "Undated") end
+  return key
 end
 
 local function sort_newest(a, b)
@@ -133,22 +154,28 @@ local function render_current(reg)
   local items = reg.current_artifacts or {}
   table.sort(items, function(a,b) return title_of(a) < title_of(b) end)
 
-  local h = {'<div class="software-generated">',
-             '<h2>Current Technological Artifacts (' .. #items .. ')</h2>',
-             '<div class="artifact-grid">'}
+  local h = {
+    '<div class="software-generated">',
+    '<h2>' .. esc(tr("current_technological_artifacts",
+      "Current Technological Artifacts")) .. ' (' .. #items .. ')</h2>',
+    '<div class="artifact-grid">'
+  }
+
   for _, item in ipairs(items) do
     table.insert(h, card_html(item, reg.artifact_types, "current-artifact"))
   end
+
   table.insert(h, '</div></div>')
   return pandoc.RawBlock("html", table.concat(h, "\n"))
 end
 
 local function render_families(reg)
   local all = {}
-  for _, section in ipairs({"current_artifacts", "software", "technological_products", "research_artifacts"}) do
-    if reg[section] then
-      for _, item in ipairs(reg[section]) do table.insert(all, item) end
-    end
+
+  for _, section in ipairs({
+    "current_artifacts", "software", "technological_products", "research_artifacts"
+  }) do
+    for _, item in ipairs(reg[section] or {}) do table.insert(all, item) end
   end
 
   local by_family = {}
@@ -162,50 +189,55 @@ local function render_families(reg)
 
   local blocks = {}
   for _, fam in ipairs(reg.families or {}) do
-    local fid = val(fam.id)
-    local members = by_family[fid] or {}
+    local members = by_family[val(fam.id)] or {}
     if #members > 0 then
       table.sort(members, sort_newest)
       table.insert(blocks, family_block(fam, members, reg.artifact_types))
     end
   end
 
-  local h = {'<div class="software-families-generated">',
-             '<h2>Technology Families</h2>',
-             table.concat(blocks, "\n"),
-             '</div>'}
-  return pandoc.RawBlock("html", table.concat(h, "\n"))
+  return pandoc.RawBlock("html", table.concat({
+    '<div class="software-families-generated">',
+    '<h2>' .. esc(tr("technology_families", "Technology Families")) .. '</h2>',
+    table.concat(blocks, "\n"),
+    '</div>'
+  }, "\n"))
 end
 
 local function render_archive(reg)
   local items = {}
+
   for _, section in ipairs({"software", "technological_products", "research_artifacts"}) do
-    if reg[section] then
-      for _, item in ipairs(reg[section]) do
-        if val(item.status) == "historical" then table.insert(items, item) end
-      end
+    for _, item in ipairs(reg[section] or {}) do
+      if val(item.status) == "historical" then table.insert(items, item) end
     end
   end
+
   table.sort(items, sort_newest)
 
   local groups = {
     ["2020–2026"] = {}, ["2010–2019"] = {}, ["2000–2009"] = {},
-    ["Before 2000"] = {}, ["Undated"] = {}
+    ["before-2000"] = {}, ["undated"] = {}
   }
   for _, item in ipairs(items) do
-    table.insert(groups[period(val(item.year))], item)
+    table.insert(groups[period_key(val(item.year))], item)
   end
 
-  local order = {"2020–2026", "2010–2019", "2000–2009", "Before 2000", "Undated"}
-  local h = {'<div class="software-archive-generated">',
-             '<h2>Technology Archive</h2>',
-             '<p><em>' .. #items .. ' historical technological artifacts</em></p>'}
+  local order = {"2020–2026", "2010–2019", "2000–2009", "before-2000", "undated"}
+  local h = {
+    '<div class="software-archive-generated">',
+    '<h2>' .. esc(tr("technology_archive", "Technology Archive")) .. '</h2>',
+    '<p><em>' .. #items .. ' ' ..
+      esc(tr("historical_technological_artifacts",
+        "historical technological artifacts")) .. '</em></p>'
+  }
 
-  for _, label in ipairs(order) do
-    local g = groups[label]
+  for _, key in ipairs(order) do
+    local g = groups[key]
     if #g > 0 then
       table.insert(h, '<details class="artifact-period">')
-      table.insert(h, '<summary><strong>' .. esc(label) .. '</strong> <span>(' .. #g .. ')</span></summary>')
+      table.insert(h, '<summary><strong>' .. esc(period_label(key)) ..
+        '</strong> <span>(' .. #g .. ')</span></summary>')
       table.insert(h, '<div class="archive-artifacts">')
       for _, item in ipairs(g) do
         table.insert(h, card_html(item, reg.artifact_types, "archive-artifact"))
@@ -221,19 +253,26 @@ end
 local function render_unresolved(reg)
   local items = reg.unresolved_project_artifacts or {}
   if #items == 0 then return pandoc.Null() end
-  local h = {'<div class="artifact-unresolved">',
-             '<h2>Artifacts Under Identification</h2>',
-             '<p>These active research areas are expected to produce software, datasets, prototypes, or other research artifacts, but no distinct canonical technological object has yet been identified.</p>',
-             '<ul>'}
+
+  local h = {
+    '<div class="artifact-unresolved">',
+    '<h2>' .. esc(tr("artifacts_under_identification",
+      "Artifacts Under Identification")) .. '</h2>',
+    '<p>' .. esc(tr("artifacts_under_identification_explanation",
+      "These active research areas are expected to produce software, datasets, prototypes, or other research artifacts, but no distinct canonical technological object has yet been identified.")) .. '</p>',
+    '<ul>'
+  }
+
   for _, item in ipairs(items) do
     table.insert(h, '<li><code>' .. esc(val(item.project)) .. '</code></li>')
   end
+
   table.insert(h, '</ul></div>')
   return pandoc.RawBlock("html", table.concat(h, "\n"))
 end
 
-function Pandoc(doc)
-  local reg = read_yaml("data/software.yml")
+local function process_doc(doc)
+  local reg = project.yaml_meta("data/software.yml")
   local out = {}
 
   for _, block in ipairs(doc.blocks) do
@@ -253,3 +292,15 @@ function Pandoc(doc)
   doc.blocks = out
   return doc
 end
+
+return {
+  {
+    Meta = function(meta)
+      configure_i18n(meta)
+      return nil
+    end
+  },
+  {
+    Pandoc = process_doc
+  }
+}

@@ -2,22 +2,23 @@
 title: "Software e Dados"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/software.lua
+canonical-path: "/pt/software/"
 ---
 
 <div class="language-switch">**PT** · [EN](../../en/software/) · [ES](../../es/software/)</div>
 
+Minha pesquisa tem produzido software, plataformas tecnológicas, infraestruturas digitais, protótipos, implementações de referência e outros artefatos. Esta página preserva tanto os trabalhos atuais quanto a história tecnológica que os antecede.
 
-My research has produced software, technological platforms, digital infrastructures, prototypes, reference implementations, and other artifacts. This page preserves both current work and the technological history behind it.
-
-The registry distinguishes **research projects** from the **technological artifacts** they produce. A project may generate several artifacts, while an artifact may connect multiple projects, publications, students, and institutions.
+O registro distingue **projetos de pesquisa** dos **artefatos tecnológicos** que eles produzem. Um projeto pode gerar vários artefatos, enquanto um artefato pode conectar múltiplos projetos, publicações, estudantes e instituições.
 
 ::: {.software-current-generated}
 :::
 
-## Technology as a Research Record
+## Tecnologia como Registro de Pesquisa
 
-Software is not treated here merely as downloadable code. It is part of the research record: implementations can embody cryptographic protocols, standards, architectural decisions, experiments, and technology transfer.
+O software não é tratado aqui apenas como código disponível para uso ou download. Ele faz parte do registro da pesquisa: implementações podem incorporar protocolos criptográficos, padrões, decisões arquiteturais, experimentos e processos de transferência de tecnologia.
 
 ::: {.software-families-generated}
 :::
@@ -28,18 +29,18 @@ Software is not treated here merely as downloadable code. It is part of the rese
 ::: {.software-unresolved-generated}
 :::
 
-## Data and Reproducibility
+## Dados e Reprodutibilidade
 
-Datasets, experimental results, benchmarks, and reproducibility packages will be incorporated as they are curated. When appropriate, preserved research objects will be linked to persistent repositories and identifiers.
+Conjuntos de dados, resultados experimentais, benchmarks e pacotes de reprodutibilidade serão incorporados à medida que forem curados. Quando apropriado, objetos de pesquisa preservados serão vinculados a repositórios e identificadores persistentes.
 
-## Preservation Model
+## Modelo de Preservação
 
-The long-term preservation strategy separates three layers:
+A estratégia de preservação de longo prazo separa três camadas:
 
-1. **Development** — source code and active collaboration environments;
-2. **Publication** — stable releases associated with papers, projects, and academic outputs;
-3. **Preservation** — durable research objects with persistent metadata and, where appropriate, archival repositories and DOIs.
+1. **Desenvolvimento** — código-fonte e ambientes ativos de colaboração;
+2. **Publicação** — versões estáveis associadas a artigos, projetos e resultados acadêmicos;
+3. **Preservação** — objetos de pesquisa duráveis, com metadados persistentes e, quando apropriado, repositórios arquivísticos e DOIs.
 
-This structure is intended to preserve relationships such as:
+Essa estrutura busca preservar relações como:
 
-`project → software → release → dataset → publication → student → talk`
+`projeto → software → versão → conjunto de dados → publicação → estudante → palestra`

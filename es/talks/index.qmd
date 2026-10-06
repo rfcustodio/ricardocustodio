@@ -1,13 +1,14 @@
 ---
-title: "Charlas"
+title: "Conferencias"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/talks.lua
+canonical-path: "/es/talks/"
 ---
 
 <div class="language-switch">[PT](../../pt/talks/) · [EN](../../en/talks/) · **ES**</div>
 
+Las conferencias invitadas, presentaciones en congresos, paneles, tutoriales, talleres y presentaciones profesionales constituyen una parte importante de mi actividad académica y técnica.
 
-Invited talks, conference presentations, panels, tutorials, workshops, and professional presentations form an important part of my academic and technical activity.
-
-This archive is being reconstructed from curriculum records, institutional sources, event programs, and historical material. It records presentations for which there is documentary evidence; simple event attendance and academic-service activities are maintained separately.
+Este archivo se está reconstruyendo a partir de registros curriculares, fuentes institucionales, programas de eventos y material histórico. Registra presentaciones para las que existe evidencia documental; la simple asistencia a eventos y las actividades de servicio académico se mantienen por separado.

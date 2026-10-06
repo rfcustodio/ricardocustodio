@@ -1,6 +1,9 @@
 ---
 title: "About"
 toc: true
+canonical-path: "/en/about/"
+filters:
+  - ../../filters/i18n-head.lua
 ---
 
 ## Short Bio

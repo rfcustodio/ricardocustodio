@@ -1,58 +1,60 @@
 ---
 title: "Contacto"
 toc: false
+canonical-path: "/es/contact/"
+filters:
+  - ../../filters/i18n-head.lua
 ---
 
 <div class="language-switch">[PT](../../pt/contact/) · [EN](../../en/contact/) · **ES**</div>
 
-
-For academic inquiries, research collaboration, technical discussions, and professional activities, the channels below provide the most appropriate points of contact.
+Para consultas académicas, colaboración en investigación, discusiones técnicas y actividades profesionales, los canales que se indican a continuación son los puntos de contacto más apropiados.
 
 ::: {.contact-grid}
 
 ::: {.contact-card}
-## Academic & Research
+## Actividad Académica e Investigación
 
-**Ricardo Custódio**  
-Full Professor · Researcher · Advisor
+**Ricardo Custódio**
+Profesor Titular · Investigador · Director de investigación
 
-Department of Informatics and Statistics  
-Federal University of Santa Catarina (UFSC)  
-Florianópolis, Santa Catarina, Brazil
+Departamento de Informática y Estadística
+Universidad Federal de Santa Catarina (UFSC)
+Florianópolis, Santa Catarina, Brasil
 
-[Academic trajectory →](/es/about/)
+[Trayectoria académica →](/es/about/)
 :::
 
 ::: {.contact-card}
-## Research Collaboration
+## Colaboración en Investigación
 
-My current interests include cryptography, digital signatures, electronic documents, public-key infrastructure, electronic identity, post-quantum security, finite-field arithmetic, and security and identity for AI agents.
+Mis intereses actuales incluyen criptografía, firmas digitales, documentos electrónicos, infraestructura de clave pública, identidad electrónica, seguridad poscuántica, aritmética de campos finitos y seguridad e identidad para agentes de IA.
 
-[Current research questions →](/es/research/#current-research-questions)
+[Preguntas actuales de investigación →](/es/research/#preguntas-actuales-de-investigación)
 :::
 
 ::: {.contact-card}
-## Students & Supervision
+## Estudiantes y Dirección Académica
 
-Prospective students should consult the Research, Projects, and Supervision sections before making contact. Research topics and supervision availability depend on current projects and academic commitments.
+Los estudiantes interesados en dirección académica deben consultar las secciones Investigación, Proyectos y Dirección Académica antes de ponerse en contacto. Los temas y la disponibilidad dependen de los proyectos actuales y de los compromisos académicos.
 
-[Research →](/es/research/) · [Projects →](/es/projects/) · [Supervision →](/es/supervision/)
+[Investigación →](/es/research/) · [Proyectos →](/es/projects/) · [Dirección Académica →](/es/supervision/)
 :::
 
 ::: {.contact-card}
-## Academic Profiles
+## Perfiles Académicos
 
-[ORCID](https://orcid.org/0000-0001-9611-5694)  
-[Lattes Curriculum](http://lattes.cnpq.br/9716092379282146)  
-[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en)  
-[GitHub](https://github.com/rfcustodio)  
+[ORCID](https://orcid.org/0000-0001-9611-5694)
+[Currículo Lattes](http://lattes.cnpq.br/9716092379282146)
+[Google Scholar](https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=es)
+[GitHub](https://github.com/rfcustodio)
 [LinkedIn](https://www.linkedin.com/in/rfcustodio/)
 :::
 
 :::
 
-## Academic Archive
+## Archivo Académico
 
-This website is intended to serve as a long-term academic record. Corrections, additional information, and references to historical academic material related to the work documented here are welcome.
+Este sitio está concebido como un registro académico de largo plazo. Son bienvenidas las correcciones, la información adicional y las referencias a material académico histórico relacionado con los trabajos aquí documentados.
 
-[Explore the Academic Archive →](/es/archive/)
+[Explorar el Archivo Académico →](/es/archive/)

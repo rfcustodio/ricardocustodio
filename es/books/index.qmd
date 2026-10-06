@@ -2,12 +2,13 @@
 title: "Libros y Textos"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/texts.lua
+canonical-path: "/es/books/"
 ---
 
 <div class="language-switch">[PT](../../pt/books/) · [EN](../../en/books/) · **ES**</div>
 
+Esta sección reúne libros, capítulos, textos técnicos y científicos, materiales docentes y trabajos profesionales seleccionados producidos a lo largo de mi carrera académica.
 
-This section brings together books, chapters, technical and scientific texts, teaching materials, and selected professional works produced throughout my academic career.
-
-The collection is being progressively reconstructed from bibliographic records and historical archives. A bibliographic record confirms that a work is part of the academic record; it does not necessarily mean that a public digital copy is currently available.
+La colección se está reconstruyendo progresivamente a partir de registros bibliográficos y archivos históricos. Un registro bibliográfico confirma que una obra forma parte del registro académico; no significa necesariamente que exista actualmente una copia digital pública disponible.

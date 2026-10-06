@@ -63,7 +63,6 @@ format:
       dark: darkly
     css: styles.css
     toc: true
-    lang: en
     include-in-header:
       - person-jsonld.html
     author-meta: "Ricardo Custódio"

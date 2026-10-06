@@ -2,6 +2,9 @@
 title: "Sobre mí"
 toc: true
 lang: es
+canonical-path: "/es/about/"
+filters:
+  - ../../filters/i18n-head.lua
 ---
 
 <div class="language-switch">[PT](../../pt/about/) · [EN](../../en/about/) · **ES**</div>

@@ -2,7 +2,9 @@
 title: "Teaching"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/teaching.lua
+canonical-path: "/en/teaching/"
 ---
 
 <div class="language-switch">[PT](../../pt/teaching/) · **EN** · [ES](../../es/teaching/)</div>

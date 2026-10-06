@@ -2,12 +2,13 @@
 title: "Arquivo Acadêmico"
 toc: true
 filters:
+  - ../../filters/i18n-head.lua
   - ../../filters/archive.lua
+canonical-path: "/pt/archive/"
 ---
 
 <div class="language-switch">**PT** · [EN](../../en/archive/) · [ES](../../es/archive/)</div>
 
+Meu trabalho acadêmico se desenvolveu entre engenharia, computação científica, criptografia, documentos eletrônicos, assinaturas digitais, identidade, criptografia pós-quântica e inteligência artificial.
 
-My academic work has developed across engineering, scientific computing, cryptography, electronic documents, digital signatures, identity, post-quantum cryptography, and artificial intelligence.
-
-This archive is not intended to reproduce a curriculum vitae. It is a historical view of how research questions, projects, technological artifacts, publications, students, and collaborations have evolved and intersected over time.
+Este arquivo não pretende reproduzir um currículo. Ele oferece uma visão histórica de como questões de pesquisa, projetos, artefatos tecnológicos, publicações, estudantes e colaborações evoluíram e se cruzaram ao longo do tempo.

@@ -319,14 +319,18 @@ end
 -- Publications page
 -- ---------------------------------------------------------------------------
 
-function Div(el)
+local I = nil
+local T = {}
+
+local function configure_i18n(meta)
+  I = i18n.load(i18n.meta_language(meta))
+  T = I.labels or {}
+end
+
+local function render_publications(el)
   if el.identifier ~= "publications-generated" then
     return nil
   end
-
-  local lang = i18n.document_language()
-  local I = i18n.load(lang)
-  local T = I.labels
 
   local meta = project.yaml_meta("data/publications.yml")
   local bib = parse_bib(project.locate("bibliography/publications.bib"))
@@ -518,3 +522,8 @@ function Div(el)
 
   return blocks
 end
+
+return {
+  { Meta = function(meta) configure_i18n(meta); return nil end },
+  { Div = render_publications }
+}
