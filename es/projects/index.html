@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Ricardo Custódio">
+<meta name="keywords" content="cryptography, information security, digital trust, digital signatures, public-key infrastructure, electronic identity, electronic documents, post-quantum cryptography, finite fields, artificial intelligence security">
+
+<title>Proyectos – Ricardo Custódio</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-90b0ccabdf50233fb893b00cd6e33405.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-55617497126496852ff9f5a59253c640.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://ricardocustodio.com.br/#person",
+  "name": "Ricardo Custódio",
+  "alternateName": "Ricardo Felipe Custodio",
+  "url": "https://ricardocustodio.com.br/",
+  "jobTitle": "Full Professor",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Federal University of Santa Catarina",
+    "alternateName": "UFSC"
+  },
+  "sameAs": [
+    "https://orcid.org/0000-0001-9611-5694",
+    "http://lattes.cnpq.br/9716092379282146",
+    "https://scholar.google.com/citations?user=l29lg_IAAAAJ&hl=en",
+    "https://github.com/rfcustodio",
+    "https://www.linkedin.com/in/rfcustodio/"
+  ],
+  "knowsAbout": [
+    "Cryptography",
+    "Information Security",
+    "Digital Trust",
+    "Digital Signatures",
+    "Public-Key Infrastructure",
+    "Electronic Identity",
+    "Electronic Documents",
+    "Post-Quantum Cryptography",
+    "Finite-Field Arithmetic",
+    "Artificial Intelligence Security"
+  ]
+}
+</script>
+<link rel="canonical" href="https://ricardocustodio.com.br/es/projects/">
+<link rel="alternate" hreflang="en" href="https://ricardocustodio.com.br/en/projects/">
+<link rel="alternate" hreflang="pt-BR" href="https://ricardocustodio.com.br/pt/projects/">
+<link rel="alternate" hreflang="es" href="https://ricardocustodio.com.br/es/projects/">
+<link rel="alternate" hreflang="x-default" href="https://ricardocustodio.com.br/en/projects/">
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Proyectos – Ricardo Custódio">
+<meta property="og:description" content="Academic website of Ricardo Custódio: research on cryptography, digital trust, electronic identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and AI security.">
+<meta property="og:site_name" content="Ricardo Custódio">
+<meta name="twitter:title" content="Proyectos – Ricardo Custódio">
+<meta name="twitter:description" content="Academic website of Ricardo Custódio: research on cryptography, digital trust, electronic identity, digital signatures, electronic documents, post-quantum cryptography, finite-field arithmetic, and AI security.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Ricardo Custódio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../../books.html">
+ <span class="dropdown-text">Books &amp; Texts</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../supervision.html">
+ <span class="dropdown-text">Supervision</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../software.html">
+ <span class="dropdown-text">Software &amp; Data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../talks.html">
+ <span class="dropdown-text">Talks</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../archive.html">
+ <span class="dropdown-text">Archive</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../contact.html">
+ <span class="dropdown-text">Contact</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#de-la-investigación-a-la-tecnología" id="toc-de-la-investigación-a-la-tecnología" class="nav-link active" data-scroll-target="#de-la-investigación-a-la-tecnología">De la Investigación a la Tecnología</a></li>
+  <li>Archivo de Proyectos</li>
+  <li><a href="#recursos-relacionados" id="toc-recursos-relacionados" class="nav-link" data-scroll-target="#recursos-relacionados">Recursos Relacionados</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Proyectos</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Palabras clave</div>
+    <p>cryptography, information security, digital trust, digital signatures, public-key infrastructure, electronic identity, electronic documents, post-quantum cryptography, finite fields, artificial intelligence security</p>
+  </div>
+</div>
+
+</header>
+
+
+<div class="language-switch">
+<a href="../../pt/projects/">PT</a> · <a href="../../en/projects/">EN</a> · <strong>ES</strong>
+</div>
+<p>Mi investigación se ha desarrollado con frecuencia a través de iniciativas de largo plazo que conectan la investigación fundamental, el desarrollo tecnológico, la infraestructura, los estándares y las aplicaciones en el mundo real.</p>
+<p>El portafolio abarca criptografía, confianza digital, documentos electrónicos, identidad digital, seguridad poscuántica, inteligencia artificial e infraestructuras de información. Los programas de investigación representan líneas continuas de investigación, mientras que los proyectos tienen objetivos tecnológicos, científicos o institucionales más específicos.</p>
+<div class="projects-generated">
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">Programas de Investigación Actuales (3)</h2>
+<div class="research-programs-grid">
+<section class="level3 research-program-card">
+<h3 class="anchored" data-anchor-id="">Electronic Document Security</h3>
+<p>Continuing research on the security of electronic documents, including authenticity, confidentiality, integrity, preservation, and trustworthy document infrastructures.</p>
+<p><span class="project-topic">Documentos Electrónicos</span> · <span class="project-topic">Seguridad de la Información</span> · <span class="project-topic">Preservación Digital</span> · <span class="project-topic">Confidencialidad</span> · <span class="project-topic">Firmas Digitales</span></p>
+</section>
+<section class="level3 research-program-card">
+<h3 class="anchored" data-anchor-id="">Finite-Field Arithmetic</h3>
+<p>Research on efficient arithmetic over binary finite fields, including irreducible polynomial families, modular reduction, XOR complexity, and computational methods for discovering efficient algebraic structures.</p>
+<p><span class="project-topic">Campos Finitos</span> · <span class="project-topic">Criptografía</span> · <span class="project-topic">Polinomios Irreducibles</span> · <span class="project-topic">Reducción Modular</span></p>
+</section>
+<section class="level3 research-program-card">
+<h3 class="anchored" data-anchor-id="">Post-Quantum Cryptographic Algorithms</h3>
+<p>Research on post-quantum cryptographic algorithms and their integration into existing protocols, digital signatures, and digital trust infrastructures.</p>
+<p><span class="project-topic">Criptografía</span> · <span class="project-topic">Criptografía Poscuántica</span> · <span class="project-topic">Firmas Digitales</span></p>
+</section>
+</div>
+</section>
+<section class="level2">
+<h2 class="anchored" data-anchor-id="">Proyectos Actuales (7)</h2>
+<div class="projects-grid">
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">ADES</h3>
+<p><em>Advanced Digital Signature</em></p>
+<p>Research and development on advanced digital signatures, with emphasis on a digital signature system based on single-use signing certificates.</p>
+<p><span class="project-topic">Firmas Digitales</span> · <span class="project-topic">PKI</span> · <span class="project-topic">Documentos Electrónicos</span> · <span class="project-topic">Identidad Digital</span></p>
+<p><a href="https://ades.labsec.ufsc.br/">Sitio del proyecto</a></p>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Confidentiality of Digital Documents</h3>
+<p>Research on cryptographic mechanisms for protecting the confidentiality of digital documents while supporting long-term preservation and controlled access.</p>
+<p><span class="project-topic">Documentos Electrónicos</span> · <span class="project-topic">Confidencialidad</span> · <span class="project-topic">Criptografía</span> · <span class="project-topic">Preservación Digital</span></p>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Criptografia Aplicada à Conformidade Regulatória e à Proteção de Dados no Open Insurance</h3>
+<p>Research on cryptography, information security, regulatory compliance, and data protection for the Brazilian Open Insurance ecosystem.</p>
+<p><span class="project-topic">Open Insurance</span> · <span class="project-topic">Criptografía</span> · <span class="project-topic">Protección de Datos</span> · <span class="project-topic">Cumplimiento Normativo</span> · <span class="project-topic">Seguridad de la Información</span></p>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">IAC</h3>
+<p><em>Artificial Intelligence for CLARCIEV</em></p>
+<p>Artificial intelligence applied to the civil registration community represented by CLARCIEV, supporting access to specialized knowledge and services across the regional ecosystem.</p>
+<p><span class="project-topic">Inteligencia Artificial</span> · <span class="project-topic">Registro Civil</span> · <span class="project-topic">CLARCIEV</span></p>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">LabREC / ON-RCPN</h3>
+<p>Research and technological development for the Brazilian civil registration ecosystem, connecting digital identity, electronic documents, digital signatures, artificial intelligence, and information security.</p>
+<p><span class="project-topic">Registro Civil</span> · <span class="project-topic">Identidad Digital</span> · <span class="project-topic">Firmas Digitales</span> · <span class="project-topic">Documentos Electrónicos</span> · <span class="project-topic">Inteligencia Artificial</span> · <span class="project-topic">Seguridad de la Información</span></p>
+<section class="level4">
+<h4 class="anchored" data-anchor-id="">Iniciativas relacionadas</h4>
+</section>
+<div class="project-children-grid">
+<section class="level4 project-child-card">
+<h4 class="anchored" data-anchor-id="">ARIA</h4>
+<p><em>Artificial Intelligence for Civil Registration</em></p>
+<p>Artificial intelligence for the Brazilian civil registration ecosystem, supporting specialized knowledge, services, and intelligent applications in the domain.</p>
+<p><span class="project-topic">Inteligencia Artificial</span> · <span class="project-topic">Registro Civil</span> · <span class="project-topic">Seguridad de la Información</span></p>
+</section>
+<section class="level4 project-child-card">
+<h4 class="anchored" data-anchor-id="">Intelligent OCR</h4>
+<p>Research and development of intelligent OCR methods for extracting, interpreting, and structuring information from civil registration and other electronic documents.</p>
+<p><span class="project-topic">Inteligencia Artificial</span> · <span class="project-topic">OCR</span> · <span class="project-topic">Documentos Electrónicos</span> · <span class="project-topic">Registro Civil</span></p>
+</section>
+</div>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Personal AI</h3>
+<p>Research on personal AI agents and the digital trust mechanisms required for identity, authentication, authorization, delegation, accountability, and auditable consequential digital actions.</p>
+<p><span class="project-topic">Inteligencia Artificial</span> · <span class="project-topic">Agentes de IA</span> · <span class="project-topic">Identidad Digital</span> · <span class="project-topic">Autorización</span> · <span class="project-topic">Rendición de Cuentas</span> · <span class="project-topic">Confianza Digital</span></p>
+</section>
+<section class="level3 project-card project-parent-card">
+<h3 class="anchored" data-anchor-id="">Segurança, Eficiência e Controle na Gestão Documental (SecDoc)</h3>
+<p>Research on security, efficiency, and control in digital document management, including mechanisms for trustworthy processing, protection, and preservation of electronic documents.</p>
+<p><span class="project-topic">Documentos Electrónicos</span> · <span class="project-topic">Preservación Digital</span> · <span class="project-topic">Seguridad de la Información</span> · <span class="project-topic">Gestión de Documentos</span></p>
+</section>
+</div>
+</section>
+</div>
+<section id="de-la-investigación-a-la-tecnología" class="level2">
+<h2 class="anchored" data-anchor-id="de-la-investigación-a-la-tecnología">De la Investigación a la Tecnología</h2>
+<p>Un objetivo recurrente de estas iniciativas es conectar la investigación fundamental con sistemas desplegables, estándares, implementaciones abiertas e infraestructuras digitales de largo plazo. Algunos proyectos completados continúan influyendo en el trabajo actual, ya sea mediante tecnologías reutilizadas en nuevos proyectos o mediante preguntas de investigación que evolucionaron hacia programas de investigación continuos.</p>
+</section>
+<section class="level2 project-archive-generated">
+<h2 class="anchored" data-anchor-id="">Archivo de Proyectos</h2>
+<p><em>30 proyectos históricos</em></p>
+<p>Los proyectos históricos se agrupan por año de inicio. Un año de finalización desconocido se indica con “?”.</p>
+<details class="project-period"><summary>2020–2026 (2)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Certificação Digital e Identidade Eletrônica · 2021–?</h4>
+<p><strong>Investigación</strong></p>
+<p>Projeto de pesquisa é o desenvolvimento de uma proposta de ICP e IdE integrados, permitindo que seus usuários tenham uma IdE útil, barata e moderna que faça uso de ICP sob-demanda e de forma transparente para o usuário. Projeto desenvolvido em parceria com o Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul (IFRS ).</p>
+<p><em>Legado: Results from this project led to new initiatives and continue to be applied in several current projects.</em></p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Segurança de Documentos Eletrônicos · 2021–?</h4>
+<p><strong>Investigación</strong></p>
+<p>Este projeto trata do problema de autenticidade, integridade, sigilo e preservação em longo prazo de documentos eletrônicos. Estamos interessado em novos métodos de assinatura digital de documentos eletrônicos. Tais métodos devem levar em consideração o uso de algoritmos de assinatura digital pós-quânticos e melhoria na forma de representação visual da assinatura digital. Em termos de sigilo, estamos interessados em como garantir o sigilo de documentos eletrônicos, tanto a curto prazo quanto em longo prazo. Estaremos estudando protocolos criptográficos adequados ao ciframento dos documentos, com possibilidade de gestão inteligente de chaves criptográficas. Faz parte o estudo e melhoria de sistemas de gerenciamento de chaves, voltados ao sigilo de documentos eletrônicos.</p>
+<p><em>Legado: This project evolved into the continuing Electronic Document Security research program.</em></p>
+</section>
+</details>
+<details class="project-period"><summary>2010–2019 (14)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Capacitação dos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywapa, Ywyra e Hawa · 2018–2018</h4>
+<p><strong>Extensión</strong></p>
+<p>Este projeto tem por objetivo realizar o Treinamento/ Capacitação aos Sistemas Ywapa Ywyra e Hawa, sistemas estes desenvolvidos pelo Laboratório de Segurança em Computação - LabSEC. A proposta é de realizar o treinamento no decorrer de sua a vigência a partir da assinatura do contrato. O professor coordenador e bolsistas desenvolvedores do projeto irão dar o treinamento a equipe do CMB possibilitando dessa forma passar o conhecimento necessário para a sua utilização.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Atualização do Verificador de Conformidade e Gerenciador de Políticas de Assinatura Digital · 2017–?</h4>
+<p><strong>Extensión</strong></p>
+<p>O projeto tem por objetivo geral realizar a atualização, suporte e manutenção dos sistemas, "Verificador de Conformidade" e do Gerenciador de Políticas de Assinatura Digital" e como objetivo específico realizar as seguintes correções de erros e problemas encontrados nos sistemas: * Validação de formatos, para tratar arquivos dos quais não contenham assinaturas; * Carga de arquivos, apresentar o nome do arquivo no relatório da validação; * Mensagens em línguas estrangeiras, alteração de mensagens de erros em inglês; Tratamento de políticas vencidas, tratando assinaturas com políticas vencidas; Melhoria nas mensagens de erro, para melhor entendimento do usuário; *Melhoria na interface com o usuário, facilitando a interação com o usuário.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Autenticação Multifator · 2017–?</h4>
+<p><strong>Extensión</strong></p>
+<p>O objetivo do projeto é entregar uma solução de autenticação multifator OTP (One Time Password) protegida por execução segura de código no kNET HSM.</p>
+<p><em>Legado: Results from this project continue to be applied in several current projects.</em></p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte aos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywyra e Hawa - PRODEMGE · 2016–?</h4>
+<p><strong>Extensión</strong></p>
+<p>Este projeto tem por objetivo realizar o suporte técnico aos sistemas Ywyra e Hawa, sistemas estes desenvolvidos pelo Laboratório de Segurança em Computação - LabSEC. A proposta é de realizar o suporte por 1 (hum) a partir da assinatura do contrato, sendo este tempo de suporte o mínimo aconselhável para que a equipe da PRODEMGE tenha condições de operar de forma autônoma e confidente os ambientes operacionais da AC. O suporte cobrirá todo o processo de instalação e configuração dos sistemas Ywyra e Hawa, assim como o uso e configuração dos equipamentos homologados de hardware tais como cartões, leitoras e HSMs para o correto funcionamento dos sistemas (excluindo-se os defeitos de responsabilidade dos fabricantes e suas consequências). O contrato de suporte não prevê o desenvolvimento de novas peças de software para adaptar o uso de novos equipamentos e/ou softwares. No entanto, as questões relativas ao uso do software e seu código serão cobertas sempre de forma a possibilitar que as equipes da contratante possam fazê-lo de forma independente. O LabSEC não produzirá artefatos de software, mas apenas orientará e tirará dúvidas manifestadas, usando para isso o ambiente operacional da contratante, replicado no LabSEC/UFSC.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Assinador PAdES ICP-Brasil BRy · 2015–2017</h4>
+<p><strong>Extensión</strong></p>
+<p>Criação de uma biblioteca para trabalhar com assinaturas digitais no formato PAdES (PDF advanced electronic signature),que será um novo produto BRy. Implementar um protótipo para assinaturas digitais em navegadores web, utilizando e adaptando a biblioteca entregue anteriormente. Realizar uma revisão de literatura, a fim de mapear métodos de extensões e aplicativos para os navegadores Chrome, Firefox e Edge, bem como métodos de acesso a chave privada em dispositivos criptográficos e documentos em disco.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Manutenção dos Códigos de Referência do Padrão Brasileiro de Assinatura Digital · 2015–2016</h4>
+<p><strong>Extensión</strong></p>
+<p>Realizar a manutenção e suporte dos seguintes sistemas: * Biblioteca de referência do Padrão Brasileiro de Assinatura Digital (PBAD; * Gerenciador de Políticas de Assinatura Digital; * Assinador de Lista de Políticas Aprovadas (LPA); * Verificador de Conformidade de Assinaturas Digitais com suporte a verificação de assinatura PAdES; * Assinador de Referência v2.0 com suporte a PAdES.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte e Avaliação de Adequabilidade Tecnológica dos Sistemas de Gerenciamento de Certificados Digitais Ywapa e Ywyra. · 2015–2016</h4>
+<p><strong>Extensión</strong></p>
+<p>Este projeto tem como objetivo realizar o suporte e Avaliação de Adequabilidade Tecnológica dos 5(cinco)artefatos a seguir: Atualização da Biblioteca Criptográfica; Manutenção corretiva e de testes; Atualização do Sistema Operacional; Suporte a Cartões JavaCard; *Gestão de Chaves Simétricas;</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte e Capacitação dos Sistemas de Gerenciamento de Certificados Digitais ICP-Brasil: Ywapa, Ywyra e Hawa (Instituto FENACON) · 2015–2017</h4>
+<p><strong>Extensión</strong></p>
+<p>Esta extensão tem por objetivo realizar o Suporte por um ano ao iniciar a implantação dos sistemas e Capacitação de recursos humanos para instalar, configurar, usar os sistemas de gerenciamento de certificados digitais Ywapa, Ywyra e Hawa, através de um treinamento avançado destes sistemas. A partir deste treinamento, os integrantes estarão aptos a instalar, configurar e colocar em operação autoridasdes certificadoras raiz, intermediárias e finais para a emissão de certificados.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Verificador de Conformidade, Gerador e Assinador de Políticas de Assinatura · 2015–2016</h4>
+<p><strong>Extensión</strong></p>
+<p>Este projeto tem como objetivo realizar a manutenção e suporte aos seguintes sistemas: 1. Gerador e Assinador de Políticas de Assinatura Digital 2. Verificador de Conformidade de Assinaturas Digitais.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Consultoria para apoio ao desenvolvimento sob Ywapa e Ywyra · 2012–2013</h4>
+<p><strong>Extensión</strong></p>
+<p>O LabSEC, que tem amplo conhecimento nas plataformas Ywapa e Ywyra do ITI, auxiliará a empresa Valid, usuária dessas plataformas, em suas dúvidas de desenvolvimento. - O objeto é a prestação de consultoria pelo LabSEC a respeito dos sistemas Ywapa e Ywyra, do ITI; - Pelo período dos três meses iniciais do projeto, em paralelo com a consultoria acima mencionada, também será desenvolvido pelo LabSEC o desenvolvimento de estudos visando possibilitar a importação do applet Muscle produzido pela empresa OpenSC para cartões javacard. Tais estudos indicarão como operacionalizar cartões Oberthur compatíveis com o ASI-HSM para que os mesmos se tornem compatíveis com a plataforma Ywyra. - A consultoria se dará por e-mail, telefone ou videoconferência (Skype) e o LabSEC - Todas as atividades executadas pelo LabSEC ocorrerão exclusivamente em dias úteis, nos horários de funcionamento da UFSC; - O LabSEC não produzirá artefatos de software, mas apenas orientará e tirará dúvidas manifestadas, usando para isso o ambiente replicado no Laboratório;</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Certificado de Identificação Mobile para acesso seguro a ambientes de telesaude e telemedicina · 2011–2014</h4>
+<p><strong>Investigación</strong></p>
+<p>O projeto tem por objetivo implementar mecanismos computacionais e múltiplas chaves de acesso que possam proporcionar segurança em transações, acessos e comando executados por profissionais de saúde me ambiente eletrônico. O processo deve ser executado através de dispositivos móveis tão presentes no quotidianos de tais profissionais.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Proposta de Treinamento para os softwares Ywapa e Ywyra · 2011–2011</h4>
+<p><strong>Extensión</strong></p>
+<p>O Curso tem por objetivo capacitar e prover aos participantes treinamento avançado dos Sistemas Ywapa e Ywyra, a partir deste treinamento os integrantes estarão aptos a instalar, configurar e colocar em operação autoridades certificadoras raiz e intermediarias em modo offline. O curso também contempla os fundamentos teóricos e práticos mínimos necessários para o correto entendimento dos Sistemas de Gerenciamentos de certificados Digitais</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Autenticação Multifator em Sistemas Computacionais · 2010–2011</h4>
+<p><strong>Desarrollo Tecnológico</strong></p>
+<p>Este projeto visa especificar, analisar e implementar um protocolo para realizar a autenticação de pessoas usando certificados digitais e, opcionalmente, sua impressão digital em um sistema computacional distribuído</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Suporte a Infraestrutura de Chaves Públicas para Ensino e Pesquisa · 2010–?</h4>
+<p><strong>Extensión</strong></p>
+<p>Melhorar e dar suporte as ferramentas e documentos relativos a implantação de uma infraestrutura de chaves públicas para ensino e pesquisa nas instituições de pesquisa e ensino brasileiras. Serão realizadas reuniões semanais por videoconferências com os responsáveis pelas autoridades certificados das universidades brasileiras credenciadas. Também será analisado documentos de políticas de certificação digital e de segurança dessas instituições, dando pareceres técnicos e ajuda na resolução de possíveis problemas.</p>
+</section>
+</details>
+<details class="project-period"><summary>2000–2009 (7)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Desenvolvimento de Códigos de Referência para o Padrão Brasileiro de Assinatura Digital · 2009–2011</h4>
+<p><strong>Desarrollo Tecnológico</strong></p>
+<p>Desenvolver códigos abertos em linguagem de programação para orientar desenvolvedores de software na elaboração de aplicações de assinatura digital aderentes ao Padrão Brasileiro de Assinatura Digital.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Revisão do Padrão do Padrão Brasileiro de Assinatura Digital · 2009–2009</h4>
+<p><strong>Extensión</strong></p>
+<p>Revisar o Padrão Brasileiro de Assinatura Digital de modo a torná-lo implementável na Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil).</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">CONTRATO DE PRESTAÇÃO DE SERVIÇOS ESPECIALIZADO DE SUPORTE TÉCNICO DE SOFTWARE DE GERENCIAMENTO DE CERTIFICADO DIGITAL · 2008–2009</h4>
+<p><strong>Extensión</strong></p>
+<p>Suporte Técnico as atividades necessárias para a operação dos sistemas: - Atualizações de programas; - Patches (correção de código); - Versões de manutenção geral; - Atualizações de documentação.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Projeto "Sala Cofre, Software e Procedimentos do Módulo Criptografico (MSC) para ICP-Brasil" · 2007–2009</h4>
+<p><strong>Extensión</strong></p>
+<p>Desenvolvimento, implantação e testes de um sistema (software, sala cofre, procedimentos) de gestão de certificados digitais ao longo de todo o seu ciclo de vida: emissão, publicação e revogação em um ambiente seguro.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Programa João de Barro · 2005–2007</h4>
+<p><strong>Investigación</strong></p>
+<p>O módulo Sala Cofre e Sistema de Gerenciamento de Certificados Digitais e um sub-projeto do programa João de Barro do Instituto Nacional de Tecnologia da Informação - ITI.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">GT ICP-EDU II · 2004–2006</h4>
+<p><strong>Desarrollo Tecnológico</strong></p>
+<p>O GT ICP-EDU tem por objetivo o desesnvolvimento e implamtação de uma Infra-estrutura de chaves públicas para as universidades brasileiras. Entre os produtos deste projeto estão um sistema para o gerenciamento do ciclo de vida de certificados digitais e uma plataforma criptográfica para a gestão sesgura de chaves criptográficas.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">GT ICP-EDU · 2003–2004</h4>
+<p><strong>Desarrollo Tecnológico</strong></p>
+<p>O GT ICP-EDU tem por objetivo o desesnvolvimento e implamtação de uma Infra-estrutura de chaves públicas para as universidades brasileiras. Entre os produtos deste projeto estão um sistema para o gerenciamento do ciclo de vida de certificados digitais e uma plataforma criptográfica para a gestão sesgura de chaves criptográficas.</p>
+</section>
+</details>
+<details class="project-period"><summary>Antes de 2000 (7)</summary>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Autoridade de Certificação · 1999–2004</h4>
+<p><strong>Desarrollo Tecnológico</strong></p>
+<p>Este projeto consiste no desenvolvimento de uma infra-estrutura de chave pública. Estamos usando os certificados digitais recomendados pelo CCITT X.509v3. O projeto está organizado em três módulo: o primeiro é a autoridade de certificação, responsável pela emissão do certificado digital. O segundo é a autoridade de registro, responsável em verificar a autenticidade do proprietário do certificado e autorizar a autoridade de certificação a emitir certificados digitais. O terceiro é o módulo público. Este útimo responsável pela interface com o usuário. Parte do sistema já está desenvolvido e o estamos utilizando no nosso departamento.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Cartório Virtual · 1999–2004</h4>
+<p><strong>Investigación</strong></p>
+<p>Trata-se de um ambiente que permitirá a implantação de um cartório na WEB. O projeto está organizado na forma de vários subprojetos. O subprojeto mais adianto é o da emissão de certidões de registro público. Em particular esta-se propondo uma série de protocolos criptográficos que permitirão a implementação de um protótipo.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Criptossitemas Caóticos · 1999–2001</h4>
+<p><strong>Investigación</strong></p>
+<p>Esta-se estudando a viabilidade de se usar séries caóticas como chave de encriptação. Assim poder-se-ia usar o "one time pad" como técnica eficiente de encriptação. O projeto de pesquisa visa a construção de criptossistemas caóticos e a compração de vários requisitos com os cifradores simétricos de bloco.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Modelo Simplificado de Cifradores de Bloco · 1999–2001</h4>
+<p><strong>Investigación</strong></p>
+<p>Neste projeto procuramos desenvolver modelos simplificados de cifradores simétricos de bloco. A primeira etapa da pesquisa consistiu na criação de uma metodologia com as principais caracteristicas e funcionalides que devem ser contempladas pelo modelo simplificado. Na segunda etapa estamos desenvolvendo dois modelos simplificados: o primeiro é um modelo simplificado do cifrador RC6 proposto pela empresa norteamericana RSA; o segundo é um modelo do cifrador Reijndal, cifrador este que está sendo definido como o próximo padrão AES. Os modelos simplificados terão várias utilidades, salientando-se uma descrição didática com vistas a facilitar o entendimento do cifrador pelos estudante e a possibilidade de analise da cifra, modificando algumas de suas característica com vistas a verificar possíveis fraquesas no algoritmo.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Projetos de Caixas S · 1999–2001</h4>
+<p><strong>Investigación</strong></p>
+<p>Estamos projetando as caixas S de cifradores simétricos usando algorítmos genéticos.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Protocoladora Digital de Documentos Eletrônicos · 1999–2008</h4>
+<p><strong>Investigación</strong></p>
+<p>Trata-se da datação de documentos eletrônicos. Procura-se definir protocolos que permitam a datação dos documentos a prova de entidades maliciosas. Já foram desenvolvidos alguns algoritmos que estão sendo formalizados.</p>
+</section>
+<section class="level4 archive-project">
+<h4 class="anchored" data-anchor-id="">Votação Digital · 1999–2008</h4>
+<p><strong>Investigación</strong></p>
+<p>Estamos desenvolvento um novo protocolo criptográfico, por nós denominado de Farnel, com o objetivo de viabilizar a implantação de um sistema de votação digital em redes de computadores. A idéia do Farnel partil da observação de como o sistema eleitoral brasileiro funciona. Nós criamos o conveito do voto digital assinado digitalmente e da urna digital. Esta última consiste de uma rede de mistura simulando a urna eleitoral trradiconal. Também está sendo implementado um protótipo com o protocolo sendo proposto na WEB e em WAP.</p>
+</section>
+</details>
+</section>
+<section id="recursos-relacionados" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-relacionados">Recursos Relacionados</h2>
+<p>Véanse también <a href="../../es/research/">Investigación</a>, <a href="../../es/publications/">Publicaciones</a>, <a href="../../es/software/">Software y Datos</a>, <a href="../../es/supervision/">Dirección Académica</a> y <a href="../../es/talks/">Conferencias</a>.</p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ricardocustodio\.com\.br");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Ricardo Custódio · Academic website</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0001-9611-5694">
+<p>ORCID</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rfcustodio">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
