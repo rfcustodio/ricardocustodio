@@ -9,7 +9,6 @@ filters:
   - ../filters/i18n-head.lua
 ---
 
-
 ::: {.hero}
 ::: {.hero-content}
 # Ricardo Custódio
@@ -51,26 +50,47 @@ Essa questão tem orientado trabalhos sobre mecanismos criptográficos, document
 :::
 
 ::: {.home-research-grid}
+
 ::: {.home-topic-card}
 ### Criptografia e Corpos Finitos
+
 Protocolos criptográficos, fundamentos de implementação, extensões binárias, polinômios irredutíveis e aritmética eficiente.
+
+[Pesquisa →](/pt/research/#fundamentos-da-pesquisa)
 :::
+
 ::: {.home-topic-card}
 ### Assinaturas Digitais e ICP/PKI
+
 Assinaturas digitais, certificados, infraestruturas de confiança, módulos criptográficos de hardware, políticas de assinatura e verificação de longo prazo.
+
+[Pesquisa →](/pt/research/#confiança-digital)
 :::
+
 ::: {.home-topic-card}
 ### Identidade e Documentos Eletrônicos
+
 Identidade eletrônica, credenciais, autenticação, autorização, autenticidade documental, confidencialidade, proveniência e preservação.
+
+[Pesquisa →](/pt/research/#identidade-eletrônica)
 :::
+
 ::: {.home-topic-card}
 ### Segurança Pós-Quântica
+
 Migração de certificados, protocolos, sistemas de identidade, assinaturas e evidências eletrônicas de longa duração para criptografia pós-quântica.
+
+[Pesquisa →](/pt/research/#criptografia-pós-quântica)
 :::
+
 ::: {.home-topic-card}
 ### IA, Agentes e Confiança Digital
+
 Identidade, delegação, autorização, responsabilização e auditabilidade de agentes de IA autônomos e semiautônomos.
+
+[Pesquisa →](/pt/research/#segurança-em-inteligência-artificial)
 :::
+
 :::
 
 ::: {.home-collections}
@@ -78,7 +98,65 @@ Identidade, delegação, autorização, responsabilização e auditabilidade de 
 
 O site é organizado como um conjunto de coleções acadêmicas interconectadas, e não apenas como um currículo.
 
-**Publicações · Projetos · Orientações · Software e Dados · Livros e Textos · Ensino · Palestras · Arquivo Acadêmico**
+::: {.home-collection-grid}
+
+::: {.home-collection-card}
+### Publicações
+Publicações científicas, trabalhos selecionados e áreas de pesquisa.
+
+[Explore as publicações →](../publications.qmd)
+:::
+
+::: {.home-collection-card}
+### Projetos
+Projetos de pesquisa e desenvolvimento tecnológico desenvolvidos em diferentes períodos.
+
+[Explore os projetos →](../projects.qmd)
+:::
+
+::: {.home-collection-card}
+### Orientações
+Pesquisas de mestrado e doutorado e a genealogia acadêmica em torno do LabSEC.
+
+[Explore as orientações →](../supervision.qmd)
+:::
+
+::: {.home-collection-card}
+### Software e Dados
+Software de pesquisa, protótipos, implementações de referência e artefatos tecnológicos.
+
+[Explore software e dados →](../software.qmd)
+:::
+
+::: {.home-collection-card}
+### Livros e Textos
+Livros, textos técnicos, relatórios e materiais acadêmicos de maior extensão.
+
+[Explore livros e textos →](../books.qmd)
+:::
+
+::: {.home-collection-card}
+### Ensino
+Disciplinas, trajetória docente e recursos educacionais selecionados.
+
+[Explore o ensino →](../teaching.qmd)
+:::
+
+::: {.home-collection-card}
+### Palestras
+Palestras, apresentações, workshops e o registro histórico de atividades de divulgação.
+
+[Explore as palestras →](../talks.qmd)
+:::
+
+::: {.home-collection-card .archive-card}
+### Arquivo Acadêmico
+Uma visão histórica que conecta temas de pesquisa, projetos, publicações, software, orientandos, textos e palestras.
+
+[Explore o arquivo →](../archive.qmd)
+:::
+
+:::
 :::
 
 ::: {.home-trajectory}
@@ -92,7 +170,11 @@ Desde 2000, grande parte desse trabalho tem sido desenvolvida no **Laboratório 
 :::
 
 ::: {.home-archive-callout}
-## Uma memória acadêmica, não apenas um site
+## Uma Memória Acadêmica, Não Apenas um Site
 
 Este site foi concebido como um registro acadêmico de longo prazo. Publicações são apenas uma parte desse registro. Projetos, software, textos técnicos, disciplinas, palestras, orientações e linhas de pesquisa ainda em desenvolvimento também documentam como as ideias evoluem ao longo do tempo.
+
+O **Arquivo Acadêmico** conecta esses registros em períodos históricos e genealogias de pesquisa.
+
+[Entre no Arquivo Acadêmico →](../archive.qmd)
 :::

@@ -9,12 +9,11 @@ filters:
   - ../filters/i18n-head.lua
 ---
 
-
 ::: {.hero}
 ::: {.hero-content}
 # Ricardo Custódio
 
-## Profesor · Investigador · Director de investigación
+## Profesor · Investigador · Director de tesis
 
 Trabajo en los fundamentos y las infraestructuras de la **confianza digital**: criptografía, firmas digitales, documentos electrónicos, infraestructuras de clave pública, identidad electrónica, seguridad poscuántica, aritmética de cuerpos finitos y seguridad de agentes de inteligencia artificial.
 
@@ -40,6 +39,7 @@ Mi investigación conecta fundamentos matemáticos con arquitecturas, artefactos
 :::
 :::
 
+::: {.home-intro}
 ## Investigación
 
 Mi investigación parte de una pregunta amplia: **¿cómo podemos hacer que la computación sea confiable?**
@@ -47,11 +47,134 @@ Mi investigación parte de una pregunta amplia: **¿cómo podemos hacer que la c
 Esta pregunta ha orientado trabajos sobre mecanismos criptográficos, documentos electrónicos seguros, firmas digitales y PKI, identidad electrónica, transición poscuántica y, más recientemente, identidad y autorización de agentes de IA.
 
 [Explorar el programa de investigación →](research/)
+:::
 
-## Áreas principales
+::: {.home-research-grid}
 
-**Criptografía y cuerpos finitos · Firmas digitales y PKI · Identidad y documentos electrónicos · Seguridad poscuántica · IA, agentes y confianza digital**
+::: {.home-topic-card}
+### Criptografía y Cuerpos Finitos
 
-## Registro académico
+Protocolos criptográficos, fundamentos de implementación, extensiones binarias, polinomios irreducibles y aritmética eficiente.
 
-El sitio está concebido como un registro académico de largo plazo que conecta publicaciones, proyectos, software, textos, docencia, charlas, dirección académica y la evolución histórica de las líneas de investigación.
+[Investigación →](/es/research/#fundamentos-de-la-investigación)
+:::
+
+::: {.home-topic-card}
+### Firmas Digitales y PKI
+
+Firmas digitales, certificados, infraestructuras de confianza, módulos criptográficos de hardware, políticas de firma y verificación a largo plazo.
+
+[Investigación →](/es/research/#confianza-digital)
+:::
+
+::: {.home-topic-card}
+### Identidad y Documentos Electrónicos
+
+Identidad electrónica, credenciales, autenticación, autorización, autenticidad documental, confidencialidad, procedencia y preservación.
+
+[Investigación →](/es/research/#identidad-electrónica)
+:::
+
+::: {.home-topic-card}
+### Seguridad Poscuántica
+
+Migración de certificados, protocolos, sistemas de identidad, firmas y evidencias electrónicas de larga duración hacia la criptografía poscuántica.
+
+[Investigación →](/es/research/#criptografía-poscuántica)
+:::
+
+::: {.home-topic-card}
+### IA, Agentes y Confianza Digital
+
+Identidad, delegación, autorización, responsabilidad y auditabilidad de agentes de IA autónomos y semiautónomos.
+
+[Investigación →](/es/research/#seguridad-en-inteligencia-artificial)
+:::
+
+:::
+
+::: {.home-collections}
+## Explorar el Registro Académico
+
+El sitio está organizado como un conjunto de colecciones académicas interconectadas, y no solamente como un currículum.
+
+::: {.home-collection-grid}
+
+::: {.home-collection-card}
+### Publicaciones
+Publicaciones científicas, trabajos seleccionados y áreas de investigación.
+
+[Explorar las publicaciones →](../publications.qmd)
+:::
+
+::: {.home-collection-card}
+### Proyectos
+Proyectos de investigación y desarrollo tecnológico realizados en diferentes períodos.
+
+[Explorar los proyectos →](../projects.qmd)
+:::
+
+::: {.home-collection-card}
+### Dirección de tesis
+Investigaciones de maestría y doctorado y la genealogía académica en torno al LabSEC.
+
+[Explorar la dirección de tesis →](../supervision.qmd)
+:::
+
+::: {.home-collection-card}
+### Software y Datos
+Software de investigación, prototipos, implementaciones de referencia y artefactos tecnológicos.
+
+[Explorar software y datos →](../software.qmd)
+:::
+
+::: {.home-collection-card}
+### Libros y Textos
+Libros, textos técnicos, informes y materiales académicos de mayor extensión.
+
+[Explorar libros y textos →](../books.qmd)
+:::
+
+::: {.home-collection-card}
+### Docencia
+Cursos, trayectoria docente y recursos educativos seleccionados.
+
+[Explorar la docencia →](../teaching.qmd)
+:::
+
+::: {.home-collection-card}
+### Charlas
+Charlas, presentaciones, talleres y el registro histórico de actividades de divulgación.
+
+[Explorar las charlas →](../talks.qmd)
+:::
+
+::: {.home-collection-card .archive-card}
+### Archivo Académico
+Una visión histórica que conecta temas de investigación, proyectos, publicaciones, software, estudiantes, textos y charlas.
+
+[Explorar el archivo →](../archive.qmd)
+:::
+
+:::
+:::
+
+::: {.home-trajectory}
+## De la Ingeniería a la Confianza Digital
+
+Mi trayectoria académica comenzó en la ingeniería eléctrica y la automatización industrial, pasó por la computación científica y la criptografía y evolucionó hacia un programa de investigación de largo plazo sobre seguridad informática y confianza digital.
+
+Desde 2000, gran parte de este trabajo se ha desarrollado en el **Laboratorio de Seguridad en Computación (LabSEC)** de la Universidad Federal de Santa Catarina, combinando investigación, dirección académica y desarrollo tecnológico.
+
+[Leer la trayectoria académica →](about/)
+:::
+
+::: {.home-archive-callout}
+## Una Memoria Académica, No Solo un Sitio Web
+
+Este sitio fue concebido como un registro académico de largo plazo. Las publicaciones son solo una parte de ese registro. Proyectos, software, textos técnicos, cursos, charlas, dirección académica y líneas de investigación aún en desarrollo también documentan cómo evolucionan las ideas a lo largo del tiempo.
+
+El **Archivo Académico** conecta estos registros en períodos históricos y genealogías de investigación.
+
+[Entrar en el Archivo Académico →](../archive.qmd)
+:::
